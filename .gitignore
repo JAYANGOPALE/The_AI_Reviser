@@ -1,8 +1,13 @@
 # Environment variables
 .env
+**/.env
+.env.*
 
 # Content
 NOTES/
+data/
+backend/data/*.json
+backend/instance/
 
 # Python
 __pycache__/
@@ -36,7 +41,11 @@ env/
 
 # SQLite Database
 *.db
+backend/revise_ai.db
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# VS Code
+.vscode/

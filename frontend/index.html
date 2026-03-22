@@ -3,37 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revise-AI Dashboard</title>
+    <title>Dashboard - Revise-AI</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
-        <!-- Sidebar for Navigation -->
+        <!-- Sidebar -->
         <nav class="sidebar">
-            <h2>Revise-AI</h2>
-            <ul id="subject-list">
-                <!-- Teammate to design this list -->
-                <li>Mathematics</li>
-                <li>Physics</li>
-                <li>Computer Science</li>
+            <h2><i class="fas fa-brain"></i> Revise-AI</h2>
+            
+            <div id="user-sidebar-profile" class="user-sidebar-profile" onclick="window.location.href='profile.html'">
+                <img id="user-pfp" src="" alt="PFP">
+                <div class="user-sidebar-info">
+                    <span id="user-name" class="name">Loading...</span>
+                    <span id="user-level" class="level">...</span>
+                </div>
+            </div>
+
+            <ul class="main-nav">
+                <li class="active"><i class="fas fa-home"></i> Dashboard</li>
+                <li onclick="window.location.href='profile.html'"><i class="fas fa-user"></i> My Profile</li>
+                <li onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</li>
             </ul>
+
+            <div id="subject-section" style="display: none;">
+                <h3><i class="fas fa-book-open"></i> Subjects</h3>
+                <ul id="subject-list"></ul>
+            </div>
+
+            <div id="chapter-section" style="display: none;">
+                <h3><i class="fas fa-list-ul"></i> Chapters</h3>
+                <ul id="chapter-list"></ul>
+            </div>
         </nav>
 
-        <!-- Main Content Area -->
+        <!-- Main Content -->
         <main class="content">
             <header>
-                <h1 id="chapter-title">Welcome, Master Jayan</h1>
+                <h1 id="chapter-title">Revise-AI Dashboard</h1>
+                <div class="header-actions">
+                    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="change-level-btn" class="btn-outline"><i class="fas fa-graduation-cap"></i> Change Grade</button>
+                </div>
             </header>
 
             <section id="notes-display">
+                <div id="dashboard-welcome">
+                    <div class="hero-section">
+                        <h2 id="welcome-user">Welcome back!</h2>
+                        <p>Ready to master your subjects? Select a chapter from the sidebar to view detailed AI-powered summaries and essential revision points.</p>
+                    </div>
+                </div>
                 <div class="welcome-message">
-                    Select a chapter to start your revision.
+                    <p><i class="fas fa-arrow-left"></i> Select a subject and chapter from the sidebar to begin.</p>
                 </div>
             </section>
         </main>
     </div>
 
-    <!-- Connector to our Backend -->
     <script src="assets/js/api.js"></script>
+    <script>
+        // Check if logged in
+        if (!localStorage.getItem('revise_ai_token')) {
+            window.location.href = 'login.html';
+        }
+
+        async function initializeDashboard() {
+            const user = JSON.parse(localStorage.getItem('revise_ai_user'));
+            if (user) {
+                document.getElementById('user-pfp').src = user.profile_pic || 'https://ui-avatars.com/api/?name=' + user.full_name;
+                document.getElementById('user-name').innerText = user.full_name;
+                document.getElementById('user-level').innerText = user.level || 'Select Level';
+                document.getElementById('welcome-user').innerText = `Welcome back, ${user.full_name.split(' ')[0]}!`;
+                
+                if (user.level) {
+                    loadSubjectsForLevel(user.level);
+                }
+            }
+
+            // Load levels if needed
+            document.getElementById('change-level-btn').addEventListener('click', async () => {
+                const levels = await getLevels();
+                const newLevel = prompt("Available Grades: " + levels.join(", ") + "\nEnter Grade:");
+                if (newLevel && levels.includes(newLevel)) {
+                    loadSubjectsForLevel(newLevel);
+                    document.getElementById('user-level').innerText = newLevel;
+                }
+            });
+        }
+
+        const SUBJECT_ICONS = {
+            'Maths': 'fa-calculator',
+            'Mathematics': 'fa-calculator',
+            'Science': 'fa-flask',
+            'Physics': 'fa-atom',
+            'Chemistry': 'fa-vial',
+            'Biology': 'fa-dna',
+            'English': 'fa-book'
+        };
+
+        async function loadSubjectsForLevel(level) {
+            const subjectSection = document.getElementById('subject-section');
+            const subjectList = document.getElementById('subject-list');
+            subjectList.innerHTML = "";
+            
+            const subjects = await getSubjects(level);
+            if (subjects.length > 0) {
+                subjectSection.style.display = "block";
+                subjects.forEach(subject => {
+                    const li = document.createElement('li');
+                    const iconClass = SUBJECT_ICONS[subject] || 'fa-chevron-right';
+                    li.innerHTML = `<i class="fas ${iconClass}"></i> ${subject}`;
+                    li.addEventListener('click', () => handleSubjectClick(level, subject, li));
+                    subjectList.appendChild(li);
+                });
+            }
+        }
+
+        async function handleSubjectClick(level, subject, element) {
+            const chapterSection = document.getElementById('chapter-section');
+            const chapterList = document.getElementById('chapter-list');
+            const subjectList = document.getElementById('subject-list');
+            
+            Array.from(subjectList.children).forEach(child => child.classList.remove('active'));
+            element.classList.add('active');
+            
+            chapterList.innerHTML = "";
+            const chapters = await getChapters(level, subject);
+            if (chapters.length > 0) {
+                chapterSection.style.display = "block";
+                chapters.forEach(chapter => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<i class="fas fa-file-alt"></i> ${chapter.title}`;
+                    li.addEventListener('click', () => {
+                        Array.from(chapterList.children).forEach(c => c.classList.remove('active'));
+                        li.classList.add('active');
+                        loadChapterNotes(chapter.id);
+                    });
+                    chapterList.appendChild(li);
+                });
+            }
+        }
+
+        initializeDashboard();
+    </script>
 </body>
 </html>

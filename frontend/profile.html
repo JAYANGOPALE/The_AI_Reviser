@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Revise-AI</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="sidebar">
+            <h2><i class="fas fa-brain"></i> Revise-AI</h2>
+            <ul>
+                <li onclick="window.location.href='index.html'"><i class="fas fa-home"></i> Dashboard</li>
+                <li class="active"><i class="fas fa-user"></i> My Profile</li>
+                <li onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <header>
+                <h1>User Profile</h1>
+                <div class="header-actions">
+                    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <div class="profile-container">
+                <div class="profile-card">
+                    <div id="error-box" class="error-message"></div>
+                    <div id="success-box" class="success-message"></div>
+                    
+                    <div class="profile-header">
+                        <img id="profile-img" src="" alt="Profile">
+                        <h2 id="user-display-name"></h2>
+                        <p id="user-display-email" style="color: var(--text-muted);"></p>
+                    </div>
+
+                    <form id="profile-form">
+                        <div class="form-group">
+                            <label><i class="fas fa-id-card"></i> Full Name</label>
+                            <input type="text" id="full_name" required>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-image"></i> Profile Picture URL</label>
+                            <input type="text" id="profile_pic">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-graduation-cap"></i> Grade Level</label>
+                            <select id="level">
+                                <option value="9th">9th Grade</option>
+                                <option value="10th">10th Grade</option>
+                                <option value="11th">11th Grade</option>
+                                <option value="12th">12th Grade</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fas fa-lock"></i> New Password (leave blank to keep current)</label>
+                            <input type="password" id="password" placeholder="••••••••">
+                        </div>
+                        <button type="submit" class="btn-primary">Update Profile</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/api.js"></script>
+    <script>
+        // Protect page
+        if (!localStorage.getItem('revise_ai_token')) {
+            window.location.href = 'login.html';
+        }
+
+        async function loadProfile() {
+            const user = await getProfile();
+            if (user.error) {
+                logout();
+                return;
+            }
+
+            document.getElementById('profile-img').src = user.profile_pic;
+            document.getElementById('user-display-name').innerText = user.full_name;
+            document.getElementById('user-display-email').innerText = user.email;
+            
+            document.getElementById('full_name').value = user.full_name;
+            document.getElementById('profile_pic').value = user.profile_pic;
+            document.getElementById('level').value = user.level || '9th';
+        }
+
+        document.getElementById('profile-form').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const successBox = document.getElementById('success-box');
+            const errorBox = document.getElementById('error-box');
+            
+            const data = {
+                full_name: document.getElementById('full_name').value,
+                profile_pic: document.getElementById('profile_pic').value,
+                level: document.getElementById('level').value
+            };
+            
+            const pass = document.getElementById('password').value;
+            if (pass) data.password = pass;
+
+            const result = await updateProfile(data);
+            if (result.message) {
+                successBox.innerText = result.message;
+                successBox.style.display = 'block';
+                errorBox.style.display = 'none';
+                loadProfile(); // Reload data
+            } else {
+                errorBox.innerText = result.error || "Update failed";
+                errorBox.style.display = 'block';
+                successBox.style.display = 'none';
+            }
+        });
+
+        loadProfile();
+    </script>
+</body>
+</html>
