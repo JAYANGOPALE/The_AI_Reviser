@@ -1,0 +1,1767 @@
+[
+  {
+    "chapter_title": "Number Systems",
+    "chapter_overview": "This chapter introduces the fundamental classification of numbers, starting from basic counting numbers to more complex real numbers. It covers the representation of numbers on a number line, their decimal expansions, operations involving radicals, and the laws of exponents applied to real numbers.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction to Number Categories",
+        "explanation": "Numbers are classified into several sets: Natural numbers (N) starting from 1, Whole numbers (W) including 0, Integers (Z) including negative numbers, and Rational numbers (Q) which can be expressed as a ratio p/q where p and q are integers and q is not zero. Every integer is a rational number because it can be written as p/1.",
+        "key_points": [
+          "Natural numbers: 1, 2, 3...",
+          "Whole numbers: 0, 1, 2...",
+          "Integers: ..., -2, -1, 0, 1, 2...",
+          "Rational numbers: p/q form (q ≠ 0)."
+        ]
+      },
+      {
+        "section_title": "Irrational Numbers",
+        "explanation": "Numbers that cannot be expressed in the form p/q are called irrational numbers. Examples include √2, √3, √5, and π. These numbers have non-terminating, non-recurring decimal expansions. They can be located on the number line using geometric constructions based on the Pythagoras Theorem.",
+        "key_points": [
+          "Irrational numbers cannot be written as p/q.",
+          "The collection of all rational and irrational numbers forms Real Numbers (R).",
+          "Every real number is represented by a unique point on the number line."
+        ]
+      },
+      {
+        "section_title": "Real Numbers and their Decimal Expansions",
+        "explanation": "The decimal expansion of a rational number is either terminating (e.g., 7/8 = 0.875) or non-terminating recurring (e.g., 1/3 = 0.333...). Conversely, a number whose decimal expansion is terminating or recurring is rational. Irrational numbers have non-terminating, non-recurring decimal expansions.",
+        "key_points": [
+          "Rational: Terminating or Non-terminating recurring.",
+          "Irrational: Non-terminating non-recurring.",
+          "Any non-terminating recurring decimal can be converted back to p/q form."
+        ]
+      },
+      {
+        "section_title": "Operations on Real Numbers",
+        "explanation": "Real numbers satisfy the commutative, associative, and distributive laws for addition and multiplication. The sum or difference of a rational and an irrational number is irrational. The product or quotient of a non-zero rational with an irrational number is irrational. Rationalizing the denominator is the process of eliminating radicals from the divisor by multiplying the numerator and denominator by a suitable conjugate.",
+        "key_points": [
+          "Sum/difference of rational and irrational is irrational.",
+          "Rationalizing 1/(√a + b) involves multiplying by (√a - b)/(√a - b).",
+          "√x can be represented geometrically for any positive real x."
+        ]
+      },
+      {
+        "section_title": "Laws of Exponents for Real Numbers",
+        "explanation": "The laws of exponents used for integers extend to real numbers with rational exponents. For a positive real number 'a' and rational numbers 'p' and 'q', rules like a^p * a^q = a^(p+q) and (a^p)^q = a^(pq) apply. We also define a^(1/n) as the nth root of a.",
+        "key_points": [
+          "a^p . a^q = a^(p+q)",
+          "(a^p)^q = a^(pq)",
+          "a^p / a^q = a^(p-q)",
+          "(ab)^p = a^p b^p"
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Rational Numbers",
+        "definition": "A number 'r' is called rational if it can be written in the form p/q, where p and q are integers and q ≠ 0.",
+        "detailed_explanation": "Rational numbers include all fractions, terminating decimals, and repeating decimals. They are dense, meaning between any two rational numbers, there are infinitely many more rational numbers.",
+        "real_world_example": "Measuring 0.5 liters of water (1/2) or dividing a pizza into 4 parts (1/4)."
+      },
+      {
+        "concept": "Irrational Numbers",
+        "definition": "A number 's' is called irrational if it cannot be written in the form p/q.",
+        "detailed_explanation": "Irrational numbers cannot be precisely expressed as fractions. Their decimal representations never end and never repeat a pattern. The most famous example is π (pi), the ratio of a circle's circumference to its diameter.",
+        "real_world_example": "The length of the diagonal of a square with side 1 unit is √2, an irrational number."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Terminating Decimal",
+        "definition": "A decimal expansion that comes to an end after a finite number of digits.",
+        "importance": "Indicates that the number is rational and its denominator has only 2 or 5 as prime factors."
+      },
+      {
+        "term": "Non-terminating Recurring",
+        "definition": "A decimal expansion that does not end but repeats a digit or a block of digits infinitely.",
+        "importance": "Confirms the number is rational even if it doesn't end."
+      },
+      {
+        "term": "Rationalizing",
+        "definition": "The process of moving a root from the bottom of a fraction to the top.",
+        "importance": "Simplifies mathematical expressions and makes them easier to compare and calculate."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Square Root Identities",
+        "formula_or_principle": "√(ab) = √a√b; (√a + √b)(√a - √b) = a - b",
+        "explanation": "These identities are essential for simplifying expressions involving radicals and for rationalizing denominators."
+      },
+      {
+        "name": "Laws of Exponents",
+        "formula_or_principle": "a^m . a^n = a^(m+n); (a^m)^n = a^(mn); a^m / a^n = a^(m-n)",
+        "explanation": "Rules used to simplify calculations involving powers of real numbers."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding Rational Numbers Between Two Numbers",
+        "steps": [
+          "Identify the two numbers (e.g., 3 and 4).",
+          "Decide how many rational numbers you need (e.g., n=5).",
+          "Convert the numbers into fractions with a common denominator of (n+1), which is 6 in this case: 18/6 and 24/6.",
+          "The rational numbers between them are 19/6, 20/6, 21/6, 22/6, and 23/6."
+        ]
+      },
+      {
+        "process_name": "Rationalizing a Denominator (1/(√a + √b))",
+        "steps": [
+          "Identify the conjugate of the denominator (√a - √b).",
+          "Multiply both the numerator and the denominator by this conjugate.",
+          "Simplify the numerator: 1 * (√a - √b) = √a - √b.",
+          "Simplify the denominator using the identity (x+y)(x-y) = x² - y², resulting in (√a)² - (√b)² = a - b.",
+          "The final result is (√a - √b) / (a - b)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Every rational number is a real number, but every real number is not a rational number.",
+      "The decimal expansion of an irrational number is non-terminating and non-recurring.",
+      "Between any two distinct real numbers, there are infinitely many rational and irrational numbers.",
+      "0 is a rational number because it can be written as 0/1.",
+      "π is irrational, while 22/7 is rational (often used as an approximation)."
+    ],
+    "common_mistakes_students_make": [
+      "Assuming √n is always irrational; √4 is rational (2). Only √n where n is not a perfect square is irrational.",
+      "Mistaking non-terminating recurring decimals for irrational numbers.",
+      "Forgetting to multiply both numerator and denominator when rationalizing.",
+      "Applying exponent laws incorrectly to different bases (e.g., 2³ * 3² is NOT 6⁵)."
+    ],
+    "quick_revision_notes": [
+      "N ⊂ W ⊂ Z ⊂ Q ⊂ R",
+      "Rational + Irrational = Real",
+      "Terminating/Recurring = Rational",
+      "Non-terminating Non-recurring = Irrational",
+      "a^0 = 1",
+      "a^(-n) = 1/a^n"
+    ],
+    "practice_questions": [
+      {
+        "question": "Is zero a rational number? Can you write it in the form p/q?",
+        "answer": "Yes, zero is a rational number. It can be written as 0/1, 0/2, etc., where p=0 and q is any non-zero integer."
+      },
+      {
+        "question": "Find five rational numbers between 1 and 2.",
+        "answer": "Using denominator (5+1)=6: 1 = 6/6 and 2 = 12/6. The numbers are 7/6, 8/6, 9/6, 10/6, 11/6."
+      },
+      {
+        "question": "Classify √23 and √225 as rational or irrational.",
+        "answer": "√23 is irrational (23 is not a perfect square). √225 is rational because √225 = 15."
+      },
+      {
+        "question": "Simplify: (3 + √3)(2 + √2).",
+        "answer": "6 + 3√2 + 2√3 + √6."
+      },
+      {
+        "question": "Rationalize the denominator of 1/(7 + 3√2).",
+        "answer": "Multiply by (7 - 3√2): (7 - 3√2) / (49 - 18) = (7 - 3√2) / 31."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Polynomials",
+    "chapter_overview": "This chapter explores algebraic expressions specifically known as polynomials. It covers their classification by terms and degree, the concept of zeroes, the Remainder and Factor Theorems, and the application of various algebraic identities for expansion and factorization.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Polynomials in One Variable",
+        "explanation": "A polynomial in one variable 'x' is an algebraic expression where the exponents of the variable are whole numbers. It consists of terms, each having a coefficient. The highest power of the variable in a polynomial is called its degree. Polynomials are categorized by the number of terms (monomial, binomial, trinomial) and by their degree (linear, quadratic, cubic).",
+        "key_points": [
+          "Monomial: 1 term; Binomial: 2 terms; Trinomial: 3 terms.",
+          "Degree 1: Linear; Degree 2: Quadratic; Degree 3: Cubic.",
+          "The degree of a non-zero constant polynomial is 0.",
+          "The degree of the zero polynomial is not defined."
+        ]
+      },
+      {
+        "section_title": "Zeroes of a Polynomial",
+        "explanation": "A real number 'k' is a zero of a polynomial p(x) if p(k) = 0. Finding a zero means solving the equation p(x) = 0. A non-zero constant polynomial has no zero, while every real number is a zero of the zero polynomial. Linear polynomials have exactly one zero.",
+        "key_points": [
+          "A zero of a polynomial need not be 0.",
+          "0 may be a zero of a polynomial.",
+          "A polynomial can have more than one zero depending on its degree."
+        ]
+      },
+      {
+        "section_title": "Remainder and Factor Theorems",
+        "explanation": "The Remainder Theorem states that if a polynomial p(x) of degree ≥ 1 is divided by (x - a), the remainder is p(a). The Factor Theorem is a consequence: (x - a) is a factor of p(x) if p(a) = 0. These theorems are vital for factorizing polynomials without long division.",
+        "key_points": [
+          "If p(a) = 0, then (x - a) is a factor of p(x).",
+          "If (x - a) is a factor, then p(a) = 0.",
+          "These are used to factorize quadratic and cubic expressions."
+        ]
+      },
+      {
+        "section_title": "Factorisation of Polynomials",
+        "explanation": "Quadratic polynomials (ax² + bx + c) are often factorized by 'splitting the middle term' where b is written as the sum of two numbers whose product is ac. For higher-degree polynomials like cubics, the Factor Theorem is used to find at least one linear factor, followed by division or further grouping.",
+        "key_points": [
+          "Splitting the middle term: x² + (a+b)x + ab = (x+a)(x+b).",
+          "Factor Theorem helps in finding factors of cubic polynomials by trial and error of constants."
+        ]
+      },
+      {
+        "section_title": "Algebraic Identities",
+        "explanation": "Algebraic identities are equations that are true for all values of their variables. They are used to compute products of binomials and trinomials efficiently and to factorize complex algebraic expressions.",
+        "key_points": [
+          "(x + y + z)² = x² + y² + z² + 2xy + 2yz + 2zx",
+          "(x + y)³ = x³ + y³ + 3xy(x + y)",
+          "(x - y)³ = x³ - y³ - 3xy(x - y)",
+          "x³ + y³ + z³ - 3xyz = (x + y + z)(x² + y² + z² - xy - yz - zx)"
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Degree of a Polynomial",
+        "definition": "The highest power of the variable in a polynomial.",
+        "detailed_explanation": "In an expression like 3x⁴ + 2x² + x, the highest exponent is 4, so the degree is 4. This determines the maximum number of zeroes the polynomial can have.",
+        "real_world_example": "Modeling the trajectory of a projectile (quadratic, degree 2) or the volume of a container (cubic, degree 3)."
+      },
+      {
+        "concept": "Factor Theorem",
+        "definition": "If p(x) is a polynomial of degree n ≥ 1 and 'a' is any real number, then (x - a) is a factor of p(x) if p(a) = 0.",
+        "detailed_explanation": "This allows us to check if a linear binomial is a factor of a larger polynomial simply by substituting a value into the polynomial. It is the foundation for solving higher-degree equations.",
+        "real_world_example": "Breaking down a complex system into smaller, manageable components or factors."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Coefficient",
+        "definition": "The numerical factor of a term in a polynomial.",
+        "importance": "Coefficients define the scale and direction of the terms in the expression."
+      },
+      {
+        "term": "Zero Polynomial",
+        "definition": "The constant polynomial 0.",
+        "importance": "It is unique because every real number is its zero, and its degree is undefined."
+      },
+      {
+        "term": "Trinomial",
+        "definition": "A polynomial containing exactly three terms.",
+        "importance": "Commonly encountered in quadratic equations (ax² + bx + c)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Standard Algebraic Identities",
+        "formula_or_principle": "(x+y)² = x²+2xy+y²; (x-y)² = x²-2xy+y²; x²-y² = (x+y)(x-y)",
+        "explanation": "Basic tools for simplifying and factorizing algebraic expressions."
+      },
+      {
+        "name": "Sum and Product of Cubes",
+        "formula_or_principle": "x³ + y³ + z³ - 3xyz = (x + y + z)(x² + y² + z² - xy - yz - zx)",
+        "explanation": "If x + y + z = 0, then x³ + y³ + z³ = 3xyz. This is a very useful property for solving competitive math problems."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Factorizing by Splitting the Middle Term",
+        "steps": [
+          "Identify coefficients a, b, and c in ax² + bx + c.",
+          "Find two numbers 'p' and 'q' such that p + q = b and p * q = ac.",
+          "Rewrite the middle term 'bx' as 'px + qx'.",
+          "Group the terms in pairs and factor out common terms.",
+          "Factor out the common binomial to get the final factored form."
+        ]
+      },
+      {
+        "process_name": "Finding the Remainder using Remainder Theorem",
+        "steps": [
+          "Let the polynomial be p(x) and the divisor be (x - a).",
+          "Find the zero of the divisor by setting x - a = 0, which gives x = a.",
+          "Substitute x = a into the polynomial p(x).",
+          "The calculated value p(a) is the remainder."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "A polynomial cannot have negative or fractional powers of the variable (e.g., 1/x or √x are not polynomials).",
+      "The maximum number of zeroes a polynomial can have is equal to its degree.",
+      "If p(a) = 0, then 'a' is a root of the equation p(x) = 0.",
+      "Constant polynomials have degree 0; Zero polynomial has undefined degree.",
+      "Always check for a common factor across all terms before applying other factorization methods."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking that (x + y)³ = x³ + y³. (It misses the 3x²y + 3xy² terms).",
+      "Misidentifying the degree by looking at the first term instead of the highest power.",
+      "Incorrectly signs when factorizing (e.g., splitting -7x into -5x + 2x instead of -5x - 2x).",
+      "Confusing the remainder with the factor (The remainder must be zero for it to be a factor)."
+    ],
+    "quick_revision_notes": [
+      "Linear: ax + b (Degree 1)",
+      "Quadratic: ax² + bx + c (Degree 2)",
+      "Cubic: ax³ + bx² + cx + d (Degree 3)",
+      "p(a) = Remainder when divided by (x - a)",
+      "x² - y² = (x - y)(x + y)",
+      "If x + y + z = 0, then x³ + y³ + z³ = 3xyz"
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the degree of the polynomial: p(x) = 5x³ - 4x² + x - 1.",
+        "answer": "The highest power of x is 3, so the degree is 3 (Cubic polynomial)."
+      },
+      {
+        "question": "Verify whether 2 and 0 are zeroes of the polynomial x² - 2x.",
+        "answer": "For x=2: 2² - 2(2) = 4 - 4 = 0. For x=0: 0² - 2(0) = 0. Both are zeroes."
+      },
+      {
+        "question": "Find the remainder when x⁴ + x³ - 2x² + x + 1 is divided by (x - 1).",
+        "answer": "By Remainder Theorem, substitute x=1: (1)⁴ + (1)³ - 2(1)² + 1 + 1 = 1 + 1 - 2 + 1 + 1 = 2. Remainder is 2."
+      },
+      {
+        "question": "Factorise: 12x² - 7x + 1.",
+        "answer": "Splitting -7x into -4x and -3x: 12x² - 4x - 3x + 1 = 4x(3x - 1) - 1(3x - 1) = (4x - 1)(3x - 1)."
+      },
+      {
+        "question": "Evaluate 105 × 95 using an algebraic identity.",
+        "answer": "Using (a+b)(a-b) = a² - b²: (100+5)(100-5) = 100² - 5² = 10000 - 25 = 9975."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Coordinate Geometry",
+    "chapter_overview": "This chapter introduces the Cartesian coordinate system, a method for precisely locating the position of a point in a two-dimensional plane using two perpendicular lines called axes. It covers the nomenclature of the coordinate plane, the division into quadrants, and the convention for writing coordinates.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction to Positioning",
+        "explanation": "To locate a point on a line, one reference point (origin) is sufficient. however, to locate a point on a plane, two independent pieces of information are required. Examples include finding a house using both street number and house number, or a student's desk using row and column numbers. This concept leads to the development of coordinate geometry.",
+        "key_points": [
+          "One dimension requires one reference point.",
+          "Two dimensions require two perpendicular reference lines.",
+          "René Descartes developed this system, now known as the Cartesian system."
+        ]
+      },
+      {
+        "section_title": "The Cartesian System",
+        "explanation": "The Cartesian system consists of two perpendicular number lines: a horizontal line called the x-axis (X'OX) and a vertical line called the y-axis (Y'OY). The point where these two axes intersect is called the origin (O). These axes divide the plane into four parts known as quadrants, numbered I, II, III, and IV in an anticlockwise direction.",
+        "key_points": [
+          "Horizontal line: x-axis; Vertical line: y-axis.",
+          "Intersection point: Origin (0, 0).",
+          "The plane is called the Cartesian plane or the xy-plane."
+        ]
+      },
+      {
+        "section_title": "Coordinates of a Point",
+        "explanation": "The position of any point P in the plane is described by an ordered pair (x, y). The x-coordinate, or abscissa, is the perpendicular distance of the point from the y-axis. The y-coordinate, or ordinate, is the perpendicular distance from the x-axis. By convention, the abscissa is written first, followed by the ordinate.",
+        "key_points": [
+          "Coordinates are written as (abscissa, ordinate).",
+          "Distance from y-axis = x-coordinate.",
+          "Distance from x-axis = y-coordinate."
+        ]
+      },
+      {
+        "section_title": "Signs of Coordinates in Quadrants",
+        "explanation": "The signs of the coordinates depend on the quadrant in which the point lies. In Quadrant I, both coordinates are positive (+, +). In Quadrant II, x is negative and y is positive (-, +). In Quadrant III, both are negative (-, -). In Quadrant IV, x is positive and y is negative (+, -). Points on the axes do not belong to any specific quadrant.",
+        "key_points": [
+          "Q I: (+, +); Q II: (-, +); Q III: (-, -); Q IV: (+, -).",
+          "Any point on the x-axis has y = 0, i.e., (x, 0).",
+          "Any point on the y-axis has x = 0, i.e., (0, y)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Cartesian Plane",
+        "definition": "A two-dimensional plane defined by an x-axis and a y-axis.",
+        "detailed_explanation": "It is a mathematical grid where every point corresponds to a unique pair of real numbers. It allows us to translate geometric shapes into algebraic equations and vice versa.",
+        "real_world_example": "GPS coordinates (Latitude and Longitude) or the pixels on a computer screen."
+      },
+      {
+        "concept": "Origin",
+        "definition": "The point (0, 0) where the x-axis and y-axis intersect.",
+        "detailed_explanation": "It is the starting point for all measurements in the coordinate system. Distances to the right of the origin on the x-axis and above the origin on the y-axis are positive; distances to the left or below are negative.",
+        "real_world_example": "The 'Home' button on a map or the (0,0) corner of a spreadsheet."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Abscissa",
+        "definition": "The x-coordinate of a point.",
+        "importance": "Tells you how far left or right the point is from the center."
+      },
+      {
+        "term": "Ordinate",
+        "definition": "The y-coordinate of a point.",
+        "importance": "Tells you how far up or down the point is from the center."
+      },
+      {
+        "term": "Quadrant",
+        "definition": "One of the four regions into which the axes divide the plane.",
+        "importance": "Helps in quickly identifying the general location and signs of a point's coordinates."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Quadrant Sign Rule",
+        "formula_or_principle": "I: (+,+), II: (-,+), III: (-,-), IV: (+,-)",
+        "explanation": "A fundamental rule to determine the position of a point based on the signs of its coordinates."
+      },
+      {
+        "name": "Axis Point Rule",
+        "formula_or_principle": "x-axis: (x, 0); y-axis: (0, y)",
+        "explanation": "Points on the axes always have one of their coordinates as zero."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding Coordinates of a Point from a Graph",
+        "steps": [
+          "Identify the point on the grid.",
+          "Drop a perpendicular line to the x-axis and read the value (this is the abscissa).",
+          "Drop a perpendicular line to the y-axis and read the value (this is the ordinate).",
+          "Write the pair as (abscissa, ordinate)."
+        ]
+      },
+      {
+        "process_name": "Plotting a Point (x, y) on the Plane",
+        "steps": [
+          "Start at the origin (0, 0).",
+          "Move 'x' units along the x-axis (right if positive, left if negative).",
+          "From that position, move 'y' units parallel to the y-axis (up if positive, down if negative).",
+          "Mark the point and label it with its coordinates."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The origin has coordinates (0, 0).",
+      "Points on the x-axis have an ordinate of zero.",
+      "Points on the y-axis have an abscissa of zero.",
+      "The x-axis and y-axis together are called the coordinate axes.",
+      "Quadrants are always numbered in anticlockwise order starting from the top-right."
+    ],
+    "common_mistakes_students_make": [
+      "Interchanging the x and y coordinates (writing (y, x) instead of (x, y)).",
+      "Incorrectly identifying the quadrant for negative values.",
+      "Confusing distance from an axis with the coordinate of the axis (distance from x-axis is the y-coordinate).",
+      "Forgetting to include the signs (- or +) when reading coordinates from a graph."
+    ],
+    "quick_revision_notes": [
+      "Horizontal: x-axis; Vertical: y-axis",
+      "Abscissa: x; Ordinate: y",
+      "Signs: Q1(+,+), Q2(-,+), Q3(-,-), Q4(+,-)",
+      "Origin: (0,0)",
+      "x-axis equation: y = 0; y-axis equation: x = 0"
+    ],
+    "practice_questions": [
+      {
+        "question": "What are the names of the horizontal and vertical lines drawn to determine the position of any point in the Cartesian plane?",
+        "answer": "The horizontal line is the x-axis and the vertical line is the y-axis."
+      },
+      {
+        "question": "In which quadrant do the following points lie: (-2, 4), (3, -1), (-1, -3), (1, 2)?",
+        "answer": "(-2, 4) is in Quadrant II; (3, -1) is in Quadrant IV; (-1, -3) is in Quadrant III; (1, 2) is in Quadrant I."
+      },
+      {
+        "question": "Find the coordinates of a point which lies on the y-axis at a distance of 3 units in the negative direction.",
+        "answer": "Since it is on the y-axis, x=0. In the negative direction, y=-3. So, the coordinates are (0, -3)."
+      },
+      {
+        "question": "What is the name of the point where the two axes intersect?",
+        "answer": "The intersection point is called the Origin."
+      },
+      {
+        "question": "If the abscissa of a point is 5 and its ordinate is -2, what are its coordinates?",
+        "answer": "The coordinates are (5, -2)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Linear Equations in Two Variables",
+    "chapter_overview": "This chapter introduces algebraic equations that involve two unknown quantities, typically denoted as x and y. It explains the standard form of these equations, the concept of having infinitely many solutions, and how to find and represent these solutions as ordered pairs.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction to Linear Equations",
+        "explanation": "In earlier classes, we studied linear equations in one variable (e.g., ax + b = 0), which have a unique solution. This chapter extends that knowledge to equations with two variables. A linear equation in two variables is an equation that can be put in the form ax + by + c = 0, where a, b, and c are real numbers, and a and b are not both zero.",
+        "key_points": [
+          "A linear equation in one variable has exactly one solution.",
+          "Equations like x + y = 176 represent relationships between two unknown quantities.",
+          "The degree of variables in a linear equation is always 1."
+        ]
+      },
+      {
+        "section_title": "Standard Form of Linear Equations",
+        "explanation": "Any linear equation in two variables can be written in the standard form ax + by + c = 0. Here, 'a' is the coefficient of x, 'b' is the coefficient of y, and 'c' is the constant term. It is important to move all terms to one side of the equation to correctly identify these values.",
+        "key_points": [
+          "Standard form: ax + by + c = 0.",
+          "If a variable is missing, its coefficient is considered 0 (e.g., x = 5 becomes 1x + 0y + 5 = 0).",
+          "The coefficients a and b cannot both be zero simultaneously."
+        ]
+      },
+      {
+        "section_title": "Solution of a Linear Equation",
+        "explanation": "A solution to a linear equation in two variables is a pair of values, one for x and one for y, which makes the two sides of the equation equal. Unlike equations in one variable, a linear equation in two variables has infinitely many solutions. These solutions are written as ordered pairs (x, y).",
+        "key_points": [
+          "A solution is an ordered pair (x, y) that satisfies the equation.",
+          "Every linear equation in two variables has infinitely many solutions.",
+          "To find a solution, we can assume a value for one variable and solve for the other."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Linear Equation in Two Variables",
+        "definition": "An equation of the form ax + by + c = 0 where a, b, c are real numbers and a, b ≠ 0.",
+        "detailed_explanation": "The term 'linear' comes from the fact that the graph of such an equation is always a straight line. The two variables represent two dimensions or two related quantities.",
+        "real_world_example": "The total cost (y) of buying 'x' number of pens at $5 each plus a fixed $2 delivery fee: y = 5x + 2."
+      },
+      {
+        "concept": "Solution Pair",
+        "definition": "An ordered pair (x, y) that satisfies the given equation.",
+        "detailed_explanation": "For any value of x we choose, there is a corresponding value of y that satisfies the equation. For example, in x + y = 5, pairs like (1, 4), (2, 3), and (0, 5) are all solutions.",
+        "real_world_example": "If the sum of two people's ages is 50, then (20, 30) and (25, 25) are possible solution pairs."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Ordered Pair",
+        "definition": "A pair of numbers written in a specific order, usually (x, y).",
+        "importance": "The order matters because (x, y) is not the same as (y, x) unless x = y."
+      },
+      {
+        "term": "Coefficient",
+        "definition": "The numerical part that multiplies a variable.",
+        "importance": "In ax + by + c = 0, 'a' and 'b' are coefficients that determine the slope of the line."
+      },
+      {
+        "term": "Constant Term",
+        "definition": "A term in an equation that does not contain any variables.",
+        "importance": "In ax + by + c = 0, 'c' is the constant which shifts the line on the graph."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Standard Form",
+        "formula_or_principle": "ax + by + c = 0",
+        "explanation": "The universal way to represent a linear equation in two variables."
+      },
+      {
+        "name": "Principle of Infinitude",
+        "formula_or_principle": "A linear equation in two variables has infinitely many solutions.",
+        "explanation": "Because for every real value of x, there exists a unique real value of y that satisfies the equation."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Identifying a, b, and c in a Linear Equation",
+        "steps": [
+          "Rearrange the given equation so that all terms are on the left side and 0 is on the right.",
+          "Write it in the form ax + by + c = 0.",
+          "Compare the terms: the number with x is 'a', the number with y is 'b', and the standalone number is 'c'.",
+          "Be careful with signs (e.g., if you see -3y, b = -3)."
+        ]
+      },
+      {
+        "process_name": "Finding Four Solutions for an Equation (e.g., 2x + y = 6)",
+        "steps": [
+          "Step 1: Let x = 0. Then 2(0) + y = 6 => y = 6. Solution: (0, 6).",
+          "Step 2: Let y = 0. Then 2x + 0 = 6 => x = 3. Solution: (3, 0).",
+          "Step 3: Let x = 1. Then 2(1) + y = 6 => y = 4. Solution: (1, 4).",
+          "Step 4: Let x = 2. Then 2(2) + y = 6 => y = 2. Solution: (2, 2)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "A linear equation in two variables can always be represented by a straight line on a graph.",
+      "The solution to a linear equation in one variable is a point on the number line.",
+      "The solution to a linear equation in two variables is a point on the Cartesian plane.",
+      "The equation x = a represents a vertical line, and y = b represents a horizontal line.",
+      "If (k, 2) is a solution to an equation, substitute x = k and y = 2 into the equation to find the value of k."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking that a linear equation in two variables has only one solution.",
+      "Mistaking the signs of a, b, and c when terms are on different sides of the equals sign.",
+      "Interchanging x and y values in an ordered pair.",
+      "Assuming an equation like xy = 5 is linear (it is not, because the degree is 1+1=2)."
+    ],
+    "quick_revision_notes": [
+      "General form: ax + by + c = 0",
+      "Solutions: Infinitely many",
+      "Representation: Ordered pair (x, y)",
+      "Conversion: Any 1-variable equation can be written as a 2-variable equation (e.g., x=2 is 1x + 0y - 2 = 0)"
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the equation 2x + 3y = 9.35 in the form ax + by + c = 0 and indicate the values of a, b, and c.",
+        "answer": "2x + 3y - 9.35 = 0. Values: a = 2, b = 3, c = -9.35."
+      },
+      {
+        "question": "Which of the following is true for y = 3x + 5: (i) a unique solution, (ii) only two solutions, (iii) infinitely many solutions?",
+        "answer": "(iii) Infinitely many solutions, because it is a linear equation in two variables."
+      },
+      {
+        "question": "Find four solutions for x + 2y = 6.",
+        "answer": "Possible solutions: (6, 0), (4, 1), (2, 2), (0, 3)."
+      },
+      {
+        "question": "Find the value of k, if x = 2, y = 1 is a solution of the equation 2x + 3y = k.",
+        "answer": "Substitute x=2, y=1: 2(2) + 3(1) = k => 4 + 3 = k => k = 7."
+      },
+      {
+        "question": "Write 'The cost of a notebook is twice the cost of a pen' as a linear equation in two variables.",
+        "answer": "Let cost of notebook be x and cost of pen be y. Equation: x = 2y or x - 2y = 0."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Introduction to Euclid's Geometry",
+    "chapter_overview": "This chapter provides a historical context for the development of geometry and focuses on the systematic approach of Euclid. It introduces fundamental definitions, axioms, and postulates that serve as the building blocks for geometric reasoning and formal proofs.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Historical Background",
+        "explanation": "Geometry (geo - earth, metrein - to measure) originated from practical needs such as land measurement and construction in ancient civilizations like Egypt, India, and Greece. Early geometry was largely a collection of empirical results. The Greeks, including Thales and Pythagoras, shifted the focus towards reasoning and deductive proofs. Euclid, around 300 BCE, collected and organized all known geometric knowledge into his famous treatise, 'Elements'.",
+        "key_points": [
+          "Thales is credited with the first known proof (a circle is bisected by its diameter).",
+          "Euclid's 'Elements' divided geometric knowledge into 13 books.",
+          "Indian geometry in the Vedic period focused on the construction of altars (Sulbasutras)."
+        ]
+      },
+      {
+        "section_title": "Euclid's Definitions and Dimensions",
+        "explanation": "Euclid began his exposition with 23 definitions. He visualized geometry through the concept of dimensions: a solid has 3 dimensions (length, breadth, thickness), its boundaries are surfaces (2 dimensions), the boundaries of surfaces are lines (1 dimension), and the boundaries of lines are points (0 dimensions). While these definitions provided an intuitive feel, some terms like 'part' or 'breadthless' remained mathematically undefined.",
+        "key_points": [
+          "A point is that which has no part.",
+          "A line is breadthless length.",
+          "The edges of a surface are lines."
+        ]
+      },
+      {
+        "section_title": "Axioms vs. Postulates",
+        "explanation": "Euclid assumed certain properties that were not to be proved. He called these 'axioms' and 'postulates'. Axioms are general mathematical truths applicable across all branches of mathematics (e.g., 'the whole is greater than the part'). Postulates are assumptions specifically related to the field of geometry.",
+        "key_points": [
+          "Axioms: Universal truths (e.g., If equals are added to equals, the wholes are equal).",
+          "Postulates: Specific to geometry (e.g., All right angles are equal).",
+          "The current mathematical trend uses 'axioms' to refer to both."
+        ]
+      },
+      {
+        "section_title": "Euclid's Five Postulates",
+        "explanation": "Euclid proposed five foundational postulates. Postulate 1 states a straight line can be drawn between any two points. Postulate 2 says a line segment can be extended indefinitely. Postulate 3 allows drawing a circle with any center and radius. Postulate 4 states all right angles are equal. Postulate 5 (the Parallel Postulate) describes the condition under which two lines will intersect based on the sum of interior angles on one side of a transversal.",
+        "key_points": [
+          "Postulate 5 is the most complex and led to the discovery of non-Euclidean geometries.",
+          "There is a unique line passing through two distinct points.",
+          "A terminated line is what we now call a line segment."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Axiom",
+        "definition": "A self-evident universal truth that does not require proof.",
+        "detailed_explanation": "In Euclid's system, axioms are the starting points of reasoning. They are accepted without question because they are logically obvious. For example, if two things are identical to the same thing, they must be identical to each other.",
+        "real_world_example": "If John is the same height as Mike, and Mike is the same height as Sarah, then John is the same height as Sarah."
+      },
+      {
+        "concept": "Postulate",
+        "definition": "A basic assumption that is specific to geometry.",
+        "detailed_explanation": "Postulates define the rules of the 'geometric world'. They allow mathematicians to construct shapes and lines. For instance, the ability to extend a line segment allows for the existence of infinite lines.",
+        "real_world_example": "Using a ruler to draw a line connecting two dots on a paper."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Theorem",
+        "definition": "A mathematical statement that has been proven using axioms, postulates, and previously proven statements.",
+        "importance": "Theorems allow us to expand our knowledge by building on top of basic assumptions."
+      },
+      {
+        "term": "Solid",
+        "definition": "An object that has shape, size, position, and can be moved.",
+        "importance": "Represents the three-dimensional reality from which geometry is abstracted."
+      },
+      {
+        "term": "Line Segment",
+        "definition": "A part of a line with two endpoints (Euclid called this a 'terminated line').",
+        "importance": "Basic unit for constructing polygons and measuring lengths."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Euclid's 5th Axiom",
+        "formula_or_principle": "The whole is greater than the part.",
+        "explanation": "A fundamental principle used to compare magnitudes and establish inequalities in proofs."
+      },
+      {
+        "name": "Playfair's Axiom (Equivalent to Postulate 5)",
+        "formula_or_principle": "For every line l and for every point P not lying on l, there exists a unique line m passing through P and parallel to l.",
+        "explanation": "A simpler way to understand Euclid's complex fifth postulate regarding parallel lines."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Using Axioms to Prove a Statement (e.g., AB + BC = AC)",
+        "steps": [
+          "Observe points A, B, and C on a line where B lies between A and C.",
+          "Note that line segment AC is composed of segments AB and BC.",
+          "Apply the axiom: 'Things which coincide with one another are equal to one another'.",
+          "Since the combined length of AB and BC exactly covers AC, their sum must be equal to AC."
+        ]
+      },
+      {
+        "process_name": "Applying Postulate 5 to Determine Intersection",
+        "steps": [
+          "Identify a line falling on two other straight lines.",
+          "Measure the two interior angles on one side.",
+          "Calculate the sum of these two angles.",
+          "If the sum is less than 180° (two right angles), the lines will eventually meet on that side if extended indefinitely."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Euclid is often called the 'Father of Geometry'.",
+      "Postulates are specifically for geometry; Axioms are for all math.",
+      "A point has zero dimensions, a line has one, a surface has two, and a solid has three.",
+      "Postulate 5 can be stated as: Two distinct intersecting lines cannot be parallel to the same line.",
+      "Consistent system of axioms: A system where no two axioms contradict each other."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking that 'Axiom' and 'Postulate' mean completely different things in modern mathematics (they are often used interchangeably today).",
+      "Confusing the definitions (e.g., thinking a line has breadth).",
+      "Failing to recognize that 'definitions' in Euclid's time were more like descriptions than formal definitions.",
+      "Assuming only one line can pass through a single point (infinitely many can)."
+    ],
+    "quick_revision_notes": [
+      "Point: 0-D; Line: 1-D; Surface: 2-D; Solid: 3-D",
+      "Axioms: Universal; Postulates: Geometric",
+      "Postulate 1: Line through 2 points",
+      "Postulate 4: All right angles equal",
+      "Postulate 5: Intersection rule (Parallel postulate)"
+    ],
+    "practice_questions": [
+      {
+        "question": "Only one line can pass through a single point. True or False?",
+        "answer": "False. Infinitely many lines can pass through a single point."
+      },
+      {
+        "question": "How many dimensions does a surface have?",
+        "answer": "A surface has two dimensions: length and breadth."
+      },
+      {
+        "question": "State Euclid's first axiom.",
+        "answer": "Things which are equal to the same thing are equal to one another."
+      },
+      {
+        "question": "If equals are subtracted from equals, what can you say about the remainders?",
+        "answer": "According to Euclid's 3rd axiom, the remainders are equal."
+      },
+      {
+        "question": "Who was Euclid's most famous pupil?",
+        "answer": "Pythagoras (though the text actually says Pythagoras was a pupil of Thales, Euclid came later and organized the work)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Lines and Angles",
+    "chapter_overview": "This chapter explores the foundational geometric properties of lines and the angles they form when they intersect or are parallel to each other. It establishes key axioms and theorems regarding linear pairs, vertically opposite angles, and the relationship between angles formed by a transversal intersecting parallel lines.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Basic Terms and Definitions",
+        "explanation": "A line segment is a part of a line with two endpoints, while a ray has one. Points on the same line are collinear; otherwise, they are non-collinear. An angle is formed by two rays (arms) originating from a common endpoint (vertex). Angles are classified by their magnitude: Acute (< 90°), Right (= 90°), Obtuse (90°–180°), Straight (= 180°), and Reflex (180°–360°). Complementary angles sum to 90°, and supplementary angles sum to 180°.",
+        "key_points": [
+          "Acute angle: 0° < x < 90°.",
+          "Obtuse angle: 90° < z < 180°.",
+          "Reflex angle: 180° < t < 360°.",
+          "Adjacent angles have a common vertex and arm but no common interior points."
+        ]
+      },
+      {
+        "section_title": "Pairs of Angles and Intersecting Lines",
+        "explanation": "When a ray stands on a straight line, the two adjacent angles formed are called a linear pair, and their sum is always 180°. If two lines intersect, the angles opposite to each other at the vertex are called vertically opposite angles, and they are always equal.",
+        "key_points": [
+          "Linear Pair Axiom: Sum of adjacent angles on a line is 180°.",
+          "Vertically Opposite Angles Theorem: These angles are equal when two lines intersect.",
+          "Non-intersecting lines are called parallel lines."
+        ]
+      },
+      {
+        "section_title": "Parallel Lines and Transversals",
+        "explanation": "A line that intersects two or more lines at distinct points is called a transversal. When a transversal intersects two parallel lines: (i) each pair of corresponding angles is equal, (ii) each pair of alternate interior angles is equal, and (iii) each pair of interior angles on the same side of the transversal is supplementary (sum to 180°).",
+        "key_points": [
+          "Corresponding angles are in the same relative position at each intersection.",
+          "Alternate interior angles are on opposite sides of the transversal between the lines.",
+          "Consecutive interior angles (co-interior) are supplementary if lines are parallel."
+        ]
+      },
+      {
+        "section_title": "Lines Parallel to the Same Line",
+        "explanation": "If two lines are both parallel to a third line, they are parallel to each other. This transitive property of parallel lines allows for the extension of angle relationships across multiple sets of parallel lines.",
+        "key_points": [
+          "If l || m and m || n, then l || n.",
+          "This is verified using the corresponding angles axiom."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Linear Pair of Angles",
+        "definition": "Two adjacent angles whose non-common arms are opposite rays.",
+        "detailed_explanation": "A linear pair forms a straight line. The axiom stating that their sum is 180° is fundamental to solving for unknown angles in geometry.",
+        "real_world_example": "A seesaw at a playground or the hands of a clock at 6:00."
+      },
+      {
+        "concept": "Transversal",
+        "definition": "A line that cuts across two or more other lines.",
+        "detailed_explanation": "The transversal creates eight distinct angles. The properties of these angles help us determine if the lines being intersected are parallel or not.",
+        "real_world_example": "Railroad tracks crossing a street or a ladder leaning against two parallel rungs."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Supplementary Angles",
+        "definition": "Two angles whose sum is 180°.",
+        "importance": "Vital for calculating angles on a straight line or between parallel lines."
+      },
+      {
+        "term": "Vertically Opposite Angles",
+        "definition": "Angles opposite each other when two lines cross.",
+        "importance": "They provide immediate information about equal magnitudes in intersecting systems."
+      },
+      {
+        "term": "Collinear Points",
+        "definition": "Points that lie on the same straight line.",
+        "importance": "Defines the linear structure required for many geometric proofs."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Linear Pair Axiom",
+        "formula_or_principle": "Angle 1 + Angle 2 = 180° (if they are on a straight line)",
+        "explanation": "Used whenever a line is divided by a ray."
+      },
+      {
+        "name": "Parallel Line Properties",
+        "formula_or_principle": "Corresponding angles equal; Alternate interior angles equal; Co-interior angles = 180°.",
+        "explanation": "Universal rules for any system involving parallel lines and a transversal."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding Unknown Angles in Intersecting Lines",
+        "steps": [
+          "Identify if the angles are a linear pair (sum to 180°).",
+          "Identify if the angles are vertically opposite (they are equal).",
+          "Set up an algebraic equation based on these properties.",
+          "Solve for the variable to find the measure of the angles."
+        ]
+      },
+      {
+        "process_name": "Verifying if Two Lines are Parallel",
+        "steps": [
+          "Check if a pair of corresponding angles is equal.",
+          "OR check if a pair of alternate interior angles is equal.",
+          "OR check if the sum of interior angles on the same side is 180°.",
+          "If any of these conditions are met, the lines are parallel."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Angles on a straight line always sum to 180°.",
+      "Vertically opposite angles are equal (Theorem 6.1).",
+      "Corresponding angles are equal ONLY IF the lines are parallel.",
+      "The sum of interior angles on the same side of a transversal is 180° for parallel lines.",
+      "If x + y = 180°, then the non-common arms of the angles form a line."
+    ],
+    "common_mistakes_students_make": [
+      "Assuming corresponding angles are equal for non-parallel lines.",
+      "Forgetting that reflex angles are greater than 180°.",
+      "Confusing complementary (90°) with supplementary (180°).",
+      "Incorrectly identifying alternate interior angles (they must be on opposite sides of the transversal)."
+    ],
+    "quick_revision_notes": [
+      "Linear Pair = 180°",
+      "Vertically Opposite = Equal",
+      "Parallel lines: Corr ∠ equal, Alt Int ∠ equal, Co-int ∠ sum to 180°",
+      "l || m and m || n => l || n",
+      "Straight angle = 180°"
+    ],
+    "practice_questions": [
+      {
+        "question": "Lines PQ and RS intersect at O. If ∠POR : ∠ROQ = 5 : 7, find all the angles.",
+        "answer": "Let angles be 5x and 7x. 5x + 7x = 180° (Linear pair) => 12x = 180° => x = 15°. Angles are 75°, 105°, 75°, 105°."
+      },
+      {
+        "question": "In a figure, if AB || CD, CD || EF and y : z = 3 : 7, find x.",
+        "answer": "Since AB || EF, x = z (alt. int. angles). Also x + y = 180° (co-int angles). So z + y = 180°. Given y:z=3:7, 3k + 7k = 180° => k=18. z = 7*18 = 126°. Thus x = 126°."
+      },
+      {
+        "question": "Define reflex angle with an example.",
+        "answer": "A reflex angle is an angle which is greater than 180° but less than 360°. Example: 250°."
+      },
+      {
+        "question": "If a ray stands on a line, what is the sum of the two adjacent angles formed?",
+        "answer": "The sum is 180°."
+      },
+      {
+        "question": "If two lines are parallel to the same line, are they parallel to each other?",
+        "answer": "Yes, they are parallel to each other."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Triangles",
+    "chapter_overview": "This chapter focuses on the concept of congruence in triangles, which means the triangles are identical in shape and size. It detail the various criteria used to prove congruence, such as SAS, ASA, SSS, and RHS, and explores specific properties of isosceles and equilateral triangles.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Understanding Congruence",
+        "explanation": "Two figures are congruent if they have the same shape and size. In the context of triangles, two triangles are congruent if their corresponding sides and angles are equal. When triangles are proven congruent, we use the term 'CPCT' (Corresponding Parts of Congruent Triangles) to state that the remaining corresponding elements are also equal.",
+        "key_points": [
+          "Symbol for congruence: ≅.",
+          "Congruent triangles can be superimposed on each other.",
+          "Correspondence must be written correctly (e.g., ΔABC ≅ ΔPQR)."
+        ]
+      },
+      {
+        "section_title": "Initial Criteria for Congruence (SAS and ASA)",
+        "explanation": "The SAS (Side-Angle-Side) rule states that two triangles are congruent if two sides and the included angle of one are equal to the corresponding parts of the other. The ASA (Angle-Side-Angle) rule states that two triangles are congruent if two angles and the included side of one are equal to the corresponding parts of the other.",
+        "key_points": [
+          "SAS is an axiom; ASA is a theorem derived from it.",
+          "AAS (Angle-Angle-Side) is a variation of ASA because the third angle is automatically equal.",
+          "The angle in SAS MUST be the 'included' angle between the two sides."
+        ]
+      },
+      {
+        "section_title": "Properties of Isosceles Triangles",
+        "explanation": "An isosceles triangle is a triangle with at least two equal sides. Two fundamental theorems apply: (1) Angles opposite to equal sides of an isosceles triangle are equal. (2) The sides opposite to equal angles of a triangle are equal. These properties are often used to solve complex geometric proofs.",
+        "key_points": [
+          "In ΔABC, if AB = AC, then ∠B = ∠C.",
+          "Equilateral triangles are a special case where all sides and all angles (60°) are equal."
+        ]
+      },
+      {
+        "section_title": "Advanced Criteria (SSS and RHS)",
+        "explanation": "The SSS (Side-Side-Side) rule states that if three sides of one triangle are equal to the three sides of another, they are congruent. The RHS (Right angle-Hypotenuse-Side) rule is specific to right-angled triangles: two triangles are congruent if the hypotenuse and one side of one triangle are equal to the corresponding parts of the other.",
+        "key_points": [
+          "SSS does not require any angle measurement to prove congruence.",
+          "RHS is unique to triangles with a 90° angle."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Congruence of Triangles",
+        "definition": "The relationship between two triangles that are identical in all geometric respects.",
+        "detailed_explanation": "If ΔABC ≅ ΔPQR, it means side AB = PQ, BC = QR, AC = PR, and ∠A = ∠P, ∠B = ∠Q, ∠C = ∠R. Congruence allows us to transfer information about known sides and angles from one triangle to another.",
+        "real_world_example": "Two identical triangular support brackets in a shelf or two wings of a paper airplane."
+      },
+      {
+        "concept": "CPCT",
+        "definition": "Corresponding Parts of Congruent Triangles.",
+        "detailed_explanation": "Once we prove two triangles are congruent using a rule like SAS, we can immediately conclude that all other corresponding parts (like the third side or remaining angles) are equal by CPCT.",
+        "real_world_example": "If two identical car doors are made (congruent), we know the window glass (corresponding part) from one will fit the other perfectly."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Included Angle",
+        "definition": "The angle formed by two specified sides of a triangle.",
+        "importance": "Critical for the SAS rule; using a non-included angle (SSA) does not guarantee congruence."
+      },
+      {
+        "term": "Hypotenuse",
+        "definition": "The longest side of a right-angled triangle, opposite the right angle.",
+        "importance": "The central component of the RHS congruence rule."
+      },
+      {
+        "term": "Bisector",
+        "definition": "A line that divides an angle or a line segment into two equal parts.",
+        "importance": "Often used in proofs to create equal sides or angles for congruence criteria."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "SAS Congruence Rule",
+        "formula_or_principle": "Side - Included Angle - Side",
+        "explanation": "Triangles are congruent if two sides and the angle between them match."
+      },
+      {
+        "name": "ASA Congruence Rule",
+        "formula_or_principle": "Angle - Included Side - Angle",
+        "explanation": "Triangles are congruent if two angles and the side between them match."
+      },
+      {
+        "name": "Angle Sum Property of a Triangle",
+        "formula_or_principle": "Sum of all interior angles = 180°",
+        "explanation": "Used to derive the AAS rule from the ASA rule."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Proving Two Triangles are Congruent",
+        "steps": [
+          "Identify the two triangles to be compared.",
+          "List the three pairs of corresponding parts that are known to be equal (given or derived).",
+          "Choose the appropriate congruence rule (SAS, ASA, AAS, SSS, or RHS) that fits these three pairs.",
+          "State the congruence using the ≅ symbol with correct vertex correspondence.",
+          "State 'By CPCT' if you need to prove other parts are equal."
+        ]
+      },
+      {
+        "process_name": "Proving a Triangle is Isosceles",
+        "steps": [
+          "Either show that two sides of the triangle are equal in length.",
+          "OR show that two angles of the triangle are equal in measure.",
+          "Conclude that it is isosceles based on Theorem 7.2 or 7.3."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "SSA (Side-Side-Angle) and AAA (Angle-Angle-Angle) are NOT valid rules for congruence.",
+      "Vertex correspondence is vital: ΔABC ≅ ΔPQR is different from ΔABC ≅ ΔQPR.",
+      "In an isosceles triangle, the altitude from the vertex to the base bisects the base.",
+      "Each angle of an equilateral triangle is exactly 60°.",
+      "Always check if the angle is 'included' when using SAS."
+    ],
+    "common_mistakes_students_make": [
+      "Using the SAS rule when the angle is not between the two equal sides.",
+      "Writing the congruence statement with the wrong order of vertices.",
+      "Assuming two triangles are congruent just because they have the same area.",
+      "Forgetting to provide reasons (like 'Given' or 'Common') for each step in a proof."
+    ],
+    "quick_revision_notes": [
+      "SAS: 2 sides + included angle",
+      "ASA: 2 angles + included side",
+      "AAS: 2 angles + non-included side",
+      "SSS: 3 sides",
+      "RHS: Right angle + Hypotenuse + 1 side",
+      "Isosceles: 2 sides equal <=> 2 angles equal",
+      "CPCT: Equal parts after proving congruence"
+    ],
+    "practice_questions": [
+      {
+        "question": "In ΔABC, if AB = AC and ∠B = 50°, find ∠C.",
+        "answer": "Since angles opposite to equal sides are equal, ∠C = ∠B = 50°."
+      },
+      {
+        "question": "Which congruence rule is used if all three sides of one triangle are equal to the three sides of another?",
+        "answer": "The SSS (Side-Side-Side) congruence rule."
+      },
+      {
+        "question": "Can two triangles be congruent if they have equal areas? Explain.",
+        "answer": "Not necessarily. For example, a triangle with base 4 and height 3 has area 6, and a triangle with base 6 and height 2 also has area 6, but they are not congruent."
+      },
+      {
+        "question": "What does CPCT stand for?",
+        "answer": "Corresponding Parts of Congruent Triangles."
+      },
+      {
+        "question": "In right triangles ΔABC and ΔDEF, if hypotenuse AB = DE and side BC = EF, are they congruent? By which rule?",
+        "answer": "Yes, they are congruent by the RHS (Right angle-Hypotenuse-Side) rule."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Quadrilaterals",
+    "chapter_overview": "This chapter investigates the properties of four-sided closed figures called quadrilaterals. It specifically focuses on the properties of parallelograms, rectangles, rhombuses, and squares, exploring theorems related to their sides, angles, and diagonals. Additionally, it introduces the Mid-point Theorem, which links the mid-points of triangle sides to its third side.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Properties of a Parallelogram",
+        "explanation": "A parallelogram is a quadrilateral where both pairs of opposite sides are parallel. Key theorems include: (1) A diagonal divides a parallelogram into two congruent triangles. (2) Opposite sides are equal. (3) Opposite angles are equal. (4) The diagonals of a parallelogram bisect each other. These properties are used to classify and solve for unknowns in various geometric figures.",
+        "key_points": [
+          "In ΔABC and ΔCDA (formed by diagonal AC), AB = CD and BC = AD.",
+          "If each pair of opposite sides is equal, the quadrilateral is a parallelogram.",
+          "Diagonals bisecting each other is a sufficient condition for a parallelogram."
+        ]
+      },
+      {
+        "section_title": "Special Parallelograms",
+        "explanation": "Rectangles, rhombuses, and squares are special types of parallelograms. A rectangle is a parallelogram with one (and thus all) right angles and equal diagonals. A rhombus is a parallelogram with all sides equal and diagonals that bisect each other at right angles. A square possesses the properties of both a rectangle and a rhombus.",
+        "key_points": [
+          "Rectangle: Diagonals are equal.",
+          "Rhombus: Diagonals are perpendicular.",
+          "Square: All sides equal, all angles 90°, diagonals equal and perpendicular."
+        ]
+      },
+      {
+        "section_title": "The Mid-point Theorem",
+        "explanation": "The Mid-point Theorem states that the line segment joining the mid-points of two sides of a triangle is parallel to the third side and is half the length of that third side. Its converse is also true: a line drawn through the mid-point of one side of a triangle parallel to another side bisects the third side.",
+        "key_points": [
+          "In ΔABC, if E and F are mid-points of AB and AC, then EF || BC and EF = 1/2 BC.",
+          "This theorem is essential for proving properties of complex polygons by breaking them into triangles."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Parallelogram",
+        "definition": "A quadrilateral with two pairs of parallel opposite sides.",
+        "detailed_explanation": "The defining characteristic is parallelism, but it automatically implies equality of opposite sides and angles. It serves as the parent category for rectangles and rhombuses.",
+        "real_world_example": "The side view of a collapsible gate or the shape of a standard eraser."
+      },
+      {
+        "concept": "Mid-point Theorem",
+        "definition": "The line joining mid-points of two sides of a triangle is parallel to and half of the third side.",
+        "detailed_explanation": "This is a powerful tool in geometry that links the internal points of a triangle to its external structure. It is frequently used in coordinate geometry and structural engineering.",
+        "real_world_example": "Creating a smaller, proportional triangle inside a larger one for architectural bracing."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Diagonal",
+        "definition": "A line segment connecting non-adjacent vertices of a polygon.",
+        "importance": "Diagonals reveal the internal symmetry and congruence within quadrilaterals."
+      },
+      {
+        "term": "Bisect",
+        "definition": "To divide into two equal parts.",
+        "importance": "Crucial for describing how diagonals interact in a parallelogram."
+      },
+      {
+        "term": "Trapezium",
+        "definition": "A quadrilateral with at least one pair of parallel sides.",
+        "importance": "Distinguishes figures that are not quite parallelograms."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Parallelogram Diagonal Theorem",
+        "formula_or_principle": "OA = OC and OB = OD (where O is intersection point)",
+        "explanation": "Diagonals of any parallelogram bisect each other."
+      },
+      {
+        "name": "Triangle Mid-point Formula",
+        "formula_or_principle": "DE = 1/2 BC",
+        "explanation": "Length of the segment joining mid-points is half the base."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Proving a Quadrilateral is a Parallelogram",
+        "steps": [
+          "Method 1: Show that both pairs of opposite sides are parallel.",
+          "Method 2: Show that both pairs of opposite sides are equal.",
+          "Method 3: Show that one pair of opposite sides is both equal and parallel.",
+          "Method 4: Show that diagonals bisect each other.",
+          "Method 5: Show that both pairs of opposite angles are equal."
+        ]
+      },
+      {
+        "process_name": "Applying the Mid-point Theorem",
+        "steps": [
+          "Identify a triangle and the mid-points of two of its sides.",
+          "Draw or identify the segment connecting these mid-points.",
+          "Conclude that this segment is parallel to the third (base) side.",
+          "Conclude that its length is exactly half of the base side."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "A diagonal of a parallelogram divides it into two congruent triangles.",
+      "Every square is a rectangle and also a rhombus.",
+      "A rectangle or a rhombus is not necessarily a square.",
+      "The diagonals of a rectangle are equal, but diagonals of a general parallelogram are not.",
+      "If the diagonals of a quadrilateral bisect each other at right angles, it is a rhombus."
+    ],
+    "common_mistakes_students_make": [
+      "Assuming all parallelograms have equal diagonals (only rectangles/squares do).",
+      "Thinking that diagonals of all parallelograms are perpendicular (only rhombuses/squares are).",
+      "Forgetting the 'half the length' part of the Mid-point Theorem.",
+      "Confusing a trapezium with a parallelogram (trapezium only needs one pair of parallel sides)."
+    ],
+    "quick_revision_notes": [
+      "Opp. sides of ||gram: Equal & Parallel",
+      "Opp. angles of ||gram: Equal",
+      "Diagonals of ||gram: Bisect",
+      "Diagonals of Rectangle: Equal",
+      "Diagonals of Rhombus: Perpendicular",
+      "Mid-point: segment = 1/2 base, segment || base"
+    ],
+    "practice_questions": [
+      {
+        "question": "If the diagonals of a parallelogram are equal, then show that it is a rectangle.",
+        "answer": "Let ABCD be a parallelogram with AC = BD. In ΔABC and ΔDCB, AB = DC (opp. sides), BC = CB (common), AC = DB (given). So ΔABC ≅ ΔDCB (SSS). Thus ∠ABC = ∠DCB (CPCT). But ∠ABC + ∠DCB = 180° (co-int angles). So 2∠ABC = 180° => ∠ABC = 90°. A parallelogram with one right angle is a rectangle."
+      },
+      {
+        "question": "Show that the diagonals of a square are equal and bisect each other at right angles.",
+        "answer": "A square is both a rectangle (so diagonals are equal) and a rhombus (so diagonals bisect at right angles)."
+      },
+      {
+        "question": "What is the relation between the segment joining mid-points of two sides of a triangle and the third side?",
+        "answer": "It is parallel to the third side and half of its length."
+      },
+      {
+        "question": "If ∠A = 90° in a parallelogram ABCD, what specific shape is it?",
+        "answer": "It is a Rectangle."
+      },
+      {
+        "question": "Are the diagonals of a rhombus always equal?",
+        "answer": "No, they are only equal if the rhombus is also a square."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Circles",
+    "chapter_overview": "This chapter explores the geometric properties of circles, focusing on the relationships between chords, arcs, and the angles they subtend. It covers fundamental theorems regarding perpendiculars from the center, equal chords, angles in segments, and the characteristics of cyclic quadrilaterals.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Chords and Angles at the Centre",
+        "explanation": "A chord is a line segment joining any two points on a circle. Theorem 9.1 states that equal chords of a circle subtend equal angles at the centre. Conversely, if the angles subtended by chords at the centre are equal, then the chords themselves must be equal in length. This establishes a direct proportionality between chord length and the central angle.",
+        "key_points": [
+          "Equal chords ⇔ Equal central angles.",
+          "The longer the chord, the larger the angle it subtends at the centre.",
+          "The diameter is the longest chord and subtends 180° at the centre."
+        ]
+      },
+      {
+        "section_title": "Perpendicular from the Centre to a Chord",
+        "explanation": "Theorem 9.3 states that a perpendicular drawn from the centre of a circle to a chord bisects the chord. The converse (Theorem 9.4) is also true: the line joining the centre to the mid-point of a chord is perpendicular to the chord. These theorems are used to calculate chord lengths and distances using the Pythagoras theorem.",
+        "key_points": [
+          "Perpendicular ⇔ Bisects chord.",
+          "This creates two congruent right-angled triangles (ΔOMA ≅ ΔOMB).",
+          "Distance of a chord from the centre is the length of this perpendicular."
+        ]
+      },
+      {
+        "section_title": "Equal Chords and Their Distances",
+        "explanation": "Equal chords of a circle (or of congruent circles) are equidistant from the centre. This means if two chords have the same length, their perpendicular distances from the centre are equal. Conversely, chords that are equidistant from the centre are equal in length.",
+        "key_points": [
+          "Equal chords ⇔ Equidistant from centre.",
+          "Chords nearer to the centre are longer than those further away."
+        ]
+      },
+      {
+        "section_title": "Angles Subtended by Arcs",
+        "explanation": "An arc is a portion of the circumference. Theorem 9.7 is vital: the angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle. This leads to the findings that angles in the same segment of a circle are equal, and the angle in a semicircle is always a right angle (90°).",
+        "key_points": [
+          "∠Centre = 2 × ∠Circumference.",
+          "Angles in the same segment are equal.",
+          "Angle in a semicircle = 90°."
+        ]
+      },
+      {
+        "section_title": "Cyclic Quadrilaterals",
+        "explanation": "A quadrilateral is called cyclic if all its four vertices lie on a circle. The most important property (Theorem 9.10) is that the sum of either pair of opposite angles of a cyclic quadrilateral is 180°. Conversely, if the sum of opposite angles is 180°, the quadrilateral is cyclic.",
+        "key_points": [
+          "Opposite angles sum to 180°.",
+          "All rectangles and squares are cyclic quadrilaterals."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Angle Subtended by an Arc",
+        "definition": "The angle formed at the centre or circumference by the endpoints of an arc.",
+        "detailed_explanation": "This concept links the curvature of the circle to internal angles. The most powerful application is that any arc (like a minor arc) creates a central angle twice as large as the angle it creates at the boundary.",
+        "real_world_example": "The design of a circular stadium where spectators at the back (circumference) see the action at a specific angle relative to the center."
+      },
+      {
+        "concept": "Cyclic Quadrilateral",
+        "definition": "A four-sided figure whose vertices all lie on the circumference of a single circle.",
+        "detailed_explanation": "These figures have unique symmetry. Their opposite angles are supplementary, which allows for complex geometric calculations in circular designs.",
+        "real_world_example": "The arrangement of bolts on a circular wheel rim."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Chord",
+        "definition": "A straight line segment whose endpoints both lie on a circular arc.",
+        "importance": "Base unit for most circle theorems."
+      },
+      {
+        "term": "Segment",
+        "definition": "The region between a chord and its corresponding arc.",
+        "importance": "Angles within the same segment are always equal."
+      },
+      {
+        "term": "Subtend",
+        "definition": "To be opposite to and extend under an angle or arc.",
+        "importance": "Standard terminology for describing angle-arc relationships."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Central Angle Theorem",
+        "formula_or_principle": "∠POQ = 2 ∠PAQ",
+        "explanation": "Angle at centre is twice the angle at the circumference for the same arc."
+      },
+      {
+        "name": "Cyclic Quadrilateral Sum",
+        "formula_or_principle": "∠A + ∠C = 180°; ∠B + ∠D = 180°",
+        "explanation": "Opposite angles of a cyclic quadrilateral are supplementary."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding Chord Length using Perpendicular Distance",
+        "steps": [
+          "Identify the radius (r) and the perpendicular distance (d) from the centre to the chord.",
+          "Apply Pythagoras theorem in the right triangle formed by the radius, the distance, and half the chord: r² = d² + (chord/2)².",
+          "Solve for (chord/2).",
+          "Multiply by 2 to get the full length of the chord."
+        ]
+      },
+      {
+        "process_name": "Determining if a Quadrilateral is Cyclic",
+        "steps": [
+          "Identify the opposite angles of the quadrilateral.",
+          "Sum the measures of one pair of opposite angles.",
+          "If the sum is exactly 180°, the quadrilateral is cyclic."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The perpendicular from the centre bisects the chord.",
+      "Equal chords are equidistant from the centre.",
+      "Angle in a semicircle is 90°.",
+      "Angles in the same segment are equal.",
+      "Opposite angles of a cyclic quadrilateral sum to 180°.",
+      "A circle can pass through three non-collinear points."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking that the angle at the centre is half the angle at the circumference (it is double).",
+      "Assuming any quadrilateral inscribed in a circle has equal sides.",
+      "Forgetting that the 'double angle' theorem requires the angles to be subtended by the SAME arc.",
+      "Confusing a segment with a sector (segment is chord-based, sector is radius-based)."
+    ],
+    "quick_revision_notes": [
+      "Equal Chords = Equal Angles at Centre",
+      "Perp from Centre bisects Chord",
+      "Angle at Centre = 2 × Angle at Circumference",
+      "∠ in Semicircle = 90°",
+      "Cyclic Quad Opp ∠s = 180°"
+    ],
+    "practice_questions": [
+      {
+        "question": "If two equal chords of a circle intersect within the circle, prove that the segments of one chord are equal to corresponding segments of the other chord.",
+        "answer": "Use Theorem 9.6 (equidistant chords) and congruence of triangles formed by the intersection point and the centre."
+      },
+      {
+        "question": "In a circle with centre O, if ∠AOB = 60°, what is the angle ∠ACB if C is on the major arc?",
+        "answer": "∠ACB = 1/2 ∠AOB = 1/2 × 60° = 30°."
+      },
+      {
+        "question": "Find the sum of opposite angles of a cyclic quadrilateral.",
+        "answer": "180°."
+      },
+      {
+        "question": "If a chord of length 16 cm is at a distance of 6 cm from the centre, find the radius.",
+        "answer": "Radius² = 6² + (16/2)² = 36 + 64 = 100. Radius = 10 cm."
+      },
+      {
+        "question": "What is the measure of an angle subtended by a diameter at any point on the circle?",
+        "answer": "90° (Angle in a semicircle)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Heron's Formula",
+    "chapter_overview": "This chapter introduces Heron's Formula, a method for calculating the area of a triangle when the lengths of all three sides are known, without needing to know the height. It is particularly useful for scalene triangles and serves as a fundamental tool in mensuration.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "The Need for Heron's Formula",
+        "explanation": "While the standard formula for the area of a triangle is (1/2) × base × height, it requires knowing the altitude. In many practical situations, such as measuring a triangular plot of land, only the lengths of the sides are easily accessible. Heron of Alexandria developed a formula that relies solely on the three side lengths (a, b, and c).",
+        "key_points": [
+          "Useful when height is difficult to measure.",
+          "Applicable to all types of triangles (Scalene, Isosceles, Equilateral).",
+          "Named after the Greek mathematician Heron (10 CE - 75 CE)."
+        ]
+      },
+      {
+        "section_title": "The Formula and Semi-perimeter",
+        "explanation": "The formula involves two steps. First, calculate the semi-perimeter (s), which is half the perimeter of the triangle: s = (a + b + c) / 2. Then, apply Heron's Formula: Area = √[s(s - a)(s - b)(s - c)]. This expression provides the area in square units.",
+        "key_points": [
+          "s = semi-perimeter.",
+          "a, b, c are side lengths.",
+          "The units of the result will be square units (e.g., cm², m²)."
+        ]
+      },
+      {
+        "section_title": "Applications to Different Triangles",
+        "explanation": "Heron's formula can be used to derive or verify area formulas for specific triangles. For an equilateral triangle with side 'a', the formula simplifies to (√3 / 4)a². For isosceles triangles, it handles unequal side lengths efficiently without the need for complex geometric height calculations.",
+        "key_points": [
+          "Verification: Use Heron's formula on a right-angled triangle to see if it matches (1/2)bh.",
+          "Complex figures: Areas of quadrilaterals can be found by dividing them into two triangles and applying Heron's formula to each."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Semi-perimeter",
+        "definition": "One half of the total length of the boundary of a closed figure.",
+        "detailed_explanation": "In Heron's formula, the semi-perimeter acts as a central value from which the differences of each side are calculated. It is always larger than any single side of the triangle.",
+        "real_world_example": "If you have 100 meters of fencing for a triangular garden, the perimeter is 100m and the semi-perimeter is 50m."
+      },
+      {
+        "concept": "Mensuration",
+        "definition": "The branch of mathematics concerned with the measurement of geometric magnitudes such as length, area, and volume.",
+        "detailed_explanation": "This chapter is a core part of mensuration, focusing on 2D area calculations. It teaches students how to quantify space within triangular boundaries.",
+        "real_world_example": "Determining how much paint is needed for a triangular wall or how much grass seed for a park."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Scalene Triangle",
+        "definition": "A triangle in which all three sides have different lengths.",
+        "importance": "Heron's formula is the primary tool for finding the area of such triangles."
+      },
+      {
+        "term": "Perimeter",
+        "definition": "The total distance around the edge of a figure.",
+        "importance": "Necessary starting point to find the semi-perimeter."
+      },
+      {
+        "term": "Altitude",
+        "definition": "The perpendicular distance from a vertex to the opposite side (base).",
+        "importance": "Used in the standard (1/2)bh formula, which Heron's formula bypasses."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Heron's Formula",
+        "formula_or_principle": "Area = √[s(s - a)(s - b)(s - c)]",
+        "explanation": "The definitive formula for triangle area based on side lengths."
+      },
+      {
+        "name": "Semi-perimeter Formula",
+        "formula_or_principle": "s = (a + b + c) / 2",
+        "explanation": "Required intermediate calculation for Heron's formula."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Calculating Area using Heron's Formula",
+        "steps": [
+          "Note down the lengths of the three sides: a, b, and c.",
+          "Calculate the perimeter: P = a + b + c.",
+          "Find the semi-perimeter: s = P / 2.",
+          "Calculate the differences: (s - a), (s - b), and (s - c).",
+          "Multiply these four values: s * (s - a) * (s - b) * (s - c).",
+          "Take the square root of the product to get the area."
+        ]
+      },
+      {
+        "process_name": "Finding Area of an Equilateral Triangle (Side a)",
+        "steps": [
+          "Set all sides equal: a = b = c.",
+          "Calculate s = 3a / 2.",
+          "Apply Heron's formula: √[(3a/2)(3a/2 - a)(3a/2 - a)(3a/2 - a)].",
+          "Simplify the expression to (√3 / 4)a²."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check the units of the sides; they must be the same (all cm or all m).",
+      "Area is always expressed in square units (units²).",
+      "If the ratio of sides is given along with the perimeter, first find the actual lengths of the sides.",
+      "Heron's formula can be used to find the altitude of a triangle if the area is already known (Height = 2 * Area / Base).",
+      "Don't forget to take the square root at the very end."
+    ],
+    "common_mistakes_students_make": [
+      "Using the full perimeter instead of the semi-perimeter in the formula.",
+      "Forgetting the 's' outside the parentheses: √[(s-a)(s-b)(s-c)] is incorrect.",
+      "Arithmetic errors during the subtraction of sides from the semi-perimeter.",
+      "Failing to simplify square roots properly (e.g., leaving √400 instead of 20)."
+    ],
+    "quick_revision_notes": [
+      "s = (a+b+c)/2",
+      "Area = √s(s-a)(s-b)(s-c)",
+      "Equilateral Area = (√3/4)a²",
+      "Height = 2Area / Base"
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a triangle whose sides are 8 cm, 11 cm and the perimeter is 32 cm.",
+        "answer": "Third side c = 32 - (8 + 11) = 13 cm. s = 32/2 = 16. Area = √[16(16-8)(16-11)(16-13)] = √[16 * 8 * 5 * 3] = 8√30 cm²."
+      },
+      {
+        "question": "A triangular park has sides 120m, 80m and 50m. Find its area.",
+        "answer": "s = (120+80+50)/2 = 125. Area = √[125(125-120)(125-80)(125-50)] = √[125 * 5 * 45 * 75] = 375√15 m²."
+      },
+      {
+        "question": "Sides of a triangle are in the ratio 12 : 17 : 25 and its perimeter is 540cm. Find its area.",
+        "answer": "Let sides be 12x, 17x, 25x. 54x = 540 => x=10. Sides are 120, 170, 250. s = 270. Area = √[270(150)(100)(20)] = 9000 cm²."
+      },
+      {
+        "question": "Find the area of an isosceles triangle with perimeter 30 cm and equal sides 12 cm each.",
+        "answer": "Third side = 30 - (12+12) = 6 cm. s = 15. Area = √[15(15-12)(15-12)(15-6)] = √[15 * 3 * 3 * 9] = 9√15 cm²."
+      },
+      {
+        "question": "What is the formula for the area of an equilateral triangle with side 'a'?",
+        "answer": "(√3 / 4)a²."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Surface Areas and Volumes",
+    "chapter_overview": "This chapter focuses on the measurement of three-dimensional solids, specifically the right circular cone, sphere, and hemisphere. It details the mathematical formulas for calculating their curved surface areas, total surface areas, and volumes, emphasizing the relationship between their dimensions like radius, height, and slant height.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Surface Area of a Right Circular Cone",
+        "explanation": "A right circular cone is generated by rotating a right-angled triangle around one of its perpendicular sides. It has a circular base and a curved side ending at a vertex. The curved surface area (CSA) is calculated as πrl, where 'r' is the base radius and 'l' is the slant height. The total surface area (TSA) includes the base area (πr²), resulting in πrl + πr² or πr(l + r).",
+        "key_points": [
+          "Slant height (l) is found using Pythagoras: l = √(r² + h²).",
+          "CSA = πrl.",
+          "TSA = πr(l + r)."
+        ]
+      },
+      {
+        "section_title": "Surface Area of a Sphere and Hemisphere",
+        "explanation": "A sphere is a perfectly round 3D object where every point on the surface is equidistant from the center. Its surface area is 4πr², exactly four times the area of a circle with the same radius. A hemisphere is half of a sphere. It has a curved surface (2πr²) and, if closed, a flat circular base (πr²), making its total surface area 3πr².",
+        "key_points": [
+          "Sphere SA = 4πr².",
+          "Hemisphere CSA = 2πr².",
+          "Hemisphere TSA = 3πr²."
+        ]
+      },
+      {
+        "section_title": "Volume of a Right Circular Cone",
+        "explanation": "The volume of a cone represents the space it occupies. It is exactly one-third the volume of a cylinder with the same base radius and height. This relationship is often demonstrated by filling a cone with sand and pouring it into a cylinder of matching dimensions three times.",
+        "key_points": [
+          "Volume of Cone = (1/3)πr²h.",
+          "Volume depends on vertical height (h), not slant height (l)."
+        ]
+      },
+      {
+        "section_title": "Volume of a Sphere and Hemisphere",
+        "explanation": "The volume of a sphere is calculated as (4/3)πr³. For a hemisphere, since it is exactly half of a sphere, its volume is (2/3)πr³. These formulas are crucial for determining the capacity of spherical tanks or the mass of solid metal balls.",
+        "key_points": [
+          "Sphere Volume = (4/3)πr³.",
+          "Hemisphere Volume = (2/3)πr³."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Slant Height",
+        "definition": "The distance from the vertex of a cone to any point on the edge of its circular base.",
+        "detailed_explanation": "In a right circular cone, the vertex, the center of the base, and any point on the base circumference form a right-angled triangle. The slant height (l) acts as the hypotenuse, while the vertical height (h) and radius (r) are the legs.",
+        "real_world_example": "The length of the supporting poles on the outside of a conical teepee tent."
+      },
+      {
+        "concept": "Volume vs. Surface Area",
+        "definition": "Surface area is the measure of the total outside boundary, while volume is the measure of the space inside.",
+        "detailed_explanation": "Surface area determines how much material is needed to make or paint the object (2D measure), while volume determines how much it can hold (3D measure).",
+        "real_world_example": "The amount of leather needed to cover a football (surface area) vs. the amount of air inside it (volume)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Right Circular Cone",
+        "definition": "A cone where the axis is perpendicular to the base.",
+        "importance": "Standardizes the calculations for height and slant height."
+      },
+      {
+        "term": "Hemisphere",
+        "definition": "A solid or hollow shape representing half of a sphere.",
+        "importance": "Commonly used for bowls, domes, and architectural structures."
+      },
+      {
+        "term": "Capacity",
+        "definition": "The volume of a substance that a container can hold.",
+        "importance": "Often used interchangeably with volume, but typically expressed in liters (1000 cm³ = 1 liter)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Cone Formulas",
+        "formula_or_principle": "CSA = πrl; Volume = (1/3)πr²h",
+        "explanation": "Core formulas for calculating conical measurements."
+      },
+      {
+        "name": "Sphere Formulas",
+        "formula_or_principle": "SA = 4πr²; Volume = (4/3)πr³",
+        "explanation": "Core formulas for calculating spherical measurements."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding Volume of a Cone when Slant Height is Given",
+        "steps": [
+          "Note the radius (r) and slant height (l).",
+          "Calculate the vertical height (h) using h = √(l² - r²).",
+          "Plug 'r' and 'h' into the volume formula: V = (1/3)πr²h.",
+          "Ensure the answer is in cubic units."
+        ]
+      },
+      {
+        "process_name": "Calculating the Cost of Painting a Hemisphere",
+        "steps": [
+          "Determine the radius (r) of the hemisphere.",
+          "Decide if you are painting only the curved surface (CSA) or the whole solid (TSA).",
+          "Calculate the area using 2πr² or 3πr².",
+          "Multiply the calculated area by the rate per unit area given in the problem."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "1 m³ = 1000 liters; 1 liter = 1000 cm³.",
+      "The volume of a sphere is four times the volume of a cone with the same radius and height (where h=r).",
+      "In a hemisphere, if it's a 'hollow' bowl, we only consider the CSA (2πr²) unless the thickness is given.",
+      "For a cone, height (h) is vertical and slant height (l) is diagonal.",
+      "Always use the value of π specified in the question (22/7 or 3.14)."
+    ],
+    "common_mistakes_students_make": [
+      "Using slant height (l) instead of vertical height (h) in the cone volume formula.",
+      "Using diameter instead of radius in the formulas.",
+      "Forgetting to add the base area (πr²) when calculating the total surface area of a cone or hemisphere.",
+      "Mixing up units (e.g., using cm for radius and m² for rate)."
+    ],
+    "quick_revision_notes": [
+      "Cone: CSA=πrl, V=1/3πr²h",
+      "Sphere: SA=4πr², V=4/3πr³",
+      "Hemisphere: CSA=2πr², TSA=3πr², V=2/3πr³",
+      "l² = r² + h²",
+      "1000 cm³ = 1 L"
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the curved surface area of a right circular cone whose slant height is 10 cm and base radius is 7 cm.",
+        "answer": "CSA = πrl = (22/7) * 7 * 10 = 220 cm²."
+      },
+      {
+        "question": "Find the surface area of a sphere of radius 7 cm.",
+        "answer": "SA = 4πr² = 4 * (22/7) * 7 * 7 = 616 cm²."
+      },
+      {
+        "question": "Find the volume of a cone with radius 6 cm and height 7 cm.",
+        "answer": "V = (1/3)πr²h = (1/3) * (22/7) * 6 * 6 * 7 = 264 cm³."
+      },
+      {
+        "question": "A hemispherical bowl has a radius of 3.5 cm. What would be the volume of water it would contain?",
+        "answer": "V = (2/3)πr³ = (2/3) * (22/7) * 3.5³ = 89.8 cm³ (approx)."
+      },
+      {
+        "question": "If the diameter of a sphere is 14 cm, find its surface area.",
+        "answer": "Radius = 7 cm. SA = 4πr² = 616 cm²."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Statistics",
+    "chapter_overview": "This chapter introduces the methods of representing numerical data graphically to make it more understandable and visually comparable. It specifically covers the construction and interpretation of bar graphs, histograms (for both uniform and varying widths), and frequency polygons.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Bar Graphs",
+        "explanation": "A bar graph is a pictorial representation of discrete data where rectangular bars of uniform width are drawn with equal spacing between them. The length of each bar is proportional to the value it represents. Usually, the variable is shown on the x-axis and the frequency/value on the y-axis.",
+        "key_points": [
+          "Bars have uniform width and equal spacing.",
+          "Height of the bar depends on the value of the variable.",
+          "Ideal for comparing different categories or heads of expenditure."
+        ]
+      },
+      {
+        "section_title": "Histograms",
+        "explanation": "A histogram is a graphical representation of grouped frequency distributions with continuous classes. Unlike bar graphs, there are no gaps between the rectangles. The area of each rectangle is proportional to the frequency. If class intervals are of uniform width, the height of the rectangle represents the frequency. If widths vary, the heights must be adjusted proportionally.",
+        "key_points": [
+          "Used for continuous data intervals.",
+          "A 'kink' or break is used on the axis if the first class does not start at zero.",
+          "For varying widths, length of rectangle = (Frequency / Class Width) × Lowest Class Width."
+        ]
+      },
+      {
+        "section_title": "Frequency Polygons",
+        "explanation": "A frequency polygon is another visual way to show quantitative data. It can be drawn by joining the mid-points of the tops of the rectangles in a histogram with straight line segments. Alternatively, it can be drawn without a histogram by plotting the frequency against the class-mark of each interval.",
+        "key_points": [
+          "Class-mark = (Upper Limit + Lower Limit) / 2.",
+          "The polygon is 'closed' by connecting it to the x-axis at imaginary intervals before the first and after the last given classes.",
+          "Useful for comparing two different sets of data on the same graph."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Graphical Representation",
+        "definition": "The process of displaying data using diagrams and charts.",
+        "detailed_explanation": "Graphs allow for immediate visualization of trends, maximums, and minimums that might be hidden in a large table of numbers. They transform raw data into a 'picture' that is easier for the human brain to process.",
+        "real_world_example": "Weather charts showing temperature changes over a week or a company's profit growth over years."
+      },
+      {
+        "concept": "Proportional Representation",
+        "definition": "Ensuring that the visual size of a graph element accurately reflects the numerical value it represents.",
+        "detailed_explanation": "In histograms with varying class widths, simply plotting frequency as height is misleading. The 'area' must represent the frequency, so we adjust the height based on the width of the interval to maintain mathematical integrity.",
+        "real_world_example": "A map where larger countries are drawn larger, regardless of their shape."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Class-mark",
+        "definition": "The mid-value of a class interval.",
+        "importance": "Used as the central representative value for plotting frequency polygons."
+      },
+      {
+        "term": "Frequency",
+        "definition": "The number of times a particular value or data point occurs in a set.",
+        "importance": "Determines the height or area of the bars/rectangles in a graph."
+      },
+      {
+        "term": "Kink",
+        "definition": "A zig-zag line or break on the horizontal axis.",
+        "importance": "Indicates that the scale along the axis does not begin at the origin (0,0)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Class-mark Formula",
+        "formula_or_principle": "Class-mark = (Upper Limit + Lower Limit) / 2",
+        "explanation": "Calculates the midpoint of any given range."
+      },
+      {
+        "name": "Adjusted Frequency for Histogram",
+        "formula_or_principle": "Height = (Frequency / Width of class) × Lowest class width",
+        "explanation": "Used to maintain area proportionality when intervals are not equal."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Constructing a Histogram with Uniform Width",
+        "steps": [
+          "Choose a suitable scale for both axes.",
+          "Mark the class intervals on the horizontal axis (use a kink if necessary).",
+          "Mark frequencies on the vertical axis.",
+          "Draw rectangles with bases as class intervals and heights as frequencies.",
+          "Ensure there are no gaps between consecutive rectangles."
+        ]
+      },
+      {
+        "process_name": "Drawing a Frequency Polygon without a Histogram",
+        "steps": [
+          "Calculate the class-mark for each class interval.",
+          "Plot the points (Class-mark, Frequency) on a graph.",
+          "Join these plotted points with straight line segments.",
+          "Extend the polygon to the x-axis using mid-points of imaginary classes with zero frequency at both ends."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Bar graphs are for discrete data; Histograms are for continuous data.",
+      "The area of a histogram rectangle is always proportional to the frequency.",
+      "Frequency polygons are best for comparing two distributions (e.g., performance of Section A vs Section B).",
+      "Always label your axes clearly and mention the scale used.",
+      "A kink is necessary if your classes start from a high number like 140 instead of 0."
+    ],
+    "common_mistakes_students_make": [
+      "Leaving gaps between rectangles in a histogram.",
+      "Not adjusting heights when class widths are different.",
+      "Mistaking class-mark for the class limit.",
+      "Forgetting to close the frequency polygon at the ends.",
+      "Using bar graphs for continuous intervals like 'weight' or 'height'."
+    ],
+    "quick_revision_notes": [
+      "Bar Graph: Gaps between bars",
+      "Histogram: No gaps, continuous",
+      "Freq Polygon: Joining mid-points",
+      "Class-mark: Average of limits",
+      "Varying width histogram: Height = (Freq/Width) * MinWidth"
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the class-mark of the class interval 150 - 160?",
+        "answer": "(150 + 160) / 2 = 155."
+      },
+      {
+        "question": "When do we use a kink in a graph?",
+        "answer": "A kink is used on the axis when the data values do not start from zero, to show that the scale is broken."
+      },
+      {
+        "question": "For a histogram with varying class widths, what does the area of each rectangle represent?",
+        "answer": "The area represents the frequency of that class interval."
+      },
+      {
+        "question": "Can we draw a frequency polygon without drawing a histogram first?",
+        "answer": "Yes, by using the class-marks of the intervals."
+      },
+      {
+        "question": "A family spends 5000 on rent and 2000 on medicine. If 1 unit = 1000, what will be the heights of the bars in a bar graph?",
+        "answer": "Rent bar = 5 units; Medicine bar = 2 units."
+      }
+    ]
+  }
+]

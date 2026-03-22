@@ -1,0 +1,1214 @@
+[
+  {
+    "chapter_title": "Real Numbers",
+    "chapter_overview": "This chapter explores the fundamental properties of positive integers, specifically focusing on the divisibility of integers through Euclid’s Division Algorithm and the Fundamental Theorem of Arithmetic. It also revisits irrational numbers and the nature of decimal expansions of rational numbers.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "The Fundamental Theorem of Arithmetic",
+        "explanation": "Every composite number can be expressed as a unique product of prime numbers, regardless of the order in which the prime factors occur. This theorem is foundational for understanding the structure of integers and is used to find the Highest Common Factor (HCF) and Lowest Common Multiple (LCM) of numbers.",
+        "key_points": [
+          "Composite numbers are made of prime factors.",
+          "Prime factorization is unique for every natural number.",
+          "HCF is the product of the smallest power of each common prime factor.",
+          "LCM is the product of the greatest power of each prime factor involved."
+        ]
+      },
+      {
+        "section_title": "Revisiting Irrational Numbers",
+        "explanation": "An irrational number cannot be expressed in the form p/q where p and q are integers and q is not zero. The chapter provides proofs for the irrationality of numbers like √2, √3, and √5 using the method of contradiction.",
+        "key_points": [
+          "Proof by contradiction: Assume the number is rational and show it leads to a logical fallacy.",
+          "If a prime number 'p' divides a², then 'p' also divides 'a'.",
+          "The sum or difference of a rational and an irrational number is always irrational."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Prime Factorization",
+        "definition": "The process of breaking down a composite number into a product of prime numbers.",
+        "detailed_explanation": "For any natural number greater than 1, there exists a unique set of prime factors. For example, 32760 = 2³ × 3² × 5 × 7 × 13.",
+        "real_world_example": "Cryptography and digital security rely heavily on the difficulty of factoring large composite numbers."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Algorithm",
+        "definition": "A series of well-defined steps which gives a procedure for solving a type of problem.",
+        "importance": "Provides a systematic way to reach a mathematical solution."
+      },
+      {
+        "term": "Lemma",
+        "definition": "A proven statement used for proving another statement.",
+        "importance": "Acts as a building block for complex theorems."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "HCF and LCM Relationship",
+        "formula_or_principle": "HCF(a, b) × LCM(a, b) = a × b",
+        "explanation": "The product of the HCF and LCM of two positive integers is equal to the product of the integers themselves."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Proving √2 is Irrational",
+        "steps": [
+          "Assume √2 is rational, such that √2 = a/b where a and b are coprime integers.",
+          "Square both sides: 2 = a²/b², which implies a² = 2b².",
+          "Conclude that 2 divides a², so 2 must divide a.",
+          "Substitute a = 2c into the equation: (2c)² = 2b², which gives 2c² = b².",
+          "Conclude that 2 divides b², so 2 must divide b.",
+          "This contradicts the assumption that a and b are coprime, hence √2 is irrational."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Remember that HCF is for common factors, while LCM includes all factors.",
+      "Understand the application of the Fundamental Theorem of Arithmetic in proving irrationality.",
+      "Be prepared to prove √3 or √5 is irrational using the standard steps."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the powers used for HCF (smallest) and LCM (greatest).",
+      "Forgetting to state that 'a' and 'b' are coprime in irrationality proofs.",
+      "Incorrectly simplifying the relationship HCF × LCM = a × b for more than two numbers."
+    ],
+    "quick_revision_notes": [
+      "Every natural number = product of primes.",
+      "√p is irrational for any prime p.",
+      "HCF(a, b) * LCM(a, b) = a * b."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the HCF and LCM of 96 and 404 by prime factorization.",
+        "answer": "96 = 2⁵ × 3; 404 = 2² × 101. HCF = 2² = 4. LCM = (96 × 404) / 4 = 9696."
+      },
+      {
+        "question": "Show that 5 - √3 is irrational.",
+        "answer": "Assume 5 - √3 = r (rational). Then √3 = 5 - r. Since 5 - r is rational, √3 must be rational, which is a contradiction."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Polynomials",
+    "chapter_overview": "This chapter covers the classification of polynomials by degree, the geometrical meaning of zeroes, and the relationship between zeroes and coefficients of quadratic and cubic polynomials.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Geometrical Meaning of Zeroes",
+        "explanation": "The zeroes of a polynomial p(x) are the x-coordinates of the points where the graph of y = p(x) intersects the x-axis.",
+        "key_points": [
+          "A linear polynomial has exactly one zero.",
+          "A quadratic polynomial (ax² + bx + c) can have 0, 1, or 2 zeroes.",
+          "The graph of a quadratic polynomial is a parabola opening upwards (a > 0) or downwards (a < 0)."
+        ]
+      },
+      {
+        "section_title": "Zeroes and Coefficients Relationship",
+        "explanation": "There is a direct mathematical link between the zeroes of a polynomial and the constants (coefficients) used in its algebraic expression.",
+        "key_points": [
+          "For quadratic ax² + bx + c: Sum of zeroes (α + β) = -b/a; Product of zeroes (αβ) = c/a.",
+          "For cubic ax³ + bx² + cx + d: α + β + γ = -b/a; αβ + βγ + γα = c/a; αβγ = -d/a."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Degree of a Polynomial",
+        "definition": "The highest power of the variable 'x' in the polynomial p(x).",
+        "detailed_explanation": "Determines the maximum number of zeroes the polynomial can have (e.g., cubic has max 3).",
+        "real_world_example": "Quadratic polynomials describe projectile motion (the path of a ball thrown in the air)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Zero of a Polynomial",
+        "definition": "A value 'k' such that p(k) = 0.",
+        "importance": "Zeroes represent roots or solutions to the equation."
+      },
+      {
+        "term": "Parabola",
+        "definition": "The shape of the graph of a quadratic polynomial.",
+        "importance": "Helps visualize the behavior and zeroes of quadratic functions."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Quadratic Zeroes Relationship",
+        "formula_or_principle": "α + β = -b/a and αβ = c/a",
+        "explanation": "Relates the sum and product of zeroes to the coefficients of ax² + bx + c."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding a Quadratic Polynomial from Sum and Product of Zeroes",
+        "steps": [
+          "Identify the sum (S = α + β) and product (P = αβ).",
+          "Write the general form: k[x² - (α + β)x + αβ].",
+          "Substitute S and P to get the polynomial."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "A polynomial of degree 'n' has at most 'n' zeroes.",
+      "If the graph does not touch the x-axis, there are no real zeroes.",
+      "Verify zeroes by substituting them back into the polynomial."
+    ],
+    "common_mistakes_students_make": [
+      "Forgetting the negative sign in the sum of zeroes formula (-b/a).",
+      "Confusing the degree of the polynomial with the number of terms.",
+      "Incorrectly identifying zeroes from a graph where it only touches (one zero) vs. crosses (two zeroes)."
+    ],
+    "quick_revision_notes": [
+      "Linear: 1 zero. Quadratic: Max 2 zeroes. Cubic: Max 3 zeroes.",
+      "Quadratic: Sum = -b/a, Product = c/a.",
+      "Graph cuts x-axis at zeroes."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the zeroes of x² - 2x - 8 and verify the relationship with coefficients.",
+        "answer": "x² - 4x + 2x - 8 = (x-4)(x+2). Zeroes are 4, -2. Sum = 2 (-b/a = 2/1). Product = -8 (c/a = -8/1)."
+      },
+      {
+        "question": "Find a quadratic polynomial with sum and product of zeroes as -3 and 2.",
+        "answer": "x² - (-3)x + 2 = x² + 3x + 2."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Pair of Linear Equations in Two Variables",
+    "chapter_overview": "This chapter introduces linear equations in the form ax + by + c = 0 and discusses methods to solve a system of two such equations simultaneously, either graphically or algebraically.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Graphical Method of Solution",
+        "explanation": "Solving a pair of linear equations by plotting them on a graph. The point of intersection is the solution.",
+        "key_points": [
+          "Intersecting lines: Unique solution (Consistent).",
+          "Parallel lines: No solution (Inconsistent).",
+          "Coincident lines: Infinitely many solutions (Dependent/Consistent)."
+        ]
+      },
+      {
+        "section_title": "Algebraic Methods: Substitution and Elimination",
+        "explanation": "Techniques to find the values of x and y without graphing. Substitution involves expressing one variable in terms of another. Elimination involves making coefficients equal to remove one variable.",
+        "key_points": [
+          "Substitution: Best when one variable has a coefficient of 1 or -1.",
+          "Elimination: Standard method for most systems; involves addition or subtraction of equations."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Consistency of Equations",
+        "definition": "Whether a system of equations has a solution.",
+        "detailed_explanation": "Checked by comparing ratios: a1/a2, b1/b2, and c1/c2.",
+        "real_world_example": "Finding the break-even point in business where costs equal revenue."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Linear Equation",
+        "definition": "An equation that can be put in the form ax + by + c = 0.",
+        "importance": "Represents a straight line on a Cartesian plane."
+      },
+      {
+        "term": "Simultaneous Equations",
+        "definition": "A set of equations that are solved together.",
+        "importance": "Used to find common values satisfying all equations."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Conditions for Solutions",
+        "formula_or_principle": "Unique: a1/a2 ≠ b1/b2; Infinite: a1/a2 = b1/b2 = c1/c2; None: a1/a2 = b1/b2 ≠ c1/c2",
+        "explanation": "Mathematical ratios that predict the nature of the solution set."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Elimination Method",
+        "steps": [
+          "Multiply one or both equations by constants to make the coefficients of one variable numerically equal.",
+          "Add or subtract the equations to eliminate that variable.",
+          "Solve for the remaining variable.",
+          "Substitute the value found into either original equation to find the other variable."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check if the equations are consistent before solving.",
+      "Graphical solutions must be precise; use a sharp pencil.",
+      "Word problems should be translated into equations carefully."
+    ],
+    "common_mistakes_students_make": [
+      "Sign errors during subtraction in the elimination method.",
+      "Incorrectly comparing ratios when the equation is not in standard form (ax + by + c = 0).",
+      "Forgetting to multiply both sides of the equation by the constant in elimination."
+    ],
+    "quick_revision_notes": [
+      "a1/a2 ≠ b1/b2 → 1 solution.",
+      "a1/a2 = b1/b2 = c1/c2 → Infinite solutions.",
+      "a1/a2 = b1/b2 ≠ c1/c2 → No solution.",
+      "Methods: Graph, Substitution, Elimination."
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve by substitution: x + y = 14, x - y = 4.",
+        "answer": "x = 14 - y. (14 - y) - y = 4 → 14 - 2y = 4 → 2y = 10 → y = 5. x = 9. Solution: (9, 5)."
+      },
+      {
+        "question": "For what value of 'k' will the equations 3x + y = 1 and (2k-1)x + (k-1)y = 2k+1 have no solution?",
+        "answer": "Condition: 3/(2k-1) = 1/(k-1) ≠ 1/(2k+1). 3(k-1) = 2k-1 → 3k - 3 = 2k - 1 → k = 2."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Quadratic Equations",
+    "chapter_overview": "This chapter focuses on second-degree polynomial equations, methods to find their roots (factorization and quadratic formula), and determining the nature of roots using the discriminant.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Methods of Solving Quadratic Equations",
+        "explanation": "Quadratic equations can be solved by breaking the middle term (Factorization) or by using a universal formula.",
+        "key_points": [
+          "Factorization: Finding two numbers that multiply to 'ac' and add to 'b'.",
+          "Quadratic Formula: x = [-b ± √(b² - 4ac)] / 2a."
+        ]
+      },
+      {
+        "section_title": "Nature of Roots",
+        "explanation": "The discriminant (D = b² - 4ac) determines whether the roots are real, equal, or imaginary.",
+        "key_points": [
+          "D > 0: Two distinct real roots.",
+          "D = 0: Two equal real roots (roots are -b/2a).",
+          "D < 0: No real roots."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Standard Form",
+        "definition": "ax² + bx + c = 0, where a ≠ 0.",
+        "detailed_explanation": "A quadratic equation must have an x² term. If a = 0, it becomes linear.",
+        "real_world_example": "Calculating the dimensions of a rectangular area given its perimeter and area."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Discriminant",
+        "definition": "The expression b² - 4ac.",
+        "importance": "Quickly identifies the type of solutions an equation has."
+      },
+      {
+        "term": "Roots",
+        "definition": "Values of x that satisfy the quadratic equation.",
+        "importance": "These are the solutions to the problem."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Quadratic Formula",
+        "formula_or_principle": "x = [-b ± √(b² - 4ac)] / 2a",
+        "explanation": "Reliable method to find roots even if factorization is difficult."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving by Factorization",
+        "steps": [
+          "Multiply coefficient 'a' and constant 'c'.",
+          "Find two numbers whose product is 'ac' and sum is 'b'.",
+          "Split the middle term 'bx' into two parts using these numbers.",
+          "Factor by grouping.",
+          "Set each factor to zero to find the roots."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always write the equation in standard form first.",
+      "Check for 'real roots' condition before using the formula.",
+      "Remember that length and distance cannot be negative in word problems."
+    ],
+    "common_mistakes_students_make": [
+      "Calculation errors inside the square root of the quadratic formula.",
+      "Using 'b' instead of '-b' in the quadratic formula.",
+      "Forgetting to divide by '2a' at the end."
+    ],
+    "quick_revision_notes": [
+      "ax² + bx + c = 0.",
+      "D = b² - 4ac.",
+      "D > 0 (2 real), D = 0 (1 real), D < 0 (0 real).",
+      "Factorization or Quadratic Formula."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the roots of 6x² - x - 2 = 0.",
+        "answer": "6x² - 4x + 3x - 2 = 0 → 2x(3x-2) + 1(3x-2) = 0 → (2x+1)(3x-2) = 0. Roots are -1/2, 2/3."
+      },
+      {
+        "question": "Find the nature of roots for 2x² - 4x + 3 = 0.",
+        "answer": "D = (-4)² - 4(2)(3) = 16 - 24 = -8. Since D < 0, there are no real roots."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Arithmetic Progressions",
+    "chapter_overview": "This chapter introduces sequences where the difference between consecutive terms is constant. It teaches how to find the nth term and the sum of the first n terms of such sequences.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "The nth Term of an AP",
+        "explanation": "A sequence is an AP if each term is obtained by adding a fixed number 'd' to the preceding term.",
+        "key_points": [
+          "First term: a.",
+          "Common difference: d.",
+          "General term: an = a + (n-1)d."
+        ]
+      },
+      {
+        "section_title": "Sum of First n Terms",
+        "explanation": "The total of all terms up to position 'n' can be calculated using a derived formula, famously used by Gauss.",
+        "key_points": [
+          "Sn = n/2 [2a + (n-1)d].",
+          "Sn = n/2 [a + l], where 'l' is the last term."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Common Difference",
+        "definition": "The fixed number added to each term to get the next term.",
+        "detailed_explanation": "d = a2 - a1 = a3 - a2. It can be positive, negative, or zero.",
+        "real_world_example": "A monthly salary with a fixed annual increment."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Finite AP",
+        "definition": "An AP with a limited number of terms.",
+        "importance": "Always has a last term (l)."
+      },
+      {
+        "term": "Infinite AP",
+        "definition": "An AP that goes on forever.",
+        "importance": "Does not have a last term."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "General Term and Sum",
+        "formula_or_principle": "an = a + (n-1)d; Sn = n/2 (a + an)",
+        "explanation": "Fundamental formulas for solving AP problems."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the number of terms (n)",
+        "steps": [
+          "Identify a, d, and the last term an.",
+          "Substitute into an = a + (n-1)d.",
+          "Solve for n.",
+          "Note: n must always be a positive integer."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Verify if a sequence is an AP by checking if d is constant.",
+      "If terms are asked from the end, use the formula an = l - (n-1)d.",
+      "The arithmetic mean of a and c is (a+c)/2."
+    ],
+    "common_mistakes_students_make": [
+      "Taking 'n' as a fractional or negative value.",
+      "Confusing 'an' (the value of the term) with 'n' (the position of the term).",
+      "Incorrectly identifying 'd' (e.g., subtracting a1 from a2 vs a2 from a1)."
+    ],
+    "quick_revision_notes": [
+      "a, a+d, a+2d...",
+      "an = a + (n-1)d.",
+      "Sn = n/2 [2a + (n-1)d].",
+      "d = a_k+1 - a_k."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the 10th term of AP: 2, 7, 12...",
+        "answer": "a = 2, d = 5. a10 = 2 + (10-1)5 = 2 + 45 = 47."
+      },
+      {
+        "question": "How many two-digit numbers are divisible by 3?",
+        "answer": "AP: 12, 15... 99. a = 12, d = 3, an = 99. 99 = 12 + (n-1)3 → 87 = 3(n-1) → 29 = n-1 → n = 30."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Triangles",
+    "chapter_overview": "This chapter focuses on the concept of similarity in triangles, distinguishing it from congruence, and establishing criteria for similarity and related theorems.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Similarity of Triangles",
+        "explanation": "Two triangles are similar if their corresponding angles are equal and their corresponding sides are in the same ratio (proportional).",
+        "key_points": [
+          "All congruent figures are similar, but similar figures need not be congruent.",
+          "Symbol for similarity: '~'."
+        ]
+      },
+      {
+        "section_title": "Basic Proportionality Theorem (Thales Theorem)",
+        "explanation": "If a line is drawn parallel to one side of a triangle to intersect the other two sides, the other two sides are divided in the same ratio.",
+        "key_points": [
+          "Theorem 6.1 (BPT): If DE || BC, then AD/DB = AE/EC.",
+          "Converse: If a line divides two sides in the same ratio, it is parallel to the third side."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Criteria for Similarity",
+        "definition": "Rules to determine if two triangles are similar.",
+        "detailed_explanation": "AAA (Angle-Angle-Angle), SSS (Side-Side-Side), and SAS (Side-Angle-Side). AA is a sufficient subset of AAA.",
+        "real_world_example": "Using shadows to measure the height of a mountain (similar triangles formed by the sun's rays)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Equiangular Triangles",
+        "definition": "Triangles with equal corresponding angles.",
+        "importance": "These are always similar."
+      },
+      {
+        "term": "Scale Factor",
+        "definition": "The ratio of the lengths of the corresponding sides of two similar polygons.",
+        "importance": "Used in maps and blueprints."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Similarity Criteria",
+        "formula_or_principle": "AA, SSS, SAS",
+        "explanation": "Standard conditions used to prove triangle similarity."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Proving Two Triangles Similar",
+        "steps": [
+          "Identify the corresponding angles or sides given.",
+          "Check for common angles or vertically opposite angles.",
+          "Check for parallel lines implying equal alternate/corresponding angles.",
+          "Apply the appropriate criterion (AA, SSS, or SAS)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "BPT is extremely important for proofs and numericals.",
+      "Corresponding sides must be written in the correct order when stating similarity (e.g., ΔABC ~ ΔDEF).",
+      "Ratio of perimeters of similar triangles equals the ratio of their corresponding sides."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the criteria for congruence (ASA, RHS) with similarity criteria.",
+      "Writing the ratio of sides incorrectly (not following the correspondence).",
+      "Applying BPT to lines that are not parallel."
+    ],
+    "quick_revision_notes": [
+      "Similar: Same shape, different size.",
+      "BPT: AD/DB = AE/EC if DE || BC.",
+      "AA Similarity: If 2 angles are equal, Δs are similar."
+    ],
+    "practice_questions": [
+      {
+        "question": "In ΔABC, DE || BC. If AD = 1.5 cm, DB = 3 cm, and AE = 1 cm, find EC.",
+        "answer": "By BPT, AD/DB = AE/EC. 1.5/3 = 1/EC → 1/2 = 1/EC → EC = 2 cm."
+      },
+      {
+        "question": "Are all equilateral triangles similar?",
+        "answer": "Yes, because all their corresponding angles are 60° (AA criterion)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Coordinate Geometry",
+    "chapter_overview": "This chapter applies algebraic methods to geometric problems by locating points on a plane using coordinates. Key topics include the distance formula and the section formula.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Distance Formula",
+        "explanation": "Calculates the straight-line distance between any two points (x1, y1) and (x2, y2) in the Cartesian plane.",
+        "key_points": [
+          "d = √[(x2 - x1)² + (y2 - y1)²].",
+          "Distance from origin (0,0) to (x,y) is √(x² + y²)."
+        ]
+      },
+      {
+        "section_title": "Section Formula",
+        "explanation": "Finds the coordinates of a point that divides a line segment in a given ratio 'm1:m2'.",
+        "key_points": [
+          "Point P(x, y) = [(m1x2 + m2x1)/(m1+m2), (m1y2 + m2y1)/(m1+m2)].",
+          "Midpoint formula: [(x1+x2)/2, (y1+y2)/2]."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Point Division",
+        "definition": "Locating a point on a line segment based on a ratio.",
+        "detailed_explanation": "Used to find midpoints, centers of gravity, or specific positions on a path.",
+        "real_world_example": "GPS systems locating a device between two cell towers."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Abscissa",
+        "definition": "The x-coordinate of a point.",
+        "importance": "Represents horizontal distance from the y-axis."
+      },
+      {
+        "term": "Ordinate",
+        "definition": "The y-coordinate of a point.",
+        "importance": "Represents vertical distance from the x-axis."
+      },
+      {
+        "term": "Collinear Points",
+        "definition": "Points that lie on the same straight line.",
+        "importance": "Distance sum of two segments equals the third."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Distance and Section Formulas",
+        "formula_or_principle": "d = √Δx² + Δy²; P = (m1x2+m2x1)/(m1+m2)...",
+        "explanation": "Core algebraic tools for geometry."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the Ratio 'k:1'",
+        "steps": [
+          "Assume the ratio is k:1.",
+          "Substitute into the section formula coordinates.",
+          "Use the given coordinate (x or y) of the dividing point to set up an equation.",
+          "Solve for k.",
+          "Ratio is k:1."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "To prove a quadrilateral is a square, show all sides are equal AND diagonals are equal.",
+      "To check collinearity, check if AB + BC = AC.",
+      "The x-axis always has y = 0; the y-axis always has x = 0."
+    ],
+    "common_mistakes_students_make": [
+      "Swapping x and y coordinates in formulas.",
+      "Forgetting the square root in the distance formula.",
+      "Incorrect sign usage when x1 or y1 is negative (e.g., x2 - (-x1) becomes x2 + x1)."
+    ],
+    "quick_revision_notes": [
+      "Distance: √[(x2-x1)² + (y2-y1)²].",
+      "Midpoint: (x1+x2)/2, (y1+y2)/2.",
+      "Ratio k:1 formula is faster for finding ratios."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find distance between (2, 3) and (4, 1).",
+        "answer": "√[(4-2)² + (1-3)²] = √[2² + (-2)²] = √[4+4] = √8 = 2√2 units."
+      },
+      {
+        "question": "Find midpoint of line joining (6, 4) and (2, 8).",
+        "answer": "[(6+2)/2, (4+8)/2] = [8/2, 12/2] = (4, 6)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Introduction to Trigonometry",
+    "chapter_overview": "This chapter introduces the ratios of sides of a right triangle with respect to its acute angles, known as trigonometric ratios, and their relationships.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Trigonometric Ratios",
+        "explanation": "Definitions of Sine, Cosine, Tangent, Cosecant, Secant, and Cotangent based on the sides of a right triangle.",
+        "key_points": [
+          "sin A = Opposite / Hypotenuse.",
+          "cos A = Adjacent / Hypotenuse.",
+          "tan A = Opposite / Adjacent.",
+          "Reciprocals: cosec = 1/sin, sec = 1/cos, cot = 1/tan."
+        ]
+      },
+      {
+        "section_title": "Trigonometric Identities",
+        "explanation": "Equations involving trigonometric ratios that are true for all values of the angles involved.",
+        "key_points": [
+          "sin² A + cos² A = 1.",
+          "1 + tan² A = sec² A.",
+          "1 + cot² A = cosec² A."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Specific Angle Ratios",
+        "definition": "The values of trig ratios for 0°, 30°, 45°, 60°, and 90°.",
+        "detailed_explanation": "These are derived geometrically. For example, sin 30° = 1/2 and cos 0° = 1.",
+        "real_world_example": "Engineers use these ratios to calculate angles of support beams in construction."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Hypotenuse",
+        "definition": "The longest side of a right triangle, opposite the right angle.",
+        "importance": "The denominator for sine and cosine."
+      },
+      {
+        "term": "Identity",
+        "definition": "An equation true for all variables.",
+        "importance": "Used to simplify complex trigonometric expressions."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Trigonometric Table",
+        "formula_or_principle": "sin 45 = 1/√2, tan 45 = 1, etc.",
+        "explanation": "Standard values essential for calculations."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding all Ratios from one Ratio",
+        "steps": [
+          "Let the given ratio be k (e.g., sin A = 3/5).",
+          "Identify two sides (Opposite = 3k, Hypotenuse = 5k).",
+          "Use Pythagoras Theorem to find the third side (Adjacent = 4k).",
+          "Write all other ratios using their definitions."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The value of sin A or cos A never exceeds 1.",
+      "tan A increases as A increases from 0 to 90.",
+      "Memorize the table for 0, 30, 45, 60, 90."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing 'opposite' and 'adjacent' when the angle changes from A to C.",
+      "Thinking sin(A+B) = sin A + sin B (This is FALSE).",
+      "Forgetting to square the ratio when using identities (e.g., sin² A is (sin A)²)."
+    ],
+    "quick_revision_notes": [
+      "sin = O/H, cos = A/H, tan = O/A.",
+      "sin² + cos² = 1.",
+      "tan = sin/cos, cot = cos/sin."
+    ],
+    "practice_questions": [
+      {
+        "question": "If tan A = 4/3, find sin A and cos A.",
+        "answer": "Opp = 4, Adj = 3. Hyp = √(4²+3²) = 5. sin A = 4/5, cos A = 3/5."
+      },
+      {
+        "question": "Evaluate: sin 60° cos 30° + sin 30° cos 60°.",
+        "answer": "(√3/2 * √3/2) + (1/2 * 1/2) = 3/4 + 1/4 = 1."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Some Applications of Trigonometry",
+    "chapter_overview": "This chapter deals with 'Heights and Distances', using trigonometric ratios to calculate distances and heights of objects without actual measurement.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Line of Sight and Angles",
+        "explanation": "Understanding how we look at objects above or below our eye level.",
+        "key_points": [
+          "Line of sight: The line from the eye to the object.",
+          "Angle of Elevation: Angle between the horizontal and line of sight when looking UP.",
+          "Angle of Depression: Angle between the horizontal and line of sight when looking DOWN."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Angle Relationship",
+        "definition": "The angle of depression of an object is equal to the angle of elevation of the observer's eye as seen from the object.",
+        "detailed_explanation": "This is due to alternate interior angles being equal when horizontal lines are parallel.",
+        "real_world_example": "A lighthouse keeper looking at a ship (depression) vs the sailor looking at the lighthouse (elevation)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Horizontal Level",
+        "definition": "The line parallel to the ground passing through the observer's eye.",
+        "importance": "The reference line for all angles."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Tan Ratio Application",
+        "formula_or_principle": "tan θ = Height / Distance",
+        "explanation": "The most commonly used ratio in height and distance problems."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving Height and Distance Problems",
+        "steps": [
+          "Draw a clear diagram representing the situation.",
+          "Mark the given height, distance, and angles.",
+          "Identify the right-angled triangle(s) involved.",
+          "Apply the tan θ (or sin/cos) ratio to set up an equation.",
+          "Solve for the unknown value."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Diagrams are mandatory and carry marks.",
+      "Check if the observer's height is given; if so, subtract it from the total height of the object.",
+      "Values like √3 ≈ 1.732 and √2 ≈ 1.414 are often used."
+    ],
+    "common_mistakes_students_make": [
+      "Drawing the angle of depression inside the triangle incorrectly (it should be with the horizontal).",
+      "Forgetting to add the observer's eye level to the calculated height.",
+      "Confusion between elevation and depression."
+    ],
+    "quick_revision_notes": [
+      "Elevation = Look up. Depression = Look down.",
+      "Draw diagram → Identify triangle → Use Tan.",
+      "Alternate angles are key for depression problems."
+    ],
+    "practice_questions": [
+      {
+        "question": "A tower is 15m high. The angle of elevation of its top from a point 15m away from its foot is?",
+        "answer": "tan θ = 15/15 = 1. θ = 45°."
+      },
+      {
+        "question": "A 1.5m tall boy stands 28.5m away from a chimney. The angle of elevation of the top is 45°. Find chimney height.",
+        "answer": "Let chimney height be H. Height above boy's eye = h. tan 45 = h/28.5 → 1 = h/28.5 → h = 28.5. Total height = 28.5 + 1.5 = 30m."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Circles",
+    "chapter_overview": "This chapter explores the properties of tangents to a circle and the theorems related to their lengths and points of contact.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Tangents to a Circle",
+        "explanation": "A tangent is a line that touches the circle at exactly one point.",
+        "key_points": [
+          "There is only one tangent at any point on a circle.",
+          "A tangent is a special case of a secant when the two endpoints of the chord coincide.",
+          "The point where the tangent touches is the 'point of contact'."
+        ]
+      },
+      {
+        "section_title": "Key Theorems",
+        "explanation": "Two fundamental theorems govern tangents.",
+        "key_points": [
+          "Theorem 10.1: The tangent at any point is perpendicular to the radius through the point of contact.",
+          "Theorem 10.2: The lengths of tangents drawn from an external point to a circle are equal."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Tangents from an External Point",
+        "definition": "Lines drawn from a point outside the circle to touch its boundary.",
+        "detailed_explanation": "Exactly two tangents can be drawn from an external point. These tangents are equal in length and subtend equal angles at the center.",
+        "real_world_example": "A pulley system where the belt acts as a tangent to the circular wheels."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Secant",
+        "definition": "A line that intersects a circle in two points.",
+        "importance": "Contrast to a tangent which only touches at one point."
+      },
+      {
+        "term": "Point of Contact",
+        "definition": "The unique common point between the tangent and the circle.",
+        "importance": "This is where the 90-degree angle with the radius is formed."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Tangent-Radius Perpendicularity",
+        "formula_or_principle": "Radius ⊥ Tangent",
+        "explanation": "Forms a right-angled triangle, allowing the use of Pythagoras Theorem."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Calculating Tangent Length",
+        "steps": [
+          "Identify the radius (r) and the distance from center to external point (d).",
+          "Form a right triangle with vertices at center, point of contact, and external point.",
+          "Use Pythagoras: Tangent Length = √(d² - r²)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The line joining the external point to the center bisects the angle between the tangents.",
+      "A circle can have two parallel tangents at most (at opposite ends of a diameter).",
+      "Theorem proofs are common in exams."
+    ],
+    "common_mistakes_students_make": [
+      "Drawing tangents that cross the circle.",
+      "Forgetting that the radius-tangent angle is 90°.",
+      "Assuming tangents from different external points are equal."
+    ],
+    "quick_revision_notes": [
+      "Radius ⊥ Tangent.",
+      "Tangents from same external point are equal.",
+      "Two tangents max from one point."
+    ],
+    "practice_questions": [
+      {
+        "question": "A tangent PQ at a point P of a circle of radius 5 cm meets a line through the center O at a point Q so that OQ = 12 cm. Length PQ is?",
+        "answer": "PQ = √(12² - 5²) = √(144 - 25) = √119 cm."
+      },
+      {
+        "question": "If two tangents inclined at 60° are drawn to a circle of radius 3 cm, find length of each tangent.",
+        "answer": "Angle between center and tangent is 30°. tan 30 = 3/L → 1/√3 = 3/L → L = 3√3 cm."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Areas Related to Circles",
+    "chapter_overview": "This chapter deals with calculating the perimeter and area of circles, as well as specific parts like sectors and segments.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Sectors and Segments",
+        "explanation": "A sector is the region between two radii and an arc. A segment is the region between a chord and an arc.",
+        "key_points": [
+          "Minor sector vs Major sector based on angle (θ < 180° or θ > 180°).",
+          "Area of Sector = (θ/360) × πr².",
+          "Length of Arc = (θ/360) × 2πr."
+        ]
+      },
+      {
+        "section_title": "Area of Segment",
+        "explanation": "Calculated by subtracting the area of the triangle formed by the chord and radii from the area of the corresponding sector.",
+        "key_points": [
+          "Area of Segment = Area of Sector - Area of Triangle.",
+          "Triangle area is usually found using (1/2)r² sin θ."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Proportionality of Area",
+        "definition": "The area of a sector is proportional to the angle subtended at the center.",
+        "detailed_explanation": "If the angle is doubled, the area of the sector is doubled.",
+        "real_world_example": "Dividing a pizza into equal slices (sectors)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Circumference",
+        "definition": "The distance around the circle (2πr).",
+        "importance": "Equivalent to the perimeter of the circle."
+      },
+      {
+        "term": "Chord",
+        "definition": "A line segment joining two points on the circle.",
+        "importance": "Divides the circle into segments."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Sector and Arc Formulas",
+        "formula_or_principle": "Area = (θ/360)πr²; Length = (θ/360)2πr",
+        "explanation": "Essential for calculating parts of a circle."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding Area of a Segment",
+        "steps": [
+          "Calculate the area of the sector using (θ/360)πr².",
+          "Identify the triangle formed by the radii and the chord.",
+          "Calculate triangle area (using base/height or 1/2 r² sin θ).",
+          "Subtract triangle area from sector area."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Use π = 22/7 or 3.14 as specified.",
+      "Remember that 'quadrant' means θ = 90°.",
+      "Area of major sector = Total Area - Area of minor sector."
+    ],
+    "common_mistakes_students_make": [
+      "Using the diameter instead of the radius in formulas.",
+      "Confusing the formulas for arc length and sector area.",
+      "Forgetting to subtract the triangle area when finding segment area."
+    ],
+    "quick_revision_notes": [
+      "Sector Area: (θ/360)πr².",
+      "Arc Length: (θ/360)2πr.",
+      "Segment = Sector - Triangle."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area of a sector of a circle with radius 6 cm if angle of the sector is 60°.",
+        "answer": "(60/360) * (22/7) * 6² = (1/6) * (22/7) * 36 = 132/7 ≈ 18.86 cm²."
+      },
+      {
+        "question": "Find the area of a quadrant of a circle whose circumference is 22 cm.",
+        "answer": "2πr = 22 → r = 3.5 cm. Area = (1/4)πr² = (1/4) * (22/7) * 3.5 * 3.5 = 9.625 cm²."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Surface Areas and Volumes",
+    "chapter_overview": "This chapter focuses on the surface area and volume of combined solid figures, such as a cone on a hemisphere or a cylinder with hemispherical ends.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Surface Area of Combinations",
+        "explanation": "When two solids are joined, the total surface area is the sum of the VISIBLE curved surface areas.",
+        "key_points": [
+          "Total Surface Area (TSA) of combined solid ≠ Sum of TSA of individual solids (common faces are hidden).",
+          "TSA of a toy (cone on hemisphere) = CSA of cone + CSA of hemisphere."
+        ]
+      },
+      {
+        "section_title": "Volume of Combinations",
+        "explanation": "The volume of a solid formed by combining two solids is simply the sum of their individual volumes.",
+        "key_points": [
+          "Volume is additive.",
+          "Volume of capsule = Volume of cylinder + Volume of two hemispheres."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Solid Combination",
+        "definition": "Creating a new shape by merging standard geometric solids.",
+        "detailed_explanation": "Requires identifying which parts of the surface are 'lost' inside the joint.",
+        "real_world_example": "A medicine capsule or a storage tank."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "CSA",
+        "definition": "Curved Surface Area.",
+        "importance": "Used for the rounded parts of cylinders, cones, and spheres."
+      },
+      {
+        "term": "Slant Height (l)",
+        "definition": "The distance from the vertex of a cone to any point on the base circumference (l = √(r² + h²)).",
+        "importance": "Required for cone surface area (πrl)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Standard Volumes",
+        "formula_or_principle": "Cylinder: πr²h; Cone: 1/3 πr²h; Sphere: 4/3 πr³",
+        "explanation": "Basic building blocks for volume calculations."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding TSA of Combined Solid",
+        "steps": [
+          "Break the solid into basic shapes (cylinder, cone, etc.).",
+          "Identify the surfaces that are on the outside.",
+          "Calculate the Curved Surface Area (CSA) for each part.",
+          "Add them together."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Slant height is ONLY for cones.",
+      "Hemisphere CSA is 2πr², TSA is 3πr² (but only CSA is usually used in combinations).",
+      "Ensure units are consistent (convert all to cm or all to m)."
+    ],
+    "common_mistakes_students_make": [
+      "Adding the base areas of joined solids when they are hidden.",
+      "Using the wrong radius (e.g., diameter instead of radius).",
+      "Calculation errors with large π calculations."
+    ],
+    "quick_revision_notes": [
+      "Volume is always additive.",
+      "Surface area depends on visible faces.",
+      "Sphere: Vol=4/3πr³, SA=4πr².",
+      "Cylinder: Vol=πr²h, CSA=2πrh."
+    ],
+    "practice_questions": [
+      {
+        "question": "A toy is in the form of a cone of radius 3.5 cm mounted on a hemisphere of same radius. Total height is 15.5 cm. Find TSA.",
+        "answer": "Cone height h = 15.5 - 3.5 = 12 cm. Slant height l = √(12² + 3.5²) = 12.5 cm. TSA = πrl + 2πr² = π(3.5)(12.5) + 2π(3.5)² ≈ 214.5 cm²."
+      },
+      {
+        "question": "Find the volume of a cylinder of height 10 cm and radius 7 cm.",
+        "answer": "V = πr²h = (22/7) * 7 * 7 * 10 = 1540 cm³."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Statistics",
+    "chapter_overview": "This chapter teaches how to analyze grouped data using measures of central tendency: Mean, Median, and Mode.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Mean of Grouped Data",
+        "explanation": "The average value of the data set. Three methods are provided to simplify calculations.",
+        "key_points": [
+          "Direct Method: Σfixi / Σfi.",
+          "Assumed Mean Method: a + (Σfidi / Σfi).",
+          "Step-Deviation Method: a + h(Σfiui / Σfi)."
+        ]
+      },
+      {
+        "section_title": "Mode and Median",
+        "explanation": "Mode is the most frequent value; Median is the middle value.",
+        "key_points": [
+          "Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h.",
+          "Median = l + [(n/2 - cf) / f] × h."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Empirical Relationship",
+        "definition": "A formula connecting all three measures of central tendency.",
+        "detailed_explanation": "3 Median = Mode + 2 Mean.",
+        "real_world_example": "Analyzing school test scores to find average performance (mean), most common score (mode), and middle student's rank (median)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Class Mark (xi)",
+        "definition": "(Upper Limit + Lower Limit) / 2.",
+        "importance": "The representative value for each class interval."
+      },
+      {
+        "term": "Cumulative Frequency (cf)",
+        "definition": "The running total of frequencies.",
+        "importance": "Essential for finding the median class."
+      },
+      {
+        "term": "Modal Class",
+        "definition": "The class interval with the highest frequency.",
+        "importance": "Starting point for calculating the mode."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Mean, Mode, Median Formulas",
+        "formula_or_principle": "Complex formulas for grouped data analysis.",
+        "explanation": "Essential for high-score statistics questions."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the Median",
+        "steps": [
+          "Create a cumulative frequency column.",
+          "Find n/2.",
+          "Locate the median class (cf just greater than n/2).",
+          "Identify l, f, cf (of preceding class), and h.",
+          "Substitute into the formula."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Ensure class intervals are continuous (e.g., 10-20, 20-30). If not, adjust them (9.5-19.5, 19.5-29.5).",
+      "Check that Σfi equals the total 'n'.",
+      "The empirical formula is a quick check for accuracy."
+    ],
+    "common_mistakes_students_make": [
+      "Using 'cf' of the median class instead of the 'preceding' class in the median formula.",
+      "Calculation errors in 'xi' or 'fi*xi'.",
+      "Mistaking the highest frequency for the mode itself (it only identifies the modal class)."
+    ],
+    "quick_revision_notes": [
+      "Mean: Σfixi/Σfi.",
+      "Mode: l + [(f1-f0)/(2f1-f0-f2)]h.",
+      "Median: l + [(n/2-cf)/f]h.",
+      "3 Median = Mode + 2 Mean."
+    ],
+    "practice_questions": [
+      {
+        "question": "If Mean = 20 and Median = 22, find Mode.",
+        "answer": "Mode = 3 Median - 2 Mean = 3(22) - 2(20) = 66 - 40 = 26."
+      },
+      {
+        "question": "What is the class mark of 10-25?",
+        "answer": "(10 + 25) / 2 = 17.5."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Probability",
+    "chapter_overview": "This chapter introduces the concept of probability as a measure of uncertainty, focusing on theoretical probability and its application to simple events.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Theoretical Probability",
+        "explanation": "Probability based on the assumption that outcomes are equally likely.",
+        "key_points": [
+          "P(E) = Number of favorable outcomes / Total number of possible outcomes.",
+          "Probability of an event is a number between 0 and 1 inclusive."
+        ]
+      },
+      {
+        "section_title": "Types of Events",
+        "explanation": "Classification of events based on their likelihood.",
+        "key_points": [
+          "Sure Event: P(E) = 1.",
+          "Impossible Event: P(E) = 0.",
+          "Complementary Events: P(E) + P(not E) = 1."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Equally Likely Outcomes",
+        "definition": "Outcomes that have the same chance of occurring.",
+        "detailed_explanation": "For a fair coin, head and tail are equally likely.",
+        "real_world_example": "Rolling a fair die or drawing a card from a well-shuffled deck."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Elementary Event",
+        "definition": "An event having only one outcome.",
+        "importance": "The sum of probabilities of all elementary events is 1."
+      },
+      {
+        "term": "Sample Space",
+        "definition": "The set of all possible outcomes.",
+        "importance": "The denominator in the probability formula."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Probability Range",
+        "formula_or_principle": "0 ≤ P(E) ≤ 1",
+        "explanation": "Probability can never be negative or greater than 1."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving a Card Problem",
+        "steps": [
+          "Determine the total number of cards (usually 52).",
+          "Identify the number of cards satisfying the condition (e.g., number of Aces = 4).",
+          "Calculate P(E) = favorable / total.",
+          "Simplify the fraction."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Understand the composition of a deck of cards (4 suits, 13 cards each, 12 face cards).",
+      "Remember that 'at least' and 'at most' change the number of favorable outcomes.",
+      "P(E) and P(not E) are complements."
+    ],
+    "common_mistakes_students_make": [
+      "Giving a probability answer as a number greater than 1.",
+      "Miscounting the number of face cards (there are 12: 4 Jacks, 4 Queens, 4 Kings).",
+      "Confusing 'and' (intersection) with 'or' (union)."
+    ],
+    "quick_revision_notes": [
+      "P = Favorable / Total.",
+      "Sure = 1, Impossible = 0.",
+      "P(E) + P(E') = 1.",
+      "0 ≤ P ≤ 1."
+    ],
+    "practice_questions": [
+      {
+        "question": "A die is thrown once. What is the probability of getting a prime number?",
+        "answer": "Outcomes: 1, 2, 3, 4, 5, 6. Total = 6. Primes: 2, 3, 5. Fav = 3. P = 3/6 = 1/2."
+      },
+      {
+        "question": "If P(E) = 0.05, what is P(not E)?",
+        "answer": "1 - 0.05 = 0.95."
+      }
+    ]
+  }
+]
