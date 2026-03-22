@@ -1,0 +1,590 @@
+{
+  "study_guide": [
+    {
+      "chapter_title": "Chapter 1: Units and Measurement",
+      "chapter_overview": "This chapter introduces the international standards for measurement (SI units), the concept of significant figures for precision, and the method of dimensional analysis for checking equations and deriving relationships.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "The International System of Units (SI)",
+          "explanation": "Measurement compares a quantity to a standard 'unit'. The SI system uses 7 base units (metre, kilogram, second, ampere, kelvin, mole, candela) from which all other 'derived' units are built. Plane angle (radian) and solid angle (steradian) are supplementary units.",
+          "key_points": [
+            "Base units are independent.",
+            "Derived units are combinations of base units.",
+            "SI is a decimal system, facilitating easy conversions."
+          ]
+        },
+        {
+          "section_title": "Significant Figures",
+          "explanation": "Significant figures reflect the precision of a measurement. They include all reliable digits plus the first uncertain one. Rules for arithmetic operations ensure calculations don't artificially increase precision.",
+          "key_points": [
+            "Non-zero digits are always significant.",
+            "Trailing zeros in a decimal number are significant.",
+            "Multiplication/Division: Limit result to the least number of significant figures in inputs.",
+            "Addition/Subtraction: Limit result to the least number of decimal places."
+          ]
+        },
+        {
+          "section_title": "Dimensional Analysis",
+          "explanation": "Dimensions describe the nature of a physical quantity (e.g., [L] for length, [T] for time). The Principle of Homogeneity states that only terms with the same dimensions can be added or equated.",
+          "key_points": [
+            "Useful for checking equation consistency.",
+            "Can derive relationships between quantities.",
+            "Cannot determine dimensionless constants."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Principle of Homogeneity",
+          "definition": "In a physical equation, the dimensions of all terms must be identical.",
+          "detailed_explanation": "You cannot add 'meters' to 'seconds'. If an equation says A = B + C, then A, B, and C must all have the same dimensional formula.",
+          "real_world_example": "In v = u + at, velocity (v, u) is [LT^-1], and acceleration * time (at) is [LT^-2]*[T] = [LT^-1]."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Parallax Method",
+          "definition": "A technique to measure large distances (like to stars) by observing the shift in position against a background when viewed from two different locations.",
+          "importance": "Crucial for astronomical measurements where direct measurement is impossible."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Dimensional Formula of Force",
+          "formula_or_principle": "[M L T^-2]",
+          "explanation": "Mass * Acceleration"
+        },
+        {
+          "name": "Dimensional Formula of Energy",
+          "formula_or_principle": "[M L^2 T^-2]",
+          "explanation": "Force * Distance"
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Checking Equation Correctness",
+          "steps": [
+            "Write dimensional formula for LHS.",
+            "Write dimensional formula for each term on RHS.",
+            "Verify all terms match."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Learn the 7 base units.",
+        "Practice significant figure rules for mixed operations.",
+        "Dimensional analysis cannot verify dimensionless constants like 1/2 or pi."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing significant figures with decimal places.",
+        "Forgetting that angles (radians) are dimensionless but have units."
+      ],
+      "quick_revision_notes": [
+        "Least count error is minimized by taking multiple readings.",
+        "Absolute error, Relative error, Percentage error."
+      ],
+      "practice_questions": [
+        {
+          "question": "The percentage errors in measuring mass and speed are 2% and 3%. What is the error in kinetic energy?",
+          "answer": "K = 0.5 * m * v^2. Error = %m + 2*(%v) = 2% + 2*(3%) = 8%."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Chapter 2: Motion in a Straight Line",
+      "chapter_overview": "Focuses on kinematics in one dimension: describing position, velocity, and acceleration without considering forces. It introduces calculus-based definitions and the kinematic equations for constant acceleration.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Velocity and Speed",
+          "explanation": "Average velocity is displacement divided by time (vector). Average speed is path length divided by time (scalar). Instantaneous velocity is the limit of average velocity as time interval approaches zero.",
+          "key_points": [
+            "Displacement can be zero even if path length is not.",
+            "Instantaneous speed is the magnitude of instantaneous velocity."
+          ]
+        },
+        {
+          "section_title": "Acceleration",
+          "explanation": "Acceleration is the rate of change of velocity. If velocity and acceleration are in the same direction, speed increases. If opposite, speed decreases (retardation).",
+          "key_points": [
+            "Slope of v-t graph gives acceleration.",
+            "Area under v-t graph gives displacement."
+          ]
+        },
+        {
+          "section_title": "Kinematic Equations",
+          "explanation": "For uniformly accelerated motion (constant 'a'), three key equations relate displacement (x), velocity (v), acceleration (a), and time (t).",
+          "key_points": [
+            "v = v0 + at",
+            "x = v0*t + 0.5*a*t^2",
+            "v^2 = v0^2 + 2ax"
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Relative Velocity",
+          "definition": "The velocity of object A with respect to object B.",
+          "detailed_explanation": "V_AB = V_A - V_B. If moving in the same direction, subtract magnitudes. If opposite, add magnitudes.",
+          "real_world_example": "Two cars on a highway: one passing the other seems to move slowly relative to the driver."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Instantaneous Velocity",
+          "definition": "Velocity at a specific instant.",
+          "importance": "Defined using calculus (dx/dt); crucial for non-uniform motion."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Stopping Distance",
+          "formula_or_principle": "d_s = -v_0^2 / (2a)",
+          "explanation": "Distance a vehicle travels before coming to rest after braking."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Solving Kinematics Problems",
+          "steps": [
+            "Identify knowns (u, v, a, t, x).",
+            "Choose the equation that links the knowns to the unknown.",
+            "Pay attention to signs (direction)."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Equations of motion apply ONLY when acceleration is constant.",
+        "Distinguish between distance (scalar) and displacement (vector)."
+      ],
+      "common_mistakes_students_make": [
+        "Applying v = u + at when acceleration is varying.",
+        "Mixing up signs for displacement and velocity in free-fall problems."
+      ],
+      "quick_revision_notes": [
+        "Slope of x-t graph = velocity.",
+        "Slope of v-t graph = acceleration.",
+        "Free fall acceleration g is approx 9.8 m/s^2 downwards."
+      ],
+      "practice_questions": [
+        {
+          "question": "A ball is thrown up with speed 20 m/s. How high does it go? (g=10 m/s^2)",
+          "answer": "At max height v=0. Use v^2 = u^2 + 2as. 0 = 20^2 + 2(-10)h. 400 = 20h. h = 20m."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Chapter 3: Motion in a Plane",
+      "chapter_overview": "Extends motion to two dimensions using vectors. Covers projectile motion (parabolic path) and uniform circular motion.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Scalars and Vectors",
+          "explanation": "Scalars have magnitude only (mass, time). Vectors have magnitude and direction (velocity, force). Vectors follow the triangle and parallelogram laws of addition.",
+          "key_points": [
+            "Vectors can be resolved into components (e.g., x and y).",
+            "Unit vectors i, j, k denote directions."
+          ]
+        },
+        {
+          "section_title": "Projectile Motion",
+          "explanation": "Motion of an object projected into the air. Horizontal motion is uniform (constant velocity); vertical motion is under gravity (constant acceleration). The path is a parabola.",
+          "key_points": [
+            "Horizontal component of velocity is constant.",
+            "Vertical component changes due to g."
+          ]
+        },
+        {
+          "section_title": "Uniform Circular Motion",
+          "explanation": "Motion in a circle at constant speed. Although speed is constant, velocity changes direction continuously, implying an acceleration (centripetal) directed towards the center.",
+          "key_points": [
+            "a_c = v^2 / R",
+            "Velocity is tangent to the circle."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Projectile Trajectory",
+          "definition": "The parabolic path traced by a projectile.",
+          "detailed_explanation": "y = (tan θ)x - (g / (2u^2 cos^2 θ)) * x^2.",
+          "real_world_example": "A kicked football or a water fountain jet."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Centripetal Acceleration",
+          "definition": "Acceleration directed towards the center of a circular path.",
+          "importance": "Necessary to change direction in circular motion."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Projectile Range",
+          "formula_or_principle": "R = (v_0^2 sin 2θ) / g",
+          "explanation": "Maximum horizontal distance covered."
+        },
+        {
+          "name": "Time of Flight",
+          "formula_or_principle": "T = (2 v_0 sin θ) / g",
+          "explanation": "Total time in the air."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Resolving Vectors",
+          "steps": [
+            "Draw the vector.",
+            "Identify angle θ with an axis.",
+            "Component adjacent to angle is A cos θ.",
+            "Component opposite is A sin θ."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Max range is at 45 degrees.",
+        "Centripetal acceleration vector is always perpendicular to velocity vector."
+      ],
+      "common_mistakes_students_make": [
+        "Thinking centripetal force is a 'new' force; it's just the label for the net inward force.",
+        "Forgetting horizontal velocity is constant in projectiles."
+      ],
+      "quick_revision_notes": [
+        "Vector addition is commutative.",
+        "Dot product gives scalar; Cross product gives vector."
+      ],
+      "practice_questions": [
+        {
+          "question": "An object moves in a circle of radius 2m at 4 m/s. Calculate centripetal acceleration.",
+          "answer": "a = v^2 / R = 16 / 2 = 8 m/s^2."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Chapter 4: Laws of Motion",
+      "chapter_overview": "Introduces Dynamics. Discusses Newton's three laws, the concept of inertia, momentum, friction, and the dynamics of circular motion.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Newton's First Law",
+          "explanation": "Every body continues in its state of rest or uniform motion unless compelled by an external force. This defines 'Inertia'.",
+          "key_points": [
+            "Force is not needed to sustain motion, only to change it.",
+            "Mass is a measure of inertia."
+          ]
+        },
+        {
+          "section_title": "Newton's Second Law",
+          "explanation": "The rate of change of momentum is proportional to the applied force and takes place in the direction of the force. F = dp/dt = ma (for constant mass).",
+          "key_points": [
+            "F = ma is the working equation.",
+            "Impulse is the change in momentum (Force x Time)."
+          ]
+        },
+        {
+          "section_title": "Newton's Third Law",
+          "explanation": "To every action, there is always an equal and opposite reaction. Forces always occur in pairs on *different* bodies.",
+          "key_points": [
+            "Action and reaction never cancel each other because they act on different objects."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Friction",
+          "definition": "A contact force opposing relative motion.",
+          "detailed_explanation": "Static friction adjusts to applied force up to a limit (mu_s * N). Kinetic friction is constant (mu_k * N) and usually lower than max static friction.",
+          "real_world_example": "Walking requires static friction; sliding a box involves kinetic friction."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Impulse",
+          "definition": "A large force acting for a short time.",
+          "importance": "Calculated as Change in Momentum. Relevant in collisions/hitting a ball."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Conservation of Momentum",
+          "formula_or_principle": "Total p_initial = Total p_final",
+          "explanation": "Holds true for an isolated system (no external forces)."
+        },
+        {
+          "name": "Banked Road Speed",
+          "formula_or_principle": "v_max = sqrt(Rg * (mu + tan theta)/(1 - mu tan theta))",
+          "explanation": "Max safe speed on a curved road."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Free Body Diagram (FBD)",
+          "steps": [
+            "Isolate the body of interest.",
+            "Draw all external forces acting ON it (Gravity, Normal, Tension, Friction).",
+            "Apply F_net = ma along axes."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Friction direction opposes *relative* motion.",
+        "Tension is always a 'pull' force."
+      ],
+      "common_mistakes_students_make": [
+        "Thinking Normal force always equals mg (it changes on inclines or if other vertical forces exist).",
+        "Adding internal forces in Newton's 2nd Law."
+      ],
+      "quick_revision_notes": [
+        "1N = 1 kg m/s^2.",
+        "Static friction is self-adjusting."
+      ],
+      "practice_questions": [
+        {
+          "question": "A 5kg block is pushed with 20N on a frictionless surface. Acceleration?",
+          "answer": "a = F/m = 20/5 = 4 m/s^2."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Chapter 5: Work, Energy and Power",
+      "chapter_overview": "Connects force and motion through Energy. Introduces scalar product, Work-Energy Theorem, Potential Energy, and collisions.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Work and Kinetic Energy",
+          "explanation": "Work is the scalar product of Force and Displacement (W = F.d). Kinetic Energy (K) is energy of motion. The Work-Energy Theorem states Work done by *all* forces equals change in Kinetic Energy.",
+          "key_points": [
+            "Work can be positive, negative, or zero (if force is perpendicular to displacement).",
+            "K = 0.5 mv^2."
+          ]
+        },
+        {
+          "section_title": "Potential Energy and Conservation",
+          "explanation": "Potential Energy (V) is stored energy (e.g., gravitational, spring). For conservative forces (like gravity, spring), Mechanical Energy (E = K + V) is conserved.",
+          "key_points": [
+            "F = -dV/dx.",
+            "Non-conservative forces (friction) dissipate energy."
+          ]
+        },
+        {
+          "section_title": "Collisions",
+          "explanation": "Elastic collisions conserve both Momentum and Kinetic Energy. Inelastic collisions conserve ONLY Momentum (KE is lost).",
+          "key_points": [
+            "Coefficient of restitution e: 1 for elastic, 0 for perfectly inelastic."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Power",
+          "definition": "The rate of doing work.",
+          "detailed_explanation": "P = dW/dt = F.v. Unit is Watt (Joule/second).",
+          "real_world_example": "Horsepower of a car engine."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Conservative Force",
+          "definition": "Work done depends only on initial and final positions, not the path.",
+          "importance": "Gravity and electrostatic forces are conservative; Friction is not."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Spring Potential Energy",
+          "formula_or_principle": "U = 0.5 k x^2",
+          "explanation": "Energy stored in a spring stretched by x."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Solving Collision Problems",
+          "steps": [
+            "Apply Conservation of Momentum.",
+            "If elastic, apply Conservation of KE (or relative velocity eq).",
+            "Solve the system of equations."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Work done by centripetal force is zero.",
+        "Momentum is conserved in ALL collisions."
+      ],
+      "common_mistakes_students_make": [
+        "Assuming KE is conserved in all collisions.",
+        "Forgetting work is a scalar (no direction)."
+      ],
+      "quick_revision_notes": [
+        "1 hp = 746 Watts.",
+        "Area under F-x graph is Work."
+      ],
+      "practice_questions": [
+        {
+          "question": "A spring with k=100 N/m is stretched 0.1m. Energy stored?",
+          "answer": "U = 0.5 * 100 * (0.1)^2 = 0.5 J."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Chapter 6: Systems of Particles and Rotational Motion",
+      "chapter_overview": "Extends mechanics to rigid bodies. Covers Centre of Mass, Torque, Angular Momentum, Moment of Inertia, and Rolling Motion.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Centre of Mass (CM)",
+          "explanation": "The point where the entire mass of the system is assumed to be concentrated. External forces act as if applied here.",
+          "key_points": [
+            "For symmetric bodies, CM is at geometric center.",
+            "Motion of CM follows Newton's Laws."
+          ]
+        },
+        {
+          "section_title": "Rotation Variables",
+          "explanation": "Analogs to linear motion: Angle (theta) for distance, Angular velocity (omega) for velocity, Angular acceleration (alpha) for acceleration.",
+          "key_points": [
+            "v = r * omega",
+            "a = r * alpha (tangential)"
+          ]
+        },
+        {
+          "section_title": "Dynamics of Rotation",
+          "explanation": "Torque (Tau) causes rotation. Tau = I * alpha (Newton's 2nd Law for rotation). Angular Momentum (L) is conserved if net Torque is zero.",
+          "key_points": [
+            "Moment of Inertia (I) depends on mass and its distribution relative to axis.",
+            "L = I * omega."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Torque",
+          "definition": "The turning effect of a force.",
+          "detailed_explanation": "Tau = r x F = rF sin(theta). Maximum when force is perpendicular to the lever arm.",
+          "real_world_example": "Using a wrench to open a nut."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Moment of Inertia",
+          "definition": "Resistance of a body to change in its rotational motion.",
+          "importance": "Analogous to Mass in linear motion. I = Sum(mr^2)."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Parallel Axis Theorem",
+          "formula_or_principle": "I = I_cm + Md^2",
+          "explanation": "Find I about any axis parallel to one through CM."
+        },
+        {
+          "name": "Perpendicular Axis Theorem",
+          "formula_or_principle": "I_z = I_x + I_y",
+          "explanation": "For planar bodies (laminar) only."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Conservation of Angular Momentum",
+          "steps": [
+            "Check if external torque is zero.",
+            "Set I_initial * omega_initial = I_final * omega_final.",
+            "Solve for unknown."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Angular velocity is a vector (right-hand rule).",
+        "Ice skaters spin faster by pulling arms in (decreasing I, increasing omega)."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing torque with work (same units Nm, but torque is vector).",
+        "Applying Perpendicular Axis Theorem to 3D objects (it's only for 2D)."
+      ],
+      "quick_revision_notes": [
+        "Rolling without slipping: v_cm = R * omega.",
+        "KE_total = KE_trans + KE_rot."
+      ],
+      "practice_questions": [
+        {
+          "question": "A disc spins at 10 rad/s. If its moment of inertia doubles (mass redistribution), what is new speed?",
+          "answer": "L is conserved. I * 10 = (2I) * w_new. w_new = 5 rad/s."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Chapter 7: Gravitation",
+      "chapter_overview": "Discusses the universal force of attraction. Covers Kepler's Laws, Newton's Law of Gravitation, 'g', potential energy, and satellites.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Newton's Law of Gravitation",
+          "explanation": "Every particle attracts every other particle with force F = G m1 m2 / r^2. G is the universal constant.",
+          "key_points": [
+            "Force is always attractive.",
+            "It acts along the line joining the centers."
+          ]
+        },
+        {
+          "section_title": "Acceleration due to Gravity (g)",
+          "explanation": "On Earth surface g ~ 9.8 m/s^2. 'g' decreases with altitude and depth.",
+          "key_points": [
+            "g_h = g(1 - 2h/R) for small h.",
+            "g_d = g(1 - d/R) for depth d."
+          ]
+        },
+        {
+          "section_title": "Satellites and Energy",
+          "explanation": "Satellites orbit due to gravitational force providing centripetal force. Total energy is negative (bound system). Escape speed is needed to break free.",
+          "key_points": [
+            "T^2 is proportional to r^3 (Kepler's 3rd Law).",
+            "Geostationary satellites appear fixed relative to Earth."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Escape Speed",
+          "definition": "Min speed to escape gravitational pull.",
+          "detailed_explanation": "v_e = sqrt(2GM/R). Independent of object mass.",
+          "real_world_example": "Rockets leaving Earth for deep space."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Geostationary Orbit",
+          "definition": "An orbit with period 24 hours, keeping satellite above same spot.",
+          "importance": "Used for communication satellites."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Gravitational Potential Energy",
+          "formula_or_principle": "U = -G Mm / r",
+          "explanation": "Zero at infinity, negative everywhere else."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Calculating Orbital Velocity",
+          "steps": [
+            "Equate Gravitational Force to Centripetal Force.",
+            "GMm/r^2 = mv^2/r.",
+            "Solve for v = sqrt(GM/r)."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "g is zero at Earth's center.",
+        "Weightlessness in satellites is due to free fall, not lack of gravity."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing G (Universal constant) with g (acceleration).",
+        "Thinking gravity is zero in space (it's just microgravity in orbit)."
+      ],
+      "quick_revision_notes": [
+        "Kepler's 2nd Law (Areas) implies conservation of angular momentum.",
+        "Potential is scalar; Field is vector."
+      ],
+      "practice_questions": [
+        {
+          "question": "If Earth radius shrinks by 1% (mass constant), what happens to g?",
+          "answer": "g is proportional to 1/R^2. If R decreases by 1%, g increases by approx 2%."
+        }
+      ]
+    }
+  ]
+}

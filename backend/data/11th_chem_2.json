@@ -1,0 +1,398 @@
+{
+  "book_title": "Chemistry Part II - Class XI",
+  "chapters": [
+    {
+      "chapter_title": "Unit 7: Redox Reactions",
+      "chapter_overview": "This chapter explores the concept of redox reactions, where oxidation and reduction occur simultaneously. It covers classical and electronic definitions, oxidation numbers, types of redox reactions, balancing methods, and the principles of electrochemical cells.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Classical vs. Electronic Concept of Redox",
+          "explanation": "Classically, oxidation is the addition of oxygen/electronegative element or removal of hydrogen/electropositive element. Reduction is the opposite. In terms of electron transfer, oxidation is the loss of electrons, and reduction is the gain of electrons.",
+          "key_points": [
+            "Oxidation: Loss of electrons (increase in Oxidation Number).",
+            "Reduction: Gain of electrons (decrease in Oxidation Number).",
+            "Oxidizing Agent (Oxidant): Accepts electrons.",
+            "Reducing Agent (Reductant): Donates electrons."
+          ]
+        },
+        {
+          "section_title": "Oxidation Number",
+          "explanation": "A residual charge assigned to an atom in a molecule assuming all bonds are ionic. It helps track electron shifts.",
+          "key_points": [
+            "Elements in free state have O.N. = 0.",
+            "Fluorine is always -1.",
+            "Oxygen is usually -2 (except peroxides -1, superoxides -0.5, OF2 +2).",
+            "Hydrogen is +1 with non-metals, -1 with metals."
+          ]
+        },
+        {
+          "section_title": "Types of Redox Reactions",
+          "explanation": "Redox reactions are categorized into combination, decomposition, displacement, and disproportionation reactions.",
+          "key_points": [
+            "Combination: A + B -> C (At least one reactant is elemental).",
+            "Decomposition: C -> A + B (Breakdown, usually requires heat).",
+            "Displacement: Ion in compound replaced by another element (Metal/Non-metal displacement).",
+            "Disproportionation: Same element is simultaneously oxidized and reduced."
+          ]
+        },
+        {
+          "section_title": "Balancing Redox Reactions",
+          "explanation": "Two methods: Oxidation Number Method (balancing changes in O.N.) and Half-Reaction Method (splitting into oxidation/reduction halves and balancing electrons).",
+          "key_points": [
+            "Balance atoms other than O and H first.",
+            "Balance O using H2O.",
+            "Balance H using H+ (acidic) or H2O/OH- (basic).",
+            "Balance charge using electrons."
+          ]
+        },
+        {
+          "section_title": "Electrode Processes",
+          "explanation": "Redox reactions in electrochemical cells involve the conversion of chemical energy to electrical energy. The potential difference is the electrode potential.",
+          "key_points": [
+            "Redox couple: Oxidized/Reduced form (e.g., Zn2+/Zn).",
+            "Standard Electrode Potential (E°) is measured relative to the Standard Hydrogen Electrode (0.00 V).",
+            "Negative E° means the couple is a stronger reducing agent than H+/H2."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Disproportionation",
+          "definition": "A reaction where an element in one oxidation state is simultaneously oxidized and reduced.",
+          "detailed_explanation": "For this to occur, the element must exist in at least three oxidation states. The reacting state must be intermediate.",
+          "real_world_example": "Decomposition of Hydrogen Peroxide: 2H2O2 -> 2H2O + O2 (Oxygen changes from -1 to -2 and 0)."
+        },
+        {
+          "concept": "Electrochemical Series",
+          "definition": "A list of elements arranged in order of their standard electrode potentials.",
+          "detailed_explanation": "Helps predict the feasibility of redox reactions. A metal with lower reduction potential will displace a metal with higher reduction potential from its salt solution.",
+          "real_world_example": "Zinc (lower E°) displaces Copper (higher E°) from CuSO4 solution."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Redox",
+          "definition": "Reaction involving simultaneous reduction and oxidation.",
+          "importance": "Fundamental to energy production (batteries, metabolism) and industrial processes."
+        },
+        {
+          "term": "Spectator Ions",
+          "definition": "Ions that are present in the solution but do not participate in the reaction.",
+          "importance": "They are omitted in the net ionic equation."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Conservation of Charge",
+          "formula_or_principle": "Total e- lost = Total e- gained",
+          "explanation": "Basis for balancing redox equations."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Balancing Redox Reaction (Ion-Electron Method - Acidic)",
+          "steps": [
+            "Write skeletal equation.",
+            "Separate into Oxidation and Reduction half-reactions.",
+            "Balance atoms other than O and H.",
+            "Balance O by adding H2O.",
+            "Balance H by adding H+.",
+            "Balance charge by adding electrons.",
+            "Equalize electrons in both halves and add them together."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Remember exceptional oxidation numbers (e.g., CrO5, H2SO5).",
+        "Practice balancing in basic medium (add OH- to neutralize H+).",
+        "Understand the difference between Valency and Oxidation Number."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing oxidizing agent (gets reduced) with reducing agent (gets oxidized).",
+        "Forgetting to balance charge in ionic equations.",
+        "Incorrectly assigning O.N. to peroxide oxygen (-1) or bonded to Fluorine."
+      ],
+      "quick_revision_notes": [
+        "OIL RIG: Oxidation Is Loss, Reduction Is Gain.",
+        "Anode = Oxidation; Cathode = Reduction.",
+        "Fluorine is the strongest oxidant."
+      ],
+      "practice_questions": [
+        {
+          "question": "Identify the oxidant and reductant in: 2FeCl3 + SnCl2 -> 2FeCl2 + SnCl4",
+          "answer": "Fe is reduced (+3 to +2), so FeCl3 is the Oxidant. Sn is oxidized (+2 to +4), so SnCl2 is the Reductant."
+        },
+        {
+          "question": "Balance in acidic medium: MnO4- + Fe2+ -> Mn2+ + Fe3+",
+          "answer": "MnO4- + 5Fe2+ + 8H+ -> Mn2+ + 5Fe3+ + 4H2O"
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 8: Organic Chemistry – Some Basic Principles and Techniques",
+      "chapter_overview": "This unit lays the foundation for organic chemistry, covering the tetravalence of carbon, structural representations, classification, nomenclature, isomerism, reaction mechanisms, and methods of purification and analysis.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Tetravalence of Carbon and Hybridisation",
+          "explanation": "Carbon forms covalent bonds due to its tetravalency. Its versatility arises from hybridisation (sp3, sp2, sp).",
+          "key_points": [
+            "sp3: Tetrahedral shape (109.5°), single bonds (C-C, C-H). Example: Methane, Ethane.",
+            "sp2: Trigonal planar (120°), double bonds (C=C). Example: Ethene.",
+            "sp: Linear (180°), triple bonds (C≡C). Example: Ethyne.",
+            "More s-character = higher electronegativity."
+          ]
+        },
+        {
+          "section_title": "Nomenclature (IUPAC)",
+          "explanation": "A systematic method to name organic compounds based on carbon chain length, functional groups, and substituents.",
+          "key_points": [
+            "Longest Chain Rule: Select the longest continuous carbon chain containing the functional group.",
+            "Lowest Locant Rule: Number the chain to give substituents/functional groups the lowest possible numbers.",
+            "Order of Preference: Functional Group > Double Bond > Triple Bond > Substituents."
+          ]
+        },
+        {
+          "section_title": "Isomerism",
+          "explanation": "Compounds with the same molecular formula but different structures or spatial arrangements.",
+          "key_points": [
+            "Structural Isomerism: Chain, Position, Functional, Metamerism.",
+            "Stereoisomerism: Geometrical (cis/trans) and Optical."
+          ]
+        },
+        {
+          "section_title": "Electronic Displacement Effects",
+          "explanation": "Permanent or temporary shifts in electron density that influence reactivity.",
+          "key_points": [
+            "Inductive Effect (I-effect): Permanent displacement along a saturated carbon chain due to electronegativity difference (+I, -I).",
+            "Electromeric Effect (E-effect): Temporary transfer of pi-electrons in multiple bonds in presence of attacking reagent.",
+            "Resonance Effect (R/M-effect): Delocalization of pi-electrons in conjugated systems (+R, -R).",
+            "Hyperconjugation: Delocalization of sigma electrons of C-H bond of an alkyl group directly attached to an unsaturated system or cation."
+          ]
+        },
+        {
+          "section_title": "Purification Methods",
+          "explanation": "Techniques to isolate pure organic compounds.",
+          "key_points": [
+            "Sublimation: Solid to vapour directly.",
+            "Crystallisation: Based on solubility differences.",
+            "Distillation: Separation of liquids with different boiling points (Simple, Fractional, Vacuum, Steam).",
+            "Chromatography: Separation based on differential adsorption/partition (Adsorption: Column, TLC; Partition: Paper)."
+          ]
+        },
+        {
+          "section_title": "Qualitative and Quantitative Analysis",
+          "explanation": "Detection and estimation of elements.",
+          "key_points": [
+            "Lassaigne's Test: Fusing with Sodium to detect N, S, Halogens.",
+            "Dumas/Kjeldahl Method: Estimation of Nitrogen.",
+            "Carius Method: Estimation of Halogens and Sulphur."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Reaction Intermediates",
+          "definition": "Short-lived species formed during a reaction mechanism.",
+          "detailed_explanation": "Generated by bond fission.",
+          "real_world_example": "Carbocations (positive C, planar), Carbanions (negative C, pyramidal), Free Radicals (neutral, unpaired electron)."
+        },
+        {
+          "concept": "Nucleophiles and Electrophiles",
+          "definition": "Reagents that drive organic reactions.",
+          "detailed_explanation": "Nucleophiles (Nu-) are electron-rich and attack positive centers. Electrophiles (E+) are electron-deficient and attack electron-rich centers.",
+          "real_world_example": "OH-, CN- are Nucleophiles; H+, NO2+ are Electrophiles."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Catenation",
+          "definition": "The property of carbon atoms to link with one another to form long chains or rings.",
+          "importance": "The reason for the vast number of organic compounds."
+        },
+        {
+          "term": "Homologous Series",
+          "definition": "A series of compounds with the same functional group, differing by -CH2- unit.",
+          "importance": "Similar chemical properties, gradual change in physical properties."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Estimation of Nitrogen (Dumas)",
+          "formula_or_principle": "%N = (28/22400) * (Volume of N2 at STP / Mass of compound) * 100",
+          "explanation": "Calculates percentage of nitrogen from volume of gas evolved."
+        },
+        {
+          "name": "Estimation of Halogen (Carius)",
+          "formula_or_principle": "%X = (Atomic Mass of X / Molar Mass of AgX) * (Mass of AgX / Mass of compound) * 100",
+          "explanation": "Based on precipitation of Silver Halide."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Lassaigne's Test for Nitrogen",
+          "steps": [
+            "Fuse organic compound with Sodium metal.",
+            "Boil the fused mass with distilled water (Sodium Fusion Extract).",
+            "Add Iron(II) sulphate and acidify with conc. H2SO4.",
+            "Formation of Prussian Blue colour indicates Nitrogen."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Stability order of Carbocations/Free Radicals: 3° > 2° > 1° > Methyl.",
+        "Stability order of Carbanions: Methyl > 1° > 2° > 3°.",
+        "Conditions for Resonance (planarity, conjugation).",
+        "Principles behind distillation types (e.g., Vacuum distillation for decomposing liquids)."
+      ],
+      "common_mistakes_students_make": [
+        "Incorrect numbering of carbon chains (violating lowest locant rule).",
+        "Confusing Inductive and Resonance effects.",
+        "Misinterpreting Metamerism as Chain Isomerism.",
+        "Forgetting to apply Kjeldahl's method limitations (not for nitro/azo groups or ring nitrogen)."
+      ],
+      "quick_revision_notes": [
+        "sp3 = 25% s-character; sp = 50% s-character (more acidic H).",
+        "Electrophiles love electrons; Nucleophiles love nucleus.",
+        "Rf value in chromatography is always <= 1."
+      ],
+      "practice_questions": [
+        {
+          "question": "Write the IUPAC name of CH3-CH(Cl)-CH2-CHO.",
+          "answer": "3-Chlorobutanal (CHO gets priority over Cl)."
+        },
+        {
+          "question": "Which is more stable: (CH3)3C+ or CH3CH2+?",
+          "answer": "(CH3)3C+ (Tertiary carbocation) is more stable due to +I effect and hyperconjugation."
+        },
+        {
+          "question": "Explain why nitric acid is added in Lassaigne's test for halogens.",
+          "answer": "To decompose sodium cyanide or sodium sulphide if N or S are present, which would otherwise interfere with the silver nitrate test."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 9: Hydrocarbons",
+      "chapter_overview": "This chapter details the classification, preparation, properties, and reactions of alkanes, alkenes, alkynes, and aromatic hydrocarbons.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Alkanes (Saturated Hydrocarbons)",
+          "explanation": "General formula CnH2n+2. Contain only C-C single bonds. Inert under normal conditions (Paraffins).",
+          "key_points": [
+            "Preparation: Hydrogenation of unsaturated hydrocarbons, Wurtz reaction (2RX + 2Na -> R-R), Decarboxylation.",
+            "Reactions: Free radical substitution (Halogenation), Combustion, Pyrolysis (Cracking).",
+            "Conformations: Ethane has Eclipsed (less stable) and Staggered (more stable) conformations."
+          ]
+        },
+        {
+          "section_title": "Alkenes (Unsaturated Hydrocarbons)",
+          "explanation": "General formula CnH2n. Contain at least one C=C double bond. Show geometrical isomerism.",
+          "key_points": [
+            "Preparation: Dehydration of alcohols, Dehydrohalogenation of alkyl halides (Beta-elimination).",
+            "Reactions: Electrophilic Addition (H2, X2, HX, H2O).",
+            "Markovnikov's Rule: In addition of HX to unsymmetrical alkene, negative part adds to carbon with fewer hydrogens.",
+            "Peroxide Effect (Anti-Markovnikov): Only with HBr + Organic Peroxide."
+          ]
+        },
+        {
+          "section_title": "Alkynes",
+          "explanation": "General formula CnH2n-2. Contain at least one C≡C triple bond. Terminal alkynes are acidic.",
+          "key_points": [
+            "Acidic Nature: Terminal H can be removed by strong bases (Na, NaNH2) because sp-carbon is electronegative.",
+            "Reactions: Addition of H2 (to alkene/alkane), Halogens, Water (gives aldehydes/ketones)."
+          ]
+        },
+        {
+          "section_title": "Aromatic Hydrocarbons (Arenes)",
+          "explanation": "Compounds containing benzene rings or similar stable conjugated systems. Follow Hückel's Rule.",
+          "key_points": [
+            "Hückel's Rule: Cyclic, planar, completely conjugated system with (4n + 2) pi electrons is aromatic.",
+            "Reactions: Electrophilic Substitution (Nitration, Sulphonation, Halogenation, Friedel-Crafts Alkylation/Acylation).",
+            "Benzene resists addition reactions due to resonance stability."
+          ]
+        },
+        {
+          "section_title": "Directing Influence of Substituents",
+          "explanation": "Groups already present on the benzene ring direct incoming electrophiles to Ortho/Para or Meta positions.",
+          "key_points": [
+            "Ortho/Para Directors (Activating): -OH, -NH2, -CH3, -Cl (Cl is deactivating but o/p directing).",
+            "Meta Directors (Deactivating): -NO2, -COOH, -CHO, -CN."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Markovnikov vs. Anti-Markovnikov Rule",
+          "definition": "Rules predicting the regioselectivity of electrophilic addition to alkenes.",
+          "detailed_explanation": "Markovnikov: H+ goes to C with more H's (via stable carbocation). Anti-Markovnikov (Peroxide Effect): Free radical mechanism, Br adds to C with more H's (only for HBr).",
+          "real_world_example": "Propene + HBr -> 2-Bromopropane (Major). Propene + HBr (Peroxide) -> 1-Bromopropane."
+        },
+        {
+          "concept": "Aromaticity",
+          "definition": "Extra stability of conjugated cyclic systems.",
+          "detailed_explanation": "Requires (4n+2) pi electrons delocalized in a ring. Benzene (n=1, 6 pi e-) is the classic example.",
+          "real_world_example": "Benzene, Naphthalene, Pyridine."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Wurtz Reaction",
+          "definition": "Reaction of alkyl halides with sodium in dry ether to give higher alkanes.",
+          "importance": "Good for preparing symmetrical alkanes with even number of carbons."
+        },
+        {
+          "term": "Friedel-Crafts Reaction",
+          "definition": "Introduction of alkyl or acyl group into benzene ring using Lewis acid catalyst (AlCl3).",
+          "importance": "Key method for synthesis of benzene derivatives."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Hückel's Rule",
+          "formula_or_principle": "Aromatic if (4n + 2) π electrons.",
+          "explanation": "n = 0, 1, 2... Determines if a ring is aromatic."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Mechanism of Electrophilic Substitution in Benzene",
+          "steps": [
+            "Generation of Electrophile (E+).",
+            "Attack of E+ on benzene ring to form Arenium Ion (Sigma complex) - Slow step.",
+            "Loss of proton (H+) from Arenium Ion to restore aromaticity - Fast step."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Mechanism of free radical halogenation (Initiation, Propagation, Termination).",
+        "Comparison of acidic strength: Ethyne > Ethene > Ethane.",
+        "Ozonolysis products help identify the position of double bonds.",
+        "Limitations of Wurtz reaction (not for odd Carbon alkanes)."
+      ],
+      "common_mistakes_students_make": [
+        "Applying Peroxide effect to HCl or HI (only works for HBr).",
+        "Thinking Benzene undergoes addition reactions easily like alkenes.",
+        "Forgetting Lewis acid catalyst in Friedel-Crafts reactions.",
+        "Drawing Benzene with alternating double bonds instead of a resonance hybrid."
+      ],
+      "quick_revision_notes": [
+        "Alkanes = Substitution; Alkenes/Alkynes = Addition; Arenes = Electrophilic Substitution.",
+        "Boiling point increases with mass, decreases with branching.",
+        "Baeyer's Reagent (dilute KMnO4) tests for unsaturation (decolorizes)."
+      ],
+      "practice_questions": [
+        {
+          "question": "Predict the product of Ozonolysis of But-2-ene.",
+          "answer": "CH3-CH=CH-CH3 + O3 -> [Ozonide] --(Zn/H2O)--> 2 CH3CHO (Ethanal)."
+        },
+        {
+          "question": "Why is Benzene extra stable?",
+          "answer": "Due to resonance energy arising from delocalization of pi-electrons."
+        },
+        {
+          "question": "Convert Ethyne to Benzene.",
+          "answer": "Pass Ethyne through red-hot iron tube at 873K (Cyclic polymerisation)."
+        }
+      ]
+    }
+  ]
+}

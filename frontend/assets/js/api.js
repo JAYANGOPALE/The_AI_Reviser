@@ -108,7 +108,7 @@ async function loadChapterNotes(chapterId) {
                 <div class="summary-content">
                     ${data.summary}
                 </div>
-                ${data.pdf_url ? `<a href="${data.pdf_url}" target="_blank" class="pdf-btn">View Original PDF</a>` : ''}
+                ${data.pdf_url ? `<a href="${data.pdf_url}" target="_blank" class="pdf-btn"><i class="fas fa-file-pdf"></i> View Original PDF</a>` : ''}
             </div>
         `;
     } catch (e) { console.error("Error loading chapter notes:", e); }

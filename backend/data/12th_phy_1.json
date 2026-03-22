@@ -1,0 +1,1384 @@
+[
+  {
+    "chapter_title": "Electric Charges and Fields",
+    "chapter_overview": "This introductory chapter to electrostatics explores the foundational principles of static electricity, the behavior of electric charges at rest, and the mathematical frameworks that describe their interactions. It transitions from simple frictional charging phenomena to the quantitative analysis of electrostatic forces using Coulomb's Law. The text fundamentally shifts to the field paradigm, introducing electric fields, electric field lines, and electric flux as essential tools for understanding electromagnetic interactions. Furthermore, the chapter systematically explains electric dipoles, continuous charge distributions, and culminates in the derivation and application of Gauss's Law to calculate electric fields for highly symmetric geometries like infinite wires, uniform sheets, and spherical shells.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. Introduction to Electrostatics and Historical Context",
+        "explanation": "Electrostatics deals with the study of forces, fields, and potentials arising from static (stationary) charges. Historically, the phenomenon was discovered around 600 BC by Thales of Miletus when amber (elektron in Greek) rubbed with wool attracted light objects. Everyday experiences, such as the crackling of synthetic clothes or lightning during thunderstorms, are practical examples of electric discharge resulting from the generation of static electricity.",
+        "key_points": [
+          "The term 'electricity' originates from the Greek word 'elektron', meaning amber.",
+          "Static electricity involves charges that do not move or change over time.",
+          "Electrification occurs due to the rubbing of insulating surfaces, causing a transfer of electrons."
+        ]
+      },
+      {
+        "section_title": "2. Two Kinds of Electric Charge and Polarity",
+        "explanation": "Through rigorous experimentation, it was established that there are only two kinds of electric charges. Benjamin Franklin named them positive and negative. By convention, the charge acquired by a glass rod rubbed with silk is positive, while the charge on a plastic rod rubbed with cat's fur is negative. The fundamental rule of electrostatics is that like charges repel each other, while unlike charges attract. The characteristic that differentiates these two charges is called 'polarity'.",
+        "key_points": [
+          "An electrically neutral object contains an exactly balanced amount of positive and negative charges.",
+          "Electrification is the process of adding or removing electrons; gaining electrons creates a negative charge, while losing them creates a positive charge.",
+          "A Gold-leaf electroscope is an instrument used to detect the presence and relative amount of charge on a body."
+        ]
+      },
+      {
+        "section_title": "3. Conductors, Insulators, and Earthing",
+        "explanation": "Materials are broadly classified based on their electrical conductivity. Conductors (metals, human bodies, earth) allow electricity to pass easily because they contain free, mobile electrons. Insulators (glass, plastic, wood) strongly resist the flow of electricity as their electrons are tightly bound to atoms. When a charge is placed on a conductor, it distributes over the entire surface. On an insulator, it remains localized. The process of sharing excess charges with the Earth through a conductor is known as grounding or earthing.",
+        "key_points": [
+          "Metals have relatively free electrons that can move freely inside the material.",
+          "Semiconductors form a third category with resistance intermediate between conductors and insulators.",
+          "Earthing provides a vital safety mechanism for electrical circuits and appliances."
+        ]
+      },
+      {
+        "section_title": "4. Basic Properties of Electric Charge",
+        "explanation": "Electric charge is a scalar quantity possessing three fundamental properties: Additivity, Conservation, and Quantization. Additivity means the total charge of a system is the algebraic sum of individual charges, taking their signs into account. Conservation states that in an isolated system, total charge remains constant; charges can be transferred but never created or destroyed. Quantization, experimentally demonstrated by Millikan, asserts that all observable free charges are integral multiples of a basic elementary charge, e.",
+        "key_points": [
+          "Charge formula: q = ne, where n is an integer (±1, ±2...) and e is the elementary charge.",
+          "The value of 'e' is approximately 1.602 × 10^-19 Coulombs.",
+          "At macroscopic levels, quantization can often be ignored because charges are massive compared to 'e', making charge appear continuous."
+        ]
+      },
+      {
+        "section_title": "5. Coulomb's Law and Superposition Principle",
+        "explanation": "Coulomb's Law quantifies the electrostatic force between two stationary point charges in a vacuum. It states the force is directly proportional to the product of their magnitudes and inversely proportional to the square of the distance between them. Because force is a vector, Coulomb's Law is expressed vectorially, obeying Newton's Third Law (action-reaction). For systems with more than two charges, the Superposition Principle is used: the net force on any charge is the vector sum of individual Coulomb forces exerted by all other charges.",
+        "key_points": [
+          "The constant of proportionality k = 1 / (4πε₀) ≈ 9 × 10^9 N m² C^-2.",
+          "ε₀ (permittivity of free space) = 8.854 × 10^-12 C² N^-1 m^-2.",
+          "The presence of a third charge does not affect the force between any two individual charges."
+        ]
+      },
+      {
+        "section_title": "6. The Electric Field and Field Lines",
+        "explanation": "Introduced by Michael Faraday, the electric field is an elegant way to characterize the electrical environment surrounding a charge. A source charge modifies the space around it, and when a test charge is placed in this space, the field exerts a force on it. Electric field lines are a pictorial mapping of this field. They are continuous curves showing the direction of the field at any point (tangent to the curve), and their density indicates the magnitude of the field.",
+        "key_points": [
+          "E = F/q; The SI unit of electric field is N/C (Newtons per Coulomb).",
+          "Field lines start at positive charges and terminate at negative charges or at infinity.",
+          "Two electric field lines can never cross, as that would imply two different directions of the field at a single point, which is impossible.",
+          "Electrostatic field lines never form closed loops, reflecting the conservative nature of the electrostatic field."
+        ]
+      },
+      {
+        "section_title": "7. Electric Flux and Continuous Charge Distributions",
+        "explanation": "Electric flux is defined as the number of electric field lines crossing a specific area perpendicularly. It is mathematically calculated as the dot product of the electric field vector and the area vector (ΔΦ = E · ΔS). When dealing with large objects, it is impractical to calculate the field via individual microscopic discrete charges. Instead, physicists use continuous charge distributions categorized into linear (λ), surface (σ), and volume (ρ) charge densities to integrate the electric field over a space.",
+        "key_points": [
+          "Area is treated as a vector quantity, whose direction is along the outward normal to the surface.",
+          "Linear charge density λ (C/m) applies to wires.",
+          "Surface charge density σ (C/m²) applies to charged sheets or spheres.",
+          "Volume charge density ρ (C/m³) applies to solid charged bodies."
+        ]
+      },
+      {
+        "section_title": "8. Electric Dipole and Dipole in an External Field",
+        "explanation": "An electric dipole consists of a positive and a negative charge of equal magnitude separated by a small distance. It is characterized by the electric dipole moment vector (p), directed from the negative to the positive charge. In a uniform external electric field, a dipole experiences no net force but does experience a torque that attempts to align the dipole moment with the external field. Dipoles are highly significant physically, as they explain the behavior of polar molecules (like water) in external fields.",
+        "key_points": [
+          "The field of a dipole falls off as 1/r³, which is much faster than the 1/r² fall-off of a point charge.",
+          "Torque (τ) on a dipole in a uniform field is τ = p × E.",
+          "In a non-uniform field, a dipole experiences both a net force and a torque (e.g., a charged comb attracting uncharged paper)."
+        ]
+      },
+      {
+        "section_title": "9. Gauss's Law and Its Key Applications",
+        "explanation": "Gauss's Law is a fundamental theorem stating that the total electric flux through any closed imaginary surface (Gaussian surface) is equal to 1/ε₀ times the total net charge enclosed by that surface. While mathematically equivalent to Coulomb's Law, Gauss's law makes it substantially easier to determine the electric field for charge distributions exhibiting high spatial symmetry.",
+        "key_points": [
+          "Formula: Φ = ∮ E · dS = q_enclosed / ε₀.",
+          "Infinite wire field: E = λ / (2πε₀r) directed radially.",
+          "Infinite plane sheet field: E = σ / (2ε₀) directed normally outward (independent of distance from the sheet).",
+          "Spherical shell field: Outside behaves as a point charge at the center [E = q / (4πε₀r²)]. Inside the shell, the electric field is strictly zero."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Quantization of Charge",
+        "definition": "The principle that the electric charge of any macroscopic isolated system is always an integral multiple of the fundamental unit of charge (e).",
+        "detailed_explanation": "Experimentally established by Faraday's laws of electrolysis and Millikan's oil-drop experiment. It means charge exists in discrete 'packets' or 'lumps' rather than a continuous fluid. Therefore, a body can have a charge of 1e, 2e, -5e, etc., but never 1.5e. However, at large scales (macroscopic), the 'grainy' nature is ignored due to the enormous number of electrons.",
+        "real_world_example": "When a polyethylene piece is rubbed with wool, exactly 2 × 10^12 electrons might transfer. We cannot transfer a fraction of an electron."
+      },
+      {
+        "concept": "Principle of Superposition",
+        "definition": "The total force or total electric field on a given charge is the vector sum of the individual forces or fields exerted by all other respective charges.",
+        "detailed_explanation": "This principle affirms that the electrical interaction between any two charges is independent of the presence or absence of other charges in the vicinity. This allows complex systems (like an entire crystal lattice) to be analyzed by breaking them down into simple, pairwise Coulomb interactions and adding the resulting vectors algebraically and geometrically.",
+        "real_world_example": "Calculating the net force on a specific ion positioned at the center of a symmetrical salt crystal matrix."
+      },
+      {
+        "concept": "Physical Significance of the Electric Field",
+        "definition": "The electric field is not just a mathematical construct; it is an independent physical entity that can transport energy and momentum.",
+        "detailed_explanation": "While electrostatics introduces the field as a convenient way to calculate forces, its true physical reality emerges in time-dependent electromagnetism. If a charge accelerates, the disturbance travels at the speed of light 'c' as an electromagnetic wave. The field accounts for the 'time delay' in the interaction between distant charges.",
+        "real_world_example": "Antennas generating radio waves work by accelerating charges which emit propagating, changing electric and magnetic fields through space."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Electrostatics",
+        "definition": "The branch of physics that studies the forces, fields, and potentials arising from static charges.",
+        "importance": "Provides the foundational laws that govern everything from basic friction static to atomic structure."
+      },
+      {
+        "term": "Permittivity of Free Space (ε₀)",
+        "definition": "A physical constant that reflects the capability of a vacuum to permit electric field lines to arise.",
+        "importance": "It is the fundamental constant appearing in Coulomb's Law and Gauss's Law defining the strength of electrostatic interactions."
+      },
+      {
+        "term": "Electric Dipole Moment (p)",
+        "definition": "A vector quantity measuring the strength and orientation of a dipole. Magnitude is charge multiplied by separation distance (q × 2a), directed from negative to positive charge.",
+        "importance": "Crucial for understanding the behavior of dielectric materials and polar molecules when placed in external electric fields."
+      },
+      {
+        "term": "Gaussian Surface",
+        "definition": "A mathematically constructed, closed imaginary 3D surface through which electric flux is evaluated to calculate an electric field.",
+        "importance": "Allows the dramatic simplification of complex integral calculus problems in highly symmetric charge systems."
+      },
+      {
+        "term": "Test Charge",
+        "definition": "An infinitesimally small positive charge used to probe the electric field without altering the field it is measuring.",
+        "importance": "Ensures that the measurement of the field does not disturb the position or state of the source charges generating the field."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Coulomb's Law (Vector Form)",
+        "formula_or_principle": "F₂₁ = (1 / 4πε₀) * (q₁q₂ / r²) * r̂₂₁",
+        "explanation": "Calculates the force exerted on charge 2 by charge 1. r̂₂₁ is the unit vector pointing from charge 1 to charge 2."
+      },
+      {
+        "name": "Electric Field of a Point Charge",
+        "formula_or_principle": "E = (1 / 4πε₀) * (q / r²) * r̂",
+        "explanation": "Calculates the magnitude and direction of the electric field at distance r from a source charge q."
+      },
+      {
+        "name": "Electric Flux",
+        "formula_or_principle": "ΔΦ = E · ΔS = E ΔS cosθ",
+        "explanation": "Calculates the flux through an area element ΔS, where θ is the angle between the electric field and the area's normal vector."
+      },
+      {
+        "name": "Torque on a Dipole",
+        "formula_or_principle": "τ = p × E  (Magnitude: τ = pE sinθ)",
+        "explanation": "Calculates the rotational force (torque) a dipole experiences when placed in an external uniform electric field, trying to align it."
+      },
+      {
+        "name": "Electric Field of an Infinite Line Charge",
+        "formula_or_principle": "E = λ / (2πε₀r)",
+        "explanation": "Derived using Gauss's Law. Indicates that the field of an infinitely long charged wire decreases inversely with radial distance (1/r)."
+      },
+      {
+        "name": "Electric Field of an Infinite Plane Sheet",
+        "formula_or_principle": "E = σ / (2ε₀)",
+        "explanation": "Derived using Gauss's Law. Indicates that the field generated by a uniform infinite charged flat sheet is uniform and independent of distance."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Working of a Gold-Leaf Electroscope",
+        "steps": [
+          "A charged object is brought into physical contact with the metal knob at the top of the electroscope.",
+          "The static charge transfers from the object to the metal knob.",
+          "Because the knob, the connecting vertical metal rod, and the gold leaves are conductors, the charge flows down to the two thin gold leaves.",
+          "Both gold leaves acquire the same type of charge (both positive or both negative).",
+          "Due to electrostatic repulsion between like charges, the two leaves diverge (move apart).",
+          "The degree or angle of divergence serves as a direct indicator of the relative amount of electric charge present."
+        ]
+      },
+      {
+        "process_name": "Applying Gauss's Law to Find the Field of a Thin Spherical Shell",
+        "steps": [
+          "Identify the symmetric continuous charge distribution: a thin spherical shell of radius R and uniform surface charge density σ.",
+          "To find the field outside (r > R), draw a spherical Gaussian surface of radius r concentric with the shell.",
+          "Notice that E and area vector ΔS are parallel everywhere on this surface, making flux Φ = E × 4πr².",
+          "Determine enclosed charge: q = σ × 4πR².",
+          "Equate using Gauss's Law: E × 4πr² = q / ε₀ → E = q / (4πε₀r²).",
+          "To find the field inside (r < R), draw a spherical Gaussian surface inside the shell.",
+          "Notice that the enclosed charge within this inner surface is exactly zero.",
+          "Conclude that Flux = 0, therefore E = 0 inside the thin spherical shell."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always remember the vector nature of Coulomb forces: resolve forces into x and y components when dealing with triangular or square charge configurations.",
+      "The electric field inside the body of a static conductor is rigorously zero. Any excess charge resides purely on its outer surface.",
+      "The electric field of a point charge is inversely proportional to r² (1/r²), whereas the electric field of a dipole falls off much faster, inversely proportional to r³ (1/r³) at large distances.",
+      "When a dipole is aligned parallel to a uniform field (θ=0°), torque is zero (stable equilibrium). When aligned anti-parallel (θ=180°), torque is zero but it is in unstable equilibrium.",
+      "In Gauss's Law (Φ = q / ε₀), 'q' strictly represents only the net charge enclosed INSIDE the surface, but the electric field 'E' in the flux integral is due to ALL charges, both inside and outside."
+    ],
+    "common_mistakes_students_make": [
+      "Forgetting to convert microcoulombs (μC) and distances in centimeters (cm) to standard SI units (Coulombs and meters) before applying formulas.",
+      "Assuming an electric dipole experiences a net translational force in a uniform electric field. (It only experiences a torque; net force is zero).",
+      "Applying the point charge Coulomb formula to continuous extended bodies without performing proper integration.",
+      "Confusing the direction of the dipole moment vector. It ALWAYS points from the negative charge (-q) to the positive charge (+q).",
+      "Misinterpreting Gauss's law by drawing a Gaussian surface exactly *through* a discrete point charge, which mathematically invalidates the boundary condition (the field goes to infinity)."
+    ],
+    "quick_revision_notes": [
+      "Charge types: Like repel (+/+, -/-), Unlike attract (+/-).",
+      "Properties: Quantized (q=ne), Conserved, Additive scalar.",
+      "Coulomb force: F = 9×10^9 |q₁q₂| / r².",
+      "Electric Field: E = F / q₀ (Force per unit positive test charge).",
+      "Field Lines: Radiate from (+), terminate at (-). Never intersect. Never form closed loops.",
+      "Dipole Moment: p = 2aq (Vector from -q to +q).",
+      "Dipole Torque: τ = pE sinθ (cross product).",
+      "Flux: Φ = EA cosθ.",
+      "Gauss's Law: Net Φ over closed surface = Q_enclosed / ε₀.",
+      "Line Charge Field: E ∝ 1/r.",
+      "Sheet Charge Field: E = σ / 2ε₀ (Independent of distance)."
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the electrostatic force on a small sphere of charge 0.4 μC due to another small sphere of charge -0.8 μC in air, if the force is 0.2 N? What is the distance between them?",
+        "answer": "Using magnitude of F = k|q₁q₂|/r²: r² = (9 × 10^9 × 0.4 × 10^-6 × 0.8 × 10^-6) / 0.2. r² = 144 × 10^-4. Therefore, r = 0.12 m (or 12 cm). The force is attractive."
+      },
+      {
+        "question": "An electric dipole with dipole moment 4 × 10^-9 C m is aligned at 30° with the direction of a uniform electric field of magnitude 5 × 10^4 N/C. Calculate the magnitude of the torque acting on the dipole.",
+        "answer": "Using the torque formula τ = pE sinθ: τ = (4 × 10^-9 C m) × (5 × 10^4 N/C) × sin(30°). τ = 20 × 10^-5 × 0.5 = 10^-4 N m."
+      },
+      {
+        "question": "A point charge of 2.0 μC is at the centre of a cubic Gaussian surface 9.0 cm on edge. What is the net electric flux through the surface?",
+        "answer": "According to Gauss's Law, flux through the closed surface depends only on enclosed charge (Φ = q / ε₀). The size or shape of the cube does not matter. Φ = (2.0 × 10^-6 C) / (8.854 × 10^-12 C²/Nm²) ≈ 2.26 × 10^5 N m²/C."
+      },
+      {
+        "question": "Consider a uniform electric field E = 3 × 10³ î N/C. What is the flux of this field through a square of 10 cm on a side whose plane is parallel to the yz plane?",
+        "answer": "The plane is parallel to the yz plane, meaning its normal vector points in the x-direction (î). Area ΔS = 0.1 m × 0.1 m = 0.01 m². Area vector ΔS = 0.01 î m². Flux Φ = E · ΔS = (3 × 10³ î) · (0.01 î) = 30 N m²/C."
+      },
+      {
+        "question": "Why can one ignore the quantization of electric charge when dealing with macroscopic, large scale charges?",
+        "answer": "At the macroscopic scale, we deal with charges that are enormous compared to the magnitude of the elementary charge e (1.6 × 10^-19 C). Because the step size 'e' is infinitesimally small relative to standard macroscopic charges (like 1 μC), the grainy, discrete nature of charge is unnoticeable and appears completely continuous."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Electrostatic Potential and Capacitance",
+    "chapter_overview": "This chapter introduces the concepts of electrostatic potential and potential energy, which provide a scalar alternative to the vector-based electric field approach for analyzing electrostatic phenomena. It explores how work done by external forces against electric fields is stored as potential energy, defining potential at a point as the work done to bring a unit positive charge from infinity. The chapter details calculating potential for point charges, dipoles, and charge systems, leading into equipotential surfaces and electrostatics of conductors. Furthermore, it covers dielectrics and polarization, establishing the foundation for understanding capacitors, capacitance, combination of capacitors, and the energy stored in electric fields.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. Electrostatic Potential Energy and Potential",
+        "explanation": "Coulomb force is conservative, meaning work done in moving a charge is independent of the path taken. The work done by an external force against the electric force is stored as electrostatic potential energy. Electrostatic potential (V) at a point is the potential energy per unit charge, defined as the work done in bringing a unit positive charge from infinity to that point.",
+        "key_points": [
+          "Potential difference is physically significant; actual potential is arbitrary and typically set to zero at infinity.",
+          "Work done to move a charge q from R to P is W_RP = q(V_P - V_R).",
+          "Electrostatic potential is a scalar quantity, measured in Volts (V), where 1 V = 1 J/C."
+        ]
+      },
+      {
+        "section_title": "2. Potential due to a Point Charge and Dipole",
+        "explanation": "The potential due to a point charge decreases inversely with distance (1/r). For an electric dipole, the potential depends not only on distance but also on the angle relative to the dipole axis. The dipole potential falls off faster (as 1/r²) than a point charge potential.",
+        "key_points": [
+          "Potential of point charge Q at distance r: V = (1/4πε₀) * Q/r.",
+          "Potential of a dipole: V = (1/4πε₀) * (p·r̂)/r².",
+          "Potential on the equatorial plane of a dipole is zero everywhere."
+        ]
+      },
+      {
+        "section_title": "3. Equipotential Surfaces and Relation to Field",
+        "explanation": "An equipotential surface is a surface over which the electrostatic potential is constant. No work is required to move a charge on this surface. The electric field is always perpendicular to equipotential surfaces at every point. The field points in the direction of steepest potential decrease.",
+        "key_points": [
+          "For a point charge, equipotential surfaces are concentric spheres.",
+          "For a uniform electric field, they are parallel planes.",
+          "E = -dV/dl, relating field magnitude to the spatial rate of potential change."
+        ]
+      },
+      {
+        "section_title": "4. Electrostatics of Conductors",
+        "explanation": "When conductors are placed in static electric fields, free charges redistribute until electrostatic equilibrium is reached. In this state, the electric field inside the conductor is zero, the entire conductor is at a constant potential, and any excess charge resides entirely on its outer surface.",
+        "key_points": [
+          "Electric field at the surface of a charged conductor is E = (σ/ε₀)n̂.",
+          "A cavity inside a conductor remains shielded from outside electrical influences (electrostatic shielding)."
+        ]
+      },
+      {
+        "section_title": "5. Dielectrics, Polarization, and Capacitance",
+        "explanation": "Dielectrics are non-conductors that develop induced dipole moments when exposed to an external electric field, a process called polarization. A capacitor is a system of two conductors separated by a dielectric, designed to store electrical energy and charge. Capacitance (C) is the ratio of charge (Q) to potential difference (V).",
+        "key_points": [
+          "Polarization P creates an opposing internal electric field, reducing the net field inside the dielectric.",
+          "Capacitance C = Q/V, measured in Farads (F).",
+          "Parallel plate capacitor: C = ε₀A/d (in vacuum)."
+        ]
+      },
+      {
+        "section_title": "6. Capacitors in Combination and Energy Stored",
+        "explanation": "Capacitors can be combined in series or parallel to achieve desired effective capacitance. The process of charging a capacitor involves doing work against the potential difference between plates, which is stored as electrostatic potential energy in the electric field.",
+        "key_points": [
+          "Series combination: 1/C_eq = 1/C₁ + 1/C₂ + ...",
+          "Parallel combination: C_eq = C₁ + C₂ + ...",
+          "Energy stored: U = 1/2 CV² = Q²/2C = 1/2 QV."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Conservative Nature of Electric Force",
+        "definition": "The work done by an electrostatic field in moving a charge between two points is independent of the path.",
+        "detailed_explanation": "This allows for the definition of a unique potential energy scalar field. Path independence is a direct consequence of Coulomb's inverse-square law.",
+        "real_world_example": "Calculating energy required to move an electron through a circuit without worrying about the exact physical shape of the wire."
+      },
+      {
+        "concept": "Electrostatic Shielding",
+        "definition": "The phenomenon where the electric field inside the cavity of a conductor is perfectly zero regardless of external fields.",
+        "detailed_explanation": "Free charges on the conductor surface arrange themselves to cancel out external fields inside the material and its cavity. This is critical for protecting sensitive electronics.",
+        "real_world_example": "Coaxial cables use an outer conducting braid to shield the inner signal wire from external electrical interference."
+      },
+      {
+        "concept": "Dielectric Constant (Relative Permittivity)",
+        "definition": "The ratio of the permittivity of a substance to the permittivity of free space, indicating how much a material reduces an external electric field.",
+        "detailed_explanation": "When a dielectric is inserted between capacitor plates, the capacitance increases by a factor equal to the dielectric constant (K). C = K C₀.",
+        "real_world_example": "Using ceramic or mica in capacitors to significantly increase their charge storage capacity within the same physical volume."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Equipotential Surface",
+        "definition": "A surface with a constant value of potential at all points.",
+        "importance": "Visualizes the potential field and relates perpendicularly to electric field lines."
+      },
+      {
+        "term": "Dielectric",
+        "definition": "A non-conducting material that can be polarized by an applied electric field.",
+        "importance": "Increases capacitance and provides structural separation in capacitors."
+      },
+      {
+        "term": "Capacitance (C)",
+        "definition": "The ability of a system to store electric charge per unit of potential difference.",
+        "importance": "Fundamental property determining the energy storage capacity of capacitors."
+      },
+      {
+        "term": "Energy Density",
+        "definition": "Energy stored per unit volume in a region containing an electric field.",
+        "importance": "Demonstrates that energy is fundamentally stored in the electric field itself."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Electrostatic Potential",
+        "formula_or_principle": "V = W / q",
+        "explanation": "Potential is work done per unit test charge."
+      },
+      {
+        "name": "Potential of Point Charge",
+        "formula_or_principle": "V = (1 / 4πε₀) * (Q / r)",
+        "explanation": "Calculates potential at distance r from charge Q."
+      },
+      {
+        "name": "Capacitance of Parallel Plate Capacitor",
+        "formula_or_principle": "C = ε₀A / d (with dielectric: C = Kε₀A / d)",
+        "explanation": "Capacitance depends on plate area A, separation d, and dielectric constant K."
+      },
+      {
+        "name": "Energy Stored in Capacitor",
+        "formula_or_principle": "U = 1/2 CV² = Q² / 2C",
+        "explanation": "Total work done to charge a capacitor to voltage V."
+      },
+      {
+        "name": "Energy Density of Electric Field",
+        "formula_or_principle": "u = 1/2 ε₀ E²",
+        "explanation": "Electrostatic energy per unit volume is proportional to the square of the electric field."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Calculating Potential Energy of a System of Charges",
+        "steps": [
+          "Assume all charges are initially at infinity (where U = 0).",
+          "Bring the first charge to its position. No work is done since there's no external field.",
+          "Bring the second charge. Calculate work done against the field of the first charge.",
+          "Bring subsequent charges, calculating work done against the fields of all previously placed charges.",
+          "Sum all work done to find total potential energy."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Electric field inside a conductor is zero, but electrostatic potential is constant throughout the conductor's volume.",
+      "Work done moving a charge along an equipotential surface is always zero.",
+      "In series combination, charge (Q) on each capacitor is the same; in parallel combination, potential difference (V) is the same.",
+      "Dielectrics increase capacitance but decrease the electric field between isolated charged plates."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing electrostatic potential (scalar, V) with electric potential energy (scalar, U) or electric field (vector, E).",
+      "Using the formula for series resistance for series capacitors (the formulas are swapped).",
+      "Forgetting that inserting a dielectric into a disconnected capacitor decreases voltage, but if connected to a battery, voltage stays constant while charge increases."
+    ],
+    "quick_revision_notes": [
+      "Potential V = W/q.",
+      "Point charge V ∝ 1/r, Dipole V ∝ 1/r².",
+      "Equipotential surfaces ⊥ E field.",
+      "Inside conductor: E=0, V=constant.",
+      "Capacitance C = Q/V.",
+      "Parallel plate C = ε₀A/d.",
+      "Series: 1/C = 1/C₁ + 1/C₂.",
+      "Parallel: C = C₁ + C₂.",
+      "Energy U = 1/2 CV².",
+      "Dielectric increases C by factor K."
+    ],
+    "practice_questions": [
+      {
+        "question": "Calculate the potential at a point P due to a charge of 4 × 10^-7 C located 9 cm away.",
+        "answer": "V = (1/4πε₀) * (Q/r) = (9 × 10^9) * (4 × 10^-7) / 0.09 = 4 × 10^4 V."
+      },
+      {
+        "question": "Two charges 2 μC and -2 μC are placed at points A and B 6 cm apart. Identify an equipotential surface of the system.",
+        "answer": "The plane normal to the line AB and passing through its mid-point is an equipotential surface (V=0 everywhere on it)."
+      },
+      {
+        "question": "Three capacitors of capacitances 2 pF, 3 pF and 4 pF are connected in parallel. What is the total capacitance of the combination?",
+        "answer": "For parallel combination, C_eq = C₁ + C₂ + C₃ = 2 + 3 + 4 = 9 pF."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Current Electricity",
+    "chapter_overview": "This chapter shifts focus from static charges to charges in motion, defining electric current. It explains the microscopic mechanisms of conduction, introducing drift velocity and relaxation time to derive macroscopic empirical rules like Ohm's Law. The chapter explores the concepts of resistance, resistivity, their temperature dependence, and electrical energy/power. It delves into the internal properties of electrical energy sources (cells) and comprehensively covers the rules for analyzing complex electrical networks, primarily Kirchhoff's Rules, applying them to practical measuring circuits like the Wheatstone Bridge.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. Electric Current and Drift of Electrons",
+        "explanation": "Electric current is the rate of flow of charge through a cross-section. In solid conductors (metals), current is carried by free electrons. Without an external electric field, electrons move randomly with high thermal velocities, yielding zero net current. When an electric field is applied, electrons experience a force and acquire a small net velocity opposite to the field, known as drift velocity (v_d), which constitutes the macroscopic current.",
+        "key_points": [
+          "Current I = dq/dt; SI unit is Ampere (A).",
+          "Drift velocity is very small (mm/s), but the electric field propagates at nearly the speed of light, establishing current almost instantly.",
+          "I = n A e v_d, where n is electron number density, A is area, e is elementary charge."
+        ]
+      },
+      {
+        "section_title": "2. Ohm's Law, Resistance, and Resistivity",
+        "explanation": "Ohm's Law states that the current (I) through a conductor is directly proportional to the potential difference (V) across it, provided temperature and physical conditions remain constant. The proportionality constant is resistance (R). Resistance depends on material and geometry, while resistivity (ρ) is an intrinsic material property.",
+        "key_points": [
+          "V = IR; R = ρ(l/A), where l is length and A is cross-sectional area.",
+          "Conductivity (σ) is the reciprocal of resistivity (σ = 1/ρ).",
+          "Vector form of Ohm's law: j = σE, where j is current density."
+        ]
+      },
+      {
+        "section_title": "3. Temperature Dependence of Resistivity",
+        "explanation": "The resistivity of materials changes with temperature. For metals, resistivity increases linearly with temperature over a limited range due to increased lattice vibrations causing more frequent electron collisions. Semiconductors and insulators show a decrease in resistivity with increasing temperature because higher temperatures exponentially increase the number of free charge carriers.",
+        "key_points": [
+          "Linear approximation: ρ_T = ρ_0 [1 + α(T - T_0)], where α is the temperature coefficient of resistivity.",
+          "Alloys like nichrome or manganin have very low α, making them ideal for standard resistors."
+        ]
+      },
+      {
+        "section_title": "4. Electrical Energy and Power",
+        "explanation": "As charges move through a potential difference in a conductor, they lose potential energy which is converted into kinetic energy. Due to collisions with ions, this kinetic energy is dissipated as heat (Joule heating). The rate at which this energy is dissipated is electrical power.",
+        "key_points": [
+          "Power P = VI = I²R = V²/R.",
+          "Electrical energy transmitted over long distances is at high voltages to minimize power loss in transmission lines (I²R loss)."
+        ]
+      },
+      {
+        "section_title": "5. Cells, EMF, and Internal Resistance",
+        "explanation": "An electrochemical cell maintains a steady current by converting chemical energy into electrical energy. The electromotive force (emf, ε) is the potential difference across terminals when no current flows. When current flows, the potential difference drops due to the cell's internal resistance (r).",
+        "key_points": [
+          "Terminal voltage V = ε - Ir.",
+          "Cells can be connected in series (ε_eq = ε₁ + ε₂) or parallel to achieve desired voltage and current capacities."
+        ]
+      },
+      {
+        "section_title": "6. Kirchhoff's Rules",
+        "explanation": "For complex circuits that cannot be reduced to simple series/parallel combinations, Kirchhoff's Rules are used. The Junction Rule is based on the conservation of charge (sum of currents entering a junction equals sum leaving). The Loop Rule is based on the conservation of energy (algebraic sum of changes in potential around any closed loop is zero).",
+        "key_points": [
+          "Junction rule: ΣI = 0 at any node.",
+          "Loop rule: ΣΔV = 0 in any closed loop.",
+          "Essential for solving multi-loop networks with multiple emf sources."
+        ]
+      },
+      {
+        "section_title": "7. Wheatstone Bridge",
+        "explanation": "An arrangement of four resistors used to accurately measure an unknown resistance. It consists of a source and a galvanometer connected across opposite diagonals. The bridge is 'balanced' when no current flows through the galvanometer, establishing a simple ratio between the four arm resistances.",
+        "key_points": [
+          "Balance condition: R₂/R₁ = R₄/R₃.",
+          "Practical application is the meter bridge, used for high-precision resistance measurements."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Drift Velocity",
+        "definition": "The average velocity attained by charged particles, such as electrons, in a material due to an electric field.",
+        "detailed_explanation": "Despite massive random thermal velocities, the external field superimposes a tiny, uniform drift motion. The current is macroscopic evidence of this drift. v_d = eEτ/m, where τ is relaxation time.",
+        "real_world_example": "Like water slowly seeping through a dense sponge under pressure, electrons 'seep' through the lattice structure."
+      },
+      {
+        "concept": "Electromotive Force (EMF)",
+        "definition": "The maximum potential difference between the two electrodes of a cell when no current is drawn from the cell.",
+        "detailed_explanation": "It represents the work done by non-electrical (e.g., chemical) forces to move unit charge from lower to higher potential inside the cell. It is not a force, but energy per unit charge.",
+        "real_world_example": "A 1.5V battery label indicates its EMF, but when connected to a heavy load, you might only measure 1.4V at the terminals."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Current Density (j)",
+        "definition": "Electric current per unit cross-sectional area, a vector quantity.",
+        "importance": "Useful for understanding microscopic charge flow at specific points in a conductor."
+      },
+      {
+        "term": "Relaxation Time (τ)",
+        "definition": "The average time interval between two successive collisions of an electron with lattice ions.",
+        "importance": "Determines the drift velocity and, consequently, the resistivity of the material."
+      },
+      {
+        "term": "Internal Resistance (r)",
+        "definition": "The finite resistance offered by the electrolyte and electrodes within a cell to the flow of current.",
+        "importance": "Explains why terminal voltage drops as more current is drawn from a battery."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Current and Drift Velocity",
+        "formula_or_principle": "I = n A e v_d",
+        "explanation": "Relates macroscopic current to microscopic drift velocity."
+      },
+      {
+        "name": "Ohm's Law",
+        "formula_or_principle": "V = IR",
+        "explanation": "Voltage equals current multiplied by resistance."
+      },
+      {
+        "name": "Resistivity",
+        "formula_or_principle": "R = ρ (l / A)",
+        "explanation": "Resistance in terms of resistivity, length, and area."
+      },
+      {
+        "name": "Terminal Voltage",
+        "formula_or_principle": "V = ε - Ir",
+        "explanation": "Voltage across a cell supplying current I, with emf ε and internal resistance r."
+      },
+      {
+        "name": "Kirchhoff's Loop Rule",
+        "formula_or_principle": "Σ ΔV = 0",
+        "explanation": "Sum of potential differences across all elements in a closed circuit loop is zero."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Applying Kirchhoff's Rules",
+        "steps": [
+          "Draw the circuit diagram and assign arbitrary directions for currents in each branch.",
+          "Apply the junction rule to nodes to reduce the number of unknown currents.",
+          "Choose closed loops and define a traversal direction (clockwise or counter-clockwise).",
+          "Apply the loop rule: trace the loop, adding/subtracting potentials based on traversal direction (e.g., -IR when traversing with current, +ε when going from negative to positive battery terminal).",
+          "Solve the resulting simultaneous linear equations for the unknown currents."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Ohm's law is not a fundamental law of nature; many devices (diodes, GaAs) are non-ohmic.",
+      "Be careful with sign conventions when applying Kirchhoff's loop rule.",
+      "In a balanced Wheatstone bridge, no current flows through the galvanometer arm, so it can be effectively removed for equivalent resistance calculations.",
+      "Resistivity depends on temperature and material, NOT on dimensions."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing emf with terminal voltage.",
+      "Misapplying signs in Kirchhoff's loop rule equations.",
+      "Assuming electron drift speed is fast because electrical appliances turn on instantly."
+    ],
+    "quick_revision_notes": [
+      "I = q/t, j = I/A.",
+      "v_d = eEτ/m.",
+      "V = IR, R = ρl/A.",
+      "P = I²R = V²/R.",
+      "Terminal V = ε - Ir.",
+      "Kirchhoff 1: ΣI_in = ΣI_out (Charge cons.).",
+      "Kirchhoff 2: ΣV = 0 (Energy cons.).",
+      "Wheatstone balance: R₁/R₂ = R₃/R₄."
+    ],
+    "practice_questions": [
+      {
+        "question": "A battery of emf 10 V and internal resistance 3 Ω is connected to a resistor. If current in circuit is 0.5 A, what is resistance of the resistor?",
+        "answer": "Using V = ε - Ir = IR. 10 - 0.5(3) = 0.5 * R. 8.5 = 0.5 * R. R = 17 Ω."
+      },
+      {
+        "question": "At room temp (27°C) resistance is 100 Ω. What is temp if resistance is 117 Ω given α = 1.70 × 10^-4 °C^-1?",
+        "answer": "R_T = R_0[1 + α(T - T_0)]. 117 = 100[1 + 1.7×10^-4(T - 27)]. T = 1027°C."
+      },
+      {
+        "question": "Does Ohm's law hold universally?",
+        "answer": "No, it is an empirical law. It fails for semiconductor devices like diodes and transistors, which exhibit non-linear V-I characteristics."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Moving Charges and Magnetism",
+    "chapter_overview": "This chapter introduces the fundamental link between electricity and magnetism, revealing that moving charges (currents) generate magnetic fields. It explores how external magnetic fields exert the Lorentz force on moving charges and current-carrying conductors, leading to phenomena like circular and helical motion. The chapter mathematically formulates magnetic field generation using the Biot-Savart Law and Ampere's Circuital Law, applying them to circular loops and solenoids. It also discusses the forces between parallel currents (defining the Ampere), the torque on a current loop, the concept of a magnetic dipole, and the principles underlying the moving coil galvanometer.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. Magnetic Force and Lorentz Force",
+        "explanation": "A static charge produces only an electric field, but a moving charge produces both electric and magnetic fields. When a charge moves in an external magnetic field, it experiences a force perpendicular to both its velocity and the magnetic field. The total force on a charge moving in combined electric and magnetic fields is the Lorentz force.",
+        "key_points": [
+          "Magnetic force F_m = q(v × B). It does no work as it is perpendicular to velocity.",
+          "Lorentz force F = q(E + v × B).",
+          "The SI unit of magnetic field (B) is the Tesla (T)."
+        ]
+      },
+      {
+        "section_title": "2. Motion in a Magnetic Field",
+        "explanation": "Because the magnetic force acts as a centripetal force (perpendicular to velocity), a charged particle entering a uniform magnetic field perpendicularly will move in a circular path. If the velocity has a component parallel to the field, the path becomes a helix.",
+        "key_points": [
+          "Radius of circular path: r = mv / qB.",
+          "Cyclotron frequency (independent of velocity and radius): ν_c = qB / 2πm.",
+          "Pitch of the helix: p = v_parallel * T."
+        ]
+      },
+      {
+        "section_title": "3. Magnetic Field due to a Current Element: Biot-Savart Law",
+        "explanation": "The Biot-Savart Law is the fundamental equation describing the magnetic field generated by an infinitesimal steady current element. It is analogous to Coulomb's law in electrostatics, defining the field mathematically by integrating over the entire length of the conductor.",
+        "key_points": [
+          "dB = (μ₀/4π) * I(dl × r) / r³.",
+          "Permeability of free space μ₀ = 4π × 10^-7 T m / A.",
+          "The direction is given by the Right Hand Screw Rule."
+        ]
+      },
+      {
+        "section_title": "4. Ampere's Circuital Law and Solenoids",
+        "explanation": "Ampere's Circuital Law relates the integrated magnetic field around a closed loop to the electric current passing through the loop. It is highly useful for calculating magnetic fields in highly symmetric situations, such as infinitely long straight wires and long solenoids.",
+        "key_points": [
+          "∮ B · dl = μ₀ I_enclosed.",
+          "Field of a long straight wire: B = μ₀I / 2πr.",
+          "Field inside a long solenoid: B = μ₀nI, where n is turns per unit length."
+        ]
+      },
+      {
+        "section_title": "5. Force between Parallel Currents",
+        "explanation": "Two parallel conductors carrying current produce magnetic fields that exert forces on each other. Currents in the same direction attract each other, while currents in opposite directions repel. This precise interaction is used to formally define the SI unit of current, the Ampere.",
+        "key_points": [
+          "Force per unit length: f = μ₀I₁I₂ / 2πd.",
+          "Unlike electrostatics (like charges repel), in magnetism, 'like' parallel currents attract."
+        ]
+      },
+      {
+        "section_title": "6. Torque on a Current Loop and Magnetic Dipole",
+        "explanation": "A current loop placed in a uniform magnetic field experiences a torque, trying to align the loop's area vector with the magnetic field. This behavior is mathematically identical to an electric dipole in an electric field, leading to the definition of the magnetic dipole moment.",
+        "key_points": [
+          "Torque τ = m × B.",
+          "Magnetic moment m = NIA (turns × current × area vector).",
+          "Direction of area vector is given by the right-hand thumb rule."
+        ]
+      },
+      {
+        "section_title": "7. The Moving Coil Galvanometer",
+        "explanation": "An instrument used to detect and measure small electric currents. It works on the principle that a current-carrying coil placed in a radial magnetic field experiences a deflecting torque proportional to the current. A restoring spring provides a counter-torque, resulting in a steady deflection.",
+        "key_points": [
+          "Deflection φ = (NAB/k) * I, where k is the torsional constant of the spring.",
+          "It can be converted into an ammeter by connecting a low resistance (shunt) in parallel.",
+          "It can be converted into a voltmeter by connecting a high resistance in series."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Right-Hand Rules",
+        "definition": "A set of conventions used to determine the direction of magnetic fields, forces, and moments.",
+        "detailed_explanation": "For forces (v × B), fingers point v, curl to B, thumb gives force. For straight wire fields, thumb points to current, fingers curl in direction of B. For loops, fingers curl with current, thumb points to magnetic moment.",
+        "real_world_example": "Determining which way a wire will jump when a motor is switched on."
+      },
+      {
+        "concept": "Magnetic Dipole Moment",
+        "definition": "A vector quantity representing the magnetic strength and orientation of a current loop or magnet.",
+        "detailed_explanation": "Any planar current loop acts like a tiny bar magnet. The torque experienced by the loop in an external field is a direct consequence of this dipole moment.",
+        "real_world_example": "MRI machines exploit the intrinsic magnetic dipole moments of protons in the human body."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Lorentz Force",
+        "definition": "The combination of electric and magnetic force on a point charge due to electromagnetic fields.",
+        "importance": "The fundamental force equation for all of classical electrodynamics."
+      },
+      {
+        "term": "Solenoid",
+        "definition": "A long coil of wire tightly wound in a helix.",
+        "importance": "Generates a strong, uniform magnetic field inside its core, essential for electromagnets."
+      },
+      {
+        "term": "Shunt Resistance",
+        "definition": "A very low resistance connected in parallel with a galvanometer.",
+        "importance": "Protects the galvanometer and converts it into an ammeter by bypassing most of the current."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Magnetic Force",
+        "formula_or_principle": "F = q(v × B) = qvB sinθ",
+        "explanation": "Force on charge q moving with velocity v in field B."
+      },
+      {
+        "name": "Biot-Savart Law",
+        "formula_or_principle": "dB = (μ₀/4π) * I(dl × r) / r³",
+        "explanation": "Calculates magnetic field from a tiny current element."
+      },
+      {
+        "name": "Ampere's Circuital Law",
+        "formula_or_principle": "∮ B · dl = μ₀ I",
+        "explanation": "Line integral of B around a closed loop equals μ₀ times enclosed current."
+      },
+      {
+        "name": "Torque on a Coil",
+        "formula_or_principle": "τ = m × B = NIAB sinθ",
+        "explanation": "Torque experienced by an N-turn coil of area A carrying current I."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Converting Galvanometer to Ammeter",
+        "steps": [
+          "Determine the galvanometer's resistance (R_g) and maximum current for full-scale deflection (I_g).",
+          "Identify the desired total current range to be measured (I).",
+          "Calculate the required shunt resistance (r_s) to carry the excess current: r_s = (I_g / (I - I_g)) * R_g.",
+          "Connect the calculated shunt resistance in parallel with the galvanometer."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Magnetic force can never change the kinetic energy or speed of a particle, only its direction.",
+      "Parallel currents attract; anti-parallel currents repel.",
+      "The magnetic field inside an ideal solenoid is uniform and parallel to the axis; outside it is approximately zero.",
+      "To increase current sensitivity of a galvanometer, increase turns (N). However, this increases resistance, so voltage sensitivity may not increase."
+    ],
+    "common_mistakes_students_make": [
+      "Using the wrong hand for the Right-Hand Rule.",
+      "Forgetting that magnetic force requires velocity (v ≠ 0) and non-parallel alignment (sinθ ≠ 0).",
+      "Connecting an ammeter in parallel instead of series, or a voltmeter in series instead of parallel in circuit diagrams."
+    ],
+    "quick_revision_notes": [
+      "Lorentz F = q(E + v×B).",
+      "Circular path r = mv/qB.",
+      "Biot-Savart: dB ∝ Idl sinθ/r².",
+      "Ampere's Law: ∮B·dl = μ₀I.",
+      "Straight wire B = μ₀I/2πr.",
+      "Solenoid B = μ₀nI.",
+      "Parallel wires: like attract, unlike repel.",
+      "Dipole moment m = NIA.",
+      "Torque τ = m×B.",
+      "Galvanometer to Ammeter: Low R in parallel.",
+      "Galvanometer to Voltmeter: High R in series."
+    ],
+    "practice_questions": [
+      {
+        "question": "A straight wire carries a current of 35 A. What is the magnetic field B at a point 20 cm from the wire?",
+        "answer": "B = μ₀I / 2πr = (4π × 10^-7 × 35) / (2π × 0.20) = 3.5 × 10^-5 T."
+      },
+      {
+        "question": "An electron moving with velocity 5 × 10^6 m/s enters a uniform magnetic field of 0.2 T perpendicular to its path. Calculate the radius of its path.",
+        "answer": "r = mv/qB = (9.1 × 10^-31 × 5 × 10^6) / (1.6 × 10^-19 × 0.2) ≈ 1.42 × 10^-4 m."
+      },
+      {
+        "question": "Why does a magnetic field not change the speed of a moving charged particle?",
+        "answer": "The magnetic force is always perpendicular to the velocity vector. Therefore, the work done by the magnetic force is zero (W = F·d = F d cos90° = 0). Since work is zero, kinetic energy and speed remain constant."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Magnetism and Matter",
+    "chapter_overview": "This chapter focuses on magnetism as a phenomenon intrinsic to matter. It begins by examining the familiar bar magnet, treating it conceptually as a magnetic dipole and demonstrating its equivalence to a current-carrying solenoid. The text explores the earth's magnetism, Gauss's law for magnetism (establishing the non-existence of magnetic monopoles), and introduces key concepts like magnetization and magnetic intensity. Finally, it classifies materials into diamagnetic, paramagnetic, and ferromagnetic based on their atomic-level responses to external magnetic fields, providing microscopic explanations for macroscopic behaviors.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. The Bar Magnet and Magnetic Field Lines",
+        "explanation": "A bar magnet has two inseparable poles (North and South). Like poles repel, unlike attract. Magnetic field lines provide a visual representation of the field: they emerge from the North pole and enter the South pole, forming continuous, unbroken closed loops (unlike electric field lines).",
+        "key_points": [
+          "The tangent to a field line gives the direction of the magnetic field.",
+          "Density of lines indicates field strength.",
+          "Magnetic monopoles do not exist; cutting a magnet creates two smaller dipoles."
+        ]
+      },
+      {
+        "section_title": "2. Bar Magnet as an Equivalent Solenoid and Dipole Analog",
+        "explanation": "The magnetic field patterns of a bar magnet and a finite current-carrying solenoid are identical at large distances. A bar magnet behaves as a magnetic dipole, analogous to an electric dipole. It experiences a torque in an external field and possesses potential energy dependent on its orientation.",
+        "key_points": [
+          "Axial field of a short dipole: B = (μ₀/4π) * 2m/r³.",
+          "Equatorial field: B = -(μ₀/4π) * m/r³.",
+          "Torque τ = m × B; Potential Energy U = -m · B."
+        ]
+      },
+      {
+        "section_title": "3. Magnetism and Gauss's Law",
+        "explanation": "Gauss's law for magnetism states that the net magnetic flux through any closed surface is exactly zero. This reflects the fundamental experimental observation that isolated magnetic poles (monopoles) do not exist. Magnetic sources are always dipoles.",
+        "key_points": [
+          "∮ B · ΔS = 0.",
+          "The number of magnetic field lines entering a closed surface equals the number leaving."
+        ]
+      },
+      {
+        "section_title": "4. Magnetisation and Magnetic Intensity",
+        "explanation": "When a material is placed in a magnetic field, its atomic dipoles may align, creating a net magnetic moment per unit volume, defined as Magnetisation (M). The external driving field is related to Magnetic Intensity (H). The total magnetic field inside a material is the sum of the external field and the field produced by magnetization.",
+        "key_points": [
+          "Magnetisation M = m_net / V.",
+          "Total Field B = μ₀(H + M).",
+          "For linear materials, M = χH, where χ is magnetic susceptibility.",
+          "Magnetic permeability μ = μ₀(1 + χ)."
+        ]
+      },
+      {
+        "section_title": "5. Magnetic Properties of Materials",
+        "explanation": "Materials are classified by their magnetic susceptibility (χ). Diamagnetic materials (χ small, negative) weakly oppose external fields due to induced orbital electron motion. Paramagnetic materials (χ small, positive) weakly align with fields due to thermal agitation of intrinsic atomic dipoles. Ferromagnetic materials (χ very large, positive) possess 'domains' that strongly align with fields, maintaining magnetization even after the field is removed.",
+        "key_points": [
+          "Diamagnetism: Present in all materials, expelled from strong magnetic regions (e.g., Copper, Water).",
+          "Paramagnetism: Weak attraction, temperature dependent (e.g., Aluminum).",
+          "Ferromagnetism: Strong attraction, domains align, can form permanent magnets (e.g., Iron, Cobalt, Nickel)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Magnetic Dipole Moment of an Atom",
+        "definition": "The intrinsic magnetic moment arising from the orbital motion and quantum mechanical spin of electrons within an atom.",
+        "detailed_explanation": "This microscopic property is the root cause of macroscopic magnetism. How these atomic dipoles interact with each other and external fields determines whether a material is dia-, para-, or ferromagnetic.",
+        "real_world_example": "The needle of a compass is a macroscopic dipole composed of billions of aligned atomic dipoles."
+      },
+      {
+        "concept": "Magnetic Domains",
+        "definition": "Microscopic regions in a ferromagnetic material where atomic magnetic moments are spontaneously aligned in the same direction.",
+        "detailed_explanation": "In an unmagnetized state, domains point randomly, canceling each other out. In an external field, domains aligned with the field grow, and others rotate to align, resulting in strong macroscopic magnetization.",
+        "real_world_example": "Stroking an iron nail with a magnet aligns its domains, turning the nail itself into a temporary magnet."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Magnetic Susceptibility (χ)",
+        "definition": "A dimensionless measure indicating how responsive a material is to an applied magnetic field.",
+        "importance": "Crucial for categorizing materials: negative for diamagnetic, small positive for paramagnetic, huge for ferromagnetic."
+      },
+      {
+        "term": "Meissner Effect",
+        "definition": "The perfect diamagnetism exhibited by superconductors, where they completely expel magnetic fields.",
+        "importance": "Used in maglev trains for frictionless levitation."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Gauss's Law for Magnetism",
+        "formula_or_principle": "∮ B · dS = 0",
+        "explanation": "Net magnetic flux through a closed surface is zero; no monopoles."
+      },
+      {
+        "name": "Magnetisation",
+        "formula_or_principle": "M = m_net / Volume",
+        "explanation": "Magnetic dipole moment per unit volume."
+      },
+      {
+        "name": "Total Magnetic Field",
+        "formula_or_principle": "B = μ₀(H + M) = μH",
+        "explanation": "Total field inside matter depends on applied intensity H and material response M."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Magnetization of a Ferromagnet",
+        "steps": [
+          "Initially, material has randomly oriented domains; net M = 0.",
+          "Apply an external magnetic field (H).",
+          "Domains oriented favorably to the field grow in size via domain wall motion.",
+          "As field increases, unfavorable domains rotate to align with the external field.",
+          "Material reaches saturation when all domains are perfectly aligned."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Magnetic field lines inside a bar magnet run from South to North, forming a continuous loop with the outside lines.",
+      "Diamagnetism is temperature-independent, whereas paramagnetism strongly depends on temperature.",
+      "Distinguish between B (magnetic field), H (magnetic intensity), and M (magnetization)."
+    ],
+    "common_mistakes_students_make": [
+      "Assuming magnetic field lines originate and terminate like electric field lines.",
+      "Confusing permeability (μ) with susceptibility (χ).",
+      "Believing breaking a magnet isolates the poles."
+    ],
+    "quick_revision_notes": [
+      "Monopoles don't exist: ∮B·dS = 0.",
+      "Dipole Torque: τ = m×B. Energy: U = -m·B.",
+      "Magnetisation: M = m_net/V.",
+      "B = μ₀(H+M).",
+      "Diamagnetic: χ < 0 (repels).",
+      "Paramagnetic: χ > 0, small (attracts weakly).",
+      "Ferromagnetic: χ >> 1 (attracts strongly, domains)."
+    ],
+    "practice_questions": [
+      {
+        "question": "A short bar magnet is placed with its axis at 30° with a uniform external magnetic field of 0.25 T experiences a torque of 4.5 × 10^-2 J. What is the magnitude of magnetic moment?",
+        "answer": "Using τ = mB sinθ: 4.5 × 10^-2 = m * 0.25 * sin(30°). 0.045 = m * 0.25 * 0.5. m = 0.36 J/T."
+      },
+      {
+        "question": "Why do magnetic field lines form continuous closed loops?",
+        "answer": "Because magnetic monopoles do not exist. A magnetic north pole is always paired with a south pole, so lines exiting the north must eventually loop back and enter the south."
+      },
+      {
+        "question": "How does a superconductor behave in a magnetic field?",
+        "answer": "A superconductor behaves as a perfect diamagnet (χ = -1). It completely expels the magnetic field from its interior, a phenomenon known as the Meissner effect."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Electromagnetic Induction",
+    "chapter_overview": "This chapter explores the phenomenon of electromagnetic induction, discovered by Faraday and Henry, which shows that varying magnetic fields can generate electric currents. It establishes the concept of magnetic flux and formulates Faraday's Law of Induction, proving that the induced electromotive force (emf) is proportional to the rate of change of magnetic flux. Lenz's law is introduced as a consequence of energy conservation to determine the direction of induced currents. The chapter further explores motional emf produced by moving conductors, introduces self and mutual inductance, and culminates in the practical application of these principles in the AC Generator.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. Experiments of Faraday and Henry",
+        "explanation": "Through rigorous experimentation, it was shown that relative motion between a magnet and a coil, or a changing current in a neighboring coil, induces an electric current in a closed loop. The crucial realization was that it is not the mere presence of a magnetic field, but the *change* in the magnetic field over time that is responsible for the induced current.",
+        "key_points": [
+          "Moving a magnet towards a coil causes a galvanometer deflection.",
+          "Moving the magnet faster increases the deflection.",
+          "Changing current in a primary coil induces a transient current in a secondary coil."
+        ]
+      },
+      {
+        "section_title": "2. Magnetic Flux",
+        "explanation": "Magnetic flux is the measure of the number of magnetic field lines passing perpendicularly through a given surface area. It is a scalar quantity calculated as the dot product of the magnetic field vector and the area vector. Changing the magnetic field, the area, or the angle between them alters the flux.",
+        "key_points": [
+          "Φ_B = B · A = BA cosθ.",
+          "The SI unit of magnetic flux is the Weber (Wb)."
+        ]
+      },
+      {
+        "section_title": "3. Faraday's Law of Induction",
+        "explanation": "Faraday formalized his experimental observations into a fundamental law: the magnitude of the induced emf in a circuit is directly proportional to the time rate of change of magnetic flux through the circuit. This law proves that a changing magnetic field acts as a source of electromotive force.",
+        "key_points": [
+          "ε = - dΦ_B / dt.",
+          "For a closely wound coil of N turns: ε = -N (dΦ_B / dt)."
+        ]
+      },
+      {
+        "section_title": "4. Lenz's Law and Conservation of Energy",
+        "explanation": "Lenz's Law provides the direction of the induced emf and current. It states that the polarity of the induced emf is such that it produces a current whose magnetic field opposes the change in magnetic flux that produced it. This is a direct manifestation of the law of conservation of energy; mechanical work must be done against this opposing force to generate the electrical energy.",
+        "key_points": [
+          "Explains the negative sign in Faraday's equation.",
+          "If flux is increasing, induced current creates a field to decrease it; if decreasing, it acts to increase it."
+        ]
+      },
+      {
+        "section_title": "5. Motional Electromotive Force",
+        "explanation": "An emf is also induced when a conductor moves across a steady magnetic field, changing the area enclosing the flux. This is called motional emf. Microscopically, it can be explained by the Lorentz force acting on the free charges within the moving conductor, pushing them to one end and creating a potential difference.",
+        "key_points": [
+          "Motional emf ε = Blv, where B is field, l is length, and v is velocity perpendicular to B."
+        ]
+      },
+      {
+        "section_title": "6. Inductance",
+        "explanation": "Inductance relates the magnetic flux linkage of a coil to the current producing it. Mutual inductance (M) occurs when changing current in one coil induces an emf in a neighboring coil. Self-inductance (L) occurs when changing current in a coil induces a 'back emf' in the *same* coil, opposing the change in current. Inductance provides 'electrical inertia'.",
+        "key_points": [
+          "Mutual Inductance: ε₁ = -M (dI₂ / dt).",
+          "Self-Inductance: ε = -L (dI / dt).",
+          "Energy stored in an inductor: U = 1/2 LI²."
+        ]
+      },
+      {
+        "section_title": "7. AC Generator",
+        "explanation": "The AC generator is a practical device that converts mechanical energy into electrical energy using electromagnetic induction. A coil is mechanically rotated in a uniform magnetic field. As the angle between the coil's area vector and the magnetic field changes continuously, the flux changes sinusoidally, producing an alternating emf.",
+        "key_points": [
+          "Instantaneous emf: ε = NBAω sin(ωt).",
+          "Produces an alternating current that changes direction periodically."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Electromagnetic Induction",
+        "definition": "The process of generating an electromotive force (and consequently a current in a closed circuit) by a changing magnetic environment.",
+        "detailed_explanation": "This establishes the vital symmetry in electromagnetism: just as moving charges (currents) create magnetic fields, changing magnetic fields create electric fields.",
+        "real_world_example": "The foundation of all modern power generation (hydro, nuclear, wind) relies on rotating turbines inside magnetic fields."
+      },
+      {
+        "concept": "Conservation of Energy in Induction (Lenz's Law)",
+        "definition": "The induced current always acts to oppose the mechanical motion or change in current causing it.",
+        "detailed_explanation": "You cannot get 'free' electrical energy. To push a magnet into a coil, you must exert force against the repulsive magnetic field of the induced current. The mechanical work you do is converted into electrical energy (Joule heating).",
+        "real_world_example": "Regenerative braking in electric trains uses the motors as generators; the induced opposition slows the train down."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Magnetic Flux (Φ_B)",
+        "definition": "The total magnetic field passing through a given area.",
+        "importance": "The central variable in Faraday's Law; its rate of change dictates the induced voltage."
+      },
+      {
+        "term": "Self-Inductance (L)",
+        "definition": "The property of a coil that opposes any change in the current flowing through it by inducing a back emf.",
+        "importance": "Functions as electrical inertia, crucial for understanding AC circuits and transformers."
+      },
+      {
+        "term": "Eddy Currents",
+        "definition": "Circulating currents induced in bulk pieces of metal when subjected to a changing magnetic flux.",
+        "importance": "Can cause undesirable heating (losses in transformers) or be utilized for magnetic braking and induction furnaces."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Magnetic Flux",
+        "formula_or_principle": "Φ_B = B A cosθ",
+        "explanation": "Product of magnetic field, area, and cosine of angle between them."
+      },
+      {
+        "name": "Faraday's Law",
+        "formula_or_principle": "ε = - dΦ_B / dt",
+        "explanation": "Induced emf equals the negative rate of change of magnetic flux."
+      },
+      {
+        "name": "Motional EMF",
+        "formula_or_principle": "ε = B l v",
+        "explanation": "EMF induced across a conductor of length l moving with velocity v perpendicular to field B."
+      },
+      {
+        "name": "Self-Inductance EMF",
+        "formula_or_principle": "ε = -L (dI / dt)",
+        "explanation": "Back emf opposes the change in current."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Determining Direction of Induced Current (Lenz's Law)",
+        "steps": [
+          "Identify the original magnetic field and how the flux is changing (increasing or decreasing).",
+          "Determine the direction of the *induced* magnetic field needed to oppose the change (opposite to original if increasing, same as original if decreasing).",
+          "Use the Right-Hand Grip Rule: point your thumb in the direction of the induced magnetic field.",
+          "Your curled fingers show the direction of the induced current in the loop."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Induced emf depends on the *rate of change* of flux, not the absolute magnitude of the flux.",
+      "Lenz's law is a statement of the conservation of energy.",
+      "In motional emf, the magnetic force acts on charges moving with the conductor, separating them until the resulting electric field balances the magnetic force.",
+      "Self-inductance plays the role of electrical inertia, delaying the rise or fall of current in a circuit."
+    ],
+    "common_mistakes_students_make": [
+      "Forgetting the negative sign in Faraday's law when calculating emf.",
+      "Confusing the original magnetic field with the induced magnetic field when applying Lenz's law.",
+      "Believing an induced current exists in an open circuit (only an induced *emf* exists; current requires a closed loop)."
+    ],
+    "quick_revision_notes": [
+      "Flux: Φ = BA cosθ.",
+      "Faraday: ε = -N dΦ/dt.",
+      "Lenz: Induced effect opposes cause (Energy conservation).",
+      "Motional emf: ε = Blv.",
+      "Mutual Inductance: M = Φ₁/I₂. ε₁ = -M dI₂/dt.",
+      "Self Inductance: L = Φ/I. ε = -L dI/dt.",
+      "Energy in Inductor: U = 1/2 LI².",
+      "AC Generator: ε = NBAω sin(ωt)."
+    ],
+    "practice_questions": [
+      {
+        "question": "A square loop of side 10 cm and resistance 0.5 Ω is placed vertically in an east-west plane. A uniform magnetic field of 0.10 T is set up across the plane in the north-east direction. The field is decreased to zero in 0.70 s. Determine induced emf.",
+        "answer": "Area A = 0.01 m². Angle θ = 45°. Initial flux Φ = BAcos45° = 0.1 * 0.01 * (1/√2) = 7.07 × 10^-4 Wb. Final flux = 0. ε = |ΔΦ/Δt| = 7.07 × 10^-4 / 0.70 ≈ 1.0 mV."
+      },
+      {
+        "question": "State Lenz's Law. How is it related to conservation of energy?",
+        "answer": "Lenz's law states that the induced emf produces a current that opposes the change in magnetic flux. It is based on energy conservation because mechanical work must be done against this opposing magnetic force to create the electrical energy."
+      },
+      {
+        "question": "A metallic rod of length 1m is rotated with angular frequency of 400 rad/s about an axis normal to the rod passing through its one end. A uniform magnetic field of 0.5 T is parallel to the axis. Calculate the emf developed.",
+        "answer": "Motional emf for rotating rod: ε = 1/2 B ω R² = 0.5 * 0.5 * 400 * (1)² = 100 V."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Alternating Current",
+    "chapter_overview": "This chapter investigates Alternating Current (AC), which periodically reverses direction, contrasting it with Direct Current (dc). It establishes the concept of root mean square (rms) values to express AC power equivalently to DC. The chapter analyzes the behavior of individual circuit elements (resistors, inductors, capacitors) under AC voltage, heavily utilizing phasor diagrams to visualize phase differences between voltage and current. It builds to the comprehensive analysis of a series LCR circuit, exploring impedance and the crucial phenomenon of resonance. Finally, it discusses power factor, wattless current, and the principles of transformers used in power transmission.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. AC Voltage Applied to Resistors and RMS Values",
+        "explanation": "When an AC voltage (v = v_m sin ωt) is applied to a resistor, the resulting current (i = i_m sin ωt) is in phase with the voltage. Because average AC current over a cycle is zero, we use Root Mean Square (rms) values to calculate average power. The rms value represents the equivalent DC current that would produce the same heating effect.",
+        "key_points": [
+          "Current and voltage are in phase for a purely resistive circuit.",
+          "I_rms = I_m / √2; V_rms = V_m / √2.",
+          "Average power P = V_rms * I_rms = I_rms² R."
+        ]
+      },
+      {
+        "section_title": "2. Representation by Phasors",
+        "explanation": "Phasors are rotating vectors used to represent sinusoidally varying quantities like AC voltage and current. The length of the phasor represents the amplitude (peak value), and its projection on the vertical axis represents the instantaneous value. The angle between phasors visually demonstrates the phase difference.",
+        "key_points": [
+          "Phasors rotate counter-clockwise with angular frequency ω.",
+          "Simplifies the addition of sinusoidal waves into vector addition."
+        ]
+      },
+      {
+        "section_title": "3. AC Voltage Applied to an Inductor",
+        "explanation": "In a purely inductive circuit, the changing AC current induces a back emf that opposes the current change. This causes the current to lag behind the applied voltage by a phase angle of π/2 (90°). The inductor limits current flow, exhibiting inductive reactance.",
+        "key_points": [
+          "Current lags voltage by 90°.",
+          "Inductive Reactance X_L = ωL.",
+          "Average power dissipated by a pure inductor over a full cycle is zero."
+        ]
+      },
+      {
+        "section_title": "4. AC Voltage Applied to a Capacitor",
+        "explanation": "In a purely capacitive circuit, the capacitor charges and discharges with the AC cycle. The current leads the voltage by a phase angle of π/2 (90°). The capacitor impedes low frequencies and blocks DC, exhibiting capacitive reactance.",
+        "key_points": [
+          "Current leads voltage by 90°.",
+          "Capacitive Reactance X_C = 1 / (ωC).",
+          "Average power dissipated by a pure capacitor over a full cycle is zero."
+        ]
+      },
+      {
+        "section_title": "5. Series LCR Circuit and Resonance",
+        "explanation": "When a resistor, inductor, and capacitor are in series, the total opposition to current is called impedance (Z). The phase angle depends on the relative values of X_L and X_C. A critical phenomenon, resonance, occurs when X_L = X_C. At resonance, impedance is purely resistive and minimum, resulting in maximum current.",
+        "key_points": [
+          "Impedance Z = √[R² + (X_L - X_C)²].",
+          "Resonant frequency ω₀ = 1 / √(LC).",
+          "At resonance, V and I are in phase (φ = 0)."
+        ]
+      },
+      {
+        "section_title": "6. Power in AC Circuits and Power Factor",
+        "explanation": "The average power dissipated in an AC circuit depends on the phase angle (φ) between voltage and current. The term cosφ is called the power factor. Power is only dissipated across the resistive element. If a circuit is purely inductive or capacitive (φ = 90°), the power factor is zero, and the current is called 'wattless current'.",
+        "key_points": [
+          "P_avg = V_rms I_rms cosφ.",
+          "Power factor cosφ = R / Z.",
+          "Minimizing power loss in transmission requires improving (increasing) the power factor."
+        ]
+      },
+      {
+        "section_title": "7. Transformers",
+        "explanation": "A transformer is a device that changes the amplitude of an alternating voltage using mutual induction. It consists of primary and secondary coils wound on a shared iron core. A step-up transformer increases voltage (and decreases current), while a step-down transformer decreases voltage. They are essential for efficient long-distance power transmission.",
+        "key_points": [
+          "V_s / V_p = N_s / N_p = I_p / I_s.",
+          "Efficiency is reduced by flux leakage, winding resistance, eddy currents, and hysteresis."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Phase Difference",
+        "definition": "The angular difference between the voltage and current waveforms in an AC circuit.",
+        "detailed_explanation": "Because inductors and capacitors store and release energy, they cause the current waveform to shift in time relative to the voltage waveform. This shift dictates how much actual real power is consumed.",
+        "real_world_example": "In industrial factories with heavy inductive motor loads, phase lag causes inefficiencies, requiring capacitor banks to correct the phase and improve power factor."
+      },
+      {
+        "concept": "Resonance",
+        "definition": "The state in an LCR circuit where inductive and capacitive reactances cancel each other out, resulting in maximum current flow.",
+        "detailed_explanation": "Occurs at a specific frequency where ωL = 1/ωC. The circuit behaves as if it is purely resistive. This principle is used for tuning.",
+        "real_world_example": "Tuning a radio involves changing a variable capacitor until the circuit's resonant frequency matches the broadcast frequency of the desired station."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Root Mean Square (rms)",
+        "definition": "The effective value of varying AC voltage or current, defined as the equivalent DC value that would produce the same heating in a resistor.",
+        "importance": "Standard way household AC is measured (e.g., 220V is the rms value, peak is ~311V)."
+      },
+      {
+        "term": "Impedance (Z)",
+        "definition": "The total opposition offered by an LCR circuit to the flow of AC current.",
+        "importance": "Generalizes resistance for AC circuits, encompassing resistance, inductance, and capacitance."
+      },
+      {
+        "term": "Power Factor",
+        "definition": "The cosine of the phase angle between voltage and current (cosφ).",
+        "importance": "Measures the efficiency of power transfer; a lower power factor means higher currents are needed to deliver the same real power, leading to I²R losses."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "RMS Voltage/Current",
+        "formula_or_principle": "V_rms = V_m / √2,  I_rms = I_m / √2",
+        "explanation": "Relates peak amplitude to effective functional value."
+      },
+      {
+        "name": "Reactance",
+        "formula_or_principle": "X_L = ωL,  X_C = 1 / ωC",
+        "explanation": "Opposition to AC by inductor and capacitor, respectively. Depends on frequency."
+      },
+      {
+        "name": "Impedance of LCR Series Circuit",
+        "formula_or_principle": "Z = √[R² + (X_L - X_C)²]",
+        "explanation": "Total opposition combining R, L, and C."
+      },
+      {
+        "name": "Resonant Frequency",
+        "formula_or_principle": "ω₀ = 1 / √(LC)",
+        "explanation": "Frequency at which Z is minimum (Z = R) and current is maximum."
+      },
+      {
+        "name": "Transformer Equation",
+        "formula_or_principle": "V_s / V_p = N_s / N_p",
+        "explanation": "Voltage ratio equals the turns ratio between secondary and primary coils."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Using Phasor Diagrams to find Impedance",
+        "steps": [
+          "Draw the current phasor I along the horizontal axis (since it's constant in a series circuit).",
+          "Draw V_R parallel to I.",
+          "Draw V_L leading I by 90° (upwards).",
+          "Draw V_C lagging I by 90° (downwards).",
+          "Find the net reactive voltage (V_L - V_C) or (V_C - V_L).",
+          "Use the Pythagorean theorem to find the total voltage V = √[V_R² + (V_L - V_C)²], which leads to the impedance formula."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "In a pure inductor or capacitor, average power consumed over a cycle is strictly zero.",
+      "At resonance, the voltage across the inductor and capacitor can be much higher than the source voltage (voltage magnification).",
+      "A transformer works *only* on AC. Applying DC to a transformer primary will not induce secondary voltage and may burn out the coil.",
+      "The frequency of AC in India is 50 Hz, meaning the direction of current changes 100 times per second."
+    ],
+    "common_mistakes_students_make": [
+      "Algebraically adding peak voltages (V = V_R + V_L + V_C) instead of using phasor (vector) addition.",
+      "Confusing ω (angular frequency in rad/s) with ν (frequency in Hz). ω = 2πν.",
+      "Assuming power factor is just R/Z without understanding it represents cosφ."
+    ],
+    "quick_revision_notes": [
+      "AC current: I = I_m sin(ωt).",
+      "rms: I = I_m/√2.",
+      "Resistor: V, I in phase. P = VI.",
+      "Inductor: I lags V by 90°. X_L = ωL.",
+      "Capacitor: I leads V by 90°. X_C = 1/ωC.",
+      "LCR Impedance: Z = √[R² + (X_L - X_C)²].",
+      "Resonance: X_L = X_C → ω = 1/√(LC). Max current.",
+      "Power P = VI cosφ. Power factor = cosφ = R/Z.",
+      "Transformer: V_s/V_p = N_s/N_p."
+    ],
+    "practice_questions": [
+      {
+        "question": "A light bulb is rated at 100W for a 220V supply. Find the peak voltage of the source and the resistance of the bulb.",
+        "answer": "220V is the rms voltage. Peak V_m = √2 * V_rms = 1.414 * 220 ≈ 311 V. Resistance R = V_rms² / P = (220)² / 100 = 484 Ω."
+      },
+      {
+        "question": "Determine the resonant frequency of a series LCR circuit with L = 2.0 H, C = 32 μF and R = 10 Ω.",
+        "answer": "ω_r = 1 / √(LC) = 1 / √(2 * 32 × 10^-6) = 1 / √(64 × 10^-6) = 1 / (8 × 10^-3) = 125 rad/s."
+      },
+      {
+        "question": "Why is power transmitted at high voltages over long distances?",
+        "answer": "To transmit a given power P, increasing the voltage V proportionally decreases the current I (since P = VI). Line loss is given by I²R. A smaller current drastically reduces the I²R heating loss in transmission cables."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Electromagnetic Waves",
+    "chapter_overview": "This culminating chapter completes classical electromagnetism by introducing Maxwell's concept of displacement current, resolving a logical inconsistency in Ampere's law. This addition proves that time-varying electric fields generate magnetic fields, symmetrically mirroring Faraday's law. These coupled, time-varying electric and magnetic fields propagate through space as Electromagnetic (EM) Waves. The chapter describes the properties of EM waves, notably that they travel at the speed of light, confirming light is an EM wave. It concludes by exploring the vast electromagnetic spectrum, detailing the production, detection, and applications of radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "1. Displacement Current and Ampere-Maxwell Law",
+        "explanation": "Applying Ampere's law to the charging of a capacitor reveals a contradiction: magnetic fields exist between the plates where there is no conduction current. Maxwell resolved this by proposing 'displacement current' (i_d), which arises from a changing electric flux. The generalized Ampere-Maxwell law states that the source of a magnetic field is the sum of conduction current and displacement current.",
+        "key_points": [
+          "Displacement current i_d = ε₀ (dΦ_E / dt).",
+          "A changing electric field creates a magnetic field, providing perfect symmetry to Faraday's law.",
+          "Conduction current and displacement current are continuous across circuits."
+        ]
+      },
+      {
+        "section_title": "2. Maxwell's Equations",
+        "explanation": "Maxwell unified all of electricity and magnetism into four fundamental equations: Gauss's Law for electricity (charges produce E-fields), Gauss's Law for magnetism (no monopoles), Faraday's Law (changing B-fields produce E-fields), and the Ampere-Maxwell Law (currents and changing E-fields produce B-fields).",
+        "key_points": [
+          "These four equations, along with the Lorentz force law, completely describe classical electromagnetism."
+        ]
+      },
+      {
+        "section_title": "3. Sources and Nature of Electromagnetic Waves",
+        "explanation": "Stationary charges produce only electric fields. Steady currents produce only magnetic fields. However, *accelerated* charges (or oscillating currents) radiate electromagnetic waves. An EM wave consists of mutually perpendicular, oscillating electric and magnetic fields that propagate in a direction perpendicular to both.",
+        "key_points": [
+          "EM waves do not require a material medium; they can travel in a vacuum.",
+          "In vacuum, they travel at the speed of light: c = 1 / √(μ₀ε₀) ≈ 3 × 10^8 m/s.",
+          "E and B fields oscillate in phase and are related in magnitude by E₀ / B₀ = c."
+        ]
+      },
+      {
+        "section_title": "4. The Electromagnetic Spectrum",
+        "explanation": "The EM spectrum classifies EM waves by frequency (or wavelength). There are no sharp boundaries, but rather overlapping regions. Different frequencies interact with matter in distinct ways, dictated by quantum mechanics, leading to varied methods of production and detection.",
+        "key_points": [
+          "Radio waves: Produced by accelerated charges in antennas; used in communication.",
+          "Microwaves: Produced by klystrons; used in radar and cooking (water resonance).",
+          "Infrared: Produced by hot bodies; causes heating, used in remotes and night vision.",
+          "Visible Light: Produced by atomic electron transitions; detected by the human eye.",
+          "Ultraviolet: Emitted by very hot bodies (sun); causes skin tanning/damage, used in water purifiers.",
+          "X-rays: Produced by bombarding metal targets with high-energy electrons; used in medical imaging.",
+          "Gamma rays: Produced in nuclear reactions and radioactive decay; highly penetrating, used in cancer treatment."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Symmetry of Electromagnetism",
+        "definition": "The mutual generation of electric and magnetic fields by their changing counterparts.",
+        "detailed_explanation": "Faraday showed changing B generates E. Maxwell showed changing E generates B. In an EM wave, the changing electric field generates the magnetic field, and the changing magnetic field generates the electric field, allowing the wave to self-propagate indefinitely through empty space.",
+        "real_world_example": "Starlight reaches Earth across billions of light-years of vacuum because the E and B fields continuously regenerate each other."
+      },
+      {
+        "concept": "Displacement Current",
+        "definition": "An effective current equivalent to a changing electric field, which generates a magnetic field just like a physical conduction current.",
+        "detailed_explanation": "It is not a flow of physical charge, but mathematically it perfectly bridges the 'gap' between capacitor plates in Ampere's law, maintaining the continuity of total current.",
+        "real_world_example": "The magnetic field detected around the empty space between charging capacitor plates proves the physical reality of displacement current."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Electromagnetic Wave",
+        "definition": "Transverse waves consisting of oscillating electric and magnetic fields propagating through space.",
+        "importance": "The fundamental medium for transferring energy and information across the universe without a physical medium."
+      },
+      {
+        "term": "Speed of Light (c)",
+        "definition": "The speed at which all electromagnetic waves travel in a vacuum, approximately 3 × 10^8 m/s.",
+        "importance": "A fundamental universal constant, derived purely from the electrical (ε₀) and magnetic (μ₀) properties of a vacuum."
+      },
+      {
+        "term": "Electromagnetic Spectrum",
+        "definition": "The entire range of frequencies (or wavelengths) of electromagnetic radiation.",
+        "importance": "Organizes radiation types by energy, dictating their practical applications and interactions with matter."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Displacement Current",
+        "formula_or_principle": "i_d = ε₀ (dΦ_E / dt)",
+        "explanation": "Current proportional to the rate of change of electric flux."
+      },
+      {
+        "name": "Speed of EM Wave in Vacuum",
+        "formula_or_principle": "c = 1 / √(μ₀ε₀)",
+        "explanation": "Links the speed of light to fundamental electromagnetic constants."
+      },
+      {
+        "name": "Wave Equations",
+        "formula_or_principle": "E_x = E₀ sin(kz - ωt); B_y = B₀ sin(kz - ωt)",
+        "explanation": "Mathematical representation of a plane EM wave traveling in the z-direction."
+      },
+      {
+        "name": "E and B Relationship",
+        "formula_or_principle": "E₀ / B₀ = c",
+        "explanation": "The amplitude ratio of electric to magnetic fields in an EM wave is the speed of light."
+      },
+      {
+        "name": "Wave Velocity",
+        "formula_or_principle": "c = νλ",
+        "explanation": "Speed equals frequency multiplied by wavelength."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Identifying the Propagation Direction of an EM Wave",
+        "steps": [
+          "Identify the direction of the oscillating Electric Field vector (E).",
+          "Identify the direction of the oscillating Magnetic Field vector (B).",
+          "Apply the cross product E × B.",
+          "Using the right-hand rule (fingers from E to B), the thumb points in the direction of wave propagation."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "EM waves are transverse in nature (E and B are perpendicular to the propagation direction).",
+      "An accelerated charge is the fundamental source of all electromagnetic waves.",
+      "While conduction current can be zero (e.g., inside a capacitor), displacement current ensures the total current is continuous.",
+      "The order of the EM spectrum by increasing frequency/energy: Radio, Micro, Infrared, Visible, UV, X-rays, Gamma rays."
+    ],
+    "common_mistakes_students_make": [
+      "Assuming displacement current involves the actual movement of electrons.",
+      "Forgetting that electric and magnetic fields in an EM wave oscillate IN PHASE with each other.",
+      "Confusing the direction of E, B, and propagation. Remember E × B gives the direction of velocity (v)."
+    ],
+    "quick_revision_notes": [
+      "Displacement current: changing E-field creates B-field.",
+      "Maxwell's 4 equations unify E & M.",
+      "Source of EM wave: Accelerated charge.",
+      "Speed c = 1/√(μ₀ε₀). E₀/B₀ = c.",
+      "Transverse waves: E ⊥ B ⊥ direction of propagation.",
+      "Spectrum order (low to high freq): Radio, Microwave, IR, Visible, UV, X-ray, Gamma."
+    ],
+    "practice_questions": [
+      {
+        "question": "A plane electromagnetic wave of frequency 25 MHz travels in free space along the x-direction. At a particular point in space and time, E = 6.3 ĵ V/m. What is B at this point?",
+        "answer": "Magnitude: B = E/c = 6.3 / (3×10^8) = 2.1×10^-8 T. Direction: wave travels in x (î), E is in y (ĵ). Since E × B must be in x direction (ĵ × k̂ = î), B must be in the z direction (k̂). So, B = 2.1×10^-8 k̂ T."
+      },
+      {
+        "question": "What is the physical significance of displacement current?",
+        "answer": "It signifies that a time-varying electric field acts as a source of magnetic field, analogous to a conduction current. It makes Ampere's law logically consistent and proves the continuity of total current in a circuit."
+      },
+      {
+        "question": "Which part of the electromagnetic spectrum is absorbed by the ozone layer?",
+        "answer": "Ultraviolet (UV) radiation is predominantly absorbed by the ozone layer, protecting life on Earth from its harmful high-energy effects."
+      }
+    ]
+  }
+]

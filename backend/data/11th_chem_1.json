@@ -1,0 +1,488 @@
+{
+  "book_title": "Chemistry Part I - Textbook for Class XI",
+  "chapters": [
+    {
+      "chapter_title": "Unit 1: Some Basic Concepts of Chemistry",
+      "chapter_overview": "This chapter introduces the fundamental building blocks of chemistry, including the nature of matter, the laws governing chemical combinations, and the quantitative principles of stoichiometry. It establishes the mole concept as the bridge between the microscopic world of atoms and the macroscopic world of chemical reactions.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Nature and Properties of Matter",
+          "explanation": "Matter is defined as anything that has mass and occupies space. It exists in three states: solids (definite shape and volume), liquids (definite volume, indefinite shape), and gases (indefinite shape and volume). Matter is classified into pure substances (elements and compounds) and mixtures (homogeneous and heterogeneous).",
+          "key_points": [
+            "Elements consist of only one type of atom.",
+            "Compounds contain different atoms in fixed ratios.",
+            "Homogeneous mixtures (solutions) have uniform composition; heterogeneous do not."
+          ]
+        },
+        {
+          "section_title": "Laws of Chemical Combination",
+          "explanation": "Chemical reactions follow five basic laws: Conservation of Mass (mass is conserved), Definite Proportions (fixed ratio by mass in compounds), Multiple Proportions (ratios of masses of one element combining with fixed mass of another are small whole numbers), Gay Lussac's Law (gases combine in simple ratios by volume), and Avogadro's Law (equal volumes of gases contain equal molecules).",
+          "key_points": [
+            "Dalton's Atomic Theory provided the explanation for these laws.",
+            "Atoms combine in simple whole-number ratios."
+          ]
+        },
+        {
+          "section_title": "Mole Concept and Stoichiometry",
+          "explanation": "The mole is the SI unit for amount of substance, defined as 6.022 × 10²³ entities (Avogadro's constant). Molar mass is the mass of one mole of a substance. Stoichiometry uses balanced chemical equations to calculate the relative quantities of reactants and products.",
+          "key_points": [
+            "1 mole = 6.022 × 10²³ particles.",
+            "Molar mass usually equals atomic/molecular mass in grams.",
+            "Limiting reagent determines the maximum product formed."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "The Mole",
+          "definition": "The amount of substance containing as many elementary entities as there are atoms in exactly 12 g of Carbon-12.",
+          "detailed_explanation": "It provides a standard count for atoms and molecules, allowing chemists to weigh substances to count particles.",
+          "real_world_example": "Drinking 18g of water means consuming 1 mole (6.022 x 10²³) of water molecules."
+        },
+        {
+          "concept": "Limiting Reagent",
+          "definition": "The reactant that is entirely consumed in a reaction, limiting the amount of product.",
+          "detailed_explanation": "Reactions stop when the limiting reagent runs out, leaving the excess reagent unreacted.",
+          "real_world_example": "In making bicycles, if you have 10 frames and 10 wheels, wheels are the limiting reagent; you can only make 5 bikes."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Precision vs Accuracy",
+          "definition": "Precision is the closeness of measurements to each other; Accuracy is the closeness to the true value.",
+          "importance": "Critical for evaluating experimental data quality."
+        },
+        {
+          "term": "Significant Figures",
+          "definition": "Meaningful digits in a measured or calculated quantity.",
+          "importance": "Reflects the uncertainty of measurement."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Molarity (M)",
+          "formula_or_principle": "M = n / V",
+          "explanation": "Moles of solute (n) per liter of solution (V)."
+        },
+        {
+          "name": "Mass Percent",
+          "formula_or_principle": "Mass % = (Mass of Solute / Mass of Solution) × 100",
+          "explanation": "Concentration expressed as a percentage by mass."
+        }
+      ],
+      "practice_questions": [
+        {
+          "question": "Calculate the molar mass of H₂SO₄.",
+          "answer": "2(1.008) + 32.06 + 4(16.00) = 98.076 g/mol."
+        },
+        {
+          "question": "What is the empirical formula of a compound with formula C₆H₁₂O₆?",
+          "answer": "CH₂O (Divide subscripts by 6)."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 2: Structure of Atom",
+      "chapter_overview": "This unit traces the evolution of atomic models from Dalton's indivisible atom to the modern Quantum Mechanical model. It details the discovery of subatomic particles (electrons, protons, neutrons), the failure of classical models, and the development of quantum numbers and orbitals to describe electron behavior.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Discovery of Subatomic Particles",
+          "explanation": "Experiments with cathode ray tubes led to the discovery of electrons (J.J. Thomson). Anode rays (canal rays) revealed protons. Chadwick discovered neutrons. These findings proved atoms are divisible and composed of charged particles.",
+          "key_points": [
+            "Electron: Negatively charged, negligible mass.",
+            "Proton: Positively charged, significant mass.",
+            "Neutron: Neutral, mass similar to proton."
+          ]
+        },
+        {
+          "section_title": "Atomic Models",
+          "explanation": "Thomson's 'Plum Pudding' model was disproved by Rutherford's Gold Foil experiment, which established the nuclear model (dense positive nucleus, empty space). Bohr's model introduced quantized orbits for hydrogen but failed for multi-electron atoms. The Quantum Mechanical model treats electrons as waves (orbitals) rather than particles in fixed paths.",
+          "key_points": [
+            "Rutherford: Nucleus contains most mass and positive charge.",
+            "Bohr: Electrons orbit in fixed energy levels; energy is absorbed/emitted only when jumping levels.",
+            "Quantum Mechanics: Heisenberg Uncertainty Principle and Schrödinger equation."
+          ]
+        },
+        {
+          "section_title": "Quantum Numbers and Electronic Configuration",
+          "explanation": "Four quantum numbers describe an electron's state: Principal (n, size/energy), Azimuthal (l, shape), Magnetic (ml, orientation), and Spin (ms, spin direction). Electrons fill orbitals following the Aufbau Principle, Pauli Exclusion Principle, and Hund's Rule.",
+          "key_points": [
+            "Orbitals: s (spherical), p (dumbbell), d (double dumbbell), f (complex).",
+            "Pauli Principle: No two electrons have the same 4 quantum numbers.",
+            "Hund's Rule: Orbitals fill singly before pairing."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Heisenberg Uncertainty Principle",
+          "definition": "It is impossible to determine simultaneously the exact position and exact momentum of an electron.",
+          "detailed_explanation": "This implies that electrons cannot have definite paths (orbits) but exist in probability regions (orbitals).",
+          "real_world_example": "Trying to pinpoint a fast-moving car's location in a photo blurs its speed; measuring its speed blurs its location."
+        },
+        {
+          "concept": "Dual Nature of Matter",
+          "definition": "Matter, like radiation, exhibits both particle and wave properties (de Broglie hypothesis).",
+          "detailed_explanation": "Wavelength λ = h / mv. Significant only for microscopic particles like electrons.",
+          "real_world_example": "Electron microscopes use the wave nature of electrons to image very small objects."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Isotopes",
+          "definition": "Atoms of the same element with different numbers of neutrons (same atomic number, different mass number).",
+          "importance": "Explains fractional atomic masses and nuclear stability."
+        },
+        {
+          "term": "Orbital",
+          "definition": "A region in space around the nucleus where the probability of finding an electron is maximum.",
+          "importance": "Fundamental to understanding chemical bonding."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Bohr's Energy Formula",
+          "formula_or_principle": "En = -RH (1/n²)",
+          "explanation": "Calculates energy of electron in nth orbit of Hydrogen. RH is Rydberg constant."
+        },
+        {
+          "name": "de Broglie Equation",
+          "formula_or_principle": "λ = h / mv",
+          "explanation": "Relates wavelength (λ) to mass (m) and velocity (v)."
+        }
+      ],
+      "practice_questions": [
+        {
+          "question": "Write the electronic configuration of Chromium (Z=24).",
+          "answer": "[Ar] 3d⁵ 4s¹ (Exception to Aufbau due to stability of half-filled d-orbitals)."
+        },
+        {
+          "question": "What is the maximum number of electrons in an orbital?",
+          "answer": "2 (with opposite spins)."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 3: Classification of Elements and Periodicity in Properties",
+      "chapter_overview": "This chapter discusses the historical development of the Periodic Table and its modern form based on atomic number. It explores the periodic trends in physical and chemical properties of elements, explaining how electronic configuration dictates an element's behavior.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Genesis of Periodic Classification",
+          "explanation": "Early attempts like Dobereiner's Triads and Newlands' Octaves paved the way for Mendeleev, who organized elements by atomic mass and predicted missing ones. Moseley showed atomic number is the fundamental property, leading to the Modern Periodic Law.",
+          "key_points": [
+            "Mendeleev predicted Gallium and Germanium.",
+            "Modern Periodic Law: Properties are periodic functions of atomic numbers."
+          ]
+        },
+        {
+          "section_title": "The Modern Periodic Table",
+          "explanation": "Elements are arranged in 18 groups (vertical) and 7 periods (horizontal). They are classified into s, p, d, and f blocks based on the orbital receiving the last electron. Metals are on the left, non-metals on the right, and metalloids in between.",
+          "key_points": [
+            "s-block: Alkali and Alkaline Earth metals.",
+            "p-block: Non-metals, halogens, noble gases.",
+            "d-block: Transition elements.",
+            "f-block: Lanthanoids and Actinoids (Inner transition)."
+          ]
+        },
+        {
+          "section_title": "Periodic Trends",
+          "explanation": "Properties vary systematically: Atomic Radius decreases across a period and increases down a group. Ionization Enthalpy generally increases across a period and decreases down a group. Electronegativity follows a similar trend to Ionization Enthalpy.",
+          "key_points": [
+            "Cations are smaller than neutral atoms; anions are larger.",
+            "Noble gases have the highest stable ionization enthalpies.",
+            "Fluorine is the most electronegative element."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Ionization Enthalpy",
+          "definition": "Energy required to remove the most loosely bound electron from an isolated gaseous atom.",
+          "detailed_explanation": "High IE means an atom holds its electrons tightly (non-metals); low IE means it loses them easily (metals).",
+          "real_world_example": "Cesium is used in photoelectric cells because it loses electrons very easily with light."
+        },
+        {
+          "concept": "Screening Effect",
+          "definition": "The reduction in effective nuclear charge on valence electrons due to inner shell electrons.",
+          "detailed_explanation": "Inner electrons repel outer electrons, shielding them from the nucleus. This causes atomic size to increase down a group.",
+          "real_world_example": "Why Potassium is larger and more reactive than Lithium."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Isoelectronic Species",
+          "definition": "Atoms/ions having the same number of electrons (e.g., O²⁻, F⁻, Na⁺, Mg²⁺).",
+          "importance": "Helps compare ionic radii based on nuclear charge."
+        },
+        {
+          "term": "Electronegativity",
+          "definition": "Tendency of an atom to attract a shared pair of electrons in a chemical bond.",
+          "importance": "Determines bond polarity and character."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "General Electronic Config (Transition Metals)",
+          "formula_or_principle": "(n-1)d¹⁻¹⁰ ns¹⁻²",
+          "explanation": "Defines the filling of d-orbitals."
+        }
+      ],
+      "practice_questions": [
+        {
+          "question": "Why does atomic radius decrease across a period?",
+          "answer": "Effective nuclear charge increases (more protons) pulling the same shell of electrons closer."
+        },
+        {
+          "question": "Which has higher ionization energy: Nitrogen or Oxygen? Why?",
+          "answer": "Nitrogen. It has a stable half-filled p-orbital (2p³), making it harder to remove an electron than from Oxygen (2p⁴)."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 4: Chemical Bonding and Molecular Structure",
+      "chapter_overview": "This unit explains why atoms combine to form molecules. It covers various theories of bonding including the Octet Rule, VSEPR theory for molecular shapes, Valence Bond Theory, and Molecular Orbital Theory, providing a comprehensive view of bond formation and molecular stability.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Kossel-Lewis Approach",
+          "explanation": "Atoms bond to achieve a stable octet (8 valence electrons) like noble gases. Ionic bonds form by transfer of electrons (electrovalent). Covalent bonds form by sharing electrons. Lewis dot structures visualize these electrons.",
+          "key_points": [
+            "Cation: Positive ion (loss of e⁻).",
+            "Anion: Negative ion (gain of e⁻).",
+            "Coordinate Bond: One atom provides both shared electrons."
+          ]
+        },
+        {
+          "section_title": "VSEPR Theory",
+          "explanation": "Valence Shell Electron Pair Repulsion theory predicts molecular geometry. Electron pairs (bonding and lone) repel each other to maximize distance. Repulsion order: Lone Pair-Lone Pair > Lone Pair-Bond Pair > Bond Pair-Bond Pair.",
+          "key_points": [
+            "CH₄: Tetrahedral (109.5°).",
+            "NH₃: Pyramidal (107°, 1 lone pair).",
+            "H₂O: Bent/V-shape (104.5°, 2 lone pairs)."
+          ]
+        },
+        {
+          "section_title": "Valence Bond & Molecular Orbital Theories",
+          "explanation": "VBT explains bonding via orbital overlap (sigma head-on, pi sideways) and hybridization (mixing orbitals like sp³). MOT explains bonding via constructive/destructive interference of atomic wave functions creating bonding and anti-bonding molecular orbitals.",
+          "key_points": [
+            "Hybridization explains equivalent bonds (e.g., in Methane).",
+            "MOT explains magnetic properties (e.g., O₂ is paramagnetic due to unpaired electrons in anti-bonding orbitals)."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Hybridization",
+          "definition": "Intermixing of atomic orbitals of slightly different energies to form new equivalent hybrid orbitals.",
+          "detailed_explanation": "Allows atoms like Carbon to form 4 identical bonds. sp³ (tetrahedral), sp² (trigonal planar), sp (linear).",
+          "real_world_example": "Diamond structure depends on sp³ hybridization; Graphite on sp²."
+        },
+        {
+          "concept": "Hydrogen Bonding",
+          "definition": "Attractive force between Hydrogen attached to an electronegative atom (F, O, N) and another electronegative atom.",
+          "detailed_explanation": "Weaker than covalent but stronger than van der Waals. Responsible for water's high boiling point.",
+          "real_world_example": "DNA strands are held together by hydrogen bonds."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Dipole Moment",
+          "definition": "Product of charge and distance of separation; measure of bond polarity.",
+          "importance": "Determines if a molecule is polar or non-polar."
+        },
+        {
+          "term": "Resonance",
+          "definition": "Delocalization of electrons where a single Lewis structure cannot describe the molecule (e.g., Ozone, Benzene).",
+          "importance": "Explains stability and equal bond lengths."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Bond Order (MOT)",
+          "formula_or_principle": "BO = 1/2 (Nb - Na)",
+          "explanation": "Nb = electrons in bonding MO, Na = electrons in anti-bonding MO. Higher BO = stronger bond."
+        }
+      ],
+      "practice_questions": [
+        {
+          "question": "Predict the shape of PCl₅.",
+          "answer": "Trigonal Bipyramidal (5 bonding pairs, 0 lone pairs)."
+        },
+        {
+          "question": "Why does He₂ not exist?",
+          "answer": "Bond Order = 1/2 (2 - 2) = 0. No bond is formed."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 5: Thermodynamics",
+      "chapter_overview": "Thermodynamics deals with energy transformations in chemical and physical processes. This chapter defines systems, surroundings, and state functions. It covers the First Law (conservation), Enthalpy, Spontaneity (Entropy, Second Law), and Gibbs Energy as the ultimate criterion for spontaneity.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Thermodynamic Terms and First Law",
+          "explanation": "System is the part of universe under study. State functions (U, H, S, G) depend only on initial and final states. The First Law states energy is conserved: ΔU = q + w (Change in internal energy = heat + work).",
+          "key_points": [
+            "Extensive properties depend on mass (Volume, Enthalpy).",
+            "Intensive properties do not (Temperature, Density).",
+            "Work done on system is positive; by system is negative (IUPAC)."
+          ]
+        },
+        {
+          "section_title": "Enthalpy (H) and Hess's Law",
+          "explanation": "Enthalpy is heat change at constant pressure. Hess's Law states that total enthalpy change of a reaction is the same whether it occurs in one step or multiple steps.",
+          "key_points": [
+            "Exothermic: ΔH is negative (heat released).",
+            "Endothermic: ΔH is positive (heat absorbed).",
+            "Standard Enthalpy of Formation: Formation of 1 mole from elements in standard state."
+          ]
+        },
+        {
+          "section_title": "Spontaneity and Gibbs Energy",
+          "explanation": "Entropy (S) is a measure of disorder. Second Law: Total entropy of universe increases in a spontaneous process. Gibbs Energy (G) combines H and S: ΔG = ΔH - TΔS. For a process to be spontaneous, ΔG must be negative.",
+          "key_points": [
+            "ΔG < 0: Spontaneous.",
+            "ΔG > 0: Non-spontaneous.",
+            "ΔG = 0: Equilibrium."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Entropy",
+          "definition": "A measure of the degree of randomness or disorder in a system.",
+          "detailed_explanation": "Gases have higher entropy than liquids, which have higher entropy than solids. Nature favors high entropy.",
+          "real_world_example": "Melting ice increases entropy; a messy room has higher entropy than a tidy one."
+        },
+        {
+          "concept": "Gibbs Energy Change (ΔG)",
+          "definition": "The useful work that can be extracted from a system at constant T and P.",
+          "detailed_explanation": "It balances the drive for lower energy (min Enthalpy) and higher disorder (max Entropy) to predict reaction direction.",
+          "real_world_example": "Batteries work because the chemical reaction inside has a negative ΔG."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "State Function",
+          "definition": "A property whose value depends only on the state of the system, not the path taken.",
+          "importance": "Allows calculation of changes (Δ) just by knowing start and end points."
+        },
+        {
+          "term": "Adiabatic Process",
+          "definition": "A process where no heat is exchanged with surroundings (q=0).",
+          "importance": "Temperature changes occur solely due to work done."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Gibbs Equation",
+          "formula_or_principle": "ΔG = ΔH - TΔS",
+          "explanation": "The master equation for spontaneity."
+        },
+        {
+          "name": "First Law",
+          "formula_or_principle": "ΔU = q + w",
+          "explanation": "Conservation of energy relation."
+        }
+      ],
+      "practice_questions": [
+        {
+          "question": "For a reaction to be spontaneous at all temperatures, what must be the signs of ΔH and ΔS?",
+          "answer": "ΔH must be negative (exothermic) and ΔS must be positive (increase in disorder)."
+        },
+        {
+          "question": "Calculate ΔU if 500J of heat is supplied to a system and it does 200J of work.",
+          "answer": "q = +500 J, w = -200 J (work done by system). ΔU = 500 - 200 = +300 J."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 6: Equilibrium",
+      "chapter_overview": "This chapter explores the state where forward and reverse reaction rates are equal. It covers Chemical Equilibrium (Kp, Kc), Le Chatelier’s Principle, and Ionic Equilibrium (acids, bases, salts, pH, buffers), essential for understanding reaction control and biological processes.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Chemical Equilibrium",
+          "explanation": "At equilibrium, concentrations of reactants and products are constant. The Equilibrium Constant (K) is the ratio of product concentrations to reactant concentrations raised to their stoichiometric coefficients. K is temperature-dependent.",
+          "key_points": [
+            "K > 10³: Reaction favors products.",
+            "K < 10⁻³: Reaction favors reactants.",
+            "Kp is for gases (using partial pressures)."
+          ]
+        },
+        {
+          "section_title": "Le Chatelier's Principle",
+          "explanation": "If a system at equilibrium is subjected to a change (concentration, pressure, temperature), the equilibrium shifts to counteract the change.",
+          "key_points": [
+            "Increase reactants -> Shift right (products).",
+            "Increase pressure -> Shift to side with fewer gas moles.",
+            "Increase temp (exothermic) -> Shift left."
+          ]
+        },
+        {
+          "section_title": "Ionic Equilibrium",
+          "explanation": "Deals with ions in solution. Acids/Bases theories: Arrhenius (H+/OH-), Bronsted-Lowry (Proton donor/acceptor), Lewis (Electron pair acceptor/donor). pH is -log[H+]. Buffer solutions resist pH change. Solubility Product (Ksp) governs precipitation.",
+          "key_points": [
+            "Strong acids dissociate completely; weak acids establish equilibrium.",
+            "Kw (ionic product of water) = 10⁻¹⁴ at 298K.",
+            "Common Ion Effect suppresses ionization of weak electrolytes."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Dynamic Equilibrium",
+          "definition": "A state where forward and reverse reactions occur at the same rate.",
+          "detailed_explanation": "Macroscopically nothing seems to change, but microscopically particles are constantly reacting.",
+          "real_world_example": "A closed water bottle: water evaporates and condenses at the same rate, level stays constant."
+        },
+        {
+          "concept": "Buffer Solution",
+          "definition": "A solution that resists changes in pH when small amounts of acid or base are added.",
+          "detailed_explanation": "Usually a weak acid + its salt (or weak base + its salt). Crucial for life.",
+          "real_world_example": "Human blood maintains pH ~7.4 using bicarbonate buffers."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Conjugate Acid-Base Pair",
+          "definition": "A pair that differs by exactly one proton (e.g., NH₃ and NH₄⁺).",
+          "importance": "Central to Bronsted-Lowry theory."
+        },
+        {
+          "term": "Solubility Product (Ksp)",
+          "definition": "Product of molar concentrations of ions in a saturated solution.",
+          "importance": "Predicts whether a precipitate will form (if Ionic Product > Ksp)."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Equilibrium Constant Expression",
+          "formula_or_principle": "Kc = [C]ᶜ[D]ᵈ / [A]ᵃ[B]ᵇ",
+          "explanation": "For reaction aA + bB ⇌ cC + dD."
+        },
+        {
+          "name": "pH Formula",
+          "formula_or_principle": "pH = -log[H⁺]",
+          "explanation": "Measure of acidity."
+        },
+        {
+          "name": "Henderson-Hasselbalch",
+          "formula_or_principle": "pH = pKa + log([Salt]/[Acid])",
+          "explanation": "Calculates pH of a buffer."
+        }
+      ],
+      "practice_questions": [
+        {
+          "question": "Write the expression for Kp for N₂ + 3H₂ ⇌ 2NH₃.",
+          "answer": "Kp = (pNH₃)² / (pN₂)(pH₂)³."
+        },
+        {
+          "question": "What happens to the equilibrium of an exothermic reaction if temperature is increased?",
+          "answer": "It shifts backward (towards reactants) to consume the added heat."
+        },
+        {
+          "question": "Calculate the pH of 0.01M HCl.",
+          "answer": "HCl is strong, so [H+] = 0.01 = 10⁻². pH = -log(10⁻²) = 2."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3078 @@
+[
+  {
+    "chapter_title": "The Living World",
+    "chapter_overview": "This chapter explores the immense diversity of the living world, estimated between 1.7 to 1.8 million species. It introduces the concepts of taxonomy and systematics, detailing the processes of identification, nomenclature, and classification. The chapter explains the universal rules of binomial nomenclature and the hierarchical structure of taxonomic categories, from Species to Kingdom, used to organize and understand biological diversity.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Diversity in the Living World",
+        "explanation": "The earth hosts a vast variety of living organisms, referred to as biodiversity, with 1.7-1.8 million described species. To study this diverse group effectively, scientists have established procedures to standardise naming (nomenclature) and description (identification).",
+        "key_points": [
+          "Biodiversity refers to the number and types of organisms present on earth.",
+          "Nomenclature is the process of standardising names so that a particular organism is known by the same name globally.",
+          "Identification is the correct description of an organism to determine its name.",
+          "Scientific names are based on agreed principles: ICBN for plants and ICZN for animals."
+        ]
+      },
+      {
+        "section_title": "Binomial Nomenclature",
+        "explanation": "A universally accepted system for naming organisms provided by Carolus Linnaeus. Each name has two components: the Generic name and the specific epithet.",
+        "key_points": [
+          "Scientific names are generally in Latin and written in italics.",
+          "The first word represents the Genus (starts with a capital letter).",
+          "The second word denotes the specific epithet (starts with a small letter).",
+          "Example: Mango is written as Mangifera indica.",
+          "When handwritten, both words are separately underlined."
+        ]
+      },
+      {
+        "section_title": "Taxonomic Categories",
+        "explanation": "Classification is not a single step but a hierarchy of steps where each step represents a rank or category, termed a taxon. All categories together constitute the taxonomic hierarchy.",
+        "key_points": [
+          "Species: A group of individual organisms with fundamental similarities (e.g., Mangifera indica).",
+          "Genus: A group of related species with more common characters than species of other genera (e.g., Panthera includes lion, leopard, tiger).",
+          "Family: A group of related genera with fewer similarities than genus and species (e.g., Family Felidae includes cats and leopards).",
+          "Order: An assemblage of families exhibiting a few similar characters (e.g., Order Carnivora includes families Felidae and Canidae).",
+          "Class: Includes related orders (e.g., Class Mammalia includes orders Primata and Carnivora).",
+          "Phylum/Division: Classes with common features like notochord form Phylum (Animals); classes with similar characters form Division (Plants).",
+          "Kingdom: The highest category, separating all animals (Kingdom Animalia) and plants (Kingdom Plantae)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Biodiversity",
+        "definition": "The variety of life on Earth, including the number and types of organisms.",
+        "detailed_explanation": "It encompasses the variability among living organisms from all sources, including terrestrial, marine, and other aquatic ecosystems and the ecological complexes of which they are part.",
+        "real_world_example": "The 1.7-1.8 million species of plants, insects, birds, and other animals found in forests, deserts, and oceans."
+      },
+      {
+        "concept": "Binomial Nomenclature",
+        "definition": "A formal system of naming species of living things by giving each a name composed of two parts.",
+        "detailed_explanation": "Proposed by Carolus Linnaeus, this system ensures that each organism has a unique, globally recognized scientific name to avoid confusion caused by local names.",
+        "real_world_example": "Homo sapiens for humans; Mangifera indica for mango."
+      },
+      {
+        "concept": "Taxonomic Hierarchy",
+        "definition": "The arrangement of various taxonomic categories in a descending or ascending order.",
+        "detailed_explanation": "It organises organisms into specific levels (Kingdom to Species) based on their similarities and differences, helping in their study and identification.",
+        "real_world_example": "Classifying a housefly from Kingdom Animalia down to Species domestica."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Taxon",
+        "definition": "A unit of classification or a rank in the biological system (plural: taxa).",
+        "importance": "High. It is the fundamental unit used to group organisms at any level of the hierarchy."
+      },
+      {
+        "term": "Systematics",
+        "definition": "The study of the diversification of living forms, both past and present, and the relationships among living things through time.",
+        "importance": "High. It includes identification, nomenclature, classification, and evolutionary relationships."
+      },
+      {
+        "term": "ICBN",
+        "definition": "International Code for Botanical Nomenclature.",
+        "importance": "High. Provides rules for naming plants."
+      },
+      {
+        "term": "ICZN",
+        "definition": "International Code of Zoological Nomenclature.",
+        "importance": "High. Provides rules for naming animals."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Universal Rules of Nomenclature",
+        "formula_or_principle": "1. Latin/Italics. 2. Genus + specific epithet. 3. Handwritten underlined/Printed italics. 4. Genus Capitalized, species lowercase.",
+        "explanation": "These four rules govern how scientific names are written and printed to ensure uniformity and clarity."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Basic Processes of Taxonomy",
+        "steps": [
+          "Characterisation: Understanding the characters of the organism.",
+          "Identification: Correctly describing the organism to associate it with a known name.",
+          "Classification: Grouping the organism into a convenient category based on observable characters.",
+          "Nomenclature: Providing a standard scientific name to the organism."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The number of known species is 1.7-1.8 million.",
+      "Scientific name of Mango: Mangifera indica (Linn indicates described by Linnaeus).",
+      "Correct sequence: Kingdom -> Phylum/Division -> Class -> Order -> Family -> Genus -> Species.",
+      "Potato (Solanum tuberosum), Lion (Panthera leo), Leopard (Panthera pardus), Tiger (Panthera tigris).",
+      "Man belongs to Order Primata and Family Hominidae.",
+      "Wheat belongs to Order Poales and Family Poaceae.",
+      "Housefly belongs to Order Diptera and Family Muscidae."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing 'Phylum' (used for animals) with 'Division' (used for plants).",
+      "Writing the specific epithet with a capital letter (e.g., Mangifera Indica instead of Mangifera indica).",
+      "Forgetting to underline genus and species separately when handwriting.",
+      "Confusing the order of hierarchy, specifically between Order and Class."
+    ],
+    "quick_revision_notes": [
+      "Biology is the science of life forms.",
+      "Taxonomy involves Characterisation, Identification, Classification, and Nomenclature.",
+      "Systematics takes into account evolutionary relationships.",
+      "Linnaeus gave the system of Binomial Nomenclature.",
+      "As we go higher from species to kingdom, the number of common characteristics decreases."
+    ],
+    "practice_questions": [
+      {
+        "question": "Why are living organisms classified?",
+        "answer": "To make the study of the vast variety of organisms convenient and possible. It allows us to recognize and study groups rather than individuals."
+      },
+      {
+        "question": "What is the correct scientific name of Mango?",
+        "answer": "Mangifera indica"
+      },
+      {
+        "question": "Define a taxon.",
+        "answer": "A taxon is a unit or category of classification in the taxonomic hierarchy (e.g., Species, Genus, Family)."
+      },
+      {
+        "question": "Identify the correct sequence: (a) Species -> Order -> Phylum -> Kingdom (b) Genus -> Species -> Order -> Kingdom (c) Species -> Genus -> Order -> Phylum",
+        "answer": "(c) Species -> Genus -> Order -> Phylum (Note: The full correct order is Species -> Genus -> Family -> Order -> Class -> Phylum -> Kingdom)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Biological Classification",
+    "chapter_overview": "This chapter provides a detailed overview of the biological classification systems, moving from early morphological approaches to the comprehensive Five Kingdom Classification proposed by R.H. Whittaker. It explores the unique characteristics, habitats, and reproduction methods of Kingdom Monera, Protista, and Fungi, while also touching upon Viruses, Viroids, Prions, and Lichens, which are not included in the five-kingdom system.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "History of Classification",
+        "explanation": "Classification has evolved from instinctive needs to scientific criteria. Aristotle used simple morphological characters to classify plants and animals. Linnaeus introduced the Two Kingdom system (Plantae and Animalia), which later proved inadequate as it failed to distinguish between prokaryotes/eukaryotes, unicellular/multicellular, and photosynthetic/non-photosynthetic organisms.",
+        "key_points": [
+          "Aristotle: Earliest scientific classification; plants (trees, shrubs, herbs) and animals (red blood vs. no red blood).",
+          "Linnaeus: Two Kingdom system (Plantae and Animalia).",
+          "R.H. Whittaker (1969): Five Kingdom Classification (Monera, Protista, Fungi, Plantae, Animalia).",
+          "Criteria for 5-kingdom: Cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships."
+        ]
+      },
+      {
+        "section_title": "Kingdom Monera",
+        "explanation": "Bacteria are the sole members of Kingdom Monera. They are the most abundant microorganisms and can survive in extreme habitats. They show extensive metabolic diversity, being autotrophic or heterotrophic.",
+        "key_points": [
+          "Shapes: Coccus (spherical), Bacillus (rod-shaped), Vibrium (comma-shaped), Spirillum (spiral).",
+          "Archaebacteria: Live in harsh habitats (halophiles, thermoacidophiles, methanogens) due to unique cell wall structures.",
+          "Eubacteria (True Bacteria): Have rigid cell walls and flagella if motile.",
+          "Cyanobacteria (Blue-green algae): Photosynthetic autotrophs, some fix nitrogen in heterocysts (e.g., Nostoc, Anabaena).",
+          "Mycoplasma: Smallest living cells, lack cell wall, can survive without oxygen, often pathogenic."
+        ]
+      },
+      {
+        "section_title": "Kingdom Protista",
+        "explanation": "Includes all single-celled eukaryotes. This kingdom forms a link with plants, animals, and fungi. Members are primarily aquatic and have membrane-bound organelles.",
+        "key_points": [
+          "Chrysophytes: Diatoms and golden algae. Diatoms have silica-embedded walls forming 'diatomaceous earth'.",
+          "Dinoflagellates: Mostly marine, photosynthetic, two flagella, can cause 'red tides' (e.g., Gonyaulax).",
+          "Euglenoids: Fresh water, pellicle (protein layer) for flexibility, mixotrophic (photosynthetic in light, heterotrophic in dark).",
+          "Slime Moulds: Saprophytic protists, form plasmodium, produce resistant spores in fruiting bodies.",
+          "Protozoans: Heterotrophs; groups include Amoeboid (Amoeba), Flagellated (Trypanosoma), Ciliated (Paramoecium), and Sporozoans (Plasmodium)."
+        ]
+      },
+      {
+        "section_title": "Kingdom Fungi",
+        "explanation": "Heterotrophic organisms with diverse morphology and habitats. Their cell walls contain chitin. They can be saprophytes, parasites, or symbionts (lichens, mycorrhiza).",
+        "key_points": [
+          "Structure: Filamentous hyphae forming a mycelium (coenocytic or septate).",
+          "Reproduction: Vegetative (fragmentation, fission, budding), Asexual (conidia, sporangiospores, zoospores), Sexual (oospores, ascospores, basidiospores).",
+          "Classes: Phycomycetes (aseptate, e.g., Mucor), Ascomycetes (sac-fungi, septate, e.g., Penicillium), Basidiomycetes (mushrooms, rusts, smuts), Deuteromycetes (imperfect fungi, only asexual stage known)."
+        ]
+      },
+      {
+        "section_title": "Viruses, Viroids, Prions, and Lichens",
+        "explanation": "Acellular entities and symbiotic associations not included in Whittaker's classification.",
+        "key_points": [
+          "Viruses: Nucleoproteins (DNA or RNA in a protein coat called capsid), obligate parasites, inert outside host.",
+          "Viroids: Smaller than viruses, free RNA without protein coat (e.g., Potato spindle tuber disease).",
+          "Prions: Abnormally folded proteins causing neurological diseases (e.g., Mad cow disease).",
+          "Lichens: Symbiotic association between algae (phycobiont - autotrophic) and fungi (mycobiont - heterotrophic)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Five Kingdom Classification",
+        "definition": "A system proposed by R.H. Whittaker in 1969 to classify all living organisms into five kingdoms.",
+        "detailed_explanation": "The classification is based on five main criteria: cell type (prokaryotic vs. eukaryotic), body organization (unicellular vs. multicellular), mode of nutrition (autotrophic vs. heterotrophic), reproduction, and phylogenetic (evolutionary) relationships.",
+        "real_world_example": "Classifying a bacterium as Monera and a mushroom as Fungi based on their cell wall and nutrition."
+      },
+      {
+        "concept": "Phylogenetic Relationship",
+        "definition": "Classification based on the evolutionary history and ancestors of organisms.",
+        "detailed_explanation": "It reflects how organisms have evolved over time and their genetic connections to common ancestors, providing a more natural and scientific way of grouping them compared to just physical traits.",
+        "real_world_example": "Grouping birds and reptiles together because they share a common evolutionary ancestor."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Coenocytic",
+        "definition": "Hyphae that are continuous tubes filled with multinucleated cytoplasm, lacking septae.",
+        "importance": "High. Characterizes certain groups of fungi like Phycomycetes."
+      },
+      {
+        "term": "Diatomaceous Earth",
+        "definition": "Accumulation of silica-based cell wall deposits from diatoms over billions of years.",
+        "importance": "High. Used in polishing and filtration due to its gritty nature."
+      },
+      {
+        "term": "Bacteriophage",
+        "definition": "A virus that infects and replicates within bacteria.",
+        "importance": "Medium. Important in genetic research and understanding viral life cycles."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Criteria for Whittaker's Classification",
+        "formula_or_principle": "Cell structure + Body organization + Mode of nutrition + Reproduction + Phylogenetic relationships.",
+        "explanation": "These five pillars define the modern understanding of biological kingdoms."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Sexual Cycle in Fungi",
+        "steps": [
+          "Plasmogamy: Fusion of protoplasms between two gametes.",
+          "Karyogamy: Fusion of the two nuclei.",
+          "Meiosis: Occurs in the zygote to produce haploid spores."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Whittaker's 5 kingdoms: Monera, Protista, Fungi, Plantae, Animalia.",
+      "Bacteria are the sole members of Kingdom Monera.",
+      "Diatoms are the chief producers in the oceans.",
+      "Fungi cell walls are made of chitin.",
+      "Neurospora is used extensively in biochemical and genetic work.",
+      "Viruses contain either DNA or RNA, never both.",
+      "Viroids lack the protein coat found in viruses."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking viruses are considered 'living' in the 5-kingdom system (they are actually acellular and excluded).",
+      "Confusing the cell wall composition: Monera (non-cellulosic), Fungi (chitin), Plantae (cellulose).",
+      "Forgetting that Protista includes ONLY unicellular eukaryotes.",
+      "Mixing up the sexual stages of different fungal classes."
+    ],
+    "quick_revision_notes": [
+      "Monera: Prokaryotes (Bacteria).",
+      "Protista: Unicellular Eukaryotes (Amoeba, Euglena).",
+      "Fungi: Heterotrophic, Chitinous wall (Mushroom, Yeast).",
+      "Viruses: Genetic material + Protein coat, non-living outside host.",
+      "Lichens: Algae + Fungi symbiosis, pollution indicators."
+    ],
+    "practice_questions": [
+      {
+        "question": "State the main criteria used by Whittaker for classification.",
+        "answer": "Cell structure, body organization, mode of nutrition, reproduction, and phylogenetic relationships."
+      },
+      {
+        "question": "What is 'diatomaceous earth' and what are its uses?",
+        "answer": "It is the accumulation of silica cell walls of diatoms. It is used in polishing and filtration of oils and syrups."
+      },
+      {
+        "question": "How are viroids different from viruses?",
+        "answer": "Viroids are smaller than viruses, consist of free RNA, and lack a protein coat (capsid)."
+      },
+      {
+        "question": "Define plasmogamy and karyogamy.",
+        "answer": "Plasmogamy is the fusion of protoplasms between two gametes, and karyogamy is the fusion of their nuclei."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Plant Kingdom",
+    "chapter_overview": "This chapter explores the diverse world of plants, categorizing them into Algae, Bryophytes, Pteridophytes, Gymnosperms, and Angiosperms. It discusses the evolution of classification systems from artificial and natural to modern phylogenetic approaches. Each group's unique life cycle, morphological features, and ecological importance are detailed, highlighting the transition from water-dependent reproduction to the development of vascular tissues and seeds.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Classification Systems",
+        "explanation": "Plant classification has evolved from using superficial traits to considering evolutionary relationships. Modern taxonomy uses multiple data sources to resolve complexities.",
+        "key_points": [
+          "Artificial System: Based on gross morphological characters like habit and androecium structure (Linnaeus).",
+          "Natural System: Considers external and internal features like anatomy and embryology (Bentham and Hooker).",
+          "Phylogenetic System: Based on evolutionary relationships and common ancestors.",
+          "Numerical Taxonomy: Uses computers to process hundreds of observable characteristics simultaneously.",
+          "Cytotaxonomy & Chemotaxonomy: Based on cytological (chromosomes) and chemical constituents respectively."
+        ]
+      },
+      {
+        "section_title": "Algae",
+        "explanation": "Simple, thalloid, autotrophic, and largely aquatic organisms. They are classified into three main classes based on pigments and stored food.",
+        "key_points": [
+          "Chlorophyceae (Green Algae): Dominant pigments Chl a & b; store food as starch in pyrenoids (e.g., Volvox, Spirogyra).",
+          "Phaeophyceae (Brown Algae): Primarily marine; pigments Chl a, c, and fucoxanthin; store food as laminarin/mannitol (e.g., Fucus, Laminaria).",
+          "Rhodophyceae (Red Algae): Predominance of r-phycoerythrin; store food as floridean starch (e.g., Polysiphonia, Porphyra).",
+          "Economic Importance: Half of Earth's CO2 fixation; production of hydrocolloids (algin, carrageen) and agar."
+        ]
+      },
+      {
+        "section_title": "Bryophytes",
+        "explanation": "Known as the 'amphibians of the plant kingdom', they live on land but require water for sexual reproduction. Includes mosses and liverworts.",
+        "key_points": [
+          "Dominant Phase: Gametophyte (haploid).",
+          "Structure: Thalloid (liverworts) or erect with leaf-like structures (mosses); attached by rhizoids.",
+          "Reproduction: Male antheridium (produces antherozoids) and female archegonium (produces egg).",
+          "Ecological Importance: First colonizers of rocks; prevent soil erosion; Sphagnum provides peat."
+        ]
+      },
+      {
+        "section_title": "Pteridophytes",
+        "explanation": "Evolutionarily the first terrestrial plants to possess vascular tissues (xylem and phloem). Includes horsetails and ferns.",
+        "key_points": [
+          "Dominant Phase: Sporophyte (diploid), differentiated into true roots, stem, and leaves.",
+          "Prothallus: Small, inconspicuous, photosynthetic gametophyte.",
+          "Heterospory: Production of two types of spores (macro and micro), found in Selaginella and Salvinia (precursor to seed habit)."
+        ]
+      },
+      {
+        "section_title": "Gymnosperms",
+        "explanation": "Plants with 'naked seeds' as ovules are not enclosed by an ovary wall. Includes some of the tallest trees like Sequoia.",
+        "key_points": [
+          "Structure: Tap roots, branched or unbranched stems, needle-like leaves (conifers) to withstand extremes.",
+          "Reproduction: Heterosporous; produce male and female cones. Pollen is carried by air currents.",
+          "Key Examples: Cycas (unbranched stem, pinnate leaves) and Pinus (branched stem, mycorrhizal roots)."
+        ]
+      },
+      {
+        "section_title": "Angiosperms",
+        "explanation": "Flowering plants where seeds are enclosed within fruits. They are the most dominant and diverse group of plants.",
+        "key_points": [
+          "Specialized Structures: Flowers for reproduction; double fertilization occurs (unique to angiosperms).",
+          "Classes: Dicotyledons (two cotyledons) and Monocotyledons (one cotyledon)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Alternation of Generations",
+        "definition": "The life cycle of plants involving a regular rotation between a haploid gametophyte phase and a diploid sporophyte phase.",
+        "detailed_explanation": "In primitive plants like bryophytes, the gametophyte is dominant. In higher plants like gymnosperms and angiosperms, the sporophyte is the dominant, visible phase while the gametophyte is highly reduced.",
+        "real_world_example": "The moss green carpet is the gametophyte, whereas a mango tree is the sporophyte."
+      },
+      {
+        "concept": "Heterospory",
+        "definition": "The production of two different kinds of spores (megaspores and microspores).",
+        "detailed_explanation": "This is a significant evolutionary step toward the seed habit because it allows for the differentiation of male and female gametophytes, leading to more efficient reproduction.",
+        "real_world_example": "Found in Selaginella and all seed-bearing plants (Gymnosperms and Angiosperms)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Prothallus",
+        "definition": "The independent, heart-shaped, photosynthetic gametophyte of pteridophytes.",
+        "importance": "High. It represents the reduced gametophytic phase in the life cycle of ferns."
+      },
+      {
+        "term": "Gemmae",
+        "definition": "Green, multicellular, asexual buds in liverworts (like Marchantia) that develop in gemma cups.",
+        "importance": "Medium. A unique method of vegetative reproduction in bryophytes."
+      },
+      {
+        "term": "Phycobiont & Mycobiont",
+        "definition": "The algal and fungal components of a lichen, respectively.",
+        "importance": "High. Defines the symbiotic nature of lichens."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Basis of Algal Classification",
+        "formula_or_principle": "Pigmentation + Stored Food + Cell Wall Composition.",
+        "explanation": "These three biochemical markers are the primary way to distinguish between Green, Brown, and Red algae."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Evolution of Seed Habit",
+        "steps": [
+          "Heterospory: Development of two types of spores.",
+          "Retention: The female gametophyte is retained on the parent sporophyte.",
+          "Nourishment: The parent provides nutrients to the developing embryo.",
+          "Integumentation: Protection of the ovule by envelopes."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Diatoms are the chief producers in oceans (from previous chapter, but linked to Algae importance).",
+      "Bryophytes are amphibians of the plant kingdom.",
+      "Pteridophytes were the first plants to have xylem and phloem.",
+      "Sequoia is one of the tallest gymnosperms.",
+      "Hydrocolloids: Algin (brown) and Carrageen (red).",
+      "Agar is obtained from Gelidium and Gracilaria."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking cyanobacteria (blue-green algae) are still classified as plants (they are Monerans).",
+      "Confusing the dominant phase: Bryophytes (Gametophyte) vs. Pteridophytes (Sporophyte).",
+      "Misidentifying the ploidy: Protonema (n), Zygote (2n), Prothallus (n), Endosperm (3n in angiosperms).",
+      "Forgetting that water is essential for fertilization in Algae, Bryophytes, and Pteridophytes."
+    ],
+    "quick_revision_notes": [
+      "Algae: Thalloid, aquatic, three classes based on pigment.",
+      "Bryophytes: Non-vascular, require water for sex, dominant gametophyte.",
+      "Pteridophytes: First vascular plants, dominant sporophyte.",
+      "Gymnosperms: Naked seeds, heterosporous, air-borne pollen.",
+      "Angiosperms: Flowering plants, enclosed seeds, double fertilization."
+    ],
+    "practice_questions": [
+      {
+        "question": "Why are bryophytes called 'amphibians of the plant kingdom'?",
+        "answer": "Because they live in soil but are strictly dependent on water for sexual reproduction (transfer of sperm)."
+      },
+      {
+        "question": "Differentiate between Isogamy, Anisogamy, and Oogamy.",
+        "answer": "Isogamy: Similar sized gametes; Anisogamy: Dissimilar sized gametes; Oogamy: Large non-motile female gamete and small motile male gamete."
+      },
+      {
+        "question": "What is the evolutionary significance of heterospory?",
+        "answer": "It is a precursor to the seed habit, allowing for specialized male and female gametophytes and internal fertilization/embryo development."
+      },
+      {
+        "question": "Name the classes of Pteridophytes.",
+        "answer": "Psilopsida, Lycopsida, Sphenopsida, and Pteropsida."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Animal Kingdom",
+    "chapter_overview": "This chapter delves into the classification of over a million animal species, establishing fundamental criteria like symmetry, levels of organization, and body cavity types. It provides a systematic study of the animal phyla, ranging from primitive sponges (Porifera) to complex vertebrates (Chordata), highlighting their unique physiological and anatomical features, reproductive methods, and evolutionary advancements.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Basis of Classification",
+        "explanation": "Animals are classified using shared fundamental features that define their body plans and internal complexities.",
+        "key_points": [
+          "Levels of Organisation: Cellular (sponges), Tissue (coelenterates), Organ (flatworms), and Organ-system (annelids, arthropods, chordates).",
+          "Symmetry: Asymmetrical (sponges), Radial (coelenterates, ctenophores, echinoderms), and Bilateral (most other phyla).",
+          "Germ Layers: Diploblastic (ecto and endoderm) vs. Triploblastic (ecto, meso, and endoderm).",
+          "Coelom: Acoelomate (no cavity), Pseudocoelomate (pouches of mesoderm), and Coelomate (true cavity lined by mesoderm).",
+          "Segmentation: Metamerism (serial repetition of segments) as seen in earthworms.",
+          "Notochord: A mesodermal rod-like structure; present in chordates, absent in non-chordates."
+        ]
+      },
+      {
+        "section_title": "Non-Chordate Phyla (Porifera to Hemichordata)",
+        "explanation": "A diverse group of animals lacking a notochord, exhibiting varied structural complexities.",
+        "key_points": [
+          "Porifera: Water canal system with ostia, spongocoel, and osculum; flagellated choanocytes (collar cells).",
+          "Coelenterata (Cnidaria): Cnidoblasts for defense/prey; polyp (sessile) and medusa (mobile) forms; metagenesis (Obelia).",
+          "Platyhelminthes: Dorso-ventrally flattened (flatworms); acoelomate; flame cells for excretion.",
+          "Aschelminthes: Roundworms; pseudocoelomate; complete alimentary canal.",
+          "Annelida: Metamerically segmented; true coelom; nephridia for excretion.",
+          "Arthropoda: Largest phylum; jointed appendages; chitinous exoskeleton; malpighian tubules.",
+          "Mollusca: Soft-bodied with calcareous shell; muscular foot, visceral hump, and mantle; radula for feeding.",
+          "Echinodermata: Water vascular system; spiny skin; radial symmetry in adults, bilateral in larvae.",
+          "Hemichordata: Worm-like marine animals; proboscis, collar, and trunk."
+        ]
+      },
+      {
+        "section_title": "Phylum Chordata",
+        "explanation": "Characterized by a notochord, dorsal hollow nerve cord, and pharyngeal gill slits.",
+        "key_points": [
+          "Subphyla: Urochordata (notochord in larval tail), Cephalochordata (persistent notochord), and Vertebrata.",
+          "Vertebrata: Notochord replaced by a vertebral column; ventral muscular heart; kidneys for osmoregulation.",
+          "Agnatha: Jawless vertebrates (Cyclostomata - ectoparasites on fishes).",
+          "Gnathostomata: Jaw-bearing vertebrates; divided into Pisces (fins) and Tetrapoda (limbs)."
+        ]
+      },
+      {
+        "section_title": "Classes of Vertebrata",
+        "explanation": "Vertebrates are divided into several classes based on their anatomy and environment.",
+        "key_points": [
+          "Chondrichthyes: Cartilaginous fishes; ventral mouth; separate gill slits; viviparous (e.g., sharks).",
+          "Osteichthyes: Bony fishes; terminal mouth; operculum (gill cover); air bladder for buoyancy (e.g., Rohu, Seahorse).",
+          "Amphibia: Dual life (water/land); moist skin; three-chambered heart; cloaca (e.g., frog, salamander).",
+          "Reptilia: Creeping/crawling; dry cornified skin with scales/scutes; internal fertilization (e.g., snake, turtle).",
+          "Aves: Feathers; forelimbs modified into wings; pneumatic (hollow) bones; warm-blooded (e.g., crow, ostrich).",
+          "Mammalia: Mammary glands; hair on skin; external ears (pinnae); mostly viviparous (e.g., lion, kangaroo, platypus)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Metagenesis",
+        "definition": "The alternation of generations between sexual and asexual phases in certain cnidarians.",
+        "detailed_explanation": "In organisms like Obelia, the sessile polyp produces medusae asexually, and the free-swimming medusae produce polyps sexually, allowing the species to utilize both stationary and mobile lifestyles.",
+        "real_world_example": "The life cycle of the jellyfish-like Obelia."
+      },
+      {
+        "concept": "Water Vascular System",
+        "definition": "A hydraulic system used by echinoderms for various physiological functions.",
+        "detailed_explanation": "It aids in locomotion, capture and transport of food, and respiration. This system is the most unique and distinctive feature of Phylum Echinodermata.",
+        "real_world_example": "A starfish using its tube feet to move across the ocean floor."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Choanocytes",
+        "definition": "Specialized collar cells that line the spongocoel and canals of sponges.",
+        "importance": "High. They create water currents and filter food particles."
+      },
+      {
+        "term": "Cnidoblasts",
+        "definition": "Stinging cells containing nematocysts used for anchorage, defense, and capturing prey in cnidarians.",
+        "importance": "High. It is the defining character for Phylum Cnidaria."
+      },
+      {
+        "term": "Flame Cells",
+        "definition": "Specialized excretory cells found in Platyhelminthes.",
+        "importance": "High. They perform osmoregulation and excretion in flatworms."
+      },
+      {
+        "term": "Radula",
+        "definition": "A file-like rasping organ used for feeding in many molluscs.",
+        "importance": "Medium. A unique anatomical feature of Phylum Mollusca."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Principle of Chordate Characteristics",
+        "formula_or_principle": "Notochord + Dorsal Hollow Nerve Cord + Pharyngeal Gill Slits + Post-anal Tail.",
+        "explanation": "These four traits must be present at some stage of development for an animal to be classified as a chordate."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Classification of a New Specimen",
+        "steps": [
+          "Observe level of organization (Cellular to Organ-system).",
+          "Determine symmetry (Radial, Bilateral, or Asymmetrical).",
+          "Check for presence of coelom (Acoelomate to Coelomate).",
+          "Look for specific markers (Cnidoblasts, Water vascular system, Notochord).",
+          "Assign to the most specific Phylum and Class."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Arthropoda is the largest phylum of animals.",
+      "Mollusca is the second largest phylum.",
+      "All vertebrates are chordates, but all chordates are not vertebrates.",
+      "Bioluminescence is well-marked in Ctenophora.",
+      "Echinoderms show radial symmetry as adults but bilateral as larvae.",
+      "Platypus is an egg-laying (oviparous) mammal.",
+      "Pneumatic bones are found in Aves (birds)."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing 'pseudocoelom' (found only in Aschelminthes) with 'true coelom'.",
+      "Thinking all chordates have a vertebral column (only vertebrates do).",
+      "Missing the difference between 'cold-blooded' (poikilotherms) and 'warm-blooded' (homoiotherms).",
+      "Forgetting that whales and dolphins are mammals, not fishes."
+    ],
+    "quick_revision_notes": [
+      "Sponges: Cellular level, Choanocytes.",
+      "Cnidaria: Tissue level, Cnidoblasts.",
+      "Annelida: Metamerism, Nephridia.",
+      "Arthropoda: Jointed legs, Chitinous exoskeleton.",
+      "Echinodermata: Spiny skin, Water vascular system.",
+      "Pisces: Two-chambered heart, Gills.",
+      "Amphibia: Three-chambered heart, Moist skin.",
+      "Aves: Four-chambered heart, Feathers, Pneumatic bones.",
+      "Mammals: Four-chambered heart, Mammary glands, Hair."
+    ],
+    "practice_questions": [
+      {
+        "question": "Why are arthropods considered the most successful animal group?",
+        "answer": "Due to their versatile chitinous exoskeleton, jointed appendages, and highly developed sensory organs which allow them to inhabit diverse environments."
+      },
+      {
+        "question": "What is the difference between open and closed circulatory systems?",
+        "answer": "In open systems, blood is pumped into body cavities (bathing tissues); in closed systems, blood circulates through distinct vessels (arteries, veins)."
+      },
+      {
+        "question": "Define Metagenesis with an example.",
+        "answer": "It is the alternation between polyp and medusa stages. Example: Obelia."
+      },
+      {
+        "question": "Justify: 'All vertebrates are chordates but all chordates are not vertebrates'.",
+        "answer": "All vertebrates possess chordate features (notochord, nerve cord), but the notochord is replaced by a vertebral column. Urochordates and Cephalochordates are chordates but never develop a vertebral column."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Morphology of Flowering Plants",
+    "chapter_overview": "This chapter focuses on the external structural features of angiosperms. It details the architecture of roots, stems, and leaves, and explores the reproductive structures\u2014flowers, fruits, and seeds. The chapter also introduces technical botanical terms and descriptions, essential for the identification and classification of flowering plants, using the Solanaceae family as a primary example.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "The Root System",
+        "explanation": "The root is the underground part of the plant, primarily used for absorption and anchorage. It develops from the radicle of the embryo.",
+        "key_points": [
+          "Tap Root System: Primary root and its branches (e.g., Mustard). Found in most dicots.",
+          "Fibrous Root System: Primary root replaced by many roots from the stem base (e.g., Wheat). Typical in monocots.",
+          "Adventitious Roots: Arise from parts other than the radicle (e.g., Grass, Banyan).",
+          "Regions: Root cap, Meristematic zone, Elongation zone, and Maturation zone (bearing root hairs)."
+        ]
+      },
+      {
+        "section_title": "The Stem and Leaf",
+        "explanation": "Stems provide the ascending axis and support leaves, while leaves are the primary sites for photosynthesis.",
+        "key_points": [
+          "Stem: Develops from the plumule; bears nodes and internodes.",
+          "Leaf Parts: Leaf base (with stipules), petiole, and lamina (blade).",
+          "Venation: Reticulate (network, dicots) vs. Parallel (straight lines, monocots).",
+          "Phyllotaxy: Arrangement of leaves (Alternate, Opposite, Whorled)."
+        ]
+      },
+      {
+        "section_title": "Inflorescence and Flower",
+        "explanation": "The arrangement of flowers and the structure of the flower as a reproductive unit.",
+        "key_points": [
+          "Inflorescence: Racemose (unlimited growth, acropetal) and Cymose (limited growth, basipetal).",
+          "Flower Symmetry: Actinomorphic (radial), Zygomorphic (bilateral), and Asymmetric.",
+          "Floral Parts: Calyx (sepals), Corolla (petals), Androecium (stamens), and Gynoecium (carpels).",
+          "Ovary Position: Hypogynous (superior), Perigynous (half-inferior), and Epigynous (inferior)."
+        ]
+      },
+      {
+        "section_title": "Fruit and Seed",
+        "explanation": "Reproductive outcomes following fertilization.",
+        "key_points": [
+          "Fruit: Mature ovary; Drupe is a common type (e.g., Mango - fleshy mesocarp; Coconut - fibrous mesocarp).",
+          "Seed: Developed ovule; contains seed coat and embryo.",
+          "Dicot Seed: Two cotyledons; non-endospermic in most (except Castor).",
+          "Monocot Seed: One cotyledon (scutellum); usually endospermic; has aleurone layer and sheaths (coleoptile, coleorhiza)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Aestivation",
+        "definition": "The mode of arrangement of sepals or petals in a floral bud with respect to other members of the same whorl.",
+        "detailed_explanation": "It includes types like Valvate (touching), Twisted (overlapping), Imbricate (irregular overlapping), and Vexillary (standard, wings, and keel - common in peas).",
+        "real_world_example": "The distinct 'butterfly-like' arrangement of petals in a pea flower (Vexillary)."
+      },
+      {
+        "concept": "Placentation",
+        "definition": "The arrangement of ovules within the ovary.",
+        "detailed_explanation": "Types include Marginal (ridge along suture), Axile (central axis in multilocular ovary), Parietal (inner wall), Free Central (central axis, no septa), and Basal (at the base).",
+        "real_world_example": "The rows of seeds in a pea pod (Marginal) or the central cluster in a tomato (Axile)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Pulvinus",
+        "definition": "A swollen leaf base found in some leguminous plants.",
+        "importance": "Medium. Helps in leaf movement and response to stimuli."
+      },
+      {
+        "term": "Parthenocarpic Fruit",
+        "definition": "A fruit formed without fertilization, usually seedless.",
+        "importance": "High. Significant for commercial agriculture (e.g., Banana)."
+      },
+      {
+        "term": "Scutellum",
+        "definition": "The large, shield-shaped cotyledon found in monocotyledonous seeds.",
+        "importance": "High. Vital for nutrient transfer to the developing embryo."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Floral Formula",
+        "formula_or_principle": "Br \u2295 K(5) C(5) A5 G(2)",
+        "explanation": "A symbolic representation used to describe a flower's symmetry, sex, and the number/fusion of its parts (e.g., Solanaceae formula)."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Technical Description of a Plant",
+        "steps": [
+          "State the habit (Herb, Shrub, Tree).",
+          "Describe vegetative characters (Root, Stem, Leaf).",
+          "Describe floral characters (Inflorescence, Flower, Calyx, Corolla, Androecium, Gynoecium).",
+          "Write the Floral Formula.",
+          "Draw the Floral Diagram."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Dicot leaves: Reticulate venation; Monocot leaves: Parallel venation.",
+      "Mango and Coconut are drupes.",
+      "The aleurone layer in monocots is protein-rich.",
+      "Radicle forms the root; Plumule forms the shoot.",
+      "Placentation in Sunflower is Basal.",
+      "Potato family is Solanaceae."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing 'node' with 'internode'.",
+      "Misidentifying 'apocarpous' (free carpels) and 'syncarpous' (fused carpels).",
+      "Thinking all dicots are non-endospermic (Castor is a dicot with endosperm).",
+      "Mixing up coleoptile (protects plumule) and coleorhiza (protects radicle)."
+    ],
+    "quick_revision_notes": [
+      "Roots: Tap vs. Fibrous vs. Adventitious.",
+      "Inflorescence: Racemose (continuous) vs. Cymose (limited).",
+      "Floral parts: Calyx (K), Corolla (C), Androecium (A), Gynoecium (G).",
+      "Aestivation: Arrangement of petals/sepals.",
+      "Placentation: Arrangement of ovules.",
+      "Solanaceae: Bisexual, Actinomorphic, K(5), C(5), A5, G(2)."
+    ],
+    "practice_questions": [
+      {
+        "question": "Differentiate between Racemose and Cymose inflorescence.",
+        "answer": "In Racemose, the main axis continues to grow and flowers are borne laterally in acropetal succession. In Cymose, the main axis terminates in a flower, limiting growth, and flowers are in basipetal order."
+      },
+      {
+        "question": "What is a drupe? Give two examples.",
+        "answer": "A drupe is a fruit with a stony endocarp, developing from a monocarpellary superior ovary. Examples: Mango, Coconut."
+      },
+      {
+        "question": "Define 'phyllotaxy' and name its three types.",
+        "answer": "Phyllotaxy is the pattern of leaf arrangement on the stem. Types: Alternate, Opposite, and Whorled."
+      },
+      {
+        "question": "What are pneumatophores? (Concept inferred from common root modifications)",
+        "answer": "Roots that grow vertically upwards to get oxygen for respiration, commonly found in swampy areas like Rhizophora."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Anatomy of Flowering Plants",
+    "chapter_overview": "This chapter explores the internal structure and functional organization of higher plants, a study known as plant anatomy. It details the three primary tissue systems\u2014Epidermal, Ground, and Vascular\u2014and provides a comparative anatomical analysis of roots, stems, and leaves in both dicotyledonous and monocotyledonous plants, highlighting adaptations and structural differences.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "The Tissue Systems",
+        "explanation": "Plants possess three integrated tissue systems that vary by structure and location to perform specific physiological roles.",
+        "key_points": [
+          "Epidermal Tissue System: Outermost layer; includes epidermis, stomata, and appendages like root hairs (unicellular) and trichomes (multicellular). Functions in protection and regulation.",
+          "Ground Tissue System: All tissues except epidermis and vascular bundles; includes parenchyma, collenchyma, and sclerenchyma. Forms the bulk of the plant (cortex, pericycle, pith).",
+          "Vascular Tissue System: Consists of complex tissues, xylem and phloem, which form vascular bundles for conduction of water and nutrients."
+        ]
+      },
+      {
+        "section_title": "Anatomy of Roots",
+        "explanation": "Roots show distinct arrangements of tissues from the epidermis to the central stele.",
+        "key_points": [
+          "Dicot Root: Small/inconspicuous pith; fewer xylem patches (2-4); presence of Casparian strips in endodermis; undergoes secondary growth.",
+          "Monocot Root: Large and well-developed pith; many xylem bundles (polyarch - more than six); no secondary growth."
+        ]
+      },
+      {
+        "section_title": "Anatomy of Stems",
+        "explanation": "Stems serve as the main axis and exhibit characteristic 'ring' or 'scattered' vascular arrangements.",
+        "key_points": [
+          "Dicot Stem: Vascular bundles arranged in a ring; conjoint and open (with cambium); has distinct pith and medullary rays.",
+          "Monocot Stem: Vascular bundles are scattered throughout the ground tissue; conjoint and closed (no cambium); surrounded by a sclerenchymatous bundle sheath."
+        ]
+      },
+      {
+        "section_title": "Anatomy of Leaves",
+        "explanation": "Leaves are specialized for photosynthesis and gas exchange, with differences based on their orientation to light.",
+        "key_points": [
+          "Dicot (Dorsiventral) Leaf: Mesophyll is differentiated into palisade and spongy parenchyma; more stomata on the lower (abaxial) surface.",
+          "Monocot (Isobilateral) Leaf: Mesophyll is undifferentiated; stomata are present on both surfaces (amphistomatic); presence of bulliform cells in grasses."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Vascular Bundle Types",
+        "definition": "The arrangement and composition of xylem, phloem, and cambium within a plant's conducting system.",
+        "detailed_explanation": "Radial bundles (xylem and phloem on different radii) are found in roots. Conjoint bundles (xylem and phloem on same radius) are in stems/leaves. 'Open' bundles have cambium (dicots), whereas 'Closed' bundles do not (monocots).",
+        "real_world_example": "The 'open' vascular bundles in a sunflower stem allow it to grow thicker over time."
+      },
+      {
+        "concept": "Stomatal Apparatus",
+        "definition": "A complex consisting of a stomatal pore, guard cells, and surrounding subsidiary cells.",
+        "detailed_explanation": "It regulates transpiration and gas exchange. Guard cells are bean-shaped in most plants but dumb-bell shaped in grasses. Their turgidity controls the opening and closing of the pore.",
+        "real_world_example": "Leaves closing their stomata during a hot afternoon to prevent wilting."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Casparian Strips",
+        "definition": "Water-impermeable waxy material (suberin) deposited on the walls of endodermal cells in roots.",
+        "importance": "High. It forces water and minerals to pass through the cell membrane, acting as a checkpost."
+      },
+      {
+        "term": "Bulliform Cells",
+        "definition": "Large, empty, colourless epidermal cells found in grass leaves.",
+        "importance": "Medium. They help leaves curl inwards during water stress to reduce transpiration."
+      },
+      {
+        "term": "Stele",
+        "definition": "All tissues located on the inner side of the endodermis, including pericycle, vascular bundles, and pith.",
+        "importance": "High. It is the central core of the root and stem."
+      },
+      {
+        "term": "Trichomes",
+        "definition": "Multicellular epidermal hairs on the stem.",
+        "importance": "Medium. They help in preventing water loss and can be secretory."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Principle of Tissue Differentiation",
+        "formula_or_principle": "Location = Structure + Function.",
+        "explanation": "In plant anatomy, the anatomical features of a cell or tissue are strictly determined by its position and the environmental adaptations required for that specific location."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Identification of a Monocot vs. Dicot Stem",
+        "steps": [
+          "Examine the arrangement of vascular bundles (Ring = Dicot, Scattered = Monocot).",
+          "Check for the presence of cambium (Present = Dicot/Open, Absent = Monocot/Closed).",
+          "Look for a distinct pith (Centralized = Dicot, Ground tissue = Monocot).",
+          "Check for phloem parenchyma (Present = Dicot, Absent = Monocot)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Dicot roots have 2-4 xylem patches; Monocot roots are polyarch.",
+      "The 'ring' arrangement of vascular bundles is a hallmark of the dicot stem.",
+      "Phloem parenchyma is absent in monocot stems.",
+      "Mesophyll differentiation occurs in dicot leaves, not monocot leaves.",
+      "Cambium is responsible for secondary growth.",
+      "Starch sheath refers to the endodermis in a dicot stem."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking root hairs are multicellular (they are unicellular; stem trichomes are multicellular).",
+      "Confusing 'radial' (roots) and 'conjoint' (stems) vascular bundles.",
+      "Assuming all leaves have more stomata on the lower surface (true only for dorsiventral/dicot leaves).",
+      "Mixing up the position of protoxylem (endarch in stems vs. exarch in roots - though exarch wasn't explicitly named in text, the position of protoxylem is a key point)."
+    ],
+    "quick_revision_notes": [
+      "Roots: Radial vascular bundles, Endodermis with Casparian strips.",
+      "Stems: Conjoint vascular bundles, Endarch protoxylem.",
+      "Dicot Stem: Open bundles, Ring arrangement.",
+      "Monocot Stem: Closed bundles, Scattered arrangement.",
+      "Leaves: Epidermis with cuticle, Mesophyll with chloroplasts.",
+      "Bulliform cells: Only in grasses (monocots)."
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the function of the endodermis in roots?",
+        "answer": "The endodermis contains Casparian strips made of suberin, which act as a biological checkpoint, regulating the flow of water and minerals into the vascular system."
+      },
+      {
+        "question": "How do guard cells in grasses differ from those in other plants?",
+        "answer": "In grasses, the guard cells are dumb-bell shaped, whereas in most other plants (dicots), they are bean-shaped or kidney-shaped."
+      },
+      {
+        "question": "What tissues constitute the 'stele'?",
+        "answer": "All tissues inside the endodermis: Pericycle, Vascular bundles (xylem, phloem), and Pith."
+      },
+      {
+        "question": "Differentiate between 'open' and 'closed' vascular bundles.",
+        "answer": "'Open' bundles contain cambium between the xylem and phloem, allowing for secondary growth (dicots). 'Closed' bundles lack cambium and cannot produce secondary tissues (monocots)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Structural Organisation in Animals",
+    "chapter_overview": "This chapter introduces the structural organisation in animals, focusing on the hierarchy from cells to tissues, organs, and organ systems. It highlights the division of labour in multicellular organisms. The chapter also provides a detailed morphological and anatomical study of a representative vertebrate, the frog (Rana tigrina), covering its various physiological systems such as digestive, respiratory, circulatory, excretory, nervous, and reproductive systems.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Organ and Organ System",
+        "explanation": "In multicellular animals, cells are organised into tissues, tissues into organs, and organs into organ systems. This hierarchical organization ensures efficient physiological functioning through the division of labour.",
+        "key_points": [
+          "Cells -> Tissues -> Organs -> Organ Systems.",
+          "Organ systems like digestive, respiratory, and circulatory systems split work for survival.",
+          "Complexity in organ systems exhibits an evolutionary trend.",
+          "Morphology refers to external features; Anatomy refers to internal structure."
+        ]
+      },
+      {
+        "section_title": "Frogs - Morphology",
+        "explanation": "The frog (Rana tigrina) is an amphibian that lives on both land and water. It is cold-blooded (poikilotherm) and exhibits camouflage (mimicry) to protect itself from enemies. It undergoes summer sleep (aestivation) and winter sleep (hibernation).",
+        "key_points": [
+          "Skin is smooth, moist, and slippery due to mucus; dorsal side is olive green, ventral is pale yellow.",
+          "Body is divisible into head and trunk; neck and tail are absent.",
+          "Eyes are bulged and covered by a nictitating membrane.",
+          "Tympanum receives sound signals.",
+          "Forelimbs (4 digits) and hindlimbs (5 digits, webbed) aid in movement.",
+          "Sexual dimorphism: Males have vocal sacs and a copulatory pad."
+        ]
+      },
+      {
+        "section_title": "Frogs - Anatomy (Digestive System)",
+        "explanation": "The digestive system consists of an alimentary canal and digestive glands. Since frogs are carnivores, the alimentary canal is short.",
+        "key_points": [
+          "Alimentary Canal: Mouth -> Buccal Cavity -> Pharynx -> Oesophagus -> Stomach -> Intestine -> Rectum -> Cloaca.",
+          "Food is captured by a bilobed tongue.",
+          "Digestion occurs via HCl and gastric juices in the stomach.",
+          "Liver secretes bile (stored in gall bladder); Pancreas secretes pancreatic juice.",
+          "Absorption takes place in the intestine via villi and microvilli."
+        ]
+      },
+      {
+        "section_title": "Frogs - Anatomy (Respiratory System)",
+        "explanation": "Frogs respire via different methods depending on their environment (land or water).",
+        "key_points": [
+          "Cutaneous respiration: Respiration through moist skin (in water).",
+          "Pulmonary respiration: Respiration through lungs (on land).",
+          "Buccal cavity also aids in respiration on land.",
+          "During aestivation and hibernation, only cutaneous respiration occurs."
+        ]
+      },
+      {
+        "section_title": "Frogs - Anatomy (Circulatory System)",
+        "explanation": "The vascular system is closed and well-developed, consisting of a heart, blood vessels, and blood. There is also a lymphatic system.",
+        "key_points": [
+          "Heart: 3-chambered (two atria, one ventricle), covered by pericardium.",
+          "Sinus venosus receives deoxygenated blood; Conus arteriosus pumps blood to the body.",
+          "Portal systems: Hepatic portal system (liver-intestine connection) and Renal portal system (kidney-lower body connection).",
+          "Blood: Contains plasma and cells (RBCs are nucleated, WBCs, platelets).",
+          "Lymph lacks proteins and RBCs."
+        ]
+      },
+      {
+        "section_title": "Frogs - Anatomy (Excretory System)",
+        "explanation": "The excretory system eliminates nitrogenous wastes. Frogs are ureotelic (excrete urea).",
+        "key_points": [
+          "Consists of a pair of kidneys, ureters, cloaca, and urinary bladder.",
+          "Kidneys contain nephrons (uriniferous tubules).",
+          "Ureters act as urinogenital ducts in males; separate in females.",
+          "Wastes are carried by blood to kidneys for separation and excretion."
+        ]
+      },
+      {
+        "section_title": "Frogs - Anatomy (Control & Coordination)",
+        "explanation": "Includes both neural and endocrine systems.",
+        "key_points": [
+          "Endocrine glands: Pituitary, thyroid, parathyroid, thymus, pineal, adrenals, gonads.",
+          "Nervous System: Central (brain, spinal cord), Peripheral (cranial/spinal nerves), Autonomic (sympathetic/parasympathetic).",
+          "Brain: Forebrain (olfactory lobes, cerebrum, diencephalon), Midbrain (optic lobes), Hindbrain (cerebellum, medulla oblongata).",
+          "Sense organs: Eyes (simple), Ears (tympanum, for hearing and balance), sensory papillae, taste buds, nasal epithelium."
+        ]
+      },
+      {
+        "section_title": "Frogs - Anatomy (Reproductive System)",
+        "explanation": "Frogs have well-organised male and female reproductive systems. Fertilisation is external.",
+        "key_points": [
+          "Male: Testes, Vasa efferentia (10-12), Bidder's canal, Urinogenital duct, Cloaca.",
+          "Female: Ovaries (produce 2500-3000 ova), Oviducts, Cloaca.",
+          "Fertilisation occurs in water. Larval stage is the tadpole, which undergoes metamorphosis."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Poikilothermy",
+        "definition": "The condition of having a body temperature that varies with the temperature of the surroundings; cold-bloodedness.",
+        "detailed_explanation": "Frogs cannot regulate their internal body temperature constantly like mammals, so their temperature fluctuates with the environment.",
+        "real_world_example": "Frogs basking in the sun to warm up or hiding in shade to cool down."
+      },
+      {
+        "concept": "Metamorphosis",
+        "definition": "The process of transformation from an immature form to an adult form in two or more distinct stages.",
+        "detailed_explanation": "In frogs, the aquatic, herbivorous tadpole larva transforms into a terrestrial/semi-aquatic, carnivorous adult frog.",
+        "real_world_example": "Tadpole losing its tail and developing legs to become a frog."
+      },
+      {
+        "concept": "Portal System",
+        "definition": "A system of blood vessels where blood is collected from one set of capillaries and delivered to another set of capillaries before returning to the heart.",
+        "detailed_explanation": "Frogs have a hepatic portal system (intestine to liver) and a renal portal system (lower body to kidneys).",
+        "real_world_example": "Nutrients from the intestine going directly to the liver via the hepatic portal vein."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Cloaca",
+        "definition": "A common chamber into which the intestinal, urinary, and generative canals discharge.",
+        "importance": "High. It is the single exit point for waste and reproductive cells in frogs."
+      },
+      {
+        "term": "Nictitating Membrane",
+        "definition": "A transparent or translucent third eyelid capable of being drawn across the eye for protection while maintaining visibility.",
+        "importance": "Medium. protects the frog's eyes while underwater."
+      },
+      {
+        "term": "Aestivation",
+        "definition": "Summer sleep to avoid heat and desiccation.",
+        "importance": "Medium. A survival strategy for frogs during hot summers."
+      },
+      {
+        "term": "Hibernation",
+        "definition": "Winter sleep to avoid extreme cold.",
+        "importance": "Medium. A survival strategy for frogs during cold winters."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Structural Hierarchy",
+        "formula_or_principle": "Cells -> Tissues -> Organs -> Organ Systems -> Organism",
+        "explanation": "The fundamental principle of biological organisation in multicellular organisms."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Circulation of Blood in Frog",
+        "steps": [
+          "Deoxygenated blood from body enters Sinus Venosus.",
+          "Sinus Venosus pumps blood into Right Atrium.",
+          "Oxygenated blood from lungs/skin enters Left Atrium.",
+          "Both atria contract, pumping blood into the single Ventricle.",
+          "Ventricle pumps mixed blood into Conus Arteriosus.",
+          "Conus Arteriosus distributes blood to lungs (for oxygenation) and body parts."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Frog's scientific name: Rana tigrina.",
+      "RBCs in frogs are nucleated (unlike human RBCs which are enucleated).",
+      "Heart is 3-chambered: 2 atria, 1 ventricle.",
+      "Frogs are ureotelic (excrete urea).",
+      "Respiration: Cutaneous (skin) in water/hibernation; Pulmonary (lungs) on land.",
+      "Male frogs have vocal sacs and copulatory pads; females do not.",
+      "Fertilisation is external; development involves a tadpole stage."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking frogs drink water (they absorb it through skin).",
+      "Assuming frogs have a 4-chambered heart like humans.",
+      "Confusing ureters in male and female frogs (in males, they are urinogenital ducts; in females, they only carry urine).",
+      "Forgetting that RBCs in frogs are nucleated."
+    ],
+    "quick_revision_notes": [
+      "Frogs: Amphibians, poikilothermic, camouflaged.",
+      "Body: Head + Trunk (no neck/tail). Tympanum = Ear.",
+      "Digestion: Short gut (carnivore). Cloaca = common exit.",
+      "Respiration: Skin (water), Lungs (land).",
+      "Circulation: Closed, 3-chambered heart, nucleated RBCs.",
+      "Excretion: Kidneys, Ureotelic.",
+      "Reproduction: External fertilisation, indirect development (tadpole)."
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the function of the nictitating membrane in frogs?",
+        "answer": "It protects the eyes while the frog is in water."
+      },
+      {
+        "question": "Differentiate between the heart of a frog and a human.",
+        "answer": "A frog has a 3-chambered heart (2 atria, 1 ventricle) with nucleated RBCs, whereas a human has a 4-chambered heart (2 atria, 2 ventricles) with enucleated RBCs."
+      },
+      {
+        "question": "Why is the alimentary canal of a frog short?",
+        "answer": "Because frogs are carnivores, and digesting meat is easier/faster than digesting plant cellulose, requiring a shorter intestinal length."
+      },
+      {
+        "question": "What is the economic importance of frogs?",
+        "answer": "They eat insects (crop protection) and maintain the ecosystem. Their muscular legs are used as food in some regions."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Cell: The Unit of Life",
+    "chapter_overview": "This chapter establishes the cell as the fundamental structural and functional unit of all living organisms. It covers the Cell Theory, differentiates between prokaryotic and eukaryotic cells, and provides a detailed description of cell organelles and their functions. The chapter emphasizes that anything less than a complete structure of a cell does not ensure independent living.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "What is a Cell? & Cell Theory",
+        "explanation": "The cell is the basic unit of life. Unicellular organisms are capable of independent existence and performing essential life functions. The Cell Theory, formulated by Schleiden and Schwann and modified by Virchow, states that all living things are made of cells and all cells arise from pre-existing cells.",
+        "key_points": [
+          "Robert Hooke first observed cells; Antonie von Leeuwenhoek first saw a live cell.",
+          "Robert Brown discovered the nucleus.",
+          "Cell Theory (Schleiden & Schwann): All plants and animals are composed of cells.",
+          "Rudolf Virchow added 'Omnis cellula-e cellula' (cells arise from pre-existing cells)."
+        ]
+      },
+      {
+        "section_title": "Prokaryotic Cells",
+        "explanation": "Prokaryotic cells (bacteria, blue-green algae, mycoplasma, PPLO) lack a membrane-bound nucleus and organelles. They are generally smaller and multiply faster than eukaryotic cells.",
+        "key_points": [
+          "Shapes: Bacillus (rod), Coccus (spherical), Vibrio (comma), Spirillum (spiral).",
+          "Cell Envelope: Glycocalyx (slime layer or capsule) -> Cell Wall -> Plasma Membrane.",
+          "Genetic Material: Naked circular DNA (nucleoid) and often plasmids (small circular DNA).",
+          "Ribosomes: 70S type (50S + 30S subunits).",
+          "Mesosomes: Infoldings of plasma membrane, help in respiration and DNA replication.",
+          "Motility: Flagella (filament, hook, basal body), Pili, and Fimbriae."
+        ]
+      },
+      {
+        "section_title": "Eukaryotic Cells - Membranes & Cell Wall",
+        "explanation": "Eukaryotic cells (protists, plants, animals, fungi) have an organized nucleus and membrane-bound organelles. The cell membrane is a fluid mosaic of lipids and proteins.",
+        "key_points": [
+          "Cell Membrane: Lipid bilayer with embedded proteins (Fluid Mosaic Model by Singer & Nicolson, 1972).",
+          "Functions: Passive transport (diffusion, osmosis) and Active transport (Na+/K+ pump).",
+          "Cell Wall: Non-living rigid structure in plants (cellulose), fungi (chitin), and algae. Provides shape and protection. Plasmodesmata connect cytoplasms of neighboring cells."
+        ]
+      },
+      {
+        "section_title": "Endomembrane System",
+        "explanation": "A group of membranous organelles that work together: Endoplasmic Reticulum (ER), Golgi Complex, Lysosomes, and Vacuoles.",
+        "key_points": [
+          "ER: Rough ER (protein synthesis, has ribosomes) and Smooth ER (lipid/steroid synthesis, no ribosomes).",
+          "Golgi Apparatus: Cisternae stacks; modifies, packages, and transports proteins/lipids (cis face receives, trans face releases).",
+          "Lysosomes: Suicidal bags containing hydrolytic enzymes (active at acidic pH).",
+          "Vacuoles: Membrane-bound space (tonoplast); large in plants, stores water/sap/waste."
+        ]
+      },
+      {
+        "section_title": "Mitochondria & Plastids",
+        "explanation": "Semi-autonomous organelles containing their own DNA and 70S ribosomes. They divide by fission.",
+        "key_points": [
+          "Mitochondria: 'Powerhouse of the cell'. Double membrane (inner folded into cristae). Site of aerobic respiration and ATP production.",
+          "Plastids (Plants/Euglenoids): Chloroplasts (photosynthesis, contain chlorophyll/thylakoids), Chromoplasts (colored pigments), Leucoplasts (colorless storage: Amyloplasts-starch, Elaioplasts-oil, Aleuroplasts-protein)."
+        ]
+      },
+      {
+        "section_title": "Ribosomes, Cytoskeleton, Cilia/Flagella, Centrosome",
+        "explanation": "Non-membranous structures and structural elements.",
+        "key_points": [
+          "Ribosomes: 80S in eukaryotes (60S + 40S). Site of protein synthesis.",
+          "Cytoskeleton: Microtubules, microfilaments. Provides mechanical support and motility.",
+          "Cilia/Flagella: '9+2' arrangement of microtubules. Responsible for movement.",
+          "Centrosome: Contains two centrioles ('9+0' arrangement). Forms spindle fibres during cell division (Animal cells only)."
+        ]
+      },
+      {
+        "section_title": "Nucleus",
+        "explanation": "The control center of the cell containing genetic material.",
+        "key_points": [
+          "Double membrane envelope with nuclear pores.",
+          "Chromatin: DNA + Histones. Condenses into chromosomes during division.",
+          "Nucleolus: Site of rRNA synthesis.",
+          "Chromosome Types (based on centromere): Metacentric (middle), Sub-metacentric, Acrocentric, Telocentric (terminal)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Omnis cellula-e cellula",
+        "definition": "The phrase coined by Rudolf Virchow meaning 'All cells arise from pre-existing cells'.",
+        "detailed_explanation": "This modified the original cell theory to explain reproduction and continuity of life.",
+        "real_world_example": "Cell division (mitosis/meiosis)."
+      },
+      {
+        "concept": "Fluid Mosaic Model",
+        "definition": "The widely accepted model of the cell membrane structure proposed by Singer and Nicolson.",
+        "detailed_explanation": "Describes the membrane as a quasi-fluid lipid bilayer where proteins can move laterally, allowing flexibility and function.",
+        "real_world_example": "Proteins floating in the lipid bilayer like icebergs in the sea."
+      },
+      {
+        "concept": "Endomembrane System",
+        "definition": "A collection of organelles (ER, Golgi, Lysosomes, Vacuoles) whose functions are coordinated.",
+        "detailed_explanation": "Proteins made in ER are transported to Golgi for packaging and then to Lysosomes or Vacuoles or outside the cell.",
+        "real_world_example": "A factory production line: Manufacturing (ER) -> Packaging (Golgi) -> Shipping/Disposal."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Mesosome",
+        "definition": "Infoldings of the plasma membrane in bacteria.",
+        "importance": "High. Analogous to mitochondria in eukaryotes; aids in respiration and DNA replication."
+      },
+      {
+        "term": "Plasmid",
+        "definition": "Small, circular, extrachromosomal DNA in bacteria.",
+        "importance": "High. Confers unique phenotypic characters like antibiotic resistance."
+      },
+      {
+        "term": "Polysome",
+        "definition": "Several ribosomes attached to a single mRNA chain.",
+        "importance": "Medium. efficient protein synthesis."
+      },
+      {
+        "term": "Tonoplast",
+        "definition": "The membrane bounding the vacuole in plant cells.",
+        "importance": "Medium. Controls transport of ions into the vacuole."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Svedberg Unit (S)",
+        "formula_or_principle": "Sedimentation coefficient (measure of density and size)",
+        "explanation": "Used to classify ribosomes (e.g., 70S, 80S)."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Protein Trafficking in Endomembrane System",
+        "steps": [
+          "Ribosomes on RER synthesize proteins.",
+          "Proteins enter ER lumen.",
+          "Transport vesicles carry proteins to Golgi cis face.",
+          "Proteins are modified in Golgi cisternae.",
+          "Vesicles bud off from trans face to lysosomes, vacuoles, or cell surface."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Cell Theory doesn't apply to viruses.",
+      "Prokaryotes: No nucleus, 70S ribosomes. Eukaryotes: Nucleus, 80S ribosomes.",
+      "Animal cells have centrioles; Plant cells have cell walls and plastids.",
+      "Fluid Mosaic Model: Lipids enable lateral movement of proteins.",
+      "Mitochondria and Chloroplasts have their own DNA and 70S ribosomes.",
+      "Lysosomes are 'Suicidal Bags'; Mitochondria are 'Powerhouses'.",
+      "Ribosomes are the 'Protein Factories'."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking animal cells have a cell wall.",
+      "Confusing 70S (Prokaryotic/Organelle) and 80S (Eukaryotic Cytoplasm) ribosomes.",
+      "Forgetting that mitochondria and chloroplasts have double membranes and their own DNA.",
+      "Confusing the functions of SER (lipids) and RER (proteins)."
+    ],
+    "quick_revision_notes": [
+      "Cell: Structural & functional unit.",
+      "Prokaryotes: Small, no nucleus, 70S ribosomes, binary fission.",
+      "Eukaryotes: Compartmentalisation, nucleus, 80S ribosomes.",
+      "Plant Cell: Cell wall, Plastids, Large Vacuole.",
+      "Animal Cell: Centrioles, No cell wall.",
+      "Membrane: Fluid Mosaic Model.",
+      "Nucleus: Controls cell."
+    ],
+    "practice_questions": [
+      {
+        "question": "Who proposed the Fluid Mosaic Model of plasma membrane?",
+        "answer": "Singer and Nicolson (1972)."
+      },
+      {
+        "question": "What is the main function of the Smooth Endoplasmic Reticulum (SER)?",
+        "answer": "Synthesis of lipids and steroidal hormones."
+      },
+      {
+        "question": "Why are mitochondria called semi-autonomous organelles?",
+        "answer": "Because they possess their own DNA and ribosomes (70S) and can synthesize some of their own proteins."
+      },
+      {
+        "question": "Differentiate between Gram-positive and Gram-negative bacteria.",
+        "answer": "Gram-positive bacteria retain the Gram stain, while Gram-negative bacteria do not, due to differences in their cell envelope structure."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Biomolecules",
+    "chapter_overview": "This chapter analyses the chemical composition of living organisms, categorising the molecules found in the 'acid-soluble pool' (micromolecules) and 'acid-insoluble pool' (macromolecules). It details the structure and function of proteins, nucleic acids, polysaccharides, and lipids, and explores the catalytic role of enzymes in metabolic processes.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Analysis of Chemical Composition",
+        "explanation": "Chemical analysis of living tissue involves grinding it in trichloroacetic acid. This produces a filtrate (acid-soluble pool) containing micromolecules (<1000 Da) and a retentate (acid-insoluble pool) containing biomacromolecules (>1000 Da).",
+        "key_points": [
+          "Acid-soluble pool: Amino acids, sugars, nucleotides (Biomicromolecules).",
+          "Acid-insoluble pool: Proteins, Nucleic Acids, Polysaccharides (Biomacromolecules).",
+          "Lipids: Found in the acid-insoluble fraction due to vesicle formation, though their molecular weight is <800 Da (not strict macromolecules).",
+          "Ash analysis reveals inorganic elements (Ca, Mg, Na, K, etc.)."
+        ]
+      },
+      {
+        "section_title": "Proteins & Amino Acids",
+        "explanation": "Proteins are heteropolymers of amino acids linked by peptide bonds. They perform vast functions like transport (GLUT-4), catalysis (Enzymes), and structural support (Collagen).",
+        "key_points": [
+          "Amino Acids: Substituted methanes with carboxyl, amino, hydrogen, and R-group. 20 types.",
+          "Essential vs. Non-essential amino acids.",
+          "Structure: Primary (sequence), Secondary (alpha-helix, beta-sheet), Tertiary (3D folding, active site formation), Quaternary (assembly of subunits, e.g., Haemoglobin).",
+          "Collagen is the most abundant animal protein; RuBisCO is the most abundant in the biosphere."
+        ]
+      },
+      {
+        "section_title": "Nucleic Acids",
+        "explanation": "Polymers of nucleotides (DNA & RNA) that store genetic information.",
+        "key_points": [
+          "Nucleotide = Nitrogenous Base + Pentose Sugar + Phosphate.",
+          "Nitrogen bases: Purines (Adenine, Guanine) and Pyrimidines (Cytosine, Uracil/Thymine).",
+          "DNA Structure: Double helix, anti-parallel strands, backbone of sugar-phosphate, bases paired inside (A=T, G\u2261C)."
+        ]
+      },
+      {
+        "section_title": "Polysaccharides",
+        "explanation": "Long chains of sugars. They act as energy stores or structural components.",
+        "key_points": [
+          "Starch: Storehouse of energy in plants (helical, holds I2).",
+          "Glycogen: Energy store in animals.",
+          "Cellulose: Structural component of plant cell walls (no helices, doesn't hold I2).",
+          "Chitin: Exoskeleton of arthropods, fungal cell walls (N-acetyl glucosamine polymer)."
+        ]
+      },
+      {
+        "section_title": "Enzymes",
+        "explanation": "Biocatalysts that speed up reactions by lowering activation energy. Almost all are proteins.",
+        "key_points": [
+          "Lock and Key / Induced Fit mechanism: Substrate binds to Active Site -> ES Complex -> EP Complex -> E + Product.",
+          "Factors affecting activity: Temperature (bell curve), pH (bell curve), Substrate concentration (saturation/Vmax).",
+          "Inhibition: Competitive inhibition (inhibitor mimics substrate, e.g., malonate inhibits succinic dehydrogenase).",
+          "Classification: Oxidoreductases, Transferases, Hydrolases, Lyases, Isomerases, Ligases.",
+          "Co-factors: Non-protein parts essential for activity (Prosthetic groups, Co-enzymes, Metal ions)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Metabolites",
+        "definition": "Intermediates and products of metabolism.",
+        "detailed_explanation": "Primary metabolites (amino acids, sugars) have identifiable functions. Secondary metabolites (alkaloids, toxins, drugs) have ecological importance but unknown direct functions in the host.",
+        "real_world_example": "Morphine (alkaloid), Curcumin (drug), Rubber (polymer)."
+      },
+      {
+        "concept": "Activation Energy",
+        "definition": "The minimum energy required to start a chemical reaction.",
+        "detailed_explanation": "Enzymes function by lowering this energy barrier, allowing reactions to proceed faster at body temperature.",
+        "real_world_example": "Like a tunnel through a mountain instead of climbing over it."
+      },
+      {
+        "concept": "Zwitterion",
+        "definition": "A molecule with both positive and negative charges, but net neutral charge.",
+        "detailed_explanation": "Amino acids exist as zwitterions at specific pH, having both NH3+ and COO- groups.",
+        "real_world_example": "Amino acid in neutral solution."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Peptide Bond",
+        "definition": "The amide bond formed between the carboxyl group of one amino acid and the amino group of another.",
+        "importance": "High. Forms the backbone of proteins."
+      },
+      {
+        "term": "Glycosidic Bond",
+        "definition": "Bond linking monosaccharides in polysaccharides.",
+        "importance": "High. Forms carbohydrates like starch and cellulose."
+      },
+      {
+        "term": "Phosphodiester Bond",
+        "definition": "Bond linking nucleotides in nucleic acids.",
+        "importance": "High. Forms the backbone of DNA and RNA."
+      },
+      {
+        "term": "Apoenzyme",
+        "definition": "The protein part of an enzyme.",
+        "importance": "Medium. Needs a co-factor to become active (Holoenzyme)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Enzyme Kinetics (Michaelis-Menten concept)",
+        "formula_or_principle": "E + S <=> ES -> E + P",
+        "explanation": "Describes the catalytic cycle: Binding -> Catalysis -> Release."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Catalytic Cycle of Enzyme",
+        "steps": [
+          "Substrate binds to the active site.",
+          "Binding induces shape change (fit).",
+          "Chemical bonds break/form (Transition State).",
+          "Product is released.",
+          "Enzyme is free to bind new substrate."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Lipids are not strict macromolecules (low molecular weight) but found in the insoluble fraction.",
+      "Inulin is a polymer of fructose.",
+      "Starch gives blue colour with Iodine (helical); Cellulose does not.",
+      "B-DNA turns every 10 base pairs; pitch is 34 \u00c5.",
+      "Protein tertiary structure is essential for biological activity.",
+      "Enzymes are denatured at high temps (except thermophilic ones).",
+      "Co-factor is crucial; removing it inactivates the enzyme."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking lipids are macromolecules.",
+      "Confusing nucleosides (Base + Sugar) with nucleotides (Base + Sugar + Phosphate).",
+      "Forgetting that enzymes lower activation energy (not increase it).",
+      "Confusing the bonds: Peptide (Protein), Glycosidic (Carb), Phosphodiester (DNA)."
+    ],
+    "quick_revision_notes": [
+      "Biomolecules: Organic compounds in living cells.",
+      "Proteins: Amino acid chains (Peptide bonds).",
+      "Nucleic Acids: Nucleotide chains (Phosphodiester bonds).",
+      "Carbs: Sugar chains (Glycosidic bonds).",
+      "Lipids: Fats/Oils (Ester bonds).",
+      "Enzymes: Protein catalysts, specific, sensitive to pH/Temp."
+    ],
+    "practice_questions": [
+      {
+        "question": "Why are lipids found in the acid-insoluble fraction despite being micromolecules?",
+        "answer": "Because they form vesicles upon grinding that are not water-soluble and thus do not pass through the filter."
+      },
+      {
+        "question": "What is the difference between a nucleoside and a nucleotide?",
+        "answer": "A nucleoside consists of a nitrogenous base and sugar. A nucleotide is a nucleoside plus a phosphate group."
+      },
+      {
+        "question": "Name the non-protein constituent of an enzyme that makes it catalytically active.",
+        "answer": "Co-factor (e.g., Co-enzyme, Prosthetic group, Metal ion)."
+      },
+      {
+        "question": "Which level of protein structure is necessary for the biological activity of enzymes?",
+        "answer": "Tertiary structure."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Cell Cycle and Cell Division",
+    "chapter_overview": "This chapter details the processes by which cells reproduce and multiply: the Cell Cycle, Mitosis, and Meiosis. It explains the phases of growth (Interphase) and division (M Phase), distinguishing between the equation division (Mitosis) used for growth and repair, and reduction division (Meiosis) used for gamete formation and genetic diversity.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "The Cell Cycle",
+        "explanation": "The sequence of events by which a cell duplicates its genome, synthesizes other constituents, and divides into two daughter cells. It consists of Interphase and M Phase.",
+        "key_points": [
+          "Interphase (Resting Phase): Preparation for division (>95% of duration).",
+          "G1 Phase: Cell growth, metabolic activity.",
+          "S Phase: DNA replication (amount doubles 2C->4C, chromosome count constant 2n), Centriole duplication.",
+          "G2 Phase: Protein synthesis, preparation for mitosis.",
+          "G0 Phase (Quiescent Stage): Cells exit cycle, metabolically active but don't divide (e.g., heart cells)."
+        ]
+      },
+      {
+        "section_title": "Mitosis (M Phase)",
+        "explanation": "Equational division where chromosome number remains same in daughter cells. Occurs in somatic cells.",
+        "key_points": [
+          "Prophase: Chromosomes condense, centrioles move to poles, nuclear membrane/nucleolus disappear.",
+          "Metaphase: Chromosomes align at the equator (Metaphase plate). Spindle fibres attach to Kinetochores.",
+          "Anaphase: Centromeres split, sister chromatids move to opposite poles.",
+          "Telophase: Chromosomes decondense, nuclear envelope reforms.",
+          "Cytokinesis: Division of cytoplasm (Furrow in animals, Cell plate in plants)."
+        ]
+      },
+      {
+        "section_title": "Meiosis",
+        "explanation": "Reduction division occurring in germ cells to produce haploid gametes. Involves two cycles: Meiosis I and Meiosis I.",
+        "key_points": [
+          "Meiosis I (Reductional): Homologous chromosomes separate.",
+          "Prophase I: Complex, 5 stages (Leptotene, Zygotene-Synapsis/Synaptonemal complex, Pachytene-Crossing over/Recombination, Diplotene-Chiasmata, Diakinesis).",
+          "Metaphase I: Bivalents align.",
+          "Anaphase I: Homologous chromosomes separate (sister chromatids stay together).",
+          "Telophase I: Dyad of cells formed.",
+          "Meiosis II (Equational): Resembles mitosis. Sister chromatids separate. Result: 4 Haploid cells."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Crossing Over",
+        "definition": "Exchange of genetic material between non-sister chromatids of homologous chromosomes during Pachytene of Prophase I.",
+        "detailed_explanation": "This process leads to recombination of genetic material, creating variation in offspring, which is vital for evolution.",
+        "real_world_example": "Siblings looking different despite having same parents."
+      },
+      {
+        "concept": "Homologous Chromosomes",
+        "definition": "Pairs of chromosomes (one from each parent) that are similar in shape, size, and gene content.",
+        "detailed_explanation": "They pair up during Meiosis I to ensure each gamete gets one set of genes.",
+        "real_world_example": "Chromosome 1 from Mom and Chromosome 1 from Dad."
+      },
+      {
+        "concept": "Chiasmata",
+        "definition": "X-shaped structures seen during Diplotene where crossing over has occurred.",
+        "detailed_explanation": "They hold homologous chromosomes together until anaphase I."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Kinetochore",
+        "definition": "Disc-shaped structure on centromeres where spindle fibres attach.",
+        "importance": "High. Essential for chromosome movement."
+      },
+      {
+        "term": "Synapsis",
+        "definition": "Pairing of homologous chromosomes during Zygotene.",
+        "importance": "High. Prerequisite for crossing over."
+      },
+      {
+        "term": "Bivalent/Tetrad",
+        "definition": "The complex formed by a pair of synapsed homologous chromosomes (4 chromatids).",
+        "importance": "High. Visible unit during Prophase I."
+      },
+      {
+        "term": "Cytokinesis",
+        "definition": "Division of the cytoplasm.",
+        "importance": "High. Follows Karyokinesis (nuclear division)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "DNA Content vs Chromosome Number",
+        "formula_or_principle": "S Phase: DNA 2C -> 4C, Chromosomes 2n -> 2n.",
+        "explanation": "DNA replicates, but chromatids stay attached, so chromosome count doesn't change until Anaphase."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Prophase I of Meiosis",
+        "steps": [
+          "Leptotene: Chromosomes visible.",
+          "Zygotene: Synapsis (pairing), Synaptonemal complex.",
+          "Pachytene: Crossing over (Recombination nodule).",
+          "Diplotene: Chiasmata visible (complex dissolves).",
+          "Diakinesis: Terminalisation of chiasmata."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Interphase is the metabolically active 'resting' phase.",
+      "DNA replication occurs ONLY in S phase.",
+      "Meiosis I reduces chromosome number; Meiosis II splits chromatids.",
+      "Crossing over occurs in Pachytene.",
+      "Chiasmata are seen in Diplotene.",
+      "Plant cells divide by cell plate; Animal cells by furrowing."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking chromosome number doubles in S phase (only DNA content doubles).",
+      "Confusing Anaphase I (homologues separate) and Anaphase II (chromatids separate).",
+      "Mixing up the order of Prophase I stages (LZPDD).",
+      "Forgetting that Meiosis II is similar to Mitosis."
+    ],
+    "quick_revision_notes": [
+      "Cell Cycle = Interphase (G1, S, G2) + M Phase.",
+      "Mitosis = Prophase, Metaphase, Anaphase, Telophase.",
+      "Mitosis: 2n -> 2n (Growth).",
+      "Meiosis: 2n -> n (Gametes).",
+      "Meiosis I: Separation of Homologues.",
+      "Meiosis II: Separation of Chromatids."
+    ],
+    "practice_questions": [
+      {
+        "question": "In which phase of the cell cycle does DNA replication occur?",
+        "answer": "S Phase (Synthesis Phase)."
+      },
+      {
+        "question": "What is the significance of crossing over?",
+        "answer": "It introduces genetic variations which are important for evolution."
+      },
+      {
+        "question": "Distinguish between Anaphase of Mitosis and Anaphase I of Meiosis.",
+        "answer": "In Anaphase (Mitosis), centromeres split and chromatids separate. In Anaphase I (Meiosis), homologous chromosomes separate, and centromeres do not split."
+      },
+      {
+        "question": "What is the G0 phase?",
+        "answer": "The quiescent stage where cells exit the cell cycle, remaining metabolically active but not dividing."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Photosynthesis in Higher Plants",
+    "chapter_overview": "This chapter explains how green plants synthesise their own food using light energy (autotrophic nutrition). It covers the site of photosynthesis (chloroplasts), the pigments involved, the light reactions (electron transport, ATP/NADPH synthesis), and the dark reactions (Biosynthetic phase: C3 and C4 pathways). Factors affecting photosynthesis are also discussed.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Early Experiments & Site of Photosynthesis",
+        "explanation": "Historical experiments by Priestley (oxygen discovery), Ingenhousz (light essential), Sachs (glucose/starch), and Engelmann (action spectrum) established the basics. Photosynthesis occurs in chloroplasts, specifically in the mesophyll cells of leaves.",
+        "key_points": [
+          "Equation: 6CO2 + 12H2O ->(Light) -> C6H12O6 + 6H2O + 6O2.",
+          "Chloroplasts: Grana (Light reaction) and Stroma (Dark reaction).",
+          "Oxygen comes from water (proved by Van Niel)."
+        ]
+      },
+      {
+        "section_title": "Pigments & Light Reaction",
+        "explanation": "Pigments absorb light. Chlorophyll a is the chief pigment. The Light Reaction (Photochemical phase) involves light absorption, water splitting, oxygen release, and formation of ATP and NADPH.",
+        "key_points": [
+          "Pigments: Chl a (blue-green), Chl b (yellow-green), Xanthophylls, Carotenoids.",
+          "LHC (Light Harvesting Complex): Antigen + Reaction Centre.",
+          "Photosystems: PS I (P700) and PS II (P680).",
+          "Z-Scheme: Non-cyclic electron flow (PS II -> ETS -> PS I -> NADP+). Produces ATP & NADPH. Oxygen released from water splitting at PS II.",
+          "Cyclic Photophosphorylation: PS I only. Produces only ATP."
+        ]
+      },
+      {
+        "section_title": "Chemiosmotic Hypothesis",
+        "explanation": "Explains ATP synthesis linked to a proton gradient across the thylakoid membrane.",
+        "key_points": [
+          "Protons accumulate in the lumen (from water splitting and transport).",
+          "Gradient breakdown moves protons through ATP synthase (F0-F1 particle) to stroma, releasing energy to make ATP."
+        ]
+      },
+      {
+        "section_title": "Dark Reaction (Biosynthetic Phase)",
+        "explanation": "ATP and NADPH produced in light reaction are used to fix CO2 into sugars. Occurs in stroma.",
+        "key_points": [
+          "C3 Pathway (Calvin Cycle): First product is 3-PGA. Primary acceptor is RuBP. Steps: Carboxylation, Reduction, Regeneration. Occurs in all plants.",
+          "C4 Pathway (Hatch & Slack): Adapted for dry tropical regions. First product is OAA (4-carbon). Kranz Anatomy (Bundle Sheath cells). More efficient, no photorespiration."
+        ]
+      },
+      {
+        "section_title": "Photorespiration",
+        "explanation": "A wasteful process in C3 plants where RuBisCO binds with O2 instead of CO2.",
+        "key_points": [
+          "Occurs when CO2 is low / O2 is high / Temp is high.",
+          "RuBP + O2 -> Phosphoglycerate + Phosphoglycolate.",
+          "Uses ATP, releases CO2, produces no sugar/ATP.",
+          "Absent in C4 plants (due to CO2 concentration mechanism)."
+        ]
+      },
+      {
+        "section_title": "Factors Affecting Photosynthesis",
+        "explanation": "Blackman's Law of Limiting Factors: The rate is determined by the factor nearest to its minimal value.",
+        "key_points": [
+          "Light: Linear relationship at low intensity; saturation at 10% sunlight.",
+          "CO2: Major limiting factor. C3 plants saturate at higher levels than C4.",
+          "Temperature: Dark reactions are enzymatic and temp-sensitive. C4 plants have higher optimum temp.",
+          "Water: Indirect effect (stomatal closure)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Photophosphorylation",
+        "definition": "The synthesis of ATP from ADP and inorganic phosphate in the presence of light.",
+        "detailed_explanation": "Can be Cyclic (only PS I, no NADPH) or Non-cyclic (PS I & II, makes NADPH & O2).",
+        "real_world_example": "Solar panels charging a battery."
+      },
+      {
+        "concept": "Kranz Anatomy",
+        "definition": "Special leaf anatomy in C4 plants where vascular bundles are surrounded by large bundle sheath cells.",
+        "detailed_explanation": "Allows C4 plants to concentrate CO2 and avoid photorespiration.",
+        "real_world_example": "Maize and Sorghum leaves."
+      },
+      {
+        "concept": "RuBisCO",
+        "definition": "Ribulose Bisphosphate Carboxylase Oxygenase.",
+        "detailed_explanation": "Most abundant enzyme on earth. Can bind CO2 (photosynthesis) or O2 (photorespiration)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Action Spectrum",
+        "definition": "Graph showing rate of photosynthesis at different wavelengths of light.",
+        "importance": "High. Shows that blue and red light are most effective."
+      },
+      {
+        "term": "Reaction Centre",
+        "definition": "The specific chlorophyll 'a' molecule that initiates electron transport (P700 or P680).",
+        "importance": "High. The core of the photosystem."
+      },
+      {
+        "term": "PGA",
+        "definition": "3-Phosphoglyceric Acid.",
+        "importance": "Medium. First stable product of C3 cycle."
+      },
+      {
+        "term": "OAA",
+        "definition": "Oxaloacetic Acid.",
+        "importance": "Medium. First stable product of C4 cycle."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Law of Limiting Factors",
+        "formula_or_principle": "Rate is limited by the scarcest resource.",
+        "explanation": "Even if light is abundant, if CO2 is low, photosynthesis slows down."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Calvin Cycle (C3)",
+        "steps": [
+          "Carboxylation: RuBP + CO2 -> 3-PGA (Enzyme: RuBisCO).",
+          "Reduction: 3-PGA -> Triose Phosphate (Uses ATP + NADPH). forms Glucose.",
+          "Regeneration: Triose Phosphate -> RuBP (Uses ATP)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Oxygen released comes from H2O, not CO2.",
+      "Z-scheme occurs in Grana; Calvin cycle in Stroma.",
+      "RuBisCO has dual nature (Carboxylase & Oxygenase).",
+      "C4 plants are more efficient than C3 plants.",
+      "Bundle sheath cells in C4 plants lack grana (no light reaction) but have RuBisCO.",
+      "Mesophyll cells in C4 plants have PEP Case (fixes CO2) but lack RuBisCO."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking dark reactions happen only at night (they depend on light reaction products, so they happen during day).",
+      "Confusing the sites: Light (Grana/Thylakoids) vs Dark (Stroma).",
+      "Thinking Oxygen comes from CO2.",
+      "Confusing C3 (PGA) and C4 (OAA) first products."
+    ],
+    "quick_revision_notes": [
+      "Photosynthesis: Light -> Chemical Energy.",
+      "Pigments: Chl a, b, Carotenoids.",
+      "Light Rxn: ATP + NADPH + O2 produced.",
+      "Dark Rxn: CO2 fixed to Sugar using ATP/NADPH.",
+      "C3: RuBP acceptor, PGA product. Photorespiration occurs.",
+      "C4: PEP acceptor, OAA product. No photorespiration. Kranz anatomy.",
+      "Factors: Light, CO2, Temp, Water."
+    ],
+    "practice_questions": [
+      {
+        "question": "Why is the 'Dark Reaction' called so?",
+        "answer": "Not because it occurs in dark, but because it doesn't directly require light (it depends on ATP/NADPH produced in light)."
+      },
+      {
+        "question": "Name the primary CO2 acceptor in C3 and C4 plants.",
+        "answer": "C3: RuBP (5-carbon). C4: PEP (3-carbon)."
+      },
+      {
+        "question": "What is the specific anatomical feature of C4 plants?",
+        "answer": "Kranz Anatomy (presence of bundle sheath cells)."
+      },
+      {
+        "question": "Where is the enzyme RuBisCO located in C3 and C4 plants?",
+        "answer": "In C3 plants: Mesophyll cells. In C4 plants: Bundle Sheath cells."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Respiration in Plants",
+    "chapter_overview": "This chapter discusses the mechanism of cellular respiration, where food materials are broken down within the cell to release energy, which is then trapped for ATP synthesis. It covers how plants 'breathe', the process of glycolysis, fermentation under anaerobic conditions, and aerobic respiration including the Tricarboxylic Acid (TCA) cycle and the Electron Transport System (ETS). It also explains the amphibolic nature of the respiratory pathway and the concept of Respiratory Quotient (RQ).",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Do Plants Breathe?",
+        "explanation": "Plants require oxygen for respiration and release carbon dioxide. Unlike animals, they lack specialised respiratory organs but use stomata and lenticels for gaseous exchange.",
+        "key_points": [
+          "Each plant part takes care of its own gas-exchange needs.",
+          "There is very little transport of gases from one plant part to another.",
+          "Roots, stems, and leaves respire at lower rates compared to animals.",
+          "Gases diffuse through an interconnected network of air spaces."
+        ]
+      },
+      {
+        "section_title": "Glycolysis",
+        "explanation": "Also known as the EMP pathway (Embden-Meyerhof-Parnas), glycolysis is the partial oxidation of glucose to form two molecules of pyruvic acid. It occurs in the cytoplasm of all living cells.",
+        "key_points": [
+          "It is the only process of respiration in anaerobic organisms.",
+          "Glucose is derived from sucrose or storage carbohydrates.",
+          "Involves a chain of 10 reactions controlled by enzymes.",
+          "Net gain of 2 ATP and 2 NADH molecules per glucose molecule."
+        ]
+      },
+      {
+        "section_title": "Fermentation",
+        "explanation": "Incomplete oxidation of glucose under anaerobic conditions. Occurs in many prokaryotes and unicellular eukaryotes (like yeast).",
+        "key_points": [
+          "Pyruvic acid is converted to CO2 and ethanol (in yeast) or lactic acid (in some bacteria and animal muscles).",
+          "Low energy yield (<7% of energy in glucose).",
+          "Hazardous products (alcohol or acid) are formed.",
+          "Yeast poison themselves when alcohol concentration reaches about 13%."
+        ]
+      },
+      {
+        "section_title": "Aerobic Respiration",
+        "explanation": "Complete oxidation of organic substances in the presence of oxygen, releasing CO2, water, and a large amount of energy. Occurs in mitochondria.",
+        "key_points": [
+          "Crucial events: Complete oxidation of pyruvate (Krebs' cycle) and electron transport (ETS).",
+          "Pyruvate enters the mitochondrial matrix and undergoes oxidative decarboxylation to form Acetyl CoA."
+        ]
+      },
+      {
+        "section_title": "Tricarboxylic Acid Cycle (Krebs' Cycle)",
+        "explanation": "A cyclic pathway starting with the condensation of Acetyl CoA with oxaloacetic acid (OAA) to form citric acid.",
+        "key_points": [
+          "First elucidated by Hans Krebs.",
+          "Involves successive steps of decarboxylation and oxidation.",
+          "NADH and FADH2 are produced, which later yield ATP in ETS.",
+          "One molecule of GTP (converted to ATP) is synthesised via substrate-level phosphorylation."
+        ]
+      },
+      {
+        "section_title": "Electron Transport System (ETS) and Oxidative Phosphorylation",
+        "explanation": "Metabolic pathway where electrons pass from one carrier to another, coupled to ATP synthase for ATP production.",
+        "key_points": [
+          "Located in the inner mitochondrial membrane.",
+          "Oxygen acts as the final hydrogen acceptor.",
+          "NADH oxidation yields 3 ATPs; FADH2 oxidation yields 2 ATPs.",
+          "Chemiosmotic hypothesis explains the mechanism of ATP synthesis via proton gradient."
+        ]
+      },
+      {
+        "section_title": "Amphibolic Pathway",
+        "explanation": "The respiratory pathway involves both breakdown (catabolism) and synthesis (anabolism) of substrates.",
+        "key_points": [
+          "Respiratory intermediates form the link between breakdown and synthesis of fatty acids, proteins, etc.",
+          "Acetyle CoA is used to synthesise fatty acids when needed."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Cellular Respiration",
+        "definition": "The mechanism of breakdown of food materials within the cell to release energy and the trapping of this energy for synthesis of ATP.",
+        "detailed_explanation": "It is a fundamental process for all living organisms to obtain energy for life activities. It can be aerobic or anaerobic.",
+        "real_world_example": "Energy for running, growth, and cellular repair comes from respiration."
+      },
+      {
+        "concept": "Respiratory Quotient (RQ)",
+        "definition": "The ratio of the volume of CO2 evolved to the volume of O2 consumed in respiration.",
+        "detailed_explanation": "RQ = Volume of CO2 evolved / Volume of O2 consumed. It depends on the type of respiratory substrate used.",
+        "real_world_example": "For carbohydrates, RQ is 1. For fats (e.g., Tripalmitin), RQ is roughly 0.7. For proteins, RQ is about 0.9."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "ATP",
+        "definition": "Adenosine Triphosphate, the energy currency of the cell.",
+        "importance": "High. Energy released in respiration is trapped as ATP."
+      },
+      {
+        "term": "Mitochondria",
+        "definition": "Organelles where aerobic respiration (Krebs' cycle and ETS) takes place.",
+        "importance": "High. Known as the powerhouse of the cell."
+      },
+      {
+        "term": "Cytochrome c",
+        "definition": "A small protein attached to the outer surface of the inner membrane acts as a mobile carrier for transfer of electrons between complex III and IV.",
+        "importance": "Medium. Critical component of the ETS."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Aerobic Respiration Equation",
+        "formula_or_principle": "C6H12O6 + 6O2 -> 6CO2 + 6H2O + Energy",
+        "explanation": "Represents the complete combustion of glucose."
+      },
+      {
+        "name": "RQ Calculation",
+        "formula_or_principle": "RQ = Volume of CO2 evolved / Volume of O2 consumed",
+        "explanation": "Used to determine the nature of the substrate being respired."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Steps of Glycolysis",
+        "steps": [
+          "Phosphorylation of Glucose to Glucose-6-phosphate.",
+          "Isomerisation to Fructose-6-phosphate.",
+          "Phosphorylation to Fructose-1,6-bisphosphate.",
+          "Splitting into two triose phosphates (PGAL and DHAP).",
+          "Oxidation and phosphorylation to form BPGA.",
+          "Conversion to 3-phosphoglyceric acid (ATP formation).",
+          "Formation of Phosphoenolpyruvate (PEP).",
+          "Conversion to Pyruvic acid (ATP formation)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Glycolysis occurs in the cytoplasm and is common to both aerobic and anaerobic respiration.",
+      "Krebs' cycle occurs in the mitochondrial matrix.",
+      "ETS occurs in the inner mitochondrial membrane.",
+      "End product of glycolysis is Pyruvic acid (2 molecules).",
+      "Net gain of ATP in aerobic respiration is theoretically 38 ATP.",
+      "Fermentation yields very little energy (2 ATP net).",
+      "Final electron acceptor in aerobic respiration is Oxygen."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking plants breathe like animals (they don't have lungs).",
+      "Confusing the site of Glycolysis (cytoplasm) with Krebs' cycle (mitochondria).",
+      "Forgetting that glycolysis consumes ATP in the initial steps.",
+      "Assuming RQ is always 1 (it varies with substrate)."
+    ],
+    "quick_revision_notes": [
+      "Plants respire using stomata and lenticels.",
+      "Glycolysis: Glucose -> 2 Pyruvate (Cytoplasm, 2 ATP net).",
+      "Fermentation: Anaerobic, Alcohol/Lactic acid, low energy.",
+      "Aerobic Respiration: Krebs' Cycle (Matrix) + ETS (Inner Membrane).",
+      "RQ: Carbohydrates=1, Fats=0.7, Proteins=0.9.",
+      "Amphibolic pathway: Involved in both breakdown and synthesis."
+    ],
+    "practice_questions": [
+      {
+        "question": "Where does glycolysis occur in a cell?",
+        "answer": "Cytoplasm."
+      },
+      {
+        "question": "What is the net gain of ATP molecules during glycolysis?",
+        "answer": "2 ATP molecules."
+      },
+      {
+        "question": "What is the final hydrogen acceptor in aerobic respiration?",
+        "answer": "Oxygen."
+      },
+      {
+        "question": "Define Respiratory Quotient (RQ).",
+        "answer": "The ratio of the volume of CO2 evolved to the volume of O2 consumed in respiration."
+      },
+      {
+        "question": "Why is the respiratory pathway considered amphibolic?",
+        "answer": "Because it involves both catabolism (breakdown) and anabolism (synthesis) of substrates."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Plant Growth and Development",
+    "chapter_overview": "This chapter explores the processes of growth and development in plants, from seed germination to senescence. It defines growth as an irreversible permanent increase in size and details its phases and rates. The chapter delves into differentiation, dedifferentiation, and redifferentiation, and the concept of plasticity. A significant portion is dedicated to Plant Growth Regulators (PGRs) - Auxins, Gibberellins, Cytokinins, Ethylene, and Abscisic Acid - and their physiological effects. It also covers photoperiodism and vernalisation.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Growth",
+        "explanation": "Growth is defined as an irreversible permanent increase in size of an organ or its parts or even of an individual cell. It is accompanied by metabolic processes (anabolic and catabolic).",
+        "key_points": [
+          "Plant growth is generally indeterminate due to the presence of meristems.",
+          "Growth is measurable by parameters like fresh weight, dry weight, length, area, volume, and cell number.",
+          "Phases of growth: Meristematic (cell division), Elongation (vacuolation, new cell wall deposition), and Maturation (maximal thickening and protoplasmic modification)."
+        ]
+      },
+      {
+        "section_title": "Growth Rates",
+        "explanation": "The increased growth per unit time is termed as growth rate. It can be arithmetic or geometric.",
+        "key_points": [
+          "Arithmetic growth: Linear curve (Lt = L0 + rt). Only one daughter cell divides.",
+          "Geometric growth: Sigmoid curve (W1 = W0 e^rt). Both daughter cells divide. Includes Lag, Log (Exponential), and Stationary phases.",
+          "Absolute growth rate: Total growth per unit time.",
+          "Relative growth rate: Growth per unit time expressed on a common basis."
+        ]
+      },
+      {
+        "section_title": "Differentiation, Dedifferentiation and Redifferentiation",
+        "explanation": "These terms describe the developmental changes in plant cells.",
+        "key_points": [
+          "Differentiation: Cells derived from meristems mature to perform specific functions (e.g., tracheary elements losing protoplasm).",
+          "Dedifferentiation: Living differentiated cells regain the capacity to divide (e.g., formation of interfascicular cambium).",
+          "Redifferentiation: Dedifferentiated cells once again lose the capacity to divide and mature."
+        ]
+      },
+      {
+        "section_title": "Plant Growth Regulators (PGRs)",
+        "explanation": "Small, simple molecules of diverse chemical composition that regulate plant growth and development. They are classified as growth promoters or inhibitors.",
+        "key_points": [
+          "Auxins (e.g., IAA): Apical dominance, root initiation, parthenocarpy (tomatoes), herbicides (2,4-D).",
+          "Gibberellins (e.g., GA3): Bolting (internode elongation), increasing grape stalk length, breaking dormancy.",
+          "Cytokinins (e.g., Zeatin): Cell division, delay leaf senescence, overcome apical dominance.",
+          "Ethylene: Gaseous PGR. Fruit ripening (respiratory climactic), abscission, horizontal growth.",
+          "Abscisic Acid (ABA): Stress hormone. Stomatal closure, seed dormancy, tolerance to stress."
+        ]
+      },
+      {
+        "section_title": "Photoperiodism and Vernalisation",
+        "explanation": "Responses of plants to environmental signals like light duration and temperature.",
+        "key_points": [
+          "Photoperiodism: Response to day/night length for flowering. Categories: Long day, Short day, Day neutral plants.",
+          "Vernalisation: Promotion of flowering by a period of low temperature (e.g., in wheat, barley, rye)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Plasticity",
+        "definition": "The ability of plants to follow different pathways in response to environment or phases of life to form different kinds of structures.",
+        "detailed_explanation": "Heterophylly is a common example, where leaves of juvenile plants differ from mature plants, or leaves produced in air differ from those in water (e.g., Buttercup, Coriander, Larkspur).",
+        "real_world_example": "The difference in leaf shape of coriander in young vs. mature stages."
+      },
+      {
+        "concept": "Apical Dominance",
+        "definition": "The phenomenon where the growing apical bud inhibits the growth of the lateral (axillary) buds.",
+        "detailed_explanation": "Controlled by Auxins. Removal of the shoot tip (decapitation) results in the growth of lateral buds.",
+        "real_world_example": "Pruning in tea plantations and hedge-making to promote bushy growth."
+      },
+      {
+        "concept": "Sigmoid Growth Curve",
+        "definition": "An S-shaped curve representing geometric growth typical of living organisms in a natural environment.",
+        "detailed_explanation": "It consists of a lag phase (slow initial growth), a log or exponential phase (rapid growth), and a stationary phase (growth slows due to limited resources).",
+        "real_world_example": "Growth of a seasonal plant or a bacterial colony."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Parthenocarpy",
+        "definition": "Development of fruit without fertilization.",
+        "importance": "Medium. Induced by Auxins (e.g., in tomatoes)."
+      },
+      {
+        "term": "Bolting",
+        "definition": "Internode elongation just prior to flowering.",
+        "importance": "Medium. Induced by Gibberellins (e.g., in beet, cabbages)."
+      },
+      {
+        "term": "Respiratory Climactic",
+        "definition": "The rise in the rate of respiration during the ripening of fruits.",
+        "importance": "Medium. Associated with Ethylene."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Exponential Growth Equation",
+        "formula_or_principle": "W1 = W0 e^rt",
+        "explanation": "W1=final size, W0=initial size, r=growth rate, t=time, e=base of natural logarithms."
+      },
+      {
+        "name": "Arithmetic Growth Equation",
+        "formula_or_principle": "Lt = L0 + rt",
+        "explanation": "Lt=length at time t, L0=initial length, r=growth rate."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Developmental Process in a Plant Cell",
+        "steps": [
+          "Cell Division (Meristematic cell).",
+          "Plasmatic Growth.",
+          "Differentiation/Expansion/Elongation.",
+          "Maturation.",
+          "Mature Cell.",
+          "Senescence.",
+          "Death."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Auxin was isolated by F.W. Went from tips of coleoptiles of oat seedlings.",
+      "Bakanae (foolish seedling) disease led to the discovery of Gibberellins.",
+      "Kinetin (Cytokinin) was discovered from autoclaved herring sperm DNA.",
+      "ABA is the stress hormone.",
+      "Ethylene is the only gaseous PGR.",
+      "Sigmoid curve is characteristic of living organisms growing in a natural environment.",
+      "2,4-D is used to kill dicot weeds."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing Dedifferentiation and Redifferentiation.",
+      "Attributing Apical Dominance to Cytokinins instead of Auxins (Cytokinins overcome it).",
+      "Mixing up the functions of Gibberellins (bolting) and Ethylene (ripening).",
+      "Thinking Arithmetic growth produces an S-curve (it produces a linear curve)."
+    ],
+    "quick_revision_notes": [
+      "Growth: Irreversible increase in size.",
+      "Phases: Meristematic, Elongation, Maturation.",
+      "Auxins: Rooting, Apical Dominance.",
+      "Gibberellins: Bolting, Malt.",
+      "Cytokinins: Cell division, Delay senescence.",
+      "Ethylene: Ripening.",
+      "ABA: Stomatal closure, Dormancy.",
+      "Long Day Plants require light > critical duration."
+    ],
+    "practice_questions": [
+      {
+        "question": "Which plant hormone is known as the 'stress hormone'?",
+        "answer": "Abscisic Acid (ABA)."
+      },
+      {
+        "question": "What is the effect of removing the shoot tip (decapitation) in plants?",
+        "answer": "It results in the growth of lateral buds (removes apical dominance)."
+      },
+      {
+        "question": "Name the gaseous plant growth regulator.",
+        "answer": "Ethylene."
+      },
+      {
+        "question": "Which growth rate produces a linear curve?",
+        "answer": "Arithmetic growth."
+      },
+      {
+        "question": "What is plasticity in plants? Give an example.",
+        "answer": "The ability to follow different pathways in response to environment or life phases. Example: Heterophylly in Coriander or Buttercup."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Breathing and Exchange of Gases",
+    "chapter_overview": "This chapter describes the human respiratory system and the mechanisms involved in breathing and gas exchange. It covers the structure of respiratory organs, the mechanics of inspiration and expiration, and the volumes and capacities of the lungs. The chapter explains how oxygen and carbon dioxide are exchanged at the alveoli and tissues based on partial pressures, and how they are transported by the blood. It concludes with the regulation of respiration and common respiratory disorders.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Human Respiratory System",
+        "explanation": "A system of organs responsible for taking in oxygen and expelling carbon dioxide. It includes the conducting part (transporting air) and the respiratory part (site of diffusion).",
+        "key_points": [
+          "Pathway: Nostrils -> Nasal chamber -> Pharynx -> Larynx -> Trachea -> Bronchi -> Bronchioles -> Alveoli.",
+          "Larynx is the sound box.",
+          "Trachea divides at the 5th thoracic vertebra.",
+          "Alveoli are thin, irregular-walled vascularised bags where gas exchange occurs."
+        ]
+      },
+      {
+        "section_title": "Mechanism of Breathing",
+        "explanation": "Breathing involves two stages: Inspiration (intake of air) and Expiration (release of air). It relies on creating pressure gradients between the lungs and the atmosphere.",
+        "key_points": [
+          "Inspiration: Active process. Diaphragm and external intercostal muscles contract, increasing thoracic volume and decreasing intra-pulmonary pressure.",
+          "Expiration: Relaxation of diaphragm and intercostal muscles returns the thorax to its original size, increasing pressure and expelling air.",
+          "Normal breathing rate: 12-16 times/minute."
+        ]
+      },
+      {
+        "section_title": "Respiratory Volumes and Capacities",
+        "explanation": "Measurements of air moved during breathing, used for clinical assessment.",
+        "key_points": [
+          "Tidal Volume (TV): Normal breathing (~500 mL).",
+          "Inspiratory Reserve Volume (IRV): Forcible inspiration (~2500-3000 mL).",
+          "Expiratory Reserve Volume (ERV): Forcible expiration (~1000-1100 mL).",
+          "Residual Volume (RV): Air remaining after forcible expiration (~1100-1200 mL).",
+          "Vital Capacity (VC): Maximum air breathed in after forced expiration (ERV + TV + IRV)."
+        ]
+      },
+      {
+        "section_title": "Transport of Gases",
+        "explanation": "Blood is the medium for transport of O2 and CO2.",
+        "key_points": [
+          "Oxygen: 97% transported by RBCs as oxyhaemoglobin; 3% dissolved in plasma.",
+          "Oxygen Dissociation Curve: Sigmoid shape. Factors favoring dissociation at tissues: Low pO2, high pCO2, high H+ concentration, high temperature.",
+          "Carbon Dioxide: ~20-25% as carbamino-haemoglobin, 70% as bicarbonate (HCO3-), 7% dissolved in plasma."
+        ]
+      },
+      {
+        "section_title": "Regulation of Respiration",
+        "explanation": "Neural system regulates respiratory rhythm to suit body demands.",
+        "key_points": [
+          "Respiratory Rhythm Centre: In medulla (primary regulator).",
+          "Pneumotaxic Centre: In pons (can reduce duration of inspiration).",
+          "Chemosensitive Area: Sensitive to CO2 and H+ ions, signals rhythm centre to adjust."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Partial Pressure",
+        "definition": "Pressure contributed by an individual gas in a mixture of gases.",
+        "detailed_explanation": "Represented as pO2 and pCO2. Gases diffuse from regions of higher partial pressure to lower partial pressure.",
+        "real_world_example": "Oxygen diffuses from alveoli (pO2 = 104 mmHg) to blood (pO2 = 40 mmHg)."
+      },
+      {
+        "concept": "Oxygen Dissociation Curve",
+        "definition": "A graphical representation showing the relationship between partial pressure of oxygen (pO2) and percentage saturation of haemoglobin.",
+        "detailed_explanation": "It is sigmoid (S-shaped). It shifts to the right under conditions like high pCO2 or low pH (Bohr effect), facilitating oxygen delivery to tissues.",
+        "real_world_example": "During exercise, muscles produce more CO2 and heat, shifting the curve to release more O2."
+      },
+      {
+        "concept": "Chloride Shift",
+        "definition": "Also known as the Hamburger phenomenon, it refers to the exchange of bicarbonate ions and chloride ions across the red blood cell membrane.",
+        "detailed_explanation": "Though not explicitly detailed in the summary text, it's the mechanism maintaining ionic balance during CO2 transport as bicarbonate.",
+        "real_world_example": "Occurs in RBCs during transport of CO2."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Alveoli",
+        "definition": "The primary sites of exchange of gases in the lungs.",
+        "importance": "High. Provide immense surface area for diffusion."
+      },
+      {
+        "term": "Haemoglobin",
+        "definition": "Iron-containing red pigment in RBCs that carries oxygen.",
+        "importance": "High. Each molecule can bind 4 molecules of O2."
+      },
+      {
+        "term": "Emphysema",
+        "definition": "A chronic disorder where alveolar walls are damaged, decreasing respiratory surface.",
+        "importance": "Medium. Major cause is cigarette smoking."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Diffusion Principle",
+        "formula_or_principle": "Rate of diffusion is proportional to pressure/concentration gradient, solubility of gases, and thickness of membrane.",
+        "explanation": "Explains why O2 enters blood at alveoli and leaves at tissues."
+      },
+      {
+        "name": "Vital Capacity Formula",
+        "formula_or_principle": "VC = ERV + TV + IRV",
+        "explanation": "Calculates the maximum volume of air a person can breathe in after a forced expiration."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Mechanism of Inspiration",
+        "steps": [
+          "Contraction of diaphragm (flattens).",
+          "Contraction of external inter-costal muscles (lifts ribs/sternum).",
+          "Increase in volume of thoracic chamber.",
+          "Decrease in intra-pulmonary pressure.",
+          "Air rushes into lungs from atmosphere."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Partial pressure of O2 in Alveoli: 104 mmHg; in Deoxygenated blood: 40 mmHg.",
+      "Every 100 ml of oxygenated blood delivers ~5 ml of O2 to tissues.",
+      "Every 100 ml of deoxygenated blood delivers ~4 ml of CO2 to alveoli.",
+      "Asthma involves inflammation of bronchi and bronchioles.",
+      "Emphysema is caused mainly by cigarette smoking.",
+      "Carbonic anhydrase enzyme is present in high concentration in RBCs."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing Vital Capacity (VC) with Total Lung Capacity (TLC) (TLC includes Residual Volume).",
+      "Thinking Expiration is always active (Normal expiration is passive).",
+      "Mixing up the partial pressure values for O2 and CO2 at different sites.",
+      "Believing that N2 is exchanged (it is not utilized)."
+    ],
+    "quick_revision_notes": [
+      "Breathing: Inspiration (Active) + Expiration (Passive).",
+      "TV: 500mL, IRV: 2500-3000mL, ERV: 1000-1100mL, RV: 1100-1200mL.",
+      "O2 Transport: 97% Oxyhaemoglobin.",
+      "CO2 Transport: 70% Bicarbonate.",
+      "Regulation: Medulla (Rhythm) and Pons (Pneumotaxic).",
+      "Disorders: Asthma (wheezing), Emphysema (surface area loss), Silicosis (occupational)."
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the primary site of gas exchange in humans?",
+        "answer": "Alveoli."
+      },
+      {
+        "question": "Which enzyme facilitates the transport of CO2 as bicarbonate?",
+        "answer": "Carbonic anhydrase."
+      },
+      {
+        "question": "What is the volume of air remaining in the lungs even after a forcible expiration?",
+        "answer": "Residual Volume (RV)."
+      },
+      {
+        "question": "How is the majority of oxygen transported in the blood?",
+        "answer": "Bound to haemoglobin (as oxyhaemoglobin) in RBCs (97%)."
+      },
+      {
+        "question": "Name the chronic respiratory disorder caused mainly by cigarette smoking.",
+        "answer": "Emphysema."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Body Fluids and Circulation",
+    "chapter_overview": "This chapter deals with the fluids responsible for transport in the body, primarily blood and lymph. It details the composition of blood (plasma and formed elements), blood groups (ABO and Rh), and the mechanism of coagulation. The chapter explains the structure and function of the human heart, the cardiac cycle, electrocardiogram (ECG), and the concept of double circulation. It also covers the regulation of cardiac activity and common disorders of the circulatory system.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Blood",
+        "explanation": "A special connective tissue consisting of a fluid matrix, plasma, and formed elements.",
+        "key_points": [
+          "Plasma: 55% of blood. Contains Fibrinogen (clotting), Globulins (defense), and Albumins (osmotic balance).",
+          "Erythrocytes (RBCs): Transport O2/CO2. Biconcave, enucleated. Life span ~120 days.",
+          "Leucocytes (WBCs): Defense. Granulocytes (Neutrophils, Eosinophils, Basophils) and Agranulocytes (Lymphocytes, Monocytes).",
+          "Thrombocytes (Platelets): Involved in coagulation. 1,50,000-3,50,000 mm-3."
+        ]
+      },
+      {
+        "section_title": "Blood Groups",
+        "explanation": "Classification based on the presence of surface antigens on RBCs.",
+        "key_points": [
+          "ABO Grouping: A, B, AB, O. O- is the universal donor; AB+ is the universal recipient.",
+          "Rh Grouping: Presence of Rh antigen (Rh+ve). Rh incompatibility leads to Erythroblastosis foetalis in the foetus of Rh-ve mother and Rh+ve father."
+        ]
+      },
+      {
+        "section_title": "Human Circulatory System",
+        "explanation": "Consists of a muscular chambered heart, a network of closed blood vessels, and blood.",
+        "key_points": [
+          "Heart: 4 chambers (2 atria, 2 ventricles). Protected by pericardium.",
+          "Valves: Tricuspid (Right), Bicuspid/Mitral (Left), Semilunar (Pulmonary/Aortic).",
+          "Nodal Tissue: SAN (Sino-atrial node - Pacemaker), AVN, Bundle of His, Purkinje fibres."
+        ]
+      },
+      {
+        "section_title": "Cardiac Cycle",
+        "explanation": "Sequential event in the heart which is cyclically repeated.",
+        "key_points": [
+          "Duration: 0.8 seconds.",
+          "Stroke Volume: ~70 mL of blood pumped by each ventricle per cycle.",
+          "Cardiac Output: Stroke Volume x Heart Rate (~5000 mL or 5L per minute).",
+          "Heart Sounds: Lub (closure of tricuspid/bicuspid valves) and Dub (closure of semilunar valves)."
+        ]
+      },
+      {
+        "section_title": "Electrocardiograph (ECG)",
+        "explanation": "Graphical representation of the electrical activity of the heart.",
+        "key_points": [
+          "P-wave: Depolarisation of atria (contraction).",
+          "QRS complex: Depolarisation of ventricles (contraction starts).",
+          "T-wave: Repolarisation of ventricles (return to normal)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Double Circulation",
+        "definition": "Blood passes through the heart twice in one complete cycle.",
+        "detailed_explanation": "Includes Pulmonary circulation (Heart -> Lungs -> Heart) and Systemic circulation (Heart -> Body -> Heart).",
+        "real_world_example": "Deoxygenated blood goes to lungs; oxygenated blood goes to body tissues."
+      },
+      {
+        "concept": "Erythroblastosis Foetalis",
+        "definition": "A condition caused by Rh incompatibility between an Rh-negative mother and an Rh-positive foetus.",
+        "detailed_explanation": "Maternal antibodies attack foetal RBCs causing severe anaemia and jaundice. Prevented by administering anti-Rh antibodies to the mother after the first delivery.",
+        "real_world_example": "A specific medical case requiring RhoGAM injection."
+      },
+      {
+        "concept": "Hepatic Portal System",
+        "definition": "A unique vascular connection between the digestive tract and the liver.",
+        "detailed_explanation": "The hepatic portal vein carries blood from the intestine to the liver before it is delivered to the systemic circulation.",
+        "real_world_example": "Nutrients absorbed in the gut go to the liver first for processing."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Lymph",
+        "definition": "Colourless fluid containing specialised lymphocytes, also known as tissue fluid.",
+        "importance": "Medium. Important for immune response and absorption of fats."
+      },
+      {
+        "term": "Sino-atrial Node (SAN)",
+        "definition": "A patch of nodal tissue in the right upper corner of the right atrium.",
+        "importance": "High. Called the 'Pacemaker' because it initiates the heart beat."
+      },
+      {
+        "term": "Atherosclerosis",
+        "definition": "Coronary Artery Disease (CAD) caused by deposits of calcium, fat, cholesterol, and fibrous tissues.",
+        "importance": "Medium. Narrows the lumen of arteries."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Cardiac Output Formula",
+        "formula_or_principle": "Cardiac Output = Stroke Volume x Heart Rate",
+        "explanation": "Calculates the total volume of blood pumped by the heart in one minute."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Coagulation Cascade",
+        "steps": [
+          "Injury stimulates platelets to release factors.",
+          "Prothrombin is converted to Thrombin by Thrombokinase (in presence of Ca++).",
+          "Thrombin converts inactive Fibrinogen to Fibrin.",
+          "Fibrin threads trap formed elements to form a clot."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Neutrophils and Monocytes are phagocytic cells.",
+      "Basophils secrete histamine, serotonin, and heparin.",
+      "Eosinophils resist infections and are associated with allergic reactions.",
+      "Heart of crocodile has 4 chambers (exception among reptiles).",
+      "Normal blood pressure is 120/80 mmHg.",
+      "Heart failure is not the same as cardiac arrest (heart stops beating) or heart attack (muscle death)."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing Cardiac Arrest, Heart Attack, and Heart Failure.",
+      "Thinking arteries always carry oxygenated blood (Pulmonary artery carries deoxygenated).",
+      "Misinterpreting the T-wave as ventricular contraction (it is repolarisation/relaxation).",
+      "Assuming the heart pumps blood to the lungs via the Aorta (it's the Pulmonary Artery)."
+    ],
+    "quick_revision_notes": [
+      "Plasma (55%) + Formed Elements (45%).",
+      "RBC: Transport; WBC: Defense; Platelets: Clotting.",
+      "SAN -> AVN -> Bundle of His -> Purkinje Fibres.",
+      "Cardiac Cycle: 0.8 sec. Stroke Vol: 70mL.",
+      "ECG: P (Atria depol), QRS (Ventricle depol), T (Ventricle repol).",
+      "Double Circulation: Pulmonary + Systemic.",
+      "Disorders: Hypertension, CAD, Angina."
+    ],
+    "practice_questions": [
+      {
+        "question": "Which blood group is the universal donor?",
+        "answer": "Blood Group O (specifically O negative)."
+      },
+      {
+        "question": "What does the P-wave in an ECG represent?",
+        "answer": "Depolarisation of the atria."
+      },
+      {
+        "question": "What is the function of the Sino-atrial Node (SAN)?",
+        "answer": "It initiates and maintains the rhythmic contractile activity of the heart (Pacemaker)."
+      },
+      {
+        "question": "Name the valve present between the right atrium and the right ventricle.",
+        "answer": "Tricuspid valve."
+      },
+      {
+        "question": "Differentiate between Heart Attack and Cardiac Arrest.",
+        "answer": "Heart Attack is when the heart muscle is damaged by inadequate blood supply. Cardiac Arrest is when the heart stops beating."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Excretory Products and their Elimination",
+    "chapter_overview": "This chapter focuses on the mechanisms of elimination of excretory products, primarily nitrogenous wastes like ammonia, urea, and uric acid. It details the human excretory system, specifically the structure and function of the kidney and nephron. The processes of urine formation (filtration, reabsorption, secretion) and the concentration of filtrate via the counter-current mechanism are explained. The chapter also covers the regulation of kidney function, micturition, and disorders of the excretory system.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Modes of Excretion",
+        "explanation": "Animals excrete nitrogenous wastes in different forms based on water availability.",
+        "key_points": [
+          "Ammonotelism: Excretion of ammonia. Highly toxic, requires large water volume. Ex: Bony fishes, aquatic amphibians.",
+          "Ureotelism: Excretion of urea. Less toxic. Ex: Mammals, terrestrial amphibians, marine fishes.",
+          "Uricotelism: Excretion of uric acid. Least toxic, minimum water loss (pellet/paste). Ex: Reptiles, birds, insects."
+        ]
+      },
+      {
+        "section_title": "Human Excretory System",
+        "explanation": "Consists of a pair of kidneys, ureters, urinary bladder, and urethra.",
+        "key_points": [
+          "Kidney: Bean-shaped, retroperitoneal. Divided into outer Cortex and inner Medulla.",
+          "Nephron: Functional unit (~1 million/kidney). Parts: Glomerulus and Renal Tubule (Bowman's capsule, PCT, Henle's loop, DCT).",
+          "Types of Nephrons: Cortical (short loop of Henle) and Juxta medullary (long loop of Henle, vasa recta present)."
+        ]
+      },
+      {
+        "section_title": "Urine Formation",
+        "explanation": "Involves three main processes to filter blood and form urine.",
+        "key_points": [
+          "Glomerular Filtration: Non-selective ultrafiltration. GFR is approx 125 ml/min (180 litres/day).",
+          "Reabsorption: 99% of filtrate is reabsorbed by renal tubules (e.g., glucose, amino acids, Na+, water).",
+          "Secretion: Tubular cells secrete H+, K+, and ammonia into filtrate to maintain ionic and acid-base balance."
+        ]
+      },
+      {
+        "section_title": "Mechanism of Concentration of Filtrate",
+        "explanation": "Mammals can produce concentrated urine using the Counter Current Mechanism.",
+        "key_points": [
+          "Involves Henle's Loop and Vasa Recta.",
+          "Creates an osmolarity gradient in the medullary interstitium (from 300 to 1200 mOsmol/L).",
+          "NaCl and Urea play a key role in maintaining this gradient.",
+          "Enables water reabsorption from the collecting duct."
+        ]
+      },
+      {
+        "section_title": "Regulation of Kidney Function",
+        "explanation": "Hormonal feedback mechanisms control kidney function.",
+        "key_points": [
+          "ADH (Vasopressin): From Neurohypophysis. Increases water reabsorption from DCT/Collecting duct. Prevents diuresis.",
+          "JGA (Juxta Glomerular Apparatus): Releases Renin when GFR/BP falls. Renin activates Angiotensinogen -> Angiotensin I -> II. Angiotensin II increases BP and stimulates Aldosterone (Na+ reabsorption).",
+          "ANF (Atrial Natriuretic Factor): Released by heart atria. Causes vasodilation and decreases BP (antagonist to Renin-Angiotensin)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Counter Current Mechanism",
+        "definition": "A mechanism to concentrate urine involving the flow of filtrate and blood in opposite directions in Henle's loop and Vasa recta.",
+        "detailed_explanation": "The proximity and counter-flow help maintain a high osmolarity in the renal medulla, driving water reabsorption from the collecting duct.",
+        "real_world_example": "This allows humans to excrete urine that is four times more concentrated than blood plasma."
+      },
+      {
+        "concept": "Glomerular Filtration Rate (GFR)",
+        "definition": "The amount of filtrate formed by the kidneys per minute.",
+        "detailed_explanation": "In a healthy individual, it is about 125 ml/min. The kidneys have autoregulatory mechanisms (like JGA) to keep this constant.",
+        "real_world_example": "A significant drop in GFR indicates kidney failure."
+      },
+      {
+        "concept": "Micturition Reflex",
+        "definition": "The neural mechanism causing the release of urine.",
+        "detailed_explanation": "Stretching of the urinary bladder sends signals to the CNS, which initiates contraction of smooth muscles of the bladder and relaxation of the urethral sphincter.",
+        "real_world_example": "The urge to urinate when the bladder is full."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Nephron",
+        "definition": "The structural and functional unit of the kidney.",
+        "importance": "High. Responsible for filtration, reabsorption, and secretion."
+      },
+      {
+        "term": "Uremia",
+        "definition": "Accumulation of urea in blood due to kidney malfunction.",
+        "importance": "High. Highly harmful and may lead to kidney failure."
+      },
+      {
+        "term": "Dialysis",
+        "definition": "Process of removing excess water, solutes, and toxins from the blood in people whose kidneys can no longer perform these functions naturally.",
+        "importance": "Medium. Artificial kidney (Hemodialysis) is used for uremic patients."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "GFR Value",
+        "formula_or_principle": "GFR = 125 ml/min = 180 Litres/day",
+        "explanation": "Standard measure of kidney function."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Urine Formation Steps",
+        "steps": [
+          "Glomerular Filtration (Bowman's Capsule).",
+          "Reabsorption (PCT, Henle's Loop, DCT, Collecting Duct).",
+          "Secretion (PCT, DCT, Collecting Duct).",
+          "Concentration (Medullary Interstitium Gradient)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "PCT is the major site of reabsorption (70-80% of electrolytes and water).",
+      "Descending limb of Henle's loop is permeable to water but impermeable to electrolytes.",
+      "Ascending limb is impermeable to water but allows transport of electrolytes.",
+      "ADH acts on DCT and Collecting Duct.",
+      "Renin is secreted by JG cells.",
+      "Glucose and amino acids are reabsorbed actively.",
+      "Presence of glucose (Glycosuria) and ketone bodies (Ketonuria) in urine indicates Diabetes Mellitus."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the permeability of the descending and ascending limbs of Henle's loop.",
+      "Thinking filtration is selective (it is non-selective, except for proteins).",
+      "Mixing up the functions of ADH (water reabsorption) and Aldosterone (Na+ reabsorption).",
+      "Believing all animals excrete urea (depends on habitat)."
+    ],
+    "quick_revision_notes": [
+      "Excretion: Ammonia (Aquatic), Urea (Mammals), Uric Acid (Birds/Reptiles).",
+      "Nephron: Glomerulus + Tubule.",
+      "Urine Formation: Filtration + Reabsorption + Secretion.",
+      "Concentration: Counter Current Mechanism (Loop of Henle + Vasa Recta).",
+      "Regulation: ADH (Hypothalamus), Renin-Angiotensin (JGA), ANF (Heart).",
+      "Disorders: Uremia, Stones (Calculi), Glomerulonephritis."
+    ],
+    "practice_questions": [
+      {
+        "question": "Which nitrogenous waste is the most toxic?",
+        "answer": "Ammonia."
+      },
+      {
+        "question": "What is the function of the Loop of Henle?",
+        "answer": "It helps in the concentration of urine (maintaining medullary osmolarity)."
+      },
+      {
+        "question": "Which hormone is responsible for the reabsorption of water from the latter parts of the tubule?",
+        "answer": "ADH (Antidiuretic Hormone) or Vasopressin."
+      },
+      {
+        "question": "What condition is characterized by the accumulation of urea in the blood?",
+        "answer": "Uremia."
+      },
+      {
+        "question": "Name the functional unit of the kidney.",
+        "answer": "Nephron."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Locomotion and Movement",
+    "chapter_overview": "This chapter discusses the various types of movements exhibited by living organisms, distinguishing between movement and locomotion. It details the three main types of movements in human cells: amoeboid, ciliary, and muscular. The chapter delves into the structure and function of muscles, particularly skeletal muscles, explaining the sliding filament theory of contraction. It also covers the skeletal system, joints, and common disorders of the muscular and skeletal systems.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Types of Movement",
+        "explanation": "Movement is a fundamental feature of living beings. While all locomotions are movements, not all movements are locomotion. Cells in the human body exhibit three main types of movements.",
+        "key_points": [
+          "Amoeboid movement: Exhibited by specialised cells like macrophages and leucocytes, effected by pseudopodia formed by streaming of protoplasm.",
+          "Ciliary movement: Occurs in internal tubular organs lined by ciliated epithelium (e.g., trachea, reproductive tract).",
+          "Muscular movement: Involves the contractile property of muscles, used for locomotion and other body movements."
+        ]
+      },
+      {
+        "section_title": "Muscle",
+        "explanation": "Muscles are specialised tissues of mesodermal origin, constituting 40-50% of body weight. They have properties like excitability, contractility, extensibility, and elasticity.",
+        "key_points": [
+          "Skeletal muscles: Striated and voluntary, associated with skeletal components.",
+          "Visceral muscles: Smooth (non-striated) and involuntary, found in hollow visceral organs.",
+          "Cardiac muscles: Striated and involuntary, found in the heart.",
+          "Muscle structure: Consists of muscle bundles (fascicles) held by fascia. Muscle fibres contain myofibrils with alternate dark (Anisotropic/A-band) and light (Isotropic/I-band) bands containing myosin and actin proteins respectively."
+        ]
+      },
+      {
+        "section_title": "Mechanism of Muscle Contraction",
+        "explanation": "Explained by the sliding filament theory, where contraction occurs by the sliding of thin filaments (actin) over thick filaments (myosin).",
+        "key_points": [
+          "Initiated by a signal from the CNS via a motor neuron releasing acetylcholine at the neuromuscular junction.",
+          "Action potential generates Calcium ion release, which binds to troponin on actin, unmasking active sites for myosin.",
+          "Myosin heads bind to actin to form cross-bridges, pulling actin towards the centre of the 'A' band, shortening the sarcomere (contraction).",
+          "Relaxation occurs when Calcium ions are pumped back, masking the active sites."
+        ]
+      },
+      {
+        "section_title": "Skeletal System",
+        "explanation": "Consists of a framework of bones (206 in adults) and cartilages, grouped into axial and appendicular skeletons.",
+        "key_points": [
+          "Axial Skeleton (80 bones): Skull, vertebral column, sternum, and ribs.",
+          "Appendicular Skeleton: Bones of the limbs and their girdles (pectoral and pelvic).",
+          "Ribs: 12 pairs - True ribs (1st-7th), Vertebrochondral/False ribs (8th, 9th, 10th), Floating ribs (11th, 12th)."
+        ]
+      },
+      {
+        "section_title": "Joints",
+        "explanation": "Points of contact between bones or between bones and cartilages, essential for movement.",
+        "key_points": [
+          "Fibrous joints: Immovable (e.g., sutures in the skull).",
+          "Cartilaginous joints: Limited movement (e.g., between vertebrae).",
+          "Synovial joints: Considerable movement, characterised by a fluid-filled synovial cavity (e.g., ball and socket, hinge, pivot joints)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Sliding Filament Theory",
+        "definition": "A theory explaining muscle contraction where thin actin filaments slide over thick myosin filaments, shortening the sarcomere.",
+        "detailed_explanation": "The process is driven by the formation of cross-bridges between myosin heads and actin filaments, powered by ATP hydrolysis. The 'Z' lines attached to actin are pulled inwards, while the 'A' band length remains constant.",
+        "real_world_example": "Flexing your bicep involves millions of sarcomeres shortening simultaneously via this mechanism."
+      },
+      {
+        "concept": "Sarcomere",
+        "definition": "The functional unit of muscle contraction.",
+        "detailed_explanation": "It is the portion of the myofibril between two successive 'Z' lines. It contains the 'A' band (dark) and 'I' band (light) arranged in a specific pattern.",
+        "real_world_example": "Think of it as the individual link in a chain that can contract on its own."
+      },
+      {
+        "concept": "Synovial Joints",
+        "definition": "Joints that allow free movement due to the presence of a fluid-filled cavity.",
+        "detailed_explanation": "These joints are crucial for locomotion. The synovial fluid acts as a lubricant, reducing friction between articulating bone surfaces.",
+        "real_world_example": "The knee joint (hinge) and shoulder joint (ball and socket) allow running and throwing."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Myoglobin",
+        "definition": "A red coloured oxygen-storing pigment present in muscles.",
+        "importance": "High. Muscles with high myoglobin content (Red fibres) can utilise oxygen for aerobic respiration and fatigue slowly."
+      },
+      {
+        "term": "Acetabulum",
+        "definition": "A cavity in the pelvic girdle where the thigh bone (femur) articulates.",
+        "importance": "Medium. Crucial for the hip joint structure."
+      },
+      {
+        "term": "Glenoid cavity",
+        "definition": "A depression in the pectoral girdle (scapula) which articulates with the head of the humerus.",
+        "importance": "Medium. Forms the shoulder joint."
+      },
+      {
+        "term": "Troponin",
+        "definition": "A complex protein distributed at regular intervals on the tropomyosin of actin filaments.",
+        "importance": "High. It masks the active binding sites for myosin in the resting state."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Vertebral Formula",
+        "formula_or_principle": "C7 T12 L5 S1(fused) Co1(fused)",
+        "explanation": "Represents the number of vertebrae in each region of the vertebral column: Cervical (7), Thoracic (12), Lumbar (5), Sacral (1-fused), Coccygeal (1-fused)."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Muscle Contraction Cycle",
+        "steps": [
+          "CNS sends signal via motor neuron to neuromuscular junction.",
+          "Neurotransmitter (Acetylcholine) releases, generating action potential in sarcolemma.",
+          "Calcium ions release into sarcoplasm and bind to troponin, unmasking active sites on actin.",
+          "Myosin head binds to exposed active site using energy from ATP hydrolysis to form cross-bridge.",
+          "Myosin pulls actin towards the centre of 'A' band (Power stroke).",
+          "ATP binds to myosin, breaking the cross-bridge; myosin returns to relaxed state.",
+          "Cycle repeats as long as Calcium and ATP are available."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Skeletal muscle is striated and voluntary; Visceral is smooth and involuntary; Cardiac is striated and involuntary.",
+      "Actin (thin) and Myosin (thick) are the contractile proteins.",
+      "The functional unit of contraction is the Sarcomere.",
+      "Red muscle fibres have high myoglobin and mitochondria (aerobic); White fibres have less myoglobin and more sarcoplasmic reticulum (anaerobic).",
+      "Human skeleton has 206 bones; Axial (80) and Appendicular (126).",
+      "Atlas is the first cervical vertebra; articulates with occipital condyles.",
+      "Myasthenia gravis is an autoimmune disorder; Osteoporosis is an age-related disorder linked to decreased estrogen."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the characteristics of Red vs. White muscle fibres.",
+      "Mixing up the bones of the Pectoral (shoulder) and Pelvic (hip) girdles.",
+      "Assuming all ribs are attached to the sternum (ignoring floating ribs).",
+      "Confusing the 'A' band (length remains same) with the 'I' band (shortens) during contraction."
+    ],
+    "quick_revision_notes": [
+      "Locomotion requires coordinated activity of muscular, skeletal, and neural systems.",
+      "Muscles: Skeletal, Visceral, Cardiac.",
+      "Contraction: Sliding of actin over myosin.",
+      "Calcium ions play a key role in unmasking active sites on actin.",
+      "Joints: Fibrous (immovable), Cartilaginous (slightly movable), Synovial (movable).",
+      "Disorders: Arthritis (inflammation), Gout (uric acid), Tetany (low Ca++)."
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the difference between the 'A' band and the 'I' band?",
+        "answer": "The 'A' band (Anisotropic) contains thick myosin filaments and some overlapping actin, and it retains its length during contraction. The 'I' band (Isotropic) contains only thin actin filaments and shortens during contraction."
+      },
+      {
+        "question": "Explain the role of Calcium ions in muscle contraction.",
+        "answer": "Calcium ions bind to the troponin subunit on actin filaments, changing its shape to unmask the active binding sites for myosin, allowing cross-bridge formation."
+      },
+      {
+        "question": "Name the bones that form the pectoral girdle.",
+        "answer": "Clavicle (collar bone) and Scapula (shoulder blade)."
+      },
+      {
+        "question": "What is the cause of Gout?",
+        "answer": "Gout is caused by the inflammation of joints due to the accumulation of uric acid crystals."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Neural Control and Coordination",
+    "chapter_overview": "This chapter explores the human neural system, which provides a point-to-point connection for quick coordination among organs. It details the structure and function of neurons, the generation and conduction of nerve impulses, and the transmission of impulses across synapses. The chapter also describes the central neural system, focusing on the human brain's structure and functions, including the forebrain, midbrain, and hindbrain, and touches upon the reflex action and sensory reception.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Neural System",
+        "explanation": "The neural system coordinates and integrates functions of all organs. It is composed of specialised cells called neurons.",
+        "key_points": [
+          "Human Neural System: Divided into Central Neural System (CNS) and Peripheral Neural System (PNS).",
+          "CNS: Includes the brain and spinal cord, the site of information processing and control.",
+          "PNS: Comprises all nerves associated with the CNS. Divided into Somatic Neural System (relays impulses to skeletal muscles) and Autonomic Neural System (relays impulses to involuntary organs).",
+          "Autonomic Neural System is further classified into Sympathetic and Parasympathetic neural systems."
+        ]
+      },
+      {
+        "section_title": "Neuron as Structural and Functional Unit",
+        "explanation": "A neuron is a microscopic structure composed of a cell body, dendrites, and an axon.",
+        "key_points": [
+          "Structure: Cell body contains cytoplasm and Nissl's granules. Dendrites transmit impulses towards the cell body. Axon transmits impulses away from the cell body to a synapse.",
+          "Types: Multipolar (cerebral cortex), Bipolar (retina), Unipolar (embryonic stage).",
+          "Myelinated nerve fibres are enveloped with Schwann cells forming a myelin sheath (found in spinal/cranial nerves). Non-myelinated fibres lack a myelin sheath (found in autonomous/somatic systems)."
+        ]
+      },
+      {
+        "section_title": "Generation and Conduction of Nerve Impulse",
+        "explanation": "Neurons are excitable cells due to their polarised membranes. Impulse conduction involves depolarisation and repolarisation.",
+        "key_points": [
+          "Resting Potential: Membrane is more permeable to K+ than Na+. Axoplasm has high K+ and low Na+, while outside is high Na+. This creates a concentration gradient maintained by the Sodium-Potassium pump (3 Na+ out, 2 K+ in).",
+          "Action Potential: A stimulus increases permeability to Na+, causing rapid influx and reversal of polarity (depolarisation). This electrical potential difference is the nerve impulse.",
+          "Repolarisation: Na+ permeability decreases, K+ permeability increases, restoring the resting potential."
+        ]
+      },
+      {
+        "section_title": "Transmission of Impulses",
+        "explanation": "Impulses are transmitted across synapses, which can be electrical or chemical.",
+        "key_points": [
+          "Electrical Synapses: Membranes of pre- and post-synaptic neurons are in close proximity; current flows directly. Rare in humans.",
+          "Chemical Synapses: Separated by a synaptic cleft. Neurotransmitters (e.g., acetylcholine) released from synaptic vesicles bind to receptors on the post-synaptic membrane, generating a new potential (excitatory or inhibitory)."
+        ]
+      },
+      {
+        "section_title": "Central Neural System (Brain)",
+        "explanation": "The brain controls voluntary movements, balance, vital functions, and higher mental processes.",
+        "key_points": [
+          "Forebrain: Cerebrum (major part, divided into hemispheres connected by corpus callosum), Thalamus (sensory/motor signaling), Hypothalamus (temp regulation, hunger, thirst). Limbic system involves amygdala and hippocampus (emotional reactions).",
+          "Midbrain: Located between thalamus/hypothalamus and pons. Contains cerebral aqueduct and corpora quadrigemina (visual/auditory processing).",
+          "Hindbrain: Pons (interconnects brain regions), Cerebellum (balance, convoluted surface), Medulla (respiration, cardiovascular reflexes)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Resting Membrane Potential",
+        "definition": "The electrical potential difference across the resting plasma membrane of a neuron.",
+        "detailed_explanation": "It is maintained by the selective permeability of the membrane (more permeable to K+) and the active transport by the Na+/K+ pump, resulting in a positive charge outside and a negative charge inside.",
+        "real_world_example": "Like a charged battery waiting to be used."
+      },
+      {
+        "concept": "Action Potential",
+        "definition": "A rapid rise and fall in voltage or membrane potential across a cellular membrane.",
+        "detailed_explanation": "Triggered by a stimulus that causes a sudden influx of Na+ ions, reversing the membrane polarity. This 'spike' travels along the axon as a nerve impulse.",
+        "real_world_example": "The 'wave' in a stadium\u2014a localized disturbance that travels across the crowd."
+      },
+      {
+        "concept": "Synaptic Transmission",
+        "definition": "The process by which signaling molecules called neurotransmitters are released by a neuron and bind to and activate the receptors of another neuron.",
+        "detailed_explanation": "This allows signals to pass from one cell to another across the synaptic cleft, converting an electrical signal into a chemical one and back again.",
+        "real_world_example": "Passing a baton in a relay race, where the baton is the neurotransmitter crossing the gap."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Nissl's Granules",
+        "definition": "Granular bodies found in the cell body and dendrites of neurons.",
+        "importance": "Medium. Characteristic feature of neurons, involved in protein synthesis."
+      },
+      {
+        "term": "Corpus Callosum",
+        "definition": "A tract of nerve fibres connecting the left and right cerebral hemispheres.",
+        "importance": "High. Facilitates communication between the two sides of the brain."
+      },
+      {
+        "term": "Saltatory Conduction",
+        "definition": "The propagation of action potentials along myelinated axons from one node of Ranvier to the next.",
+        "importance": "High. Significantly increases the speed of nerve impulse conduction."
+      },
+      {
+        "term": "Meninges",
+        "definition": "Protective membranes covering the brain: Dura mater (outer), Arachnoid (middle), Pia mater (inner).",
+        "importance": "Medium. Protection of the CNS."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Sodium-Potassium Pump Ratio",
+        "formula_or_principle": "3 Na+ Out : 2 K+ In",
+        "explanation": "For every ATP hydrolysed, the pump transports 3 Sodium ions out of the cell and 2 Potassium ions into the cell, helping maintain the resting potential."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Mechanism of Synaptic Transmission (Chemical)",
+        "steps": [
+          "Impulse (action potential) arrives at the axon terminal.",
+          "Stimulates synaptic vesicles to move towards the membrane.",
+          "Vesicles fuse with the plasma membrane and release neurotransmitters into the synaptic cleft.",
+          "Neurotransmitters bind to specific receptors on the post-synaptic membrane.",
+          "Ion channels open, allowing entry of ions that generate a new potential in the post-synaptic neuron."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The resting membrane is more permeable to K+ and nearly impermeable to Na+.",
+      "Action potential is generated by the rapid influx of Na+.",
+      "Hypothalamus controls body temperature, urge for eating and drinking.",
+      "Cerebellum acts to maintain body balance and posture.",
+      "Medulla oblongata controls respiration and gastric secretions.",
+      "Corpora quadrigemina are found in the midbrain.",
+      "Unipolar neurons are found in the embryonic stage; Bipolar in the retina of the eye."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the direction of ion movement during depolarisation (Na+ enters) vs. repolarisation (K+ exits).",
+      "Mixing up the functions of the Cerebrum (intelligence/memory) and Cerebellum (balance).",
+      "Thinking electrical synapses are more common than chemical synapses.",
+      "Forgetting that the Sodium-Potassium pump is an active transport mechanism requiring ATP."
+    ],
+    "quick_revision_notes": [
+      "Neuron: Cell body, Dendrites, Axon.",
+      "Resting Potential: Polarised (-ve inside).",
+      "Action Potential: Depolarised (+ve inside).",
+      "Synapse: Pre-synaptic membrane + Cleft + Post-synaptic membrane.",
+      "Brain: Forebrain (Thinking, Temp), Midbrain (Visual/Auditory), Hindbrain (Balance, Breathing).",
+      "Reflex action is an involuntary response to a peripheral nervous stimulation."
+    ],
+    "practice_questions": [
+      {
+        "question": "Differentiate between afferent and efferent nerve fibres.",
+        "answer": "Afferent fibres transmit impulses from tissues/organs to the CNS, whereas efferent fibres transmit regulatory impulses from the CNS to the peripheral tissues/organs."
+      },
+      {
+        "question": "What is the function of the Sodium-Potassium pump?",
+        "answer": "It maintains the ionic gradients across the resting membrane by transporting 3 Na+ outwards for every 2 K+ into the cell."
+      },
+      {
+        "question": "Which part of the brain is responsible for thermoregulation?",
+        "answer": "Hypothalamus."
+      },
+      {
+        "question": "Why is the conduction of nerve impulses faster in myelinated nerve fibres?",
+        "answer": "Because the impulse jumps from one node of Ranvier to another (saltatory conduction), bypassing the insulated myelinated sections."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chemical Coordination and Integration",
+    "chapter_overview": "This chapter discusses the endocrine system and chemical coordination in the human body. It defines hormones as non-nutrient intercellular messengers produced in trace amounts. The chapter details the structure and function of major human endocrine glands, including the hypothalamus, pituitary, thyroid, adrenal, and pancreas, along with their respective hormones. It also explains the mechanism of hormone action, classifying hormones based on their chemical nature.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Endocrine Glands and Hormones",
+        "explanation": "Endocrine glands are ductless glands that secrete hormones directly into the blood.",
+        "key_points": [
+          "Definition of Hormone: Non-nutrient chemicals acting as intercellular messengers, produced in trace amounts.",
+          "Invertebrates have simple endocrine systems; vertebrates have complex systems with many chemicals acting as hormones."
+        ]
+      },
+      {
+        "section_title": "Human Endocrine System",
+        "explanation": "Comprises organised endocrine glands and diffused tissues producing hormones.",
+        "key_points": [
+          "Hypothalamus: Regulates pituitary hormones via releasing (e.g., GnRH) and inhibiting (e.g., Somatostatin) hormones. Synthesises oxytocin and vasopressin.",
+          "Pituitary Gland: Located in sella turcica. Anterior pituitary (Adenohypophysis) secretes GH, PRL, TSH, ACTH, LH, FSH. Posterior pituitary (Neurohypophysis) stores and releases Oxytocin and Vasopressin (ADH).",
+          "Pineal Gland: Secretes Melatonin (regulates diurnal rhythm, sleep-wake cycle).",
+          "Thyroid Gland: Secretes T3 and T4 (regulate basal metabolic rate) and TCT (calcium regulation). Iodine is essential for synthesis.",
+          "Parathyroid Gland: Secretes PTH (increases blood Ca2+ levels).",
+          "Thymus: Secretes Thymosins (immune system development). Degenerates in old age.",
+          "Adrenal Gland: Cortex secretes Corticoids (Glucocorticoids, Mineralocorticoids). Medulla secretes Catecholamines (Adrenaline, Noradrenaline - 'Flight or Fight').",
+          "Pancreas: Islets of Langerhans secrete Glucagon (alpha cells, hyperglycemic) and Insulin (beta cells, hypoglycemic).",
+          "Gonads: Testis (Testosterone) and Ovary (Estrogen, Progesterone)."
+        ]
+      },
+      {
+        "section_title": "Hormones of Heart, Kidney and Gastrointestinal Tract",
+        "explanation": "Non-endocrine tissues also secrete hormones.",
+        "key_points": [
+          "Heart: Atrial Natriuretic Factor (ANF) decreases blood pressure.",
+          "Kidney: Erythropoietin stimulates RBC formation.",
+          "GI Tract: Gastrin, Secretin, CCK, GIP regulate digestive secretions."
+        ]
+      },
+      {
+        "section_title": "Mechanism of Hormone Action",
+        "explanation": "Hormones bind to specific receptors on target tissues to produce effects.",
+        "key_points": [
+          "Membrane-bound receptors: Peptide hormones (e.g., Insulin) bind to surface receptors, generating second messengers (Cyclic AMP, Ca++) to regulate metabolism.",
+          "Intracellular receptors: Steroid hormones (e.g., Cortisol, Estrogen) and Iodothyronines enter the cell, interact with the genome, and regulate gene expression."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Feedback Mechanism",
+        "definition": "A regulatory mechanism where the output of a process regulates the process itself.",
+        "detailed_explanation": "For example, high blood glucose stimulates insulin secretion, which lowers glucose. Low glucose inhibits insulin. Similarly, TSH stimulates thyroid hormone release, and high thyroid hormone levels inhibit TSH.",
+        "real_world_example": "A thermostat controlling an air conditioner."
+      },
+      {
+        "concept": "Second Messenger System",
+        "definition": "Intracellular signaling molecules released by the cell in response to exposure to extracellular signaling molecules (first messengers).",
+        "detailed_explanation": "Hormones like FSH bind to membrane receptors, triggering the production of Cyclic AMP or Calcium ions inside the cell, which then activate enzymes to produce the physiological response.",
+        "real_world_example": "A doorbell (hormone) rings, and the person inside (second messenger) goes to open the door."
+      },
+      {
+        "concept": "Synergistic vs. Antagonistic Action",
+        "definition": "Hormones can work together or against each other.",
+        "detailed_explanation": "Insulin and Glucagon have antagonistic effects on blood glucose (Insulin lowers it, Glucagon raises it). FSH and LH work synergistically in reproduction.",
+        "real_world_example": "Brake and accelerator in a car (Antagonistic)."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Acromegaly",
+        "definition": "A condition caused by excess secretion of Growth Hormone in adults, leading to severe disfigurement (especially of the face).",
+        "importance": "Medium. Highlights the consequences of hormonal imbalance."
+      },
+      {
+        "term": "Diabetes Mellitus",
+        "definition": "A complex disorder associated with prolonged hyperglycemia, often due to insulin deficiency or resistance.",
+        "importance": "High. A common and significant health issue involving loss of glucose through urine."
+      },
+      {
+        "term": "Catecholamines",
+        "definition": "Hormones like adrenaline and noradrenaline secreted by the adrenal medulla during stress.",
+        "importance": "High. Key to the 'fight or flight' response."
+      },
+      {
+        "term": "Corpus Luteum",
+        "definition": "A structure formed from the ruptured follicle after ovulation, secreting mainly progesterone.",
+        "importance": "Medium. Essential for pregnancy maintenance."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Chemical Classification of Hormones",
+        "formula_or_principle": "1. Peptides/Proteins (Insulin) 2. Steroids (Cortisol) 3. Iodothyronines (T3/T4) 4. Amino-acid derivatives (Adrenaline)",
+        "explanation": "Classification determines the mechanism of action (membrane-bound vs. intracellular receptors)."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Mechanism of Steroid Hormone Action",
+        "steps": [
+          "Hormone (e.g., Estrogen) diffuses through the cell membrane.",
+          "Binds to specific intracellular receptor.",
+          "Hormone-Receptor complex enters the nucleus.",
+          "Interacts with the genome (DNA).",
+          "Regulates gene expression (transcription to mRNA).",
+          "mRNA is translated into proteins, resulting in physiological response."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Oxytocin and Vasopressin are synthesised in the Hypothalamus but released by the Posterior Pituitary.",
+      "Melatonin from the Pineal gland regulates the sleep-wake cycle.",
+      "Thyroid hormones require Iodine; deficiency causes Goitre.",
+      "PTH increases blood Ca2+ (Hypercalcemic); TCT decreases blood Ca2+ (Hypocalcemic).",
+      "Adrenal Medulla hormones (Adrenaline) are for emergency; Adrenal Cortex hormones (Cortisol) are for metabolism and stress.",
+      "Insulin is a hypoglycemic hormone; Glucagon is a hyperglycemic hormone."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the source of Oxytocin/Vasopressin (Hypothalamus vs. Posterior Pituitary).",
+      "Mixing up the functions of Insulin (lowers glucose) and Glucagon (raises glucose).",
+      "Thinking all hormones enter the cell (only lipid-soluble ones do; protein hormones act via surface receptors).",
+      "Confusing Diabetes Insipidus (ADH deficiency) with Diabetes Mellitus (Insulin deficiency)."
+    ],
+    "quick_revision_notes": [
+      "Hormones: Trace amounts, intercellular messengers.",
+      "Pituitary: Master gland, but controlled by Hypothalamus.",
+      "Thyroid: BMR regulation.",
+      "Adrenal: 'Fight or Flight' (Medulla), Stress/Metabolism (Cortex).",
+      "Pancreas: Glucose homeostasis.",
+      "Testis/Ovary: Reproduction and secondary sexual characters.",
+      "Receptors: Membrane-bound (fast, second messengers) vs. Intracellular (slow, gene expression)."
+    ],
+    "practice_questions": [
+      {
+        "question": "Which hormone is responsible for the 24-hour diurnal rhythm of the body?",
+        "answer": "Melatonin (secreted by the Pineal gland)."
+      },
+      {
+        "question": "Differentiate between Diabetes Mellitus and Diabetes Insipidus.",
+        "answer": "Diabetes Mellitus is caused by insulin deficiency/resistance leading to high blood sugar and glucose in urine. Diabetes Insipidus is caused by ADH deficiency leading to excessive water loss (diuresis) and thirst, without sugar in urine."
+      },
+      {
+        "question": "Name the hormones secreted by the Adrenal Medulla.",
+        "answer": "Adrenaline (Epinephrine) and Noradrenaline (Norepinephrine)."
+      },
+      {
+        "question": "Why are thyroid hormones important for the body?",
+        "answer": "They regulate the basal metabolic rate (BMR), support red blood cell formation, and control the metabolism of carbohydrates, proteins, and fats."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Biology Textbook for Class XI - Introductory Material",
+    "chapter_overview": "This section encompasses the preliminary pages of the Class XI Biology textbook. It includes the Foreword, which outlines the pedagogical philosophy based on the National Curriculum Framework (NCF) 2005, emphasizing connecting school life with the outside world and discouraging rote learning. It also details the 'Rationalisation of Content' undertaken to reduce student load, especially in the wake of the COVID-19 pandemic. The section lists the textbook development committee, acknowledgements, a note for teachers and students explaining the integrated approach of the book, and the complete Table of Contents.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Foreword",
+        "explanation": "Discusses the guiding principles for the textbook.",
+        "key_points": [
+          "Based on NCF 2005 recommendations.",
+          "Aims to link children's life at school with life outside.",
+          "Marks a departure from bookish learning and rote memorization.",
+          "Encourages flexibility in the daily time-table and space for contemplation.",
+          "Treats children as participants in learning, not just receivers of knowledge."
+        ]
+      },
+      {
+        "section_title": "Rationalisation of Content",
+        "explanation": "Explains the reduction of content load in the current edition.",
+        "key_points": [
+          "Imperative due to the COVID-19 pandemic.",
+          "Removed overlapping content with other subjects.",
+          "Removed similar content found in lower or higher classes.",
+          "Removed content with high difficulty level or irrelevant in the present context.",
+          "Retained content accessible through self-learning."
+        ]
+      },
+      {
+        "section_title": "A Note for the Teachers and Students",
+        "explanation": "Provides context on the historical development of biology and the textbook's structure.",
+        "key_points": [
+          "Biology has evolved from a descriptive science to an experimental and molecular one.",
+          "The book reflects an integrated approach, blurring boundaries between botany and zoology.",
+          "Concepts are presented as universal, akin to physics and chemistry.",
+          "The subject matter is grouped under five thematic units.",
+          "Emphasis on narrative style, illustrations, and activity exercises."
+        ]
+      },
+      {
+        "section_title": "Table of Contents (Units)",
+        "explanation": "The book is divided into five major units.",
+        "key_points": [
+          "Unit I: Diversity in the Living World (Chapters 1-4).",
+          "Unit II: Structural Organisation in Plants and Animals (Chapters 5-7).",
+          "Unit III: Cell : Structure and Functions (Chapters 8-10).",
+          "Unit IV: Plant Physiology (Chapters 11-13).",
+          "Unit V: Human Physiology (Chapters 14-19)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Integrated Biology",
+        "definition": "An approach that unifies botany, zoology, and microbiology under general biological principles.",
+        "detailed_explanation": "Instead of treating plants and animals as entirely separate entities, this approach highlights common cellular, molecular, and physiological mechanisms shared by all living organisms.",
+        "real_world_example": "Studying 'Respiration' as a fundamental cellular process common to both plants and humans."
+      },
+      {
+        "concept": "Constructivist Learning",
+        "definition": "A theory of learning found in the NCF 2005.",
+        "detailed_explanation": "It posits that learners construct knowledge rather than just passively take in information. The textbook encourages this by providing space for questions, contemplation, and hands-on experiences.",
+        "real_world_example": "Activity exercises where students observe and deduce rather than just reading facts."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Rationalisation",
+        "definition": "The process of reducing the content load of textbooks to facilitate learning during constrained times.",
+        "importance": "High. Explains why certain topics might be missing compared to older editions."
+      },
+      {
+        "term": "NCF 2005",
+        "definition": "National Curriculum Framework 2005.",
+        "importance": "High. The policy document that guided the writing and structure of this textbook."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Five Units of Biology",
+        "formula_or_principle": "Diversity -> Structure -> Cell -> Plant Phys -> Human Phys",
+        "explanation": "The logical flow of the curriculum: starting from classifying life, moving to its structure, understanding the fundamental unit (cell), and then studying the function of plants and humans."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Using the Textbook Effectively",
+        "steps": [
+          "Read the unit highlight to understand the essence.",
+          "Read the biographical sketch of the scientist.",
+          "Study the chapter content, noticing bold terms.",
+          "Review the summary at the end of the chapter.",
+          "Answer the questions: informational recall, analytical thinking, and open-ended speculation."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The textbook covers 19 chapters across 5 units.",
+      "The content has been rationalised; check the list of dropped topics if using older resources.",
+      "The book emphasizes understanding concepts over rote memorization.",
+      "Questions at the end of chapters test different levels of understanding: recall, analysis, and speculation."
+    ],
+    "common_mistakes_students_make": [
+      "Skipping the introduction and unit highlights.",
+      "Ignoring the 'Rationalisation' note and studying deleted topics unnecessarily.",
+      "Treating Botany and Zoology as completely separate subjects instead of integrated Biology.",
+      "Overlooking the emphasis on 'understanding' and focusing only on memorizing facts."
+    ],
+    "quick_revision_notes": [
+      "Goal: Connect school knowledge to real life.",
+      "Approach: Integrated, child-centred, reduced load.",
+      "Structure: 5 Units, 19 Chapters.",
+      "Key Advice: Engage with the narrative and activities."
+    ],
+    "practice_questions": [
+      {
+        "question": "What is the main objective of the NCF 2005 as mentioned in the Foreword?",
+        "answer": "To link children's life at school with their life outside the school and to discourage rote learning."
+      },
+      {
+        "question": "Why was the content of the textbook rationalised?",
+        "answer": "To reduce the content load on students in view of the COVID-19 pandemic and to remove overlapping, irrelevant, or difficult content."
+      },
+      {
+        "question": "How many units is the Class XI Biology textbook divided into?",
+        "answer": "Five units."
+      }
+    ]
+  }
+]

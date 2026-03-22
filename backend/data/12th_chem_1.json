@@ -1,0 +1,564 @@
+{
+  "chapters": [
+    {
+      "chapter_title": "Unit 1: Solutions",
+      "chapter_overview": "This chapter explores the nature of homogeneous mixtures called solutions, focusing on binary solutions. it covers various methods of expressing concentration, the solubility of solids and gases in liquids, vapor pressure behavior (Raoult's Law), ideal and non-ideal solutions, and colligative properties which depend on the number of solute particles.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Types of Solutions",
+          "explanation": "Solutions are homogeneous mixtures where components are uniformly distributed. Generally, the component in the largest quantity is the solvent, and others are solutes. Based on the physical state of the solvent, solutions are classified as gaseous, liquid, or solid. Binary solutions consist of only two components.",
+          "key_points": [
+            "Solvent determines the physical state of the solution.",
+            "Homogeneous means composition and properties are uniform throughout.",
+            "Examples include brass (solid-solid), air (gas-gas), and sugar in water (solid-liquid)."
+          ]
+        },
+        {
+          "section_title": "Expressing Concentration",
+          "explanation": "Concentration describes the amount of solute in a given amount of solvent or solution. Quantitative methods include mass percentage, volume percentage, parts per million (ppm), mole fraction, molarity, and molality.",
+          "key_points": [
+            "Mass % (w/w) = (Mass of component / Total mass) × 100",
+            "Molarity (M) = Moles of solute / Volume of solution in liters (Temperature dependent).",
+            "Molality (m) = Moles of solute / Mass of solvent in kg (Temperature independent).",
+            "Mole fraction (x) is the ratio of moles of one component to total moles."
+          ]
+        },
+        {
+          "section_title": "Solubility and Henry's Law",
+          "explanation": "Solubility is the maximum amount of solute that can dissolve in a solvent at a specific temperature. For gases in liquids, solubility increases with pressure, a relationship defined by Henry's Law.",
+          "key_points": [
+            "Like dissolves like: Polar solutes dissolve in polar solvents.",
+            "Henry's Law: Partial pressure of gas (p) = Kh × mole fraction (x).",
+            "Applications: Carbonated drinks, scuba diving (preventing bends), and aquatic life comfort in cold water."
+          ]
+        },
+        {
+          "section_title": "Vapour Pressure and Raoult's Law",
+          "explanation": "Raoult's Law states that for a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction. Ideal solutions obey this law over the entire range of concentration.",
+          "key_points": [
+            "P_total = p1 + p2 = p1°x1 + p2°x2.",
+            "Ideal solutions have ΔmixH = 0 and ΔmixV = 0.",
+            "Non-ideal solutions show positive or negative deviations due to molecular interactions.",
+            "Azeotropes are constant boiling mixtures that cannot be separated by simple distillation."
+          ]
+        },
+        {
+          "section_title": "Colligative Properties",
+          "explanation": "Properties that depend only on the number of solute particles, not their nature. These include relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, and osmotic pressure.",
+          "key_points": [
+            "ΔTb = Kb × m (Elevation of boiling point).",
+            "ΔTf = Kf × m (Depression of freezing point).",
+            "Π = CRT (Osmotic pressure).",
+            "Reverse osmosis is used in water purification."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Van't Hoff Factor (i)",
+          "definition": "The ratio of the observed colligative property to the calculated value.",
+          "detailed_explanation": "It accounts for association or dissociation of solute particles in a solution. For dissociation (e.g., NaCl), i > 1; for association (e.g., acetic acid in benzene), i < 1.",
+          "real_world_example": "NaCl dissociates into Na+ and Cl- ions, nearly doubling the effective concentration of particles and hence the osmotic pressure."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Molarity",
+          "definition": "Number of moles of solute dissolved in one litre of solution.",
+          "importance": "Most common unit in laboratory chemistry, though it varies with temperature."
+        },
+        {
+          "term": "Azeotrope",
+          "definition": "Binary mixtures having the same composition in liquid and vapour phase.",
+          "importance": "They boil at a constant temperature, making separation by distillation impossible."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Henry's Law",
+          "formula_or_principle": "p = Kh x",
+          "explanation": "Relates the partial pressure of a gas to its solubility (mole fraction) in a liquid."
+        },
+        {
+          "name": "Raoult's Law",
+          "formula_or_principle": "p1 = p1° x1",
+          "explanation": "Partial vapour pressure of a volatile component is proportional to its mole fraction."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Determining Molar Mass from Osmotic Pressure",
+          "steps": [
+            "Measure the osmotic pressure (Π) of the solution at a known temperature (T).",
+            "Use the formula Π = (w2 RT) / (M2 V) where w2 is the mass of solute.",
+            "Rearrange to solve for M2 = (w2 RT) / (Π V).",
+            "This method is ideal for biomolecules like proteins due to stability at room temperature."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Difference between molarity and molality.",
+        "Conditions for a solution to be ideal.",
+        "Graphical representation of Raoult's Law deviations.",
+        "Numerical problems on boiling point elevation and freezing point depression.",
+        "Significance of the Van't Hoff factor in abnormal molar masses."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing molarity (volume-based) with molality (mass-based).",
+        "Forgetting to check if the solute dissociates or associates (Van't Hoff factor).",
+        "Using Celsius instead of Kelvin in gas law and osmotic pressure calculations."
+      ],
+      "quick_revision_notes": [
+        "Solubility of gases decreases with increase in temperature.",
+        "Vapour pressure of solvent decreases when a non-volatile solute is added.",
+        "Isotonic solutions have the same osmotic pressure at a given temperature."
+      ],
+      "practice_questions": [
+        {
+          "question": "State Henry's Law and mention one application.",
+          "answer": "Henry's Law states that the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the surface of the liquid. Application: Solubility of CO2 in soft drinks increases under high pressure."
+        },
+        {
+          "question": "What are colligative properties?",
+          "answer": "Properties of solutions that depend only on the number of solute particles irrespective of their nature relative to the total number of particles present in the solution."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 2: Electrochemistry",
+      "chapter_overview": "Electrochemistry deals with the production of electricity from energy released during spontaneous chemical reactions and the use of electrical energy to bring about non-spontaneous chemical transformations. It covers galvanic cells, electrolytic cells, conductance, batteries, and corrosion.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Electrochemical Cells",
+          "explanation": "These cells convert chemical energy into electrical energy. A common example is the Daniell cell, which utilizes the redox reaction between Zn and Cu. It consists of two half-cells connected by a salt bridge.",
+          "key_points": [
+            "Anode: Oxidation occurs (Negative electrode).",
+            "Cathode: Reduction occurs (Positive electrode).",
+            "Cell Potential: Difference between the electrode potentials of cathode and anode."
+          ]
+        },
+        {
+          "section_title": "Nernst Equation",
+          "explanation": "The Nernst equation relates the electrode potential to the concentration of species involved in the reaction. It allows calculation of cell potential under non-standard conditions.",
+          "key_points": [
+            "E = E° - (RT/nF) ln Q.",
+            "Relates cell potential to the equilibrium constant (K) and Gibbs energy (ΔG).",
+            "ΔG° = -nFE°cell."
+          ]
+        },
+        {
+          "section_title": "Conductance of Electrolytic Solutions",
+          "explanation": "Resistance (R), conductivity (κ), and molar conductivity (Λm) are key parameters. Conductivity depends on the nature of the electrolyte, concentration, and temperature.",
+          "key_points": [
+            "Λm = κ / c (Molar conductivity).",
+            "Kohlrausch Law: Limiting molar conductivity of an electrolyte is the sum of individual contributions of its ions.",
+            "Strong electrolytes show linear decrease in Λm with concentration, while weak electrolytes show a steep increase at high dilution."
+          ]
+        },
+        {
+          "section_title": "Electrolysis and Faraday's Laws",
+          "explanation": "Electrolysis is the process of decomposition of an electrolyte by passing electricity. Faraday's laws quantify the amount of substance produced.",
+          "key_points": [
+            "First Law: Mass of substance (w) = Z × Q = Z × I × t.",
+            "Second Law: Masses of different substances liberated by the same quantity of electricity are proportional to their chemical equivalent weights.",
+            "Products of electrolysis depend on the nature of the material and electrode potential."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Corrosion",
+          "definition": "The process of slow eating away of metal surfaces by the action of atmospheric gases and moisture.",
+          "detailed_explanation": "In rusting of iron, an electrochemical cell is formed on the surface. Iron acts as anode (oxidation to Fe2+), and oxygen in the presence of H+ acts as cathode. The resulting Fe2+ is further oxidized to Fe2O3.xH2O (rust).",
+          "real_world_example": "Rusting of iron bridges and ships causing significant economic loss."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Salt Bridge",
+          "definition": "A device used to connect the oxidation and reduction half-cells of a galvanic cell.",
+          "importance": "Maintains electrical neutrality and completes the circuit."
+        },
+        {
+          "term": "Fuel Cell",
+          "definition": "Galvanic cells designed to convert the energy of combustion of fuels directly into electrical energy.",
+          "importance": "Highly efficient and eco-friendly (e.g., Hydrogen-Oxygen fuel cell used in space programs)."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Nernst Equation",
+          "formula_or_principle": "E_cell = E°cell - (0.059/n) log Q (at 298K)",
+          "explanation": "Calculates cell potential based on concentrations."
+        },
+        {
+          "name": "Kohlrausch Law",
+          "formula_or_principle": "Λ°m = ν+ λ°+ + ν- λ°-",
+          "explanation": "Calculates limiting molar conductivity of electrolytes."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Measuring Unknown Resistance of an Ionic Solution",
+          "steps": [
+            "Use a Wheatstone bridge setup with a conductivity cell.",
+            "Fill the cell with the electrolyte solution.",
+            "Use alternating current (AC) to prevent electrolysis of the solution.",
+            "Balance the bridge to find the resistance (R).",
+            "Calculate conductivity (κ) using κ = (1/R) × (l/A), where l/A is the cell constant."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Differences between galvanic and electrolytic cells.",
+        "Applications of Kohlrausch Law (finding Λ°m for weak electrolytes).",
+        "Calculation of ΔG and K from E°cell.",
+        "Chemistry of Lead Storage Battery (charging and discharging).",
+        "Mechanism of corrosion and methods of prevention."
+      ],
+      "common_mistakes_students_make": [
+        "Mixing up anode and cathode signs between galvanic and electrolytic cells.",
+        "Incorrectly calculating 'n' (number of electrons) in the Nernst equation.",
+        "Using DC instead of AC for conductance measurements."
+      ],
+      "quick_revision_notes": [
+        "Standard Hydrogen Electrode (SHE) is assigned a potential of 0V.",
+        "Conductivity (κ) always decreases with decrease in concentration.",
+        "Molar conductivity (Λm) increases with decrease in concentration."
+      ],
+      "practice_questions": [
+        {
+          "question": "Can you store copper sulphate solution in a zinc pot?",
+          "answer": "No, because zinc is more reactive than copper (lower reduction potential) and will displace copper from the solution, leading to the pot getting corroded."
+        },
+        {
+          "question": "What is the unit of molar conductivity?",
+          "answer": "S cm² mol⁻¹ or S m² mol⁻¹."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 3: Chemical Kinetics",
+      "chapter_overview": "Chemical kinetics is the study of reaction rates, the factors affecting them, and the mechanisms by which they occur. It distinguishes between feasibility (thermodynamics) and speed (kinetics).",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Rate of Reaction",
+          "explanation": "The rate is the change in concentration of a reactant or product per unit time. It can be expressed as average rate (over a period) or instantaneous rate (at a specific moment).",
+          "key_points": [
+            "Rate = -Δ[R]/Δt = Δ[P]/Δt.",
+            "Units: mol L⁻¹ s⁻¹ (for solutions) or atm s⁻¹ (for gases).",
+            "Instantaneous rate is the slope of the tangent to the concentration-time curve."
+          ]
+        },
+        {
+          "section_title": "Order and Molecularity",
+          "explanation": "Order is an experimental quantity representing the sum of powers of concentration terms in the rate law. Molecularity is the number of reacting species in an elementary step.",
+          "key_points": [
+            "Order can be zero, fractional, or negative; molecularity is always a whole number (1, 2, or 3).",
+            "Order applies to complex reactions; molecularity is defined only for elementary reactions.",
+            "The slowest step in a complex reaction is the rate-determining step."
+          ]
+        },
+        {
+          "section_title": "Integrated Rate Equations",
+          "explanation": "These equations provide a direct relationship between concentration and time, allowing determination of rate constants and half-lives.",
+          "key_points": [
+            "Zero Order: [R] = -kt + [R]0; Half-life t1/2 = [R]0 / 2k.",
+            "First Order: ln[R] = -kt + ln[R]0 or k = (2.303/t) log([R]0/[R]); Half-life t1/2 = 0.693 / k.",
+            "First order half-life is independent of initial concentration."
+          ]
+        },
+        {
+          "section_title": "Temperature Dependence and Activation Energy",
+          "explanation": "Reaction rates usually increase with temperature. The Arrhenius equation explains this behavior by introducing activation energy (Ea).",
+          "key_points": [
+            "Arrhenius Equation: k = A e^(-Ea/RT).",
+            "Activation energy is the minimum energy required for a collision to be effective.",
+            "A rise of 10° typically doubles the rate constant."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Collision Theory",
+          "definition": "A model explaining how chemical reactions occur based on collisions between molecules.",
+          "detailed_explanation": "For a reaction to occur, molecules must collide with sufficient energy (threshold energy) and proper orientation. Effective collisions lead to product formation. The rate is influenced by collision frequency (Z) and the fraction of molecules with energy ≥ Ea.",
+          "real_world_example": "The reaction between bromoethane and hydroxide ion depends on the OH- group attacking the carbon atom from the correct side."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Rate Constant (k)",
+          "definition": "Proportionality constant in the rate law expression.",
+          "importance": "Characterizes the speed of a reaction at a specific temperature."
+        },
+        {
+          "term": "Pseudo First Order Reaction",
+          "definition": "A reaction that is not first order but behaves as one under certain conditions.",
+          "importance": "Example: Hydrolysis of ester where water is in large excess."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Arrhenius Equation",
+          "formula_or_principle": "log(k2/k1) = (Ea / 2.303R) [(T2 - T1) / (T1T2)]",
+          "explanation": "Used to calculate activation energy from rate constants at two temperatures."
+        },
+        {
+          "name": "First Order Rate Law",
+          "formula_or_principle": "k = (2.303/t) log([R]0 / [R])",
+          "explanation": "Relates time, rate constant, and concentration changes."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Determining Order of Reaction Graphically",
+          "steps": [
+            "Plot [R] vs t: If linear, it is Zero Order.",
+            "Plot log[R] vs t: If linear, it is First Order.",
+            "The slope of these lines provides the rate constant (k)."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Difference between order and molecularity.",
+        "Derivation of first-order integrated rate equation.",
+        "Characteristics of zero-order reactions.",
+        "Graphical problems on Arrhenius equation.",
+        "Effect of catalyst on activation energy (lowers Ea)."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing average rate with instantaneous rate.",
+        "Assuming stoichiometric coefficients are the same as order (order is experimental).",
+        "Forgetting that half-life of first-order reactions is independent of [R]0."
+      ],
+      "quick_revision_notes": [
+        "Unit of k for zero order: mol L⁻¹ s⁻¹.",
+        "Unit of k for first order: s⁻¹.",
+        "Catalysts provide an alternate pathway with lower activation energy."
+      ],
+      "practice_questions": [
+        {
+          "question": "A first order reaction has a rate constant of 1.15 x 10⁻³ s⁻¹. How long will 5g of this reactant take to reduce to 3g?",
+          "answer": "Using k = (2.303/t) log(a/a-x), t = (2.303 / 1.15 x 10⁻³) log(5/3) ≈ 444 seconds."
+        },
+        {
+          "question": "What is the effect of temperature on the rate constant?",
+          "answer": "The rate constant increases exponentially with an increase in temperature."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 4: The d- and f-Block Elements",
+      "chapter_overview": "This chapter focuses on transition elements (d-block) and inner transition elements (f-block). It details their electronic configurations, physical properties, oxidation states, and the unique phenomenon of Lanthanoid contraction.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Transition Elements (d-Block)",
+          "explanation": "These elements have partially filled d-orbitals. They are characterized by high melting points, metallic luster, and the ability to form colored ions and complex compounds.",
+          "key_points": [
+            "General configuration: (n-1)d¹⁻¹⁰ ns¹⁻².",
+            "Zn, Cd, and Hg are not considered transition elements because they have full d-shells in ground and common ionic states.",
+            "Show variable oxidation states due to small energy difference between (n-1)d and ns orbitals."
+          ]
+        },
+        {
+          "section_title": "Properties of Transition Metals",
+          "explanation": "Include metallic character, atomic radii trends, ionization enthalpies, and magnetic properties.",
+          "key_points": [
+            "Atomic radii decrease initially across a period and then become nearly constant.",
+            "Paramagnetism is due to unpaired electrons; calculated using spin-only formula: μ = √n(n+2).",
+            "Formation of interstitial compounds (e.g., TiC, Mn4N) where small atoms fit into metal lattices."
+          ]
+        },
+        {
+          "section_title": "Important Compounds",
+          "explanation": "Potassium dichromate (K2Cr2O7) and Potassium permanganate (KMnO4) are powerful oxidizing agents discussed in detail.",
+          "key_points": [
+            "K2Cr2O7: Prepared from chromite ore; used in leather industry and volumetric analysis.",
+            "KMnO4: Prepared from MnO2; used as an oxidizing agent in acidic, neutral, and alkaline media."
+          ]
+        },
+        {
+          "section_title": "Lanthanoids and Actinoids (f-Block)",
+          "explanation": "Lanthanoids (Ce to Lu) and Actinoids (Th to Lr) occupy the bottom of the periodic table. They are characterized by the filling of 4f and 5f orbitals respectively.",
+          "key_points": [
+            "Lanthanoid contraction: Steady decrease in atomic/ionic radii with increasing atomic number due to poor shielding of 4f electrons.",
+            "Actinoids show greater range of oxidation states compared to lanthanoids.",
+            "Actinoids are radioactive and have more complex chemistry."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Lanthanoid Contraction",
+          "definition": "The regular decrease in the size of atoms and ions of lanthanoids with increasing atomic number.",
+          "detailed_explanation": "Caused by the poor shielding effect of 4f electrons, resulting in increased effective nuclear charge. Consequences include the similarity in size of 4d and 5d transition elements (e.g., Zr and Hf), making their separation difficult.",
+          "real_world_example": "Zirconium and Hafnium have nearly identical radii (160 pm and 159 pm) and occur together in nature."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Mischmetall",
+          "definition": "An alloy consisting of lanthanoid metals (~95%) and iron (~5%) with traces of S, C, Ca, Al.",
+          "importance": "Used in magnesium-based alloys to produce bullets, shells, and lighter flints."
+        },
+        {
+          "term": "Interstitial Compounds",
+          "definition": "Compounds formed when small atoms like H, C, or N are trapped inside the crystal lattices of metals.",
+          "importance": "They are hard, have high melting points, and retain metallic conductivity."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Magnetic Moment Formula",
+          "formula_or_principle": "μ = √n(n + 2) Bohr Magnetons (BM)",
+          "explanation": "Calculates the magnetic moment based on the number of unpaired electrons (n)."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Preparation of Potassium Permanganate",
+          "steps": [
+            "Fuse MnO2 with KOH in the presence of air or KNO3 to form K2MnO4 (green).",
+            "Disproportionate the manganate ion in neutral or acidic solution to get KMnO4 (purple).",
+            "Commercially, it is also made by electrolytic oxidation of manganate(VI)."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Electronic configuration of Cr and Cu exceptions.",
+        "Why transition metals act as good catalysts (variable oxidation states and large surface area).",
+        "Color of transition metal ions (d-d transitions).",
+        "Consequences of lanthanoid contraction.",
+        "Oxidizing properties of KMnO4 in different media."
+      ],
+      "common_mistakes_students_make": [
+        "Assigning transition element status to Zn, Cd, and Hg.",
+        "Incorrectly calculating the number of unpaired electrons for magnetic moment.",
+        "Confusing the characteristics of lanthanoids with actinoids."
+      ],
+      "quick_revision_notes": [
+        "Scandium (Z=21) is a transition element, but Zinc (Z=30) is not.",
+        "Cu+ is unstable in aqueous solution and disproportionates to Cu2+ and Cu.",
+        "Lanthanoids primarily show +3 oxidation state."
+      ],
+      "practice_questions": [
+        {
+          "question": "Why do transition elements exhibit higher enthalpies of atomisation?",
+          "answer": "Because of the large number of unpaired electrons in their atoms, they have stronger interatomic interactions and stronger metallic bonding."
+        },
+        {
+          "question": "What is the 'spin-only' magnetic moment of M²⁺ ion (Z=27)?",
+          "answer": "For Z=27 (Co), M²⁺ has 3 unpaired electrons (3d⁷). μ = √3(3+2) = √15 ≈ 3.87 BM."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Unit 5: Coordination Compounds",
+      "chapter_overview": "Coordination compounds are substances where central metal atoms are bound to anions or neutral molecules (ligands). This chapter covers Werner's theory, nomenclature, isomerism, and bonding models like VBT and CFT.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Werner's Theory",
+          "explanation": "The first systematic attempt to explain coordination compounds. It postulates two types of valencies: primary (ionisable) and secondary (non-ionisable).",
+          "key_points": [
+            "Primary valency corresponds to oxidation state.",
+            "Secondary valency corresponds to coordination number and is fixed for a metal.",
+            "Secondary valencies are directed in space, giving the compound a specific geometry."
+          ]
+        },
+        {
+          "section_title": "Nomenclature and Isomerism",
+          "explanation": "Standard IUPAC rules are used for naming. Isomerism includes structural (linkage, coordination, ionisation, solvate) and stereoisomerism (geometrical, optical).",
+          "key_points": [
+            "Geometrical isomers: cis and trans forms.",
+            "Optical isomers: Mirror images that are non-superimposable (dextro and laevo).",
+            "Linkage isomerism occurs with ambidentate ligands like NO2 and SCN."
+          ]
+        },
+        {
+          "section_title": "Bonding: Valence Bond Theory (VBT)",
+          "explanation": "VBT explains bonding in terms of hybridization of metal orbitals to accommodate ligand electron pairs.",
+          "key_points": [
+            "Octahedral: d²sp³ (inner orbital) or sp³d² (outer orbital).",
+            "Tetrahedral: sp³.",
+            "Square Planar: dsp²."
+          ]
+        },
+        {
+          "section_title": "Crystal Field Theory (CFT)",
+          "explanation": "CFT considers the metal-ligand bond as purely electrostatic. It explains the splitting of d-orbitals in octahedral and tetrahedral fields.",
+          "key_points": [
+            "Octahedral field: d-orbitals split into t2g (lower energy) and eg (higher energy).",
+            "Crystal Field Splitting Energy (Δo) depends on ligand strength (spectrochemical series).",
+            "Strong field ligands (e.g., CN-) cause large splitting and low spin complexes."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Chelate Effect",
+          "definition": "The stabilization of a coordination compound due to the presence of chelating ligands.",
+          "detailed_explanation": "When a di- or polydentate ligand binds to a metal atom using two or more donor atoms simultaneously, it forms a ring structure called a chelate. Such complexes are significantly more stable than those with unidentate ligands.",
+          "real_world_example": "EDTA used in treating lead poisoning by forming stable chelates with lead ions in the body."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Ligand",
+          "definition": "An ion or molecule bound to the central metal atom in a coordination entity.",
+          "importance": "They donate electron pairs; can be unidentate, didentate, or polydentate."
+        },
+        {
+          "term": "Coordination Number",
+          "definition": "The number of ligand donor atoms to which the metal is directly bonded.",
+          "importance": "Determines the geometry of the complex."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Effective Atomic Number (EAN)",
+          "formula_or_principle": "EAN = Z - (Oxidation State) + 2(Coordination Number)",
+          "explanation": "A rule used to predict the stability of metal carbonyls (often equals the atomic number of the next noble gas)."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Naming a Coordination Compound",
+          "steps": [
+            "Name the cation first, then the anion.",
+            "Name ligands in alphabetical order with prefixes (di, tri, etc.).",
+            "Name the central metal atom. If complex is an anion, metal name ends in '-ate'.",
+            "Indicate the oxidation state of the metal in Roman numerals in parentheses."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "IUPAC nomenclature problems.",
+        "Identifying types of isomerism in given complexes.",
+        "Predicting geometry and magnetic behavior using VBT.",
+        "Explaining color of complexes using CFT (d-d transitions).",
+        "Synergic bonding in metal carbonyls."
+      ],
+      "common_mistakes_students_make": [
+        "Incorrectly identifying the oxidation state of the central metal.",
+        "Forgetting to name ligands alphabetically regardless of charge.",
+        "Confusing inner orbital (low spin) and outer orbital (high spin) complexes."
+      ],
+      "quick_revision_notes": [
+        "Strong field ligands: CO > CN- > en > NH3.",
+        "Weak field ligands: I- < Br- < Cl- < F-.",
+        "Tetrahedral complexes do not show geometrical isomerism."
+      ],
+      "practice_questions": [
+        {
+          "question": "What is the IUPAC name of [Co(NH3)5Cl]Cl2?",
+          "answer": "Pentaamminechloridocobalt(III) chloride."
+        },
+        {
+          "question": "Why is [Ni(CN)4]²⁻ diamagnetic while [NiCl4]²⁻ is paramagnetic?",
+          "answer": "CN- is a strong field ligand causing pairing of electrons (dsp² hybridization, no unpaired e-), whereas Cl- is a weak field ligand (sp³ hybridization, 2 unpaired e-)."
+        }
+      ]
+    }
+  ]
+}

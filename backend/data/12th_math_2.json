@@ -1,0 +1,1101 @@
+[
+  {
+    "chapter_title": "Chapter 7: Integrals",
+    "chapter_overview": "This chapter introduces the fundamental concepts of Integral Calculus. It explains integration as the inverse process of differentiation, detailing indefinite integrals and standard formulas. The chapter systematically covers essential techniques for evaluating complex integrals, including the method of substitution, integration using partial fractions, and integration by parts. Furthermore, it introduces definite integrals, the area function, the First and Second Fundamental Theorems of Calculus, and various properties of definite integrals that simplify their evaluation. The definitive connection between indefinite and definite integrals establishes integrals as a practical tool for science and engineering.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Integration as an Inverse Process of Differentiation",
+        "explanation": "Integration is defined as finding the original function (primitive or anti-derivative) when its derivative is given. Since the derivative of any constant is zero, an infinite number of anti-derivatives exist for a given function, differing only by an arbitrary constant 'C'. Thus, the indefinite integral represents a family of parallel curves.",
+        "key_points": [
+          "Integration is anti-differentiation.",
+          "The symbol '∫ f(x) dx' represents the entire class of anti-derivatives of f with respect to x.",
+          "Two indefinite integrals with the same derivative lead to the same family of curves.",
+          "The constant of integration 'C' is essential to represent all possible anti-derivatives."
+        ]
+      },
+      {
+        "section_title": "Methods of Integration",
+        "explanation": "Because not all functions can be integrated using basic inspection and standard formulas, specific techniques are developed. The chapter covers Integration by Substitution (changing the independent variable), Integration using Partial Fractions (decomposing rational functions), and Integration by Parts (for products of functions).",
+        "key_points": [
+          "Substitution involves replacing x = g(t) to simplify the integral.",
+          "Trigonometric identities are widely used alongside substitution for integrating trigonometric functions.",
+          "Partial fractions are used to integrate proper rational functions (where the numerator's degree is less than the denominator's degree).",
+          "Integration by parts requires carefully choosing a 'first' and 'second' function to reduce the complexity of the integral."
+        ]
+      },
+      {
+        "section_title": "Definite Integral and Fundamental Theorem of Calculus",
+        "explanation": "A definite integral has a unique value and is associated with the area bounded by a curve, the x-axis, and specified vertical lines. The Fundamental Theorems of Calculus provide the bridge between differentiation and definite integrals, eliminating the need to calculate the limit of a sum.",
+        "key_points": [
+          "The Area function A(x) represents the area under a curve from a fixed point to a variable point x.",
+          "First Fundamental Theorem: The derivative of the area function is the original function, A'(x) = f(x).",
+          "Second Fundamental Theorem: The definite integral of f(x) from a to b is F(b) - F(a), where F is an anti-derivative of f.",
+          "The arbitrary constant 'C' disappears when evaluating definite integrals."
+        ]
+      },
+      {
+        "section_title": "Properties of Definite Integrals",
+        "explanation": "Several properties help evaluate definite integrals more efficiently, especially when dealing with symmetric limits (like -a to a), piece-wise functions (like absolute values), and periodic functions.",
+        "key_points": [
+          "Limits of integration can be broken down: ∫ from a to b = ∫ from a to c + ∫ from c to b.",
+          "∫ f(x) dx from 0 to a is equal to ∫ f(a-x) dx from 0 to a.",
+          "For even functions, the integral from -a to a is twice the integral from 0 to a.",
+          "For odd functions, the integral from -a to a is strictly zero."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Indefinite Integral",
+        "definition": "The collection of all anti-derivatives of a function, denoted by ∫ f(x) dx = F(x) + C.",
+        "detailed_explanation": "When you integrate a function without specific limits, you are finding a general formula for its anti-derivatives. Because differentiating a constant yields zero, we must add an arbitrary constant 'C' to denote that an infinite number of parallel curves share the same derivative.",
+        "real_world_example": "If you are given the formula for the acceleration of a car over time, taking the indefinite integral gives you the formula for the car's velocity, plus an unknown constant (which would represent the initial velocity)."
+      },
+      {
+        "concept": "Definite Integral",
+        "definition": "An integral evaluated between two specific limits, representing a precise numerical value, denoted by ∫ f(x) dx from a to b.",
+        "detailed_explanation": "Unlike the indefinite integral which results in a function, the definite integral results in a specific number. It calculates the net signed area between the graph of the function and the x-axis, bounded by vertical lines at the limits of integration 'a' and 'b'.",
+        "real_world_example": "Calculating the total distance traveled by a train between 2 PM and 4 PM by finding the definite integral of its speed-time graph."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Integrand",
+        "definition": "The function f(x) that is being integrated inside the integral sign.",
+        "importance": "It dictates the rules and methods (like substitution or partial fractions) that must be applied to solve the integral."
+      },
+      {
+        "term": "Variable of Integration",
+        "definition": "The variable (often x or t) with respect to which the integration is being performed, denoted by 'dx' or 'dt'.",
+        "importance": "It tells us which variable is changing and which letters should be treated as constants during the integration process."
+      },
+      {
+        "term": "Constant of Integration",
+        "definition": "An arbitrary real number, usually denoted by 'C', added to the result of an indefinite integral.",
+        "importance": "It represents the infinite set of anti-derivatives for a given function, ensuring the solution is mathematically complete."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Power Rule for Integration",
+        "formula_or_principle": "∫ x^n dx = (x^(n+1)) / (n+1) + C, where n ≠ -1",
+        "explanation": "This is the reverse of the power rule for derivatives. You add 1 to the exponent and then divide by that new exponent."
+      },
+      {
+        "name": "Integration by Parts Formula",
+        "formula_or_principle": "∫ f(x)g(x) dx = f(x) ∫ g(x) dx - ∫ [ f'(x) ∫ g(x) dx ] dx",
+        "explanation": "This reverses the product rule of differentiation. It states that the integral of the product of two functions equals the first function times the integral of the second, minus the integral of the derivative of the first times the integral of the second."
+      },
+      {
+        "name": "Special Type Integral (Exponential)",
+        "formula_or_principle": "∫ e^x [f(x) + f'(x)] dx = e^x f(x) + C",
+        "explanation": "If an integrand is the product of e^x and the sum of a function and its exact derivative, the integral immediately simplifies to e^x times the function."
+      },
+      {
+        "name": "Second Fundamental Theorem of Calculus",
+        "formula_or_principle": "∫_a^b f(x) dx = F(b) - F(a)",
+        "explanation": "To evaluate a definite integral from a to b, find the anti-derivative F(x) of the integrand, evaluate it at the upper limit (b), evaluate it at the lower limit (a), and subtract the latter from the former."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Integration by Substitution",
+        "steps": [
+          "1. Identify a part of the complex integrand to replace with a new variable 't'. Look for a function whose derivative is also present in the integrand.",
+          "2. Let x = g(t) or t = h(x).",
+          "3. Differentiate both sides to find the relationship between dx and dt (e.g., dt = h'(x) dx).",
+          "4. Substitute all x terms and dx in the original integral with t terms and dt.",
+          "5. Integrate the newly formed, simpler integral with respect to t.",
+          "6. Once integrated, replace 't' back with the original expression in terms of x.",
+          "7. Add the constant of integration 'C'."
+        ]
+      },
+      {
+        "process_name": "Evaluating Definite Integrals using Substitution",
+        "steps": [
+          "1. Identify the substitution t = g(x) to simplify the integrand.",
+          "2. Find dt in terms of dx.",
+          "3. Determine the new limits of integration. When x = lower limit 'a', find the new lower limit t = g(a). When x = upper limit 'b', find the new upper limit t = g(b).",
+          "4. Substitute the integrand, differential, and limits into the new integral.",
+          "5. Integrate the function with respect to the new variable.",
+          "6. Evaluate the result using the new upper and lower limits (F(new_b) - F(new_a)). There is no need to substitute the original variable 'x' back."
+        ]
+      },
+      {
+        "process_name": "Integration by Partial Fractions",
+        "steps": [
+          "1. Check if the rational function is proper (degree of numerator < degree of denominator). If improper, use long division first.",
+          "2. Factorize the denominator polynomial completely into linear and/or irreducible quadratic factors.",
+          "3. Write the rational function as a sum of simpler fractions with unknown constants (A, B, C) in the numerators depending on the factor types.",
+          "4. Multiply the entire equation by the common denominator to clear the fractions.",
+          "5. Equate coefficients of corresponding powers of x on both sides to create a system of linear equations.",
+          "6. Solve for the constants A, B, C.",
+          "7. Substitute the constants back into the partial fractions and integrate each simple fraction individually."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always remember to append the constant of integration '+ C' to every final answer for indefinite integrals; marks are frequently deducted for omitting it.",
+      "When using Integration by Parts, the choice of the first function is critical. The rule of thumb 'ILATE' (Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential) is a highly reliable way to choose the first function to ensure the integral simplifies.",
+      "For definite integrals involving absolute value functions |x|, you must split the integral at the point where the expression inside the absolute value equals zero to handle the positive and negative intervals correctly.",
+      "Before applying partial fractions, ensure the rational function is a 'proper' fraction. If the numerator's degree is equal to or greater than the denominator's, long division is a mandatory first step.",
+      "When applying substitution in definite integrals, it is generally faster and less error-prone to change the integration limits to the new variable rather than reverting to the original variable at the end."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing differentiation formulas with integration formulas (e.g., thinking the integral of sin(x) is cos(x) instead of -cos(x)).",
+      "Forgetting to calculate and substitute 'dt' for 'dx' when performing integration by substitution.",
+      "Omitting the constant of integration 'C' in indefinite integrals.",
+      "Failing to change the limits of integration when applying the substitution method to definite integrals.",
+      "Incorrectly attempting to integrate a product of two functions by simply multiplying their individual integrals (ignoring Integration by Parts)."
+    ],
+    "quick_revision_notes": [
+      "Integration is the exact inverse process of differentiation.",
+      "Integral of [f(x) ± g(x)] dx = Integral f(x) dx ± Integral g(x) dx.",
+      "Constants can be pulled out of integrals: ∫ k * f(x) dx = k * ∫ f(x) dx.",
+      "Standard log integral: ∫ 1/x dx = log|x| + C.",
+      "Definite integrals represent the Area under the curve: Area = ∫_a^b f(x) dx.",
+      "Property P4 is highly useful for complex definite integrals: ∫_0^a f(x) dx = ∫_0^a f(a - x) dx.",
+      "If f(x) is an odd function [ f(-x) = -f(x) ], then ∫_(-a)^a f(x) dx = 0."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the indefinite integral: ∫ (2x^2 + e^x) dx",
+        "answer": "Using the properties of integrals, we split it: ∫ 2x^2 dx + ∫ e^x dx. Using standard formulas, the integral of 2x^2 is 2*(x^3/3) and the integral of e^x is e^x. Therefore, the final answer is (2/3)x^3 + e^x + C."
+      },
+      {
+        "question": "Evaluate the definite integral using substitution: ∫_0^1 (2x) / (1 + x^2) dx",
+        "answer": "Let the denominator t = 1 + x^2. Then dt = 2x dx. When x = 0, t = 1. When x = 1, t = 2. The integral becomes ∫_1^2 (1/t) dt. The anti-derivative of 1/t is log|t|. Evaluating from 1 to 2: log|2| - log|1| = log(2) - 0 = log(2)."
+      },
+      {
+        "question": "Find the integral using integration by parts: ∫ x * cos(x) dx",
+        "answer": "Using ILATE, choose x as the first function f(x) and cos(x) as the second function g(x). Using the formula: x * ∫ cos(x) dx - ∫ ( (d/dx(x)) * ∫ cos(x) dx ) dx. This becomes: x * sin(x) - ∫ 1 * sin(x) dx. The integral of sin(x) is -cos(x). So the final answer is: x*sin(x) - (-cos(x)) + C = x*sin(x) + cos(x) + C."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chapter 8: Application of Integrals",
+    "chapter_overview": "This chapter explores the specific application of definite integrals to calculate the area enclosed by various simple curves. While basic geometry provides formulas for regular shapes like triangles and rectangles, integral calculus is necessary to find the area bounded by lines, arcs of circles, parabolas, and ellipses by viewing the area as a limit of a sum of elementary areas.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "8.1 Introduction",
+        "explanation": "The introduction contrasts elementary geometry formulas with the necessity of integral calculus for finding areas enclosed by arbitrary curves. It builds upon the previous chapter's concept of the definite integral as the limit of a sum.",
+        "key_points": [
+          "Elementary geometry formulas are inadequate for calculating areas enclosed by curves.",
+          "Definite integrals are used to find the exact area bounded by a curve, the axes, and given limits (ordinates)."
+        ]
+      },
+      {
+        "section_title": "8.2 Area under Simple Curves",
+        "explanation": "This section explains how to find the area bounded by a simple curve, such as y = f(x), the x-axis, and the vertical lines x = a and x = b. It introduces the concept of dividing the total area into infinitesimally thin vertical strips (elementary areas) of height 'y' and width 'dx'. It also covers finding the area bounded by x = g(y) and the y-axis using horizontal strips.",
+        "key_points": [
+          "Total area can be found by adding up elementary areas (thin strips) across a defined region.",
+          "For vertical strips: Area is the integral from a to b of y dx.",
+          "For horizontal strips: Area is the integral from c to d of x dy.",
+          "If a portion of the curve lies below the x-axis, its definite integral will evaluate to a negative number. The absolute value must be taken to represent the physical area.",
+          "If a curve crosses an axis, the total area is the sum of the absolute values of the sub-areas on either side of the axis."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Elementary Area",
+        "definition": "An infinitesimally small rectangular strip used to approximate a tiny portion of the total area under a curve.",
+        "detailed_explanation": "To calculate the area under a continuous curve, the region is conceptually divided into an infinite number of very thin rectangular strips. The area of one vertical strip is the height of the function at that point 'y' multiplied by its infinitesimally small width 'dx' (dA = y dx). Integrating these elementary areas over an interval gives the exact total area.",
+        "real_world_example": "Estimating the total distance traveled from a continuously changing velocity graph by slicing the time into very small intervals, calculating the distance for each interval, and summing them."
+      },
+      {
+        "concept": "Symmetry in Area Calculation",
+        "definition": "Calculating the total area of a figure that exhibits symmetry (like a circle or ellipse) by finding the area of one symmetrical portion and multiplying by the number of identical portions.",
+        "detailed_explanation": "For shapes like circles (x² + y² = a²) or standard ellipses, which are symmetrical about both axes, it is often much easier to calculate the area in just the first quadrant and then multiply the result by 4 to get the total area. This significantly simplifies the integration limits (often starting from 0) and the evaluation process.",
+        "real_world_example": "If you need to calculate the amount of material needed for a perfectly round rug, you can calculate the area of one quarter and multiply by four."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Definite Integral",
+        "definition": "An integral evaluated between two specified limits, fundamentally representing the exact accumulated area under a curve between those points.",
+        "importance": "It is the primary mathematical tool used throughout the chapter to compute bounded areas."
+      },
+      {
+        "term": "Ordinate",
+        "definition": "The y-coordinate of a point on a coordinate plane, or a vertical line indicating a boundary, such as x = a.",
+        "importance": "Ordinates define the vertical boundaries (left and right limits) when integrating with respect to x."
+      },
+      {
+        "term": "Abscissa",
+        "definition": "The x-coordinate of a point on a coordinate plane.",
+        "importance": "Helps in understanding the axes and determining boundaries when integrating with respect to y."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Area under a curve (vertical strips)",
+        "formula_or_principle": "Area = ∫ y dx = ∫ f(x) dx from a to b",
+        "explanation": "Calculates the area bounded by the curve y = f(x), the x-axis, and the vertical lines x = a and x = b."
+      },
+      {
+        "name": "Area bounded by the y-axis (horizontal strips)",
+        "formula_or_principle": "Area = ∫ x dy = ∫ g(y) dy from c to d",
+        "explanation": "Calculates the area bounded by the curve x = g(y), the y-axis, and the horizontal lines y = c and y = d."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the area bounded by a curve and axes",
+        "steps": [
+          "Draw a rough, clear sketch of the given curve(s) and lines to visualize the enclosed region.",
+          "Identify the points of intersection and precise boundaries (these will be the limits of integration).",
+          "Determine whether it is easier to use vertical strips (integrate with respect to x) or horizontal strips (integrate with respect to y) based on the shape of the region.",
+          "Express the curve's equation in terms of the variable of integration (e.g., y in terms of x for a 'dx' integral).",
+          "Set up the definite integral(s) with the correct limits.",
+          "If the curve crosses the axis of integration, split the integral at the intersection point.",
+          "Evaluate the integral(s). Ensure you take the absolute value of any area calculated below the x-axis or to the left of the y-axis before summing."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always draw a rough sketch of the curve to understand the exact region whose area needs to be calculated; this prevents boundary mistakes.",
+      "Be highly vigilant when the curve crosses the x-axis. The integral will mathematically yield a negative result for areas below the axis. You must split the integral at the crossing point and take the absolute value of the negative section.",
+      "Utilize symmetry wherever possible (e.g., circles, ellipses, parabolas) to minimize calculation errors and save significant time during exams.",
+      "Memorize standard integration formulas, especially ∫√(a² - x²) dx = (x/2)√(a² - x²) + (a²/2)sin⁻¹(x/a), as it frequently appears in problems involving circles and ellipses."
+    ],
+    "common_mistakes_students_make": [
+      "Integrating continuously over an interval where the curve crosses the axis without splitting the integral, leading to a cancellation of positive and negative areas and an incorrect, smaller total area.",
+      "Writing incorrect limits of integration or confusing the limits for x with those for y.",
+      "Forgetting to multiply the area of one quadrant by the appropriate symmetry factor (like 4 for a full circle) when using the symmetry shortcut.",
+      "Setting up the integral with the wrong differential (using dx when the limits and function are set up for dy)."
+    ],
+    "quick_revision_notes": [
+      "The area of the region bounded by y = f(x), the x-axis, and ordinates x = a and x = b is ∫(a to b) y dx.",
+      "The area bounded by x = g(y), the y-axis, and lines y = c and y = d is ∫(c to d) x dy.",
+      "Area is always positive. If f(x) < 0 for x ∈ [a, b], the area is the absolute value: |∫(a to b) f(x) dx|.",
+      "If a curve crosses the x-axis at x = c between limits a and b, calculate the total area by splitting: Total Area = |∫(a to c) f(x) dx| + |∫(c to b) f(x) dx|."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the area enclosed by the circle x² + y² = a².",
+        "answer": "The area is calculated by finding the area in the first quadrant and multiplying by 4: Area = 4 * ∫(from 0 to a) y dx = 4 * ∫(from 0 to a) √(a² - x²) dx. Evaluating this integral yields πa²."
+      },
+      {
+        "question": "Find the area enclosed by the ellipse x²/a² + y²/b² = 1.",
+        "answer": "Using symmetry across both axes, Area = 4 * ∫(from 0 to a) y dx = 4 * ∫(from 0 to a) (b/a)√(a² - x²) dx. Evaluating this yields πab."
+      },
+      {
+        "question": "Find the area of the region bounded by the line y = 3x + 2, the x-axis and the ordinates x = -1 and x = 1.",
+        "answer": "The line crosses the x-axis at x = -2/3. Split the integral at this point: Area = |∫(from -1 to -2/3) (3x+2) dx| + ∫(from -2/3 to 1) (3x+2) dx. Calculating these definite integrals and summing them gives a final area of 13/3."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chapter 9: Differential Equations",
+    "chapter_overview": "This chapter introduces the concept of differential equations, which involve dependent variables, independent variables, and their derivatives. It covers fundamental properties like order and degree, distinguishes between general and particular solutions, and details methods for solving first-order, first-degree ordinary differential equations. These methods include variable separable, homogeneous equations, and linear differential equations. The chapter also touches on the applications of these equations in modeling various real-world scenarios.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction and Basic Concepts",
+        "explanation": "The chapter begins by defining a differential equation as an equation involving derivatives of a dependent variable with respect to an independent variable. It specifically focuses on 'ordinary differential equations' where there is only one independent variable.",
+        "key_points": [
+          "Equations with derivatives are differential equations.",
+          "Equations with only one independent variable are ordinary differential equations.",
+          "Differential equations are crucial for modeling scientific and real-world phenomena."
+        ]
+      },
+      {
+        "section_title": "Order and Degree of a Differential Equation",
+        "explanation": "This section explains how to classify differential equations based on their derivatives. The 'order' is determined by the highest derivative present. The 'degree' is the power of that highest derivative, but it's only defined if the equation is a polynomial in its derivatives.",
+        "key_points": [
+          "Order: The order of the highest derivative.",
+          "Degree: The highest power of the highest order derivative.",
+          "Degree is only defined for polynomial equations in derivatives.",
+          "Both order and degree, when defined, are positive integers."
+        ]
+      },
+      {
+        "section_title": "General and Particular Solutions",
+        "explanation": "This part distinguishes between the two main types of solutions. A general solution includes arbitrary constants, representing a family of curves. A particular solution is derived from the general solution by assigning specific values to these constants based on initial conditions.",
+        "key_points": [
+          "A function satisfying a differential equation is its solution.",
+          "General solutions contain arbitrary constants equal to the order of the equation.",
+          "Particular solutions are free of arbitrary constants."
+        ]
+      },
+      {
+        "section_title": "Methods of Solving First Order, First Degree Differential Equations",
+        "explanation": "The core of the chapter focuses on three specific techniques to solve first-order, first-degree differential equations: Variable Separable (separating variables to opposite sides to integrate), Homogeneous Equations (using substitution y = vx), and Linear Differential Equations (using an integrating factor).",
+        "key_points": [
+          "Variable Separable: Group all y-terms with dy and x-terms with dx.",
+          "Homogeneous: Substitute y=vx or x=vy to reduce it to a separable form.",
+          "Linear: For dy/dx + Py = Q, multiply by an Integrating Factor e^∫Pdx."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Differential Equation",
+        "definition": "An equation involving independent variable(s), dependent variable(s), and derivative(s) of the dependent variable with respect to the independent variable(s).",
+        "detailed_explanation": "It's a mathematical way to relate a quantity to its rate of change. They are used to describe complex dynamic systems where variables change continuously over time or space.",
+        "real_world_example": "Modeling population growth where the rate of growth is proportional to the current population (dp/dt = kp)."
+      },
+      {
+        "concept": "Order of a Differential Equation",
+        "definition": "The highest order of derivative present in the differential equation.",
+        "detailed_explanation": "If an equation has a first derivative (dy/dx), a second derivative (d²y/dx²), and no higher derivatives, the order is 2. It determines how many arbitrary constants will be in the general solution.",
+        "real_world_example": "Newton's second law (F = ma) is a second-order differential equation because acceleration is the second derivative of position with respect to time."
+      },
+      {
+        "concept": "Degree of a Differential Equation",
+        "definition": "The highest power (positive integer) of the highest order derivative involved in the given differential equation, provided it is a polynomial equation in derivatives.",
+        "detailed_explanation": "You first identify the highest order derivative (which gives the order). The exponent of this specific derivative term is the degree. If the equation has terms like sin(dy/dx) or e^(dy/dx), it's not a polynomial in derivatives, and the degree is undefined.",
+        "real_world_example": "In the equation (d²y/dx²)³ + dy/dx = 0, the order is 2 and the degree is 3."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Ordinary Differential Equation",
+        "definition": "A differential equation involving derivatives with respect to only one independent variable.",
+        "importance": "It's the primary focus of introductory differential equation studies, simpler than partial differential equations."
+      },
+      {
+        "term": "Integrating Factor (I.F.)",
+        "definition": "A function by which a differential equation is multiplied to make it integrable, particularly used in linear differential equations.",
+        "importance": "Essential for solving linear differential equations by converting the left-hand side into an exact derivative."
+      },
+      {
+        "term": "Homogeneous Function",
+        "definition": "A function F(x, y) where F(λx, λy) = λⁿF(x, y) for any non-zero constant λ.",
+        "importance": "Identifying a homogeneous function of degree zero is the prerequisite for using the homogeneous substitution method to solve the equation."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Variable Separable Method",
+        "formula_or_principle": "∫ (1/h(y)) dy = ∫ g(x) dx",
+        "explanation": "If an equation dy/dx = F(x, y) can be expressed as h(y) * g(x), you can separate the variables to opposite sides of the equation and integrate directly."
+      },
+      {
+        "name": "Linear Differential Equation Solution (Type 1)",
+        "formula_or_principle": "y * (I.F.) = ∫ (Q * I.F.) dx + C",
+        "explanation": "For an equation of the form dy/dx + Py = Q. First find the Integrating Factor (I.F.) = e^(∫ P dx). Then apply this formula to find the general solution."
+      },
+      {
+        "name": "Linear Differential Equation Solution (Type 2)",
+        "formula_or_principle": "x * (I.F.) = ∫ (Q₁ * I.F.) dy + C",
+        "explanation": "For an equation of the form dx/dy + P₁x = Q₁. The Integrating Factor (I.F.) is e^(∫ P₁ dy)."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving Homogeneous Differential Equations",
+        "steps": [
+          "Step 1: Check if the differential equation can be written as dy/dx = F(x, y) where F(x, y) is a homogeneous function of degree 0.",
+          "Step 2: Make the substitution y = vx.",
+          "Step 3: Differentiate y = vx with respect to x to get dy/dx = v + x(dv/dx).",
+          "Step 4: Substitute the value of y and dy/dx into the original equation.",
+          "Step 5: Separate the variables v and x.",
+          "Step 6: Integrate both sides.",
+          "Step 7: Replace v with y/x in the final integrated equation to get the solution."
+        ]
+      },
+      {
+        "process_name": "Solving First Order Linear Differential Equations",
+        "steps": [
+          "Step 1: Write the given differential equation in the standard form: dy/dx + Py = Q, where P and Q are constants or functions of x only.",
+          "Step 2: Calculate the Integrating Factor (I.F.) using the formula: I.F. = e^(∫ P dx).",
+          "Step 3: Write the general solution using the formula: y * (I.F.) = ∫ (Q * I.F.) dx + C.",
+          "Step 4: Perform the final integration on the right-hand side."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check if a differential equation is a polynomial in derivatives before trying to state its degree. If terms like sin(y'), e^(y') or log(y') are present, the degree is 'not defined'.",
+      "The number of arbitrary constants in the general solution is exactly equal to the order of the differential equation.",
+      "A particular solution will have zero arbitrary constants.",
+      "When integrating to find the general solution, never forget to add the constant of integration 'C'.",
+      "In the linear differential equation dx/dy + Px = Q, remember that P and Q are functions of y, and the integration for the I.F. is with respect to y."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the highest power in the equation with the degree. The degree is specifically the power of the *highest order derivative*.",
+      "Forgetting to replace 'v' back with 'y/x' at the final step when solving homogeneous equations.",
+      "Incorrectly identifying P and Q in linear equations by not ensuring the coefficient of dy/dx is exactly 1.",
+      "Making algebraic errors while separating variables in the variable separable method.",
+      "Forgetting the constant 'C' which makes a general solution incorrect."
+    ],
+    "quick_revision_notes": [
+      "Order = Highest derivative's order.",
+      "Degree = Power of highest derivative (only if polynomial in derivatives).",
+      "General Solution has 'n' arbitrary constants for an 'n'th order equation.",
+      "Particular Solution is obtained by plugging values into the arbitrary constants.",
+      "Three solving methods: 1. Variable Separable, 2. Homogeneous (y=vx), 3. Linear (I.F. = e^∫Pdx)."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the order and degree of the differential equation: (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) + 1 = 0",
+        "answer": "Order is 2 (highest derivative is d²y/dx²). Degree is not defined because the equation is not a polynomial in its derivatives due to the 'sin(dy/dx)' term."
+      },
+      {
+        "question": "Find the integrating factor of the differential equation: x(dy/dx) + 2y = x²",
+        "answer": "First, rewrite in standard form by dividing by x: dy/dx + (2/x)y = x. Here P = 2/x. Therefore, I.F. = e^(∫ (2/x) dx) = e^(2 log x) = e^(log x²) = x²."
+      },
+      {
+        "question": "Solve the differential equation dy/dx = e^(x+y).",
+        "answer": "Using variable separable: dy/dx = e^x * e^y. Then, e^(-y) dy = e^x dx. Integrating both sides: -e^(-y) = e^x + C, or e^x + e^(-y) = C."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chapter 10: Vector Algebra",
+    "chapter_overview": "This chapter introduces the fundamental concepts of vectors, distinguishing them from scalars. It covers vector operations such as addition, scalar multiplication, dot product, and cross product, along with their geometric interpretations and algebraic properties. The chapter establishes the groundwork for applying vectors in physics, engineering, and three-dimensional geometry.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Basic Concepts and Types of Vectors",
+        "explanation": "Introduces quantities as scalars (magnitude only) and vectors (magnitude and direction). Defines directed line segments and position vectors in a 3D coordinate system. Explains various types of vectors including zero, unit, coinitial, collinear, and equal vectors.",
+        "key_points": [
+          "A vector has both magnitude and direction.",
+          "Position vector of point P(x, y, z) is OP = xi + yj + zk.",
+          "Direction cosines (l, m, n) are the cosines of the angles a vector makes with the coordinate axes.",
+          "Types of vectors classify vectors based on their magnitude, initial point, and relative direction."
+        ]
+      },
+      {
+        "section_title": "Addition of Vectors and Scalar Multiplication",
+        "explanation": "Explains how to add vectors geometrically using the Triangle Law and Parallelogram Law. Details the multiplication of a vector by a scalar, which changes its magnitude and possibly reverses its direction.",
+        "key_points": [
+          "Triangle Law: When two sides of a triangle taken in order represent two vectors, the third side taken in opposite order represents their sum.",
+          "Vector addition is commutative and associative.",
+          "Multiplication by a scalar λ scales the vector's magnitude by |λ|."
+        ]
+      },
+      {
+        "section_title": "Vector Components and Section Formula",
+        "explanation": "Discusses representing vectors in component form using unit vectors i, j, k along the coordinate axes. Presents formulas to find the vector joining two points and the position vector of a point dividing a line segment in a given ratio.",
+        "key_points": [
+          "Magnitude of r = xi + yj + zk is √(x² + y² + z²).",
+          "Vector joining points P₁ and P₂ is (x₂ - x₁)i + (y₂ - y₁)j + (z₂ - z₁)k.",
+          "Section formula calculates the position vector for internal or external division of a line segment."
+        ]
+      },
+      {
+        "section_title": "Product of Two Vectors",
+        "explanation": "Covers two distinct ways to multiply vectors: the scalar (dot) product which yields a real number, and the vector (cross) product which yields a new vector orthogonal to the original two.",
+        "key_points": [
+          "Scalar product: a·b = |a||b|cosθ. Used to find angles and projections.",
+          "Vector product: a×b = |a||b|sinθ n̂. Used to find orthogonal vectors, areas of triangles, and parallelograms.",
+          "a·b = 0 implies vectors are perpendicular; a×b = 0 implies vectors are parallel/collinear."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Scalar vs Vector",
+        "definition": "A scalar has only magnitude, while a vector has both magnitude and direction.",
+        "detailed_explanation": "Scalars are represented by a single real number (e.g., mass, time). Vectors require both a magnitude (length) and a specific direction in space to be fully described. Graphically, vectors are represented by arrows.",
+        "real_world_example": "Speed (50 km/h) is a scalar. Velocity (50 km/h towards North) is a vector."
+      },
+      {
+        "concept": "Position Vector",
+        "definition": "A vector that represents the position of a point in space relative to an origin.",
+        "detailed_explanation": "In a 3D coordinate system with origin O(0,0,0), the position vector of a point P(x, y, z) is the directed line segment OP. It is written as xi + yj + zk.",
+        "real_world_example": "The GPS coordinates of a car relative to a fixed tracking station."
+      },
+      {
+        "concept": "Direction Cosines and Ratios",
+        "definition": "Direction cosines are the cosines of angles a vector makes with axes. Direction ratios are numbers proportional to direction cosines.",
+        "detailed_explanation": "If a vector makes angles α, β, γ with x, y, and z axes, its direction cosines are l=cosα, m=cosβ, n=cosγ. Any three numbers proportional to l, m, n are direction ratios (a, b, c). Importantly, l² + m² + n² = 1.",
+        "real_world_example": "Specifying the exact orientation of a satellite dish relative to the Earth's cardinal directions."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Unit Vector",
+        "definition": "A vector whose magnitude is exactly 1 unit.",
+        "importance": "Used primarily to denote direction without changing the magnitude of a quantity when multiplied."
+      },
+      {
+        "term": "Zero Vector (Null Vector)",
+        "definition": "A vector with zero magnitude and an arbitrary or undefined direction.",
+        "importance": "Acts as the additive identity in vector algebra (a + 0 = a)."
+      },
+      {
+        "term": "Collinear Vectors",
+        "definition": "Two or more vectors parallel to the same line, regardless of their magnitude or direction.",
+        "importance": "Fundamental in proving points lie on the same line and in understanding vector proportionality (a = λb)."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Magnitude of a Vector",
+        "formula_or_principle": "|r| = √(x² + y² + z²)",
+        "explanation": "Calculates the length of the vector r = xi + yj + zk using a 3D extension of the Pythagorean theorem."
+      },
+      {
+        "name": "Unit Vector Formula",
+        "formula_or_principle": "â = a / |a|",
+        "explanation": "Finds the unit vector in the direction of vector 'a' by dividing the vector by its own magnitude."
+      },
+      {
+        "name": "Scalar (Dot) Product",
+        "formula_or_principle": "a · b = |a||b|cosθ = a₁b₁ + a₂b₂ + a₃b₃",
+        "explanation": "The dot product of two vectors, representing the product of their magnitudes scaled by the cosine of the angle between them."
+      },
+      {
+        "name": "Vector (Cross) Product",
+        "formula_or_principle": "a × b = |a||b|sinθ n̂",
+        "explanation": "The cross product results in a vector perpendicular to both 'a' and 'b', with magnitude equal to the area of the parallelogram they span."
+      },
+      {
+        "name": "Projection of a Vector",
+        "formula_or_principle": "Projection of a on b = (a · b) / |b|",
+        "explanation": "Calculates the length of the 'shadow' cast by vector 'a' onto the line of vector 'b'."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the Angle Between Two Vectors",
+        "steps": [
+          "Write down the component forms of vectors a and b.",
+          "Calculate the dot product a · b by multiplying corresponding components and summing them (a₁b₁ + a₂b₂ + a₃b₃).",
+          "Calculate the magnitudes |a| and |b|.",
+          "Use the formula cosθ = (a · b) / (|a||b|).",
+          "Solve for θ using the inverse cosine function."
+        ]
+      },
+      {
+        "process_name": "Finding a Vector Perpendicular to Two Given Vectors",
+        "steps": [
+          "Identify the two vectors, say a and b.",
+          "Set up a determinant with i, j, k in the first row.",
+          "Place the components of vector a in the second row.",
+          "Place the components of vector b in the third row.",
+          "Expand the determinant to calculate the cross product a × b, which is the perpendicular vector."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always remember l² + m² + n² = 1 for direction cosines, but a² + b² + c² does not generally equal 1 for direction ratios.",
+      "Two non-zero vectors are perpendicular if and only if their dot product is zero (a · b = 0).",
+      "Two non-zero vectors are parallel/collinear if and only if their cross product is the zero vector (a × b = 0) or their components are proportional.",
+      "Dot product is commutative (a · b = b · a) but cross product is anti-commutative (a × b = -b × a).",
+      "Pay attention to the triangle inequality: |a + b| ≤ |a| + |b| and Cauchy-Schwarz inequality: |a · b| ≤ |a||b|."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the dot product (scalar result) with the cross product (vector result).",
+      "Forgetting to apply the right-hand rule correctly for the cross product, which leads to sign errors.",
+      "Using the incorrect sign in the section formula (using the internal division formula when external division is asked).",
+      "Writing a scalar equal to a vector, such as writing |a| = a.",
+      "Assuming direction ratios have the same properties as direction cosines."
+    ],
+    "quick_revision_notes": [
+      "Vector = Magnitude + Direction.",
+      "Unit vectors i, j, k point along the positive x, y, and z axes.",
+      "Triangle Law helps find the resultant of vectors placed head-to-tail.",
+      "Parallelogram Law finds resultant for vectors placed tail-to-tail.",
+      "Projection of 'a' on 'b' is a dot b-cap.",
+      "Area of triangle = 1/2 |a × b|. Area of parallelogram = |a × b| (where a,b are adjacent sides)."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find a vector in the direction of vector a = i - 2j that has magnitude 7 units.",
+        "answer": "The unit vector â = (i - 2j) / √5. The required vector is 7â = (7/√5)i - (14/√5)j."
+      },
+      {
+        "question": "Find the angle between two vectors a and b with magnitudes 1 and 2 respectively, given that a · b = 1.",
+        "answer": "cosθ = (a · b) / (|a||b|) = 1 / (1 * 2) = 1/2. Therefore, θ = π/3."
+      },
+      {
+        "question": "Show that the vectors 2i - 3j + 4k and -4i + 6j - 8k are collinear.",
+        "answer": "Let a = 2i - 3j + 4k and b = -4i + 6j - 8k. We can see that b = -2(2i - 3j + 4k) = -2a. Since b = λa where λ = -2, the vectors are collinear."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chapter 11: Three Dimensional Geometry",
+    "chapter_overview": "This chapter extends the study of vector algebra to three-dimensional geometry. It introduces direction cosines and direction ratios of lines, the vector and Cartesian equations of lines in space, the angle between two lines, and methods to calculate the shortest distance between skew and parallel lines.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Direction Cosines and Direction Ratios of a Line",
+        "explanation": "A line's orientation in 3D space is defined by the angles it makes with the x, y, and z axes. The cosines of these angles are called direction cosines (l, m, n). Any three numbers proportional to the direction cosines are called direction ratios (a, b, c).",
+        "key_points": [
+          "Direction cosines satisfy the relation: l² + m² + n² = 1.",
+          "Direction ratios do not necessarily satisfy the sum of squares equals 1 property.",
+          "A line can have infinitely many sets of direction ratios, but only two sets of direction cosines (depending on the directed sense of the line).",
+          "Direction ratios of a line segment connecting points (x1, y1, z1) and (x2, y2, z2) are proportional to (x2-x1), (y2-y1), and (z2-z1)."
+        ]
+      },
+      {
+        "section_title": "Equation of a Line in Space",
+        "explanation": "A line in space can be uniquely determined if it passes through a known point and has a given direction, or if it passes through two known points. Equations can be expressed in both vector and Cartesian forms.",
+        "key_points": [
+          "The vector equation of a line passing through a point with position vector 'a' and parallel to vector 'b' is r = a + λb.",
+          "The Cartesian equation is derived from the vector equation by substituting components: (x - x1)/a = (y - y1)/b = (z - z1)/c, where a, b, c are direction ratios.",
+          "If direction cosines l, m, n are given instead of ratios, the Cartesian equation is (x - x1)/l = (y - y1)/m = (z - z1)/n."
+        ]
+      },
+      {
+        "section_title": "Angle between Two Lines",
+        "explanation": "The angle between two lines in 3D space is defined as the angle between their respective direction vectors. It can be found using the dot product.",
+        "key_points": [
+          "The cosine of the angle θ between two lines is the absolute value of the dot product of their parallel vectors divided by the product of their magnitudes.",
+          "Two lines are perpendicular if their dot product (or sum of products of direction ratios: a1a2 + b1b2 + c1c2) is zero.",
+          "Two lines are parallel if their direction ratios are proportional (a1/a2 = b1/b2 = c1/c2)."
+        ]
+      },
+      {
+        "section_title": "Shortest Distance between Two Lines",
+        "explanation": "In 3D space, lines can intersect, be parallel, or be skew (neither intersecting nor parallel and non-coplanar). The shortest distance formulas differ for skew and parallel lines.",
+        "key_points": [
+          "Skew lines lie in different planes and never meet.",
+          "The shortest distance between two skew lines is measured along the line segment perpendicular to both lines.",
+          "For parallel lines, the shortest distance is the length of the perpendicular drawn from a point on one line to the other."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Direction Cosines",
+        "definition": "The cosines of the angles that a directed line makes with the positive directions of the x, y, and z coordinate axes.",
+        "detailed_explanation": "Usually denoted by l, m, and n, where l = cos α, m = cos β, and n = cos γ. They provide a standardized way to describe the orientation of a line, ensuring that the sum of their squares is always equal to 1.",
+        "real_world_example": "Specifying the exact angle of elevation, azimuth, and tilt of a solar panel relative to standard cardinal directions to maximize sunlight capture."
+      },
+      {
+        "concept": "Direction Ratios",
+        "definition": "Any three numbers that are proportional to the direction cosines of a line.",
+        "detailed_explanation": "Denoted by a, b, c. Because they are proportional, multiplying all direction ratios of a line by a non-zero constant gives another valid set of direction ratios for the same line. They are often easier to work with than direction cosines when writing line equations.",
+        "real_world_example": "The components (x, y, z) of a velocity vector of an airplane give the direction ratios of its flight path."
+      },
+      {
+        "concept": "Skew Lines",
+        "definition": "Lines in three-dimensional space that are neither parallel nor intersecting.",
+        "detailed_explanation": "These lines do not lie in the same plane. A common example is one line on the floor going North-South and another line on the ceiling going East-West. There is a unique shortest distance between any pair of skew lines.",
+        "real_world_example": "Two jetliners cruising at different altitudes and heading in different, non-parallel directions. Their flight paths are skew lines."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Vector Equation",
+        "definition": "An equation that expresses geometric entities like lines or planes in terms of position vectors.",
+        "importance": "Provides a concise and powerful way to represent 3D geometry, often simplifying complex derivations compared to coordinate methods."
+      },
+      {
+        "term": "Cartesian Equation",
+        "definition": "An equation expressing geometric entities in terms of x, y, and z coordinates.",
+        "importance": "Essential for determining intersections, plotting in a coordinate system, and solving algebraic systems representing geometric shapes."
+      },
+      {
+        "term": "Position Vector",
+        "definition": "A vector that represents the position of a point in space relative to the origin O.",
+        "importance": "Forms the basis of the vector approach to 3D geometry, linking points to vector algebra."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Relation between Direction Cosines",
+        "formula_or_principle": "l² + m² + n² = 1",
+        "explanation": "The sum of the squares of the direction cosines of any line is always equal to 1."
+      },
+      {
+        "name": "Vector Equation of a Line",
+        "formula_or_principle": "r = a + λb",
+        "explanation": "The position vector 'r' of any point on a line passing through a point with position vector 'a' and parallel to vector 'b', where λ is a scalar parameter."
+      },
+      {
+        "name": "Cartesian Equation of a Line",
+        "formula_or_principle": "(x - x1)/a = (y - y1)/b = (z - z1)/c",
+        "explanation": "Equation of a line passing through point (x1, y1, z1) with direction ratios a, b, c."
+      },
+      {
+        "name": "Angle between Two Lines (Vector Form)",
+        "formula_or_principle": "cos θ = |(b1 · b2) / (|b1||b2|)|",
+        "explanation": "Calculates the acute angle θ between two lines with direction vectors b1 and b2."
+      },
+      {
+        "name": "Shortest Distance between Skew Lines",
+        "formula_or_principle": "d = |(b1 × b2) · (a2 - a1)| / |b1 × b2|",
+        "explanation": "Finds the shortest distance 'd' between two non-intersecting, non-parallel lines r = a1 + λb1 and r = a2 + μb2."
+      },
+      {
+        "name": "Shortest Distance between Parallel Lines",
+        "formula_or_principle": "d = |b × (a2 - a1)| / |b|",
+        "explanation": "Finds the distance between two parallel lines r = a1 + λb and r = a2 + μb."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Converting Direction Ratios to Direction Cosines",
+        "steps": [
+          "1. Identify the given direction ratios a, b, and c.",
+          "2. Calculate the magnitude of the vector formed by these ratios: √(a² + b² + c²).",
+          "3. Divide each direction ratio by this magnitude.",
+          "4. The resulting values are the direction cosines: l = ±a/√(a²+b²+c²), m = ±b/√(a²+b²+c²), n = ±c/√(a²+b²+c²)."
+        ]
+      },
+      {
+        "process_name": "Finding the Cartesian Equation of a Line given two points",
+        "steps": [
+          "1. Let the two points be P(x1, y1, z1) and Q(x2, y2, z2).",
+          "2. Calculate the direction ratios by finding the difference between coordinates: a = x2 - x1, b = y2 - y1, c = z2 - z1.",
+          "3. Choose one of the points, say P(x1, y1, z1), as the reference point.",
+          "4. Substitute the point and the direction ratios into the standard Cartesian form: (x - x1)/a = (y - y1)/b = (z - z1)/c."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check if the given Cartesian equation of a line is in the standard form before extracting direction ratios. The coefficients of x, y, and z must be positive 1.",
+      "Remember that taking the absolute value is crucial when finding the angle between two lines to ensure an acute angle is given, and when calculating distances to ensure a non-negative result.",
+      "For two lines to be mutually perpendicular, the sum of the product of their corresponding direction ratios is zero: a1a2 + b1b2 + c1c2 = 0.",
+      "When calculating the shortest distance between skew lines, carefully compute the cross product first, then take the dot product with the difference of position vectors."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing direction ratios with direction cosines and mistakenly assuming a² + b² + c² = 1.",
+      "Extracting incorrect direction ratios from a non-standard Cartesian equation, for example, assuming the direction ratio for x in (2x-3)/4 is 4 instead of 2 by failing to rewrite it as (x - 3/2) / 2.",
+      "Using the skew lines shortest distance formula for parallel lines, which will result in a zero denominator since b × b = 0.",
+      "Forgetting to add the scalar parameter (like λ or μ) when writing the vector equation of a line."
+    ],
+    "quick_revision_notes": [
+      "D.C.s (l, m, n): l² + m² + n² = 1.",
+      "D.R.s (a, b, c): Proportional to D.C.s. l/a = m/b = n/c.",
+      "Line Eq (Point + Direction): Vector: r = a + λb. Cartesian: (x-x1)/a = (y-y1)/b = (z-z1)/c.",
+      "Line Eq (Two Points): Vector: r = a + λ(b-a). Cartesian: (x-x1)/(x2-x1) = (y-y1)/(y2-y1) = (z-z1)/(z2-z1).",
+      "Perpendicular Lines: a1a2 + b1b2 + c1c2 = 0.",
+      "Parallel Lines: a1/a2 = b1/b2 = c1/c2.",
+      "Distance Skew: |(b1 × b2) · (a2 - a1)| / |b1 × b2|.",
+      "Distance Parallel: |b × (a2 - a1)| / |b|."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the direction cosines of a line that makes equal angles with the coordinate axes.",
+        "answer": "Let the angles be α = β = γ. Then cos α = cos β = cos γ = l. Since l² + m² + n² = 1, we have l² + l² + l² = 1, which gives 3l² = 1. Therefore, l = ±1/√3. The direction cosines are ±1/√3, ±1/√3, ±1/√3."
+      },
+      {
+        "question": "Find the Cartesian equation of a line passing through the point (1, 2, -4) and parallel to the vector 3i + 2j - 8k.",
+        "answer": "The reference point is (x1, y1, z1) = (1, 2, -4). The direction ratios of the parallel vector are a=3, b=2, c=-8. Using the formula (x-x1)/a = (y-y1)/b = (z-z1)/c, the Cartesian equation is (x-1)/3 = (y-2)/2 = (z+4)/-8."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chapter 12: Linear Programming",
+    "chapter_overview": "This chapter introduces linear programming problems, a special class of optimization problems, and discusses their mathematical formulation. It focuses on solving these problems in two variables using the graphical method, specifically the Corner Point Method, to find optimal values (maximum or minimum) of linear objective functions subject to linear constraints.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction & Mathematical Formulation",
+        "explanation": "An introduction to optimization problems which seek to maximize profit or minimize cost. It explains how to translate a real-world problem into a mathematical model using decision variables, an objective function, and constraints.",
+        "key_points": [
+          "Optimization problems aim to maximize or minimize a quantity.",
+          "Linear programming is a type of optimization problem.",
+          "Mathematical formulation involves defining decision variables (x, y), an objective function (Z), and constraints (inequalities).",
+          "Variables are typically non-negative (x >= 0, y >= 0)."
+        ]
+      },
+      {
+        "section_title": "Graphical Method of Solving Linear Programming Problems",
+        "explanation": "This section describes how to solve linear programming problems with two variables by graphing the constraints to find the feasible region and then determining the optimal solution within that region.",
+        "key_points": [
+          "Graphing constraints yields a feasible region.",
+          "Points within and on the boundary of the feasible region are feasible solutions.",
+          "Points outside are infeasible solutions.",
+          "The optimal solution is a feasible solution that gives the max/min value of the objective function."
+        ]
+      },
+      {
+        "section_title": "Theorems of Linear Programming & Corner Point Method",
+        "explanation": "Discusses fundamental theorems stating that optimal values occur at the corner points (vertices) of the feasible region. It outlines the step-by-step Corner Point Method for finding the optimal solution.",
+        "key_points": [
+          "Theorem 1: Optimal value occurs at a corner point of the feasible region.",
+          "Theorem 2: If the feasible region is bounded, both max and min values exist at corner points.",
+          "If the region is unbounded, a max/min might not exist, but if it does, it's at a corner point.",
+          "Corner Point Method involves evaluating the objective function at each corner point of the feasible region."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Optimization Problem",
+        "definition": "A problem which seeks to maximise or minimise a linear function subject to certain constraints.",
+        "detailed_explanation": "These problems involve finding the best possible outcome (like maximum profit or minimum cost) given a set of limitations or restrictions on resources.",
+        "real_world_example": "A furniture dealer deciding how many tables and chairs to buy to maximize profit, given a limited budget and limited storage space."
+      },
+      {
+        "concept": "Linear Programming Problem (LPP)",
+        "definition": "A special type of optimization problem concerned with finding the optimal value of a linear function of several variables, subject to the conditions that the variables are non-negative and satisfy a set of linear constraints.",
+        "detailed_explanation": "It's termed 'linear' because all mathematical relations (objective function and constraints) are linear equations or inequalities. 'Programming' refers to the method of determining a plan of action.",
+        "real_world_example": "Determining the optimal diet that meets nutritional requirements at the minimum cost."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Objective Function",
+        "definition": "The linear function Z = ax + by, where a and b are constants, which has to be maximised or minimised.",
+        "importance": "It represents the main goal of the problem, such as profit or cost, that needs to be optimized."
+      },
+      {
+        "term": "Decision Variables",
+        "definition": "The variables (like x and y) in the objective function and constraints that represent the quantities to be determined.",
+        "importance": "They are the unknown values that the problem aims to find to achieve the optimal solution."
+      },
+      {
+        "term": "Constraints",
+        "definition": "The linear inequalities or equations or restrictions on the variables of a linear programming problem.",
+        "importance": "They represent the limitations on resources or other overriding conditions that must be satisfied."
+      },
+      {
+        "term": "Feasible Region",
+        "definition": "The common region determined by all the constraints including non-negative constraints of a linear programming problem.",
+        "importance": "It contains all the possible solutions that satisfy all given conditions."
+      },
+      {
+        "term": "Feasible Solution",
+        "definition": "Points within and on the boundary of the feasible region.",
+        "importance": "Any point here is a valid, though not necessarily optimal, solution to the problem."
+      },
+      {
+        "term": "Optimal (feasible) Solution",
+        "definition": "Any point in the feasible region that gives the optimal value (maximum or minimum) of the objective function.",
+        "importance": "This is the final answer to the linear programming problem."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Theorem 1",
+        "formula_or_principle": "Let R be the feasible region for a linear programming problem and let Z = ax + by be the objective function. When Z has an optimal value, this optimal value must occur at a corner point (vertex) of the feasible region.",
+        "explanation": "This principle simplifies the search for an optimal solution from infinitely many points in the feasible region to just its vertices."
+      },
+      {
+        "name": "Theorem 2",
+        "formula_or_principle": "Let R be the feasible region for a linear programming problem, and let Z = ax + by be the objective function. If R is bounded, then the objective function Z has both a maximum and a minimum value on R and each of these occurs at a corner point (vertex) of R.",
+        "explanation": "Guarantees that bounded feasible regions will always have both a maximum and minimum solution located at the corners."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Corner Point Method",
+        "steps": [
+          "Find the feasible region of the linear programming problem and determine its corner points (vertices).",
+          "Evaluate the objective function Z = ax + by at each corner point. Let M and m denote the largest and smallest values.",
+          "If the feasible region is bounded, M and m are the maximum and minimum values of Z.",
+          "If the feasible region is unbounded, check if the open half plane determined by ax + by > M (for max) or ax + by < m (for min) has any point in common with the feasible region.",
+          "If it has no common point, M (or m) is the maximum (or minimum) value. If it has common points, the problem has no maximum (or minimum) value."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always remember to include non-negative constraints (x >= 0, y >= 0) when formulating LPPs.",
+      "The feasible region is always a convex region.",
+      "If two corner points produce the same maximum (or minimum) value, then every point on the line segment joining these two points will also give the same optimal value (multiple optimal solutions).",
+      "Carefully distinguish between bounded and unbounded feasible regions, as the unbounded case requires an extra check.",
+      "An LPP might have no feasible solution if there is no common region satisfying all constraints simultaneously."
+    ],
+    "common_mistakes_students_make": [
+      "Forgetting to draw and shade the feasible region correctly, especially regarding the direction of inequalities (<= vs >=).",
+      "Omitting the non-negative constraints (x >= 0, y >= 0) in the mathematical formulation.",
+      "Assuming the largest or smallest value at corner points is the optimal solution in an unbounded feasible region without performing the necessary secondary check.",
+      "Misidentifying the coordinates of the corner points, usually due to inaccurate graphing or solving of simultaneous equations."
+    ],
+    "quick_revision_notes": [
+      "LPP = Objective Function + Constraints + Non-negativity restrictions.",
+      "Objective function Z is always linear.",
+      "Feasible region is the intersection of all_constraint half-planes.",
+      "Optimal solution lies at the vertices (corner points) of the feasible region.",
+      "Bounded region = definite max and min.",
+      "Unbounded region = max/min may or may not exist; requires checking inequality against open half-plane."
+    ],
+    "practice_questions": [
+      {
+        "question": "Maximise Z = 3x + 4y subject to the constraints: x + y <= 4, x >= 0, y >= 0.",
+        "answer": "Feasible region is bounded with corner points (0,0), (4,0), and (0,4). Z at (0,0) = 0, Z at (4,0) = 12, Z at (0,4) = 16. Maximum value is 16 at (0,4)."
+      },
+      {
+        "question": "Define a feasible region in a linear programming problem.",
+        "answer": "The common region determined by all the constraints including non-negative constraints (x >= 0, y >= 0) of a linear programming problem is called the feasible region."
+      },
+      {
+        "question": "What happens if a feasible region is unbounded?",
+        "answer": "If a feasible region is unbounded, a maximum or minimum value of the objective function may not exist. If it exists, it must occur at a corner point, but it requires further verification by checking if the open half-plane of the objective function beyond the max/min value intersects the feasible region."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Chapter 13: Probability",
+    "chapter_overview": "This chapter builds upon the foundational concepts of probability introduced in earlier classes, moving from the axiomatic approach to more advanced topics. It focuses on the probability of an event given that another event has already occurred (conditional probability), the multiplication rule of probability, the independence of events, the theorem of total probability, and Bayes' theorem. These concepts are crucial for understanding complex probabilistic scenarios and revising probabilities based on new information.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "13.2 Conditional Probability",
+        "explanation": "Conditional probability deals with finding the probability of an event E given that another event F has already occurred. This additional information effectively reduces the sample space to the outcomes favorable to event F.",
+        "key_points": [
+          "The conditional probability of event E given event F is denoted as P(E|F).",
+          "It is calculated as the ratio of the probability of the intersection of E and F to the probability of F.",
+          "The formula is P(E|F) = P(E ∩ F) / P(F), provided P(F) ≠ 0.",
+          "Properties include: P(S|F) = P(F|F) = 1.",
+          "P((A ∪ B)|F) = P(A|F) + P(B|F) - P((A ∩ B)|F).",
+          "P(E'|F) = 1 - P(E|F)."
+        ]
+      },
+      {
+        "section_title": "13.3 Multiplication Theorem on Probability",
+        "explanation": "The multiplication theorem relates the probability of the simultaneous occurrence of two events (their intersection) to their individual and conditional probabilities. It is a direct rearrangement of the conditional probability formula.",
+        "key_points": [
+          "The probability of events E and F both occurring is P(E ∩ F) = P(E) * P(F|E).",
+          "Alternatively, P(E ∩ F) = P(F) * P(E|F).",
+          "This rule can be extended to more than two events. For three events E, F, and G: P(E ∩ F ∩ G) = P(E) * P(F|E) * P(G|(E ∩ F))."
+        ]
+      },
+      {
+        "section_title": "13.4 Independent Events",
+        "explanation": "Two events are considered independent if the occurrence of one event does not affect the probability of the occurrence of the other event.",
+        "key_points": [
+          "Events E and F are independent if P(F|E) = P(F) and P(E|F) = P(E).",
+          "The multiplication rule for independent events simplifies to P(E ∩ F) = P(E) * P(F).",
+          "Independent events are different from mutually exclusive events. Mutually exclusive events cannot occur simultaneously, whereas independent events can.",
+          "If E and F are independent, then their complements E' and F', as well as pairs (E, F') and (E', F) are also independent."
+        ]
+      },
+      {
+        "section_title": "13.5 Bayes' Theorem",
+        "explanation": "Bayes' theorem is a formula that describes how to update the probabilities of hypotheses when given evidence. It allows for calculating reverse probabilities, also known as 'a posteriori' probabilities, based on 'a priori' probabilities and conditional probabilities.",
+        "key_points": [
+          "Relies on the concept of a partition of a sample space (pairwise disjoint, exhaustive events with non-zero probabilities).",
+          "Theorem of total probability: P(A) = Σ P(E_i) * P(A|E_i).",
+          "Bayes' Theorem formula: P(E_i | A) = [P(E_i) * P(A|E_i)] / [Σ P(E_j) * P(A|E_j)].",
+          "Often used to find the probability of a specific 'cause' given that an 'event' has occurred."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Conditional Probability",
+        "definition": "The probability of an event occurring given that another event has already occurred.",
+        "detailed_explanation": "When calculating the conditional probability of E given F, the event F becomes the new reduced sample space. We only consider the outcomes where F happens, and among those, we find the proportion where E also happens (which is E ∩ F).",
+        "real_world_example": "Finding the probability that a randomly chosen student is a girl given the information that the student studies in Class XII."
+      },
+      {
+        "concept": "Independent Events",
+        "definition": "Events where the occurrence or non-occurrence of one does not change the probability of the other.",
+        "detailed_explanation": "For independent events, knowing that event A happened provides no information about whether event B will happen. Mathematically, this means the conditional probability P(B|A) is just the marginal probability P(B).",
+        "real_world_example": "Tossing a coin and throwing a die. Getting a 'Heads' on the coin does not affect the probability of rolling a '6' on the die."
+      },
+      {
+        "concept": "Partition of a Sample Space",
+        "definition": "A set of events that are mutually exclusive (no overlap), exhaustive (cover all possibilities), and each has a non-zero probability.",
+        "detailed_explanation": "A partition divides the entire sample space into distinct, non-overlapping parts. Any outcome in the sample space belongs to exactly one of the events in the partition. E.g., E1 ∩ E2 = φ, and E1 ∪ E2 ... ∪ En = S.",
+        "real_world_example": "Dividing the population of a country into age groups: under 18, 18-65, and over 65. Every person belongs to exactly one group, and the groups cover the entire population."
+      },
+      {
+        "concept": "Theorem of Total Probability",
+        "definition": "A rule that allows the calculation of the probability of an event based on its conditional probabilities across a partition of the sample space.",
+        "detailed_explanation": "If a sample space is partitioned into events E1, E2, ... En, the total probability of an event A is the sum of the probabilities of A occurring in conjunction with each partition event. It represents a weighted average of conditional probabilities.",
+        "real_world_example": "Finding the probability a randomly selected item from a factory is defective, given that it could have been produced by Machine A, Machine B, or Machine C, each with different production rates and defect rates."
+      },
+      {
+        "concept": "Bayes' Theorem",
+        "definition": "A mathematical formula for determining conditional probability that allows you to revise existing predictions or theories (update probabilities) given new or additional evidence.",
+        "detailed_explanation": "It helps find the probability of a particular 'cause' (one of the partition events E_i) given that an 'effect' (event A) has been observed. It works backwards from the theorem of total probability.",
+        "real_world_example": "A medical test for a disease is positive. Bayes' theorem is used to calculate the actual probability that the patient has the disease, taking into account the test's accuracy and the disease's overall prevalence in the population."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Sample Space (S)",
+        "definition": "The set of all possible outcomes of a random experiment.",
+        "importance": "Forms the foundation for defining all events and their probabilities."
+      },
+      {
+        "term": "Event",
+        "definition": "A subset of the sample space.",
+        "importance": "The entities for which probabilities are calculated."
+      },
+      {
+        "term": "Mutually Exclusive Events",
+        "definition": "Events that cannot happen at the same time; their intersection is the empty set (E ∩ F = φ).",
+        "importance": "Crucial for understanding partitions and distinguishing from independent events."
+      },
+      {
+        "term": "A priori probability",
+        "definition": "The initial probability of an event (hypothesis) before any new evidence is considered. Denoted as P(E_i) in Bayes' Theorem.",
+        "importance": "The starting point in Bayesian probability calculations."
+      },
+      {
+        "term": "A posteriori probability",
+        "definition": "The revised or updated probability of an event after taking into consideration new information or evidence. Denoted as P(E_i | A) in Bayes' Theorem.",
+        "importance": "The final result sought when applying Bayes' Theorem."
+      },
+      {
+        "term": "Random Variable",
+        "definition": "A real-valued function whose domain is the sample space of a random experiment.",
+        "importance": "Bridges outcomes of experiments to numerical values, enabling further statistical analysis like finding mean and variance."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Conditional Probability",
+        "formula_or_principle": "P(E|F) = P(E ∩ F) / P(F), given P(F) ≠ 0",
+        "explanation": "Calculates the probability of event E occurring, given that F has already occurred."
+      },
+      {
+        "name": "Multiplication Rule of Probability",
+        "formula_or_principle": "P(E ∩ F) = P(E) * P(F|E) = P(F) * P(E|F)",
+        "explanation": "Calculates the probability of both events E and F occurring."
+      },
+      {
+        "name": "Condition for Independent Events",
+        "formula_or_principle": "P(E ∩ F) = P(E) * P(F)",
+        "explanation": "Two events are independent if and only if the probability of their intersection equals the product of their individual probabilities."
+      },
+      {
+        "name": "Theorem of Total Probability",
+        "formula_or_principle": "P(A) = Σ [P(E_i) * P(A|E_i)] for i = 1 to n",
+        "explanation": "Finds the overall probability of event A by summing the probability of A occurring under each mutually exclusive scenario E_i."
+      },
+      {
+        "name": "Bayes' Theorem",
+        "formula_or_principle": "P(E_i | A) = [P(E_i) * P(A|E_i)] / Σ [P(E_j) * P(A|E_j)]",
+        "explanation": "Calculates the conditional probability of hypothesis E_i given evidence A. It reverses the conditioning direction."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Applying Bayes' Theorem",
+        "steps": [
+          "1. Identify the 'causes' or hypotheses. Let these be events E1, E2, ..., En. Ensure they form a partition of the sample space (mutually exclusive and exhaustive).",
+          "2. Identify the 'effect' or the event that has occurred. Let this be event A.",
+          "3. Determine the 'a priori' probabilities for each hypothesis: P(E1), P(E2), ..., P(En).",
+          "4. Determine the conditional probabilities of the effect given each hypothesis: P(A|E1), P(A|E2), ..., P(A|En).",
+          "5. Identify which specific reverse probability is required, i.e., P(Ei | A) for a specific i.",
+          "6. Calculate the total probability of event A (the denominator): P(A) = Σ P(Ej) * P(A|Ej).",
+          "7. Apply Bayes' formula: Divide the specific branch probability P(Ei) * P(A|Ei) by the total probability P(A)."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Distinguish clearly between mutually exclusive events and independent events. Mutually exclusive means they cannot occur together P(A ∩ B) = 0. Independent means the occurrence of one doesn't affect the other P(A ∩ B) = P(A)P(B).",
+      "Remember that independent events having non-zero probabilities cannot be mutually exclusive, and vice versa.",
+      "When applying Bayes' Theorem, clearly define the events E1, E2... (the partition) and event A (the observed outcome). Writing down the given probabilities systematically minimizes errors.",
+      "For conditional probability questions, pay attention to phrases like 'given that', 'known that', or 'if it is found that'. These indicate which event is the condition (the denominator).",
+      "In probability problems involving draws without replacement, use the multiplication rule taking into account the changing sample space. For draws with replacement, the draws are independent events."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing mutually exclusive events with independent events.",
+      "Using the simple multiplication rule P(A ∩ B) = P(A)P(B) when the events are not independent.",
+      "Incorrectly identifying the events when setting up a Bayes' Theorem problem, particularly confusing the event A with one of the partition events Ei.",
+      "Forgetting to check the conditions for a partition (mutually exclusive and exhaustive) before applying the Theorem of Total Probability or Bayes' Theorem.",
+      "Making calculation errors in the denominator of Bayes' theorem by missing a term in the summation."
+    ],
+    "quick_revision_notes": [
+      "Conditional Probability: P(E|F) = P(E ∩ F) / P(F)",
+      "Multiplication Rule: P(E ∩ F) = P(E) * P(F|E)",
+      "Independent Events: P(E ∩ F) = P(E) * P(F). P(E|F) = P(E).",
+      "Total Probability: P(A) = P(E1)P(A|E1) + P(E2)P(A|E2) + ...",
+      "Bayes' Theorem: Reverses conditional probabilities. P(E1|A) = (P(E1)P(A|E1)) / Total Probability(A)."
+    ],
+    "practice_questions": [
+      {
+        "question": "If P(A) = 0.8, P(B) = 0.5 and P(B|A) = 0.4, find P(A ∩ B) and P(A|B).",
+        "answer": "P(A ∩ B) = P(A) * P(B|A) = 0.8 * 0.4 = 0.32. P(A|B) = P(A ∩ B) / P(B) = 0.32 / 0.5 = 0.64."
+      },
+      {
+        "question": "Two cards are drawn at random and without replacement from a pack of 52 playing cards. Find the probability that both the cards are black.",
+        "answer": "Let A be 'first card is black' and B be 'second card is black'. P(A) = 26/52 = 1/2. P(B|A) = 25/51. Probability both are black = P(A ∩ B) = P(A) * P(B|A) = (1/2) * (25/51) = 25/102."
+      },
+      {
+        "question": "Bag I contains 3 red and 4 black balls while another Bag II contains 5 red and 6 black balls. One ball is drawn at random from one of the bags and it is found to be red. Find the probability that it was drawn from Bag II.",
+        "answer": "Let E1 = choose Bag I, E2 = choose Bag II, A = draw a red ball. P(E1) = 1/2, P(E2) = 1/2. P(A|E1) = 3/7, P(A|E2) = 5/11. We need P(E2|A). By Bayes' Theorem: P(E2|A) = [P(E2)P(A|E2)] / [P(E1)P(A|E1) + P(E2)P(A|E2)] = [(1/2)*(5/11)] / [(1/2)*(3/7) + (1/2)*(5/11)] = (5/11) / (3/7 + 5/11) = (5/11) / (68/77) = 35/68."
+      }
+    ]
+  }
+]

@@ -90,8 +90,8 @@
                 const levels = await getLevels();
                 const newLevel = prompt("Available Grades: " + levels.join(", ") + "\nEnter Grade:");
                 if (newLevel && levels.includes(newLevel)) {
-                    loadSubjectsForLevel(newLevel);
-                    document.getElementById('user-level').innerText = newLevel;
+                    localStorage.setItem('revise_ai_user', JSON.stringify({...user, level: newLevel}));
+                    location.reload();
                 }
             });
         }
@@ -109,18 +109,41 @@
         async function loadSubjectsForLevel(level) {
             const subjectSection = document.getElementById('subject-section');
             const subjectList = document.getElementById('subject-list');
+            const dashboardWelcome = document.getElementById('dashboard-welcome');
+            
             subjectList.innerHTML = "";
             
             const subjects = await getSubjects(level);
             if (subjects.length > 0) {
                 subjectSection.style.display = "block";
+                
+                // Create Subject Grid in Welcome Area
+                let gridHTML = `<div class="hero-section">
+                    <h2>Welcome back!</h2>
+                    <p>Select a subject to explore its chapters and revision notes.</p>
+                    <div class="subject-grid">`;
+                
                 subjects.forEach(subject => {
+                    const iconClass = SUBJECT_ICONS[subject] || 'fa-book';
+                    
+                    // Sidebar Item
                     const li = document.createElement('li');
-                    const iconClass = SUBJECT_ICONS[subject] || 'fa-chevron-right';
                     li.innerHTML = `<i class="fas ${iconClass}"></i> ${subject}`;
+                    li.id = `sidebar-sub-${subject.replace(/\s+/g, '-')}`;
                     li.addEventListener('click', () => handleSubjectClick(level, subject, li));
                     subjectList.appendChild(li);
+
+                    // Grid Card
+                    gridHTML += `
+                        <div class="subject-card" onclick="document.getElementById('${li.id}').click()">
+                            <i class="fas ${iconClass}"></i>
+                            <h4>${subject}</h4>
+                            <p>Master ${subject} with AI-powered notes.</p>
+                        </div>`;
                 });
+
+                gridHTML += `</div></div>`;
+                dashboardWelcome.innerHTML = gridHTML;
             }
         }
 

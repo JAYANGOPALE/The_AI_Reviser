@@ -1,0 +1,806 @@
+{
+  "textbook_title": "Physics Part 2 - Class 11",
+  "chapters": [
+    {
+      "chapter_title": "Mechanical Properties of Solids",
+      "chapter_overview": "This chapter explores the physical properties of solid materials when subjected to external forces. It focuses on the concepts of elasticity and plasticity, explaining how solids deform and regain their shape. Key topics include the definitions of stress and strain, Hooke's law, various elastic moduli (Young's, Shear, and Bulk), and the practical applications of these properties in engineering and structural design.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Introduction to Elasticity and Plasticity",
+          "explanation": "While we often consider solids as rigid bodies with definite shapes, they can be deformed when sufficient external force is applied. Elasticity is the property by which a body tends to regain its original size and shape once the deforming force is removed. If a body does not regain its original shape and remains permanently deformed, it is said to be plastic. Most materials exhibit elastic behavior up to a certain limit of deforming force.",
+          "key_points": [
+            "Elasticity: The ability to regain original shape after force removal.",
+            "Plasticity: Permanent deformation after force removal.",
+            "Steel is more elastic than rubber because it requires more force to produce a given deformation and regains its shape more accurately."
+          ]
+        },
+        {
+          "section_title": "Stress and Strain",
+          "explanation": "When an external force is applied to a body, an internal restoring force is developed. Stress is defined as the restoring force per unit area. Strain is the fractional change in dimension (length, volume, or shape) produced by the external force. There are three main types: Longitudinal (tensile/compressive), Shearing, and Hydraulic.",
+          "key_points": [
+            "Tensile Stress: Restoring force per unit area when a body is stretched.",
+            "Compressive Stress: Restoring force per unit area when a body is compressed.",
+            "Shearing Stress: Force applied parallel to the cross-sectional area causing a change in shape.",
+            "Hydraulic Stress: Internal restoring force per unit area when a body is compressed by a fluid from all sides."
+          ]
+        },
+        {
+          "section_title": "Hooke's Law and Stress-Strain Curve",
+          "explanation": "Hooke's Law states that for small deformations, stress is directly proportional to strain. The relationship between stress and strain for a material is typically represented by a curve. This curve shows distinct regions: the proportional limit (where Hooke's law holds), the yield point (beyond which plastic deformation begins), the ultimate tensile strength (maximum stress sustained), and the fracture point (where the material breaks).",
+          "key_points": [
+            "Proportional Limit: The point up to which stress is proportional to strain.",
+            "Yield Point (Elastic Limit): The maximum stress a material can endure and still return to its original shape.",
+            "Plastic Deformation: Permanent set in the material when stressed beyond the yield point.",
+            "Ductile materials have a large plastic range, while brittle materials fracture shortly after the yield point."
+          ]
+        },
+        {
+          "section_title": "Elastic Moduli",
+          "explanation": "The ratio of stress to strain within the elastic limit is called the Modulus of Elasticity. There are three specific types based on the type of stress/strain: Young's Modulus (longitudinal), Shear Modulus (shape change), and Bulk Modulus (volume change). These constants characterize the stiffness of the material.",
+          "key_points": [
+            "Young’s Modulus (Y): Ratio of longitudinal stress to longitudinal strain.",
+            "Shear Modulus (G): Ratio of shearing stress to shearing strain.",
+            "Bulk Modulus (B): Ratio of hydraulic stress to volumetric strain.",
+            "Isothermal and adiabatic bulk moduli are relevant for gases."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Elasticity",
+          "definition": "The property of a material to return to its original shape and size after the removal of deforming forces.",
+          "detailed_explanation": "At the microscopic level, atoms in a solid are held together by inter-atomic forces. When a force is applied, atoms are displaced from their equilibrium positions. Once the force is removed, these internal forces pull the atoms back to their original positions, causing the macroscopic object to regain its shape.",
+          "real_world_example": "A steel spring used in a car's suspension system absorbs shocks by deforming and then returning to its original state."
+        },
+        {
+          "concept": "Hooke's Law",
+          "definition": "Stress is proportional to strain within the elastic limit.",
+          "detailed_explanation": "This is an empirical law valid for most materials under small deformations. It is expressed as Stress = k × Strain, where k is the modulus of elasticity.",
+          "real_world_example": "The calibration of a spring balance depends on the linear relationship between the weight applied and the extension of the spring."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Tensile Stress",
+          "definition": "Restoring force per unit area when a body is elongated.",
+          "importance": "Crucial for determining the load-bearing capacity of cables and wires."
+        },
+        {
+          "term": "Poisson's Ratio",
+          "definition": "The ratio of lateral strain to longitudinal strain.",
+          "importance": "Indicates how much a material thins when stretched; it is a dimensionless quantity typically between 0.2 and 0.4 for solids."
+        },
+        {
+          "term": "Elastomers",
+          "definition": "Materials that can be stretched to large strains but do not obey Hooke's law (e.g., rubber, tissue of aorta).",
+          "importance": "Used in applications requiring high flexibility rather than high stiffness."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Stress",
+          "formula_or_principle": "σ = F / A",
+          "explanation": "Force applied per unit cross-sectional area. SI unit: N/m² or Pascal (Pa)."
+        },
+        {
+          "name": "Young's Modulus",
+          "formula_or_principle": "Y = (F × L) / (A × ΔL)",
+          "explanation": "Measures the resistance of a material to longitudinal deformation."
+        },
+        {
+          "name": "Bulk Modulus",
+          "formula_or_principle": "B = -P / (ΔV / V)",
+          "explanation": "Measures the resistance of a material to change in volume. The negative sign indicates that an increase in pressure (P) results in a decrease in volume."
+        },
+        {
+          "name": "Elastic Potential Energy",
+          "formula_or_principle": "U = 1/2 × Stress × Strain × Volume",
+          "explanation": "The energy stored in a stretched wire due to work done against inter-atomic forces."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Analyzing a Stress-Strain Curve",
+          "steps": [
+            "Identify the linear portion (OA) where Hooke's Law applies.",
+            "Locate the Yield Point (B), which marks the end of elastic behavior.",
+            "Observe the region of plastic deformation (between B and D) where permanent sets occur.",
+            "Find the Ultimate Tensile Strength (D), the highest point of stress on the graph.",
+            "Identify the Fracture Point (E) where the material ultimately fails."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Steel is more elastic than rubber.",
+        "The SI unit of all elastic moduli is N/m² or Pa, while strain is dimensionless.",
+        "A material with a large distance between the yield point and fracture point is ductile.",
+        "A material that breaks immediately after the yield point is brittle.",
+        "The reciprocal of Bulk Modulus is called Compressibility.",
+        "The maximum height of a mountain on Earth (~10 km) is limited by the elastic properties of rocks."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing 'more elastic' with 'more flexible'. Elasticity refers to the ability to regain shape, not ease of stretching.",
+        "Forgetting that strain has no units.",
+        "Assuming Hooke's law is valid for all materials at all times (it is only for small strains).",
+        "Misinterpreting the negative sign in the Bulk Modulus formula."
+      ],
+      "quick_revision_notes": [
+        "Stress = Force/Area; Strain = Change in dimension/Original dimension.",
+        "Hooke's Law: Stress ∝ Strain.",
+        "Y = Tensile Stress / Longitudinal Strain.",
+        "G = Shearing Stress / Shearing Strain.",
+        "B = Hydraulic Stress / Volumetric Strain.",
+        "Energy stored in wire = 1/2 × Load × Extension."
+      ],
+      "practice_questions": [
+        {
+          "question": "A steel wire of length 4.7 m and cross-sectional area 3.0 x 10⁻⁵ m² stretches by the same amount as a copper wire of length 3.5 m and cross-sectional area 4.0 x 10⁻⁵ m² under a given load. What is the ratio of Young's modulus of steel to that of copper?",
+          "answer": "Using Y = (F L) / (A ΔL), for same F and ΔL, Y₁/Y₂ = (L₁/A₁) / (L₂/A₂). Y_steel / Y_copper = (4.7 / 3.0x10⁻⁵) / (3.5 / 4.0x10⁻⁵) = (4.7 × 4) / (3 × 3.5) ≈ 1.79."
+        },
+        {
+          "question": "Why are the beams used in the construction of bridges often in the shape of an 'I'?",
+          "answer": "An I-shaped cross-section provides a large load-bearing surface and high resistance to bending (high moment of inertia) while reducing the weight and cost of the material used."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Mechanical Properties of Fluids",
+      "chapter_overview": "This chapter discusses the behavior of fluids (liquids and gases) at rest and in motion. It covers concepts like pressure, Pascal's law, Archimedes' principle, and the laws governing fluid flow such as Bernoulli's principle. It also delves into properties like viscosity and surface tension.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Pressure and Pascal's Law",
+          "explanation": "Pressure is the force exerted perpendicular to a unit area. Pascal's Law states that a change in pressure applied to an enclosed fluid is transmitted undiminished to every portion of the fluid and the walls of the containing vessel. This principle is the basis for hydraulic machines.",
+          "key_points": [
+            "Pressure (P) = Force (F) / Area (A).",
+            "Pascal's Law applies to fluids at rest.",
+            "Hydraulic lift and brakes are applications of Pascal's Law."
+          ]
+        },
+        {
+          "section_title": "Streamline Flow and Bernoulli's Principle",
+          "explanation": "Fluid flow can be streamline (laminar) or turbulent. Bernoulli's Principle relates the pressure, speed, and height of a moving fluid. It states that for an incompressible, non-viscous fluid in streamline flow, the sum of pressure energy, kinetic energy, and potential energy per unit volume is constant.",
+          "key_points": [
+            "Streamline flow: Smooth flow where velocity at any point is constant.",
+            "Bernoulli's Equation: P + 1/2ρv² + ρgh = constant.",
+            "Applications: Venturi meter, dynamic lift on wings, atomizer."
+          ]
+        },
+        {
+          "section_title": "Viscosity and Surface Tension",
+          "explanation": "Viscosity is the internal friction of a fluid that opposes relative motion between its layers. Surface Tension is the property of liquid surfaces to shrink into the minimum surface area possible, behaving like a stretched elastic membrane.",
+          "key_points": [
+            "Stokes' Law: Viscous drag force F = 6πηrv.",
+            "Terminal Velocity: Constant speed reached by an object falling through a viscous fluid.",
+            "Surface Tension (S) = Force / Length.",
+            "Capillarity: Rise or fall of liquid in a narrow tube."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Bernoulli's Principle",
+          "definition": "As the speed of a moving fluid increases, the pressure within the fluid decreases.",
+          "detailed_explanation": "This is a consequence of the conservation of energy. If kinetic energy (speed) increases, potential energy (pressure/height) must decrease to maintain the total energy constant.",
+          "real_world_example": "The curved shape of an airplane wing causes air to move faster over the top than the bottom, creating lower pressure on top and lifting the wing."
+        },
+        {
+          "concept": "Archimedes' Principle",
+          "definition": "A body immersed in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced.",
+          "detailed_explanation": "This force explains why objects float or sink. If the buoyant force is greater than the object's weight, it floats.",
+          "real_world_example": "Ships made of steel float because they displace a volume of water weighing more than the ship itself."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Gauge Pressure",
+          "definition": "The difference between absolute pressure and atmospheric pressure.",
+          "importance": "Most pressure gauges measure this (e.g., tire pressure)."
+        },
+        {
+          "term": "Reynolds Number",
+          "definition": "A dimensionless number determining whether flow is laminar or turbulent.",
+          "importance": "Re < 1000 is laminar; Re > 2000 is turbulent."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Pressure Depth Relation",
+          "formula_or_principle": "P = Pa + ρgh",
+          "explanation": "Pressure at depth h is atmospheric pressure (Pa) plus pressure due to liquid column (ρgh)."
+        },
+        {
+          "name": "Equation of Continuity",
+          "formula_or_principle": "A₁v₁ = A₂v₂",
+          "explanation": "For incompressible fluid, mass flow rate is constant. Narrower pipe = faster flow."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Determining Terminal Velocity",
+          "steps": [
+            "Identify forces: Gravity (down), Buoyancy (up), Viscous Drag (up).",
+            "Set Net Force = 0 (Equilibrium condition).",
+            "Equate Weight = Buoyant Force + Viscous Drag.",
+            "Solve for velocity (v)."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Pressure acts perpendicular to the surface.",
+        "Bernoulli's principle is based on conservation of energy.",
+        "Viscosity decreases with temperature for liquids but increases for gases.",
+        "Surface tension decreases with temperature.",
+        "Contact angle: Acute for wetting (water-glass), Obtuse for non-wetting (mercury-glass)."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing pressure with force.",
+        "Applying Bernoulli's principle to turbulent flow or compressible fluids.",
+        "Forgetting to add atmospheric pressure when calculating absolute pressure at depth."
+      ],
+      "quick_revision_notes": [
+        "Pascal's Law: Pressure transmitted equally.",
+        "Archimedes: Buoyancy = Weight of displaced fluid.",
+        "Bernoulli: Fast fluid = Low pressure.",
+        "Viscosity: Fluid friction.",
+        "Surface Tension: Minimizes surface area (spherical drops)."
+      ],
+      "practice_questions": [
+        {
+          "question": "Why does a spinning cricket ball swing in the air?",
+          "answer": "Due to the Magnus effect. The spin creates a pressure difference between the two sides of the ball (Bernoulli's principle), resulting in a side force that curves its path."
+        },
+        {
+          "question": "Water flows through a horizontal pipe. At a point where the cross-section is 10 cm², the velocity is 1 m/s. What is the velocity at a point where the cross-section is 5 cm²?",
+          "answer": "Using A₁v₁ = A₂v₂: 10 * 1 = 5 * v₂. v₂ = 2 m/s."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Thermal Properties of Matter",
+      "chapter_overview": "This chapter deals with heat and temperature, measuring temperature, and the effects of heat on matter such as expansion and change of state. It also covers the methods of heat transfer: conduction, convection, and radiation.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Temperature and Expansion",
+          "explanation": "Temperature is a measure of hotness. Solids and liquids generally expand when heated (Linear, Area, and Volume expansion). Water exhibits anomalous expansion (contracts from 0°C to 4°C), which is vital for aquatic life.",
+          "key_points": [
+            "Scales: Celsius, Fahrenheit, Kelvin.",
+            "Coefficients of expansion: α (linear), β (area), γ (volume). Generally γ ≈ 3α."
+          ]
+        },
+        {
+          "section_title": "Calorimetry and Change of State",
+          "explanation": "Calorimetry involves measuring heat exchange. Specific heat capacity is the heat needed to raise unit mass by 1°C. Latent heat is the energy required to change the state of a substance without changing its temperature (e.g., melting ice, boiling water).",
+          "key_points": [
+            "Specific Heat (s): Q = msΔT.",
+            "Latent Heat (L): Q = mL (Fusion/Vaporization).",
+            "Principle of Calorimetry: Heat Lost = Heat Gained."
+          ]
+        },
+        {
+          "section_title": "Heat Transfer",
+          "explanation": "Heat flows from hot to cold regions. Conduction is transfer through solids via collisions. Convection is transfer in fluids via bulk movement of matter. Radiation is transfer via electromagnetic waves requiring no medium.",
+          "key_points": [
+            "Thermal Conductivity (K): Rate of heat flow.",
+            "Newton's Law of Cooling: Rate of cooling ∝ temperature difference.",
+            "Stefan-Boltzmann Law: Energy radiated ∝ T⁴."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Anomalous Expansion of Water",
+          "definition": "Water contracts when heated from 0°C to 4°C and expands above 4°C.",
+          "detailed_explanation": "This means water is densest at 4°C. In winter, lakes freeze from the top down, leaving liquid water at 4°C at the bottom, protecting aquatic life.",
+          "real_world_example": "Ice floating on water."
+        },
+        {
+          "concept": "Blackbody Radiation",
+          "definition": "A perfect blackbody absorbs all radiation falling on it and is also a perfect emitter.",
+          "detailed_explanation": "The spectrum of radiation emitted depends only on temperature. Wien's Displacement Law states the peak wavelength is inversely proportional to temperature.",
+          "real_world_example": "The color change of iron from red to white as it is heated."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Triple Point",
+          "definition": "The temperature and pressure at which solid, liquid, and vapor phases of a substance coexist in equilibrium.",
+          "importance": "Used to define the Kelvin scale (273.16 K for water)."
+        },
+        {
+          "term": "Regelation",
+          "definition": "Melting under pressure and refreezing when pressure is reduced.",
+          "importance": "Allows making snowballs and ice skating."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Ideal Gas Law",
+          "formula_or_principle": "PV = nRT",
+          "explanation": "Relates Pressure, Volume, Temperature, and Moles of an ideal gas."
+        },
+        {
+          "name": "Newton's Law of Cooling",
+          "formula_or_principle": "-dQ/dt = K(T - T_surroundings)",
+          "explanation": "Rate of heat loss is proportional to temperature difference (for small differences)."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Solving Calorimetry Problems",
+          "steps": [
+            "Identify all bodies exchanging heat.",
+            "Determine which lose heat and which gain heat.",
+            "Calculate Heat Lost = m₁s₁ΔT₁ + m₁L...",
+            "Calculate Heat Gained = m₂s₂ΔT₂...",
+            "Equate Heat Lost = Heat Gained and solve for unknown."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Temperature determines the direction of net heat flow.",
+        "Latent heat does not raise temperature.",
+        "Good absorbers are good emitters (Kirchhoff's Law).",
+        "Units: Specific Heat (J/kg·K), Latent Heat (J/kg)."
+      ],
+      "common_mistakes_students_make": [
+        "Mixing up Celsius and Kelvin in formulas (always use Kelvin for T in radiation/gas laws; ΔT is same for both).",
+        "Forgetting latent heat during phase change in calculations.",
+        "Assuming rate of cooling is constant (it decreases as body cools)."
+      ],
+      "quick_revision_notes": [
+        "α = ΔL/(LΔT).",
+        "Q = msΔT (temp change).",
+        "Q = mL (phase change).",
+        "Conduction (solids), Convection (fluids), Radiation (vacuum).",
+        "Stefan's Law: E = σAT⁴."
+      ],
+      "practice_questions": [
+        {
+          "question": "Why are cooking pots provided with copper bottoms?",
+          "answer": "Copper is a good conductor of heat (high thermal conductivity), ensuring heat is distributed evenly and quickly to the food."
+        },
+        {
+          "question": "Calculate the heat required to convert 1 kg of ice at 0°C to water at 0°C. (L_fusion = 334 kJ/kg)",
+          "answer": "Q = mL = 1 kg * 334 kJ/kg = 334 kJ."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Thermodynamics",
+      "chapter_overview": "Thermodynamics studies the relation between heat and other forms of energy. It introduces macroscopic variables like internal energy and entropy, and fundamental laws governing energy conservation and the direction of natural processes.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Laws of Thermodynamics",
+          "explanation": "Zeroth Law defines temperature. First Law is energy conservation (ΔQ = ΔU + ΔW). Second Law puts limits on efficiency and direction of heat flow (heat cannot flow spontaneously from cold to hot).",
+          "key_points": [
+            "Zeroth Law: Thermal equilibrium.",
+            "First Law: Heat supplied = Internal Energy change + Work done.",
+            "Second Law: No engine is 100% efficient; Entropy increases."
+          ]
+        },
+        {
+          "section_title": "Thermodynamic Processes",
+          "explanation": "Systems change state via processes. Isothermal (constant T), Adiabatic (no heat exchange), Isochoric (constant V), Isobaric (constant P). Work done depends on the path (area under P-V curve).",
+          "key_points": [
+            "Isothermal: PV = constant.",
+            "Adiabatic: PV^γ = constant.",
+            "Cyclic Process: System returns to initial state (ΔU = 0)."
+          ]
+        },
+        {
+          "section_title": "Heat Engines and Refrigerators",
+          "explanation": "Heat engines convert heat into work. Efficiency η = 1 - Q_cold/Q_hot. Refrigerators work in reverse, pumping heat from cold to hot. Carnot Engine is the theoretical most efficient engine.",
+          "key_points": [
+            "Efficiency is always < 100%.",
+            "Carnot Theorem: Efficiency depends only on source and sink temperatures."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "First Law of Thermodynamics",
+          "definition": "ΔQ = ΔU + ΔW",
+          "detailed_explanation": "Energy supplied to a system partially increases its internal energy (temperature rise) and partially does work on the surroundings (expansion). It rules out perpetual motion machines of the first kind.",
+          "real_world_example": "Boiling water in a covered pot: Heat increases steam energy (ΔU) and lifts the lid (ΔW)."
+        },
+        {
+          "concept": "Carnot Cycle",
+          "definition": "A theoretical reversible cycle consisting of two isothermal and two adiabatic processes.",
+          "detailed_explanation": "It sets the upper limit for the efficiency of any heat engine operating between two temperatures. No real engine can exceed Carnot efficiency.",
+          "real_world_example": "Power plants try to maximize T_source and minimize T_sink to approach Carnot efficiency."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Internal Energy",
+          "definition": "Sum of kinetic and potential energies of the molecules.",
+          "importance": "It is a state function (depends only on current state, not path)."
+        },
+        {
+          "term": "Adiabatic Process",
+          "definition": "Process where no heat enters or leaves the system (ΔQ = 0).",
+          "importance": "Occurs in rapid processes like bursting tires or sound propagation."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Work Done",
+          "formula_or_principle": "W = ∫ P dV",
+          "explanation": "Area under the P-V graph represents work done."
+        },
+        {
+          "name": "Carnot Efficiency",
+          "formula_or_principle": "η = 1 - (T₂/T₁)",
+          "explanation": "T₁ is source temp, T₂ is sink temp (in Kelvin)."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Calculating Work in Isothermal Expansion",
+          "steps": [
+            "Use Ideal Gas Law P = nRT/V.",
+            "Substitute P into W = ∫ P dV.",
+            "Integrate nRT/V from V₁ to V₂.",
+            "Result: W = nRT ln(V₂/V₁)."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Internal energy of ideal gas depends ONLY on temperature.",
+        "Work done in a cyclic process is the area enclosed by the loop.",
+        "Second Law implies arrow of time.",
+        "Reversible processes are idealizations."
+      ],
+      "common_mistakes_students_make": [
+        "Forgetting to use Kelvin for T in efficiency formula.",
+        "Confusing heat (Q) and internal energy (U).",
+        "Assuming Work is a state function (it is a path function)."
+      ],
+      "quick_revision_notes": [
+        "Isothermal: ΔT=0, ΔU=0.",
+        "Adiabatic: ΔQ=0.",
+        "Isochoric: ΔV=0, W=0.",
+        "Isobaric: ΔP=0.",
+        "First Law: Energy conservation.",
+        "Second Law: Entropy/Efficiency limits."
+      ],
+      "practice_questions": [
+        {
+          "question": "If a refrigerator's door is left open in a closed room, does the room cool down?",
+          "answer": "No, the room warms up. The refrigerator pumps heat from inside to the room, but the motor also adds work energy as heat. Net effect is heating."
+        },
+        {
+          "question": "A heat engine takes 100 J of heat from a source and does 30 J of work. What is the heat rejected?",
+          "answer": "Q_in = W + Q_out. 100 = 30 + Q_out. Heat rejected = 70 J."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Kinetic Theory",
+      "chapter_overview": "This chapter explains the macroscopic properties of gases (pressure, temperature) based on the microscopic behavior of molecules. It assumes gases consist of rapidly moving atoms making elastic collisions.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Molecular Nature of Matter",
+          "explanation": "Matter is made of atoms/molecules. Kinetic theory relates parameters like P, V, T to molecular motion. It successfully explains gas laws (Boyle's, Charles').",
+          "key_points": [
+            "Gases consist of large numbers of identical particles.",
+            "Particles are in constant random motion.",
+            "Collisions are perfectly elastic."
+          ]
+        },
+        {
+          "section_title": "Pressure and Kinetic Energy",
+          "explanation": "Pressure is the result of momentum transfer by molecules hitting walls. Temperature is a measure of the average kinetic energy of the molecules.",
+          "key_points": [
+            "P = 1/3 nmv² (mean square speed).",
+            "Average Kinetic Energy E = 3/2 kBT per molecule."
+          ]
+        },
+        {
+          "section_title": "Equipartition of Energy and Specific Heat",
+          "explanation": "Energy is shared equally among all degrees of freedom. Monatomic gases have 3 translational degrees. Diatomic have rotational too. This predicts specific heat capacities (Cv, Cp).",
+          "key_points": [
+            "Degree of Freedom (f): Independent ways a molecule can possess energy.",
+            "Energy = 1/2 kBT per degree of freedom.",
+            "Cp - Cv = R (Mayer's Relation)."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Kinetic Interpretation of Temperature",
+          "definition": "Temperature is directly proportional to the average kinetic energy of gas molecules.",
+          "detailed_explanation": "At absolute zero, molecular motion ceases (classically). Heating a gas increases the speed of its molecules.",
+          "real_world_example": "A balloon expands in sunlight because the air molecules inside move faster and hit the walls harder."
+        },
+        {
+          "concept": "Mean Free Path",
+          "definition": "The average distance a molecule travels between two successive collisions.",
+          "detailed_explanation": "It depends on the size of the molecules and their density. Lower density means longer free path.",
+          "real_world_example": "In a vacuum chamber, molecules travel long distances without hitting each other."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Root Mean Square (rms) Speed",
+          "definition": "Square root of the average of squared speeds.",
+          "importance": "v_rms = √(3RT/M). It determines the speed of sound and diffusion rates."
+        },
+        {
+          "term": "Avogadro's Number",
+          "definition": "6.022 × 10²³ particles per mole.",
+          "importance": "Bridge between microscopic atomic scale and macroscopic world."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Ideal Gas Pressure",
+          "formula_or_principle": "P = 1/3 ρ v_rms²",
+          "explanation": "Pressure depends on density and particle speed."
+        },
+        {
+          "name": "Law of Equipartition",
+          "formula_or_principle": "U = f/2 kBT",
+          "explanation": "Internal energy per molecule depends on degrees of freedom f."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Calculating v_rms",
+          "steps": [
+            "Identify Temperature T (in Kelvin).",
+            "Identify Molar Mass M (in kg/mol).",
+            "Use formula v = √(3RT/M).",
+            "Compute."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Degrees of freedom: Monatomic=3, Diatomic=5 (at normal T).",
+        "Ideal gas molecules have NO potential energy (no interaction).",
+        "v_rms > v_average > v_most_probable."
+      ],
+      "common_mistakes_students_make": [
+        "Using Molar Mass in grams instead of kg in v_rms formula.",
+        "Confusing Boltzmann constant (k) with Gas constant (R). R = NA * k.",
+        "Assuming diatomic gases always have f=5 (vibrational modes activate at high T)."
+      ],
+      "quick_revision_notes": [
+        "PV = nRT.",
+        "KE ∝ T.",
+        "Cp/Cv = γ (Adiabatic index).",
+        "Mono: γ = 1.67, Dia: γ = 1.4.",
+        "Mean free path λ ∝ 1/density."
+      ],
+      "practice_questions": [
+        {
+          "question": "At what temperature does the rms speed of oxygen molecules become double that at 300 K?",
+          "answer": "v ∝ √T. For v to double, T must quadruple. T_new = 4 * 300 = 1200 K."
+        },
+        {
+          "question": "Calculate the average kinetic energy of a molecule at 27°C.",
+          "answer": "KE = 3/2 kT. T = 300 K. KE = 1.5 * 1.38e-23 * 300 = 6.21e-21 J."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Oscillations",
+      "chapter_overview": "This chapter studies periodic motion, specifically Simple Harmonic Motion (SHM). It covers the dynamics of oscillating systems like pendulums and springs, energy in SHM, and damped/forced oscillations.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Periodic Motion and SHM",
+          "explanation": "Periodic motion repeats in equal intervals. SHM is a special type where restoring force is proportional to displacement (F = -kx). Equations of motion involve sine/cosine functions.",
+          "key_points": [
+            "Displacement: x(t) = A cos(ωt + φ).",
+            "Acceleration is proportional to -x.",
+            "A: Amplitude, ω: Angular frequency, φ: Phase constant."
+          ]
+        },
+        {
+          "section_title": "Energy in SHM",
+          "explanation": "Energy oscillates between Kinetic (K) and Potential (U). Total mechanical energy E = K + U is constant (conserved) if no damping.",
+          "key_points": [
+            "U = 1/2 kx².",
+            "K = 1/2 mv².",
+            "Total E = 1/2 kA²."
+          ]
+        },
+        {
+          "section_title": "Systems executing SHM",
+          "explanation": "Common examples: Spring-mass system and Simple Pendulum. Period depends on inertial factor (mass/length) and spring factor (k/g).",
+          "key_points": [
+            "Spring Period: T = 2π√(m/k).",
+            "Pendulum Period: T = 2π√(L/g)."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Simple Harmonic Motion",
+          "definition": "Motion where acceleration is directed towards mean position and proportional to displacement.",
+          "detailed_explanation": "It is the projection of uniform circular motion onto a diameter. It is the most fundamental approximation for small oscillations around equilibrium.",
+          "real_world_example": "Pendulum of a grandfather clock (for small angles)."
+        },
+        {
+          "concept": "Resonance",
+          "definition": "The phenomenon where amplitude of oscillation becomes very large when the frequency of driving force matches the natural frequency.",
+          "detailed_explanation": "Effective energy transfer occurs at resonance. It can be destructive (bridge collapse) or useful (tuning a radio).",
+          "real_world_example": "Pushing a swing at the right time to make it go higher."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Phase",
+          "definition": "The state of oscillation (position and direction) at a given time.",
+          "importance": "Determines the synchronization of two oscillators."
+        },
+        {
+          "term": "Damping",
+          "definition": "Decrease in amplitude over time due to resistive forces.",
+          "importance": "Real systems always have damping (friction, air resistance)."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "SHM Force Law",
+          "formula_or_principle": "F = -kx",
+          "explanation": "Restoring force opposes displacement."
+        },
+        {
+          "name": "Angular Frequency",
+          "formula_or_principle": "ω = 2πf = 2π/T",
+          "explanation": "Rate of oscillation in radians per second."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Finding Period of Pendulum",
+          "steps": [
+            "Measure Length L from pivot to center of bob.",
+            "Ensure small amplitude.",
+            "Use T = 2π√(L/g).",
+            "g is acceleration due to gravity."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Velocity is max at equilibrium, zero at extremes.",
+        "Acceleration is zero at equilibrium, max at extremes.",
+        "Time period of a simple pendulum is independent of mass.",
+        "Second's pendulum has a period of 2 seconds."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing frequency (f) and angular frequency (ω).",
+        "Using degrees instead of radians in trigonometric functions.",
+        "Thinking period of pendulum depends on mass."
+      ],
+      "quick_revision_notes": [
+        "SHM: a = -ω²x.",
+        "v_max = Aω.",
+        "a_max = Aω².",
+        "Total Energy ∝ A².",
+        "Phase difference tells 'lead' or 'lag'."
+      ],
+      "practice_questions": [
+        {
+          "question": "A particle executes SHM with amplitude 5 cm and frequency 10 Hz. What is its maximum speed?",
+          "answer": "v_max = Aω = A(2πf) = 0.05 * 2 * π * 10 = π m/s ≈ 3.14 m/s."
+        },
+        {
+          "question": "What happens to the time period of a pendulum if its length is quadrupled?",
+          "answer": "T ∝ √L. If L becomes 4L, T becomes √4 = 2 times."
+        }
+      ]
+    },
+    {
+      "chapter_title": "Waves",
+      "chapter_overview": "This chapter covers the propagation of disturbances (waves) through a medium. It discusses types of waves, their speed, superposition, reflection, and phenomena like standing waves and beats.",
+      "detailed_summary_sections": [
+        {
+          "section_title": "Types of Waves",
+          "explanation": "Transverse waves (particles oscillate perpendicular to wave direction, e.g., light, string waves). Longitudinal waves (particles oscillate parallel, e.g., sound). Mechanical waves need a medium.",
+          "key_points": [
+            "Transverse: Crests and Troughs.",
+            "Longitudinal: Compressions and Rarefactions.",
+            "Sound is longitudinal; Light is transverse (electromagnetic)."
+          ]
+        },
+        {
+          "section_title": "Traveling Waves and Speed",
+          "explanation": "Described by y(x,t) = A sin(kx - ωt). Speed depends on medium properties (Elasticity and Inertia).",
+          "key_points": [
+            "Wave speed v = fλ = ω/k.",
+            "Speed on string: v = √(Tension/mass_per_unit_length).",
+            "Speed of sound: v = √(Bulk_Modulus/density)."
+          ]
+        },
+        {
+          "section_title": "Superposition and Standing Waves",
+          "explanation": "When waves overlap, displacements add. Interference can be constructive or destructive. Standing waves form by superposition of incident and reflected waves (nodes and antinodes).",
+          "key_points": [
+            "Nodes: Points of zero amplitude.",
+            "Antinodes: Points of max amplitude.",
+            "Organ pipes and strings produce harmonics."
+          ]
+        }
+      ],
+      "core_concepts": [
+        {
+          "concept": "Doppler Effect",
+          "definition": "Change in observed frequency when source or observer is moving.",
+          "detailed_explanation": "If source approaches, pitch increases (waves compressed). If moving away, pitch decreases. Important in radar and astronomy (Red shift).",
+          "real_world_example": "The siren of an ambulance changes pitch as it passes you."
+        },
+        {
+          "concept": "Beats",
+          "definition": "Periodic variation in intensity caused by interference of two waves of slightly different frequencies.",
+          "detailed_explanation": "Beat frequency = |f₁ - f₂|. Used to tune musical instruments.",
+          "real_world_example": "Tuning a guitar string against a reference tone."
+        }
+      ],
+      "important_terms": [
+        {
+          "term": "Wavelength (λ)",
+          "definition": "Distance between two consecutive crests or compressions.",
+          "importance": "Determines the color of light or pitch of sound relative to speed."
+        },
+        {
+          "term": "Harmonics",
+          "definition": "Integral multiples of the fundamental frequency.",
+          "importance": "Determines the quality (timbre) of a musical sound."
+        }
+      ],
+      "formulas_or_principles": [
+        {
+          "name": "Wave Equation",
+          "formula_or_principle": "y = A sin(kx - ωt + φ)",
+          "explanation": "General form of a progressive harmonic wave."
+        },
+        {
+          "name": "Newton-Laplace Formula",
+          "formula_or_principle": "v = √(γP/ρ)",
+          "explanation": "Speed of sound in gas. γ is adiabatic index (correction to Newton's formula)."
+        }
+      ],
+      "step_by_step_processes": [
+        {
+          "process_name": "Determining Harmonics in Open Pipe",
+          "steps": [
+            "Open pipe has antinodes at both ends.",
+            "Fundamental mode: L = λ/2. f₁ = v/2L.",
+            "Second harmonic: L = λ. f₂ = 2f₁.",
+            "All harmonics (odd and even) are present."
+          ]
+        }
+      ],
+      "important_points_for_exams": [
+        "Closed pipes produce only odd harmonics.",
+        "Open pipes produce all harmonics.",
+        "Sound travels faster in solids than in air.",
+        "Frequency does not change when wave enters a new medium (speed and wavelength do)."
+      ],
+      "common_mistakes_students_make": [
+        "Confusing particle velocity (dy/dt) with wave velocity (v).",
+        "Mixing up formulas for open vs closed pipes.",
+        "Thinking frequency changes during refraction."
+      ],
+      "quick_revision_notes": [
+        "v = fλ.",
+        "k = 2π/λ.",
+        "String fixed at ends: Nodes at ends.",
+        "Beat freq = f1 - f2.",
+        "Doppler: f_obs = f_src (v ± v_obs) / (v ∓ v_src)."
+      ],
+      "practice_questions": [
+        {
+          "question": "A sound wave has frequency 500 Hz and speed 350 m/s. What is the phase difference between two points separated by 0.35 m?",
+          "answer": "λ = v/f = 350/500 = 0.7 m. Phase diff Δφ = (2π/λ) * Δx = (2π/0.7) * 0.35 = π radians (180°)."
+        },
+        {
+          "question": "Why does sound travel faster on a hot day?",
+          "answer": "v ∝ √T. As temperature increases, density decreases and air molecules move faster, transmitting the pulse quicker."
+        }
+      ]
+    }
+  ]
+}

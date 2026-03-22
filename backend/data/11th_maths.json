@@ -1,0 +1,2130 @@
+[
+  {
+    "chapter_title": "Sets",
+    "chapter_overview": "This chapter introduces the fundamental concept of sets in mathematics. It covers the definition of sets, their representation (roster and set-builder forms), and various types of sets such as empty, finite, and infinite sets. It explores the relationships between sets, including subsets, universal sets, and the concept of equal sets. The chapter also delves into operations on sets like union, intersection, and difference, as well as the complement of a set, supported by Venn diagrams and key laws like De Morgan's laws.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction to Sets and Representations",
+        "explanation": "A set is defined as a well-defined collection of objects. 'Well-defined' means we can definitely decide whether a given object belongs to the collection or not. Objects in a set are called elements or members.",
+        "key_points": [
+          "Sets are usually denoted by capital letters (A, B, C, etc.).",
+          "Elements are represented by small letters (a, b, c, etc.).",
+          "The symbol '∈' (epsilon) stands for 'belongs to'. If 'a' is in set A, we write a ∈ A.",
+          "The symbol '∉' stands for 'does not belong to'."
+        ]
+      },
+      {
+        "section_title": "Methods of Representing Sets",
+        "explanation": "There are two main ways to represent a set: Roster (Tabular) form and Set-builder form.",
+        "key_points": [
+          "Roster Form: Lists all elements separated by commas within braces { }. Order does not matter, and elements are generally not repeated (e.g., set of vowels V = {a, e, i, o, u}).",
+          "Set-builder Form: Describes the set by a characterizing property 'P(x)' possessed by all elements. Written as {x : x has property P} (e.g., V = {x : x is a vowel in the English alphabet})."
+        ]
+      },
+      {
+        "section_title": "Types of Sets",
+        "explanation": "Sets are classified based on the number of elements they contain.",
+        "key_points": [
+          "Empty Set (Null/Void Set): A set with no elements. Denoted by symbol φ (phi) or { }.",
+          "Finite Set: A set with a definite number of elements or is empty.",
+          "Infinite Set: A set whose elements cannot be listed because they are infinite in number (e.g., set of natural numbers N).",
+          "Singleton Set: A set containing only one element."
+        ]
+      },
+      {
+        "section_title": "Subsets and Equal Sets",
+        "explanation": "These concepts define relationships between two sets.",
+        "key_points": [
+          "Equal Sets: Two sets A and B are equal (A = B) if they have exactly the same elements.",
+          "Subset: Set A is a subset of B (A ⊆ B) if every element of A is also an element of B.",
+          "Proper Subset: If A ⊆ B and A ≠ B, then A is a proper subset of B.",
+          "Superset: If A is a proper subset of B, then B is a superset of A.",
+          "Universal Set (U): A basic set containing all objects under consideration in a particular context."
+        ]
+      },
+      {
+        "section_title": "Intervals as Subsets of Real Numbers (R)",
+        "explanation": "Intervals describe subsets of real numbers defined by inequalities.",
+        "key_points": [
+          "Open Interval (a, b): {x : a < x < b}. Endpoints are excluded.",
+          "Closed Interval [a, b]: {x : a ≤ x ≤ b}. Endpoints are included.",
+          "Semi-open/closed: [a, b) includes 'a' but not 'b'; (a, b] includes 'b' but not 'a'."
+        ]
+      },
+      {
+        "section_title": "Venn Diagrams",
+        "explanation": "Venn diagrams are visual representations of sets using closed curves (usually circles) within a rectangle representing the Universal Set.",
+        "key_points": [
+          "The Universal Set U is represented by a rectangle.",
+          "Subsets are represented by circles inside the rectangle.",
+          "They help visualize relationships and operations like union and intersection."
+        ]
+      },
+      {
+        "section_title": "Operations on Sets",
+        "explanation": "Mathematical operations performed on two sets to form a new set.",
+        "key_points": [
+          "Union (A ∪ B): Set of elements in A, or in B, or in both.",
+          "Intersection (A ∩ B): Set of elements common to both A and B.",
+          "Disjoint Sets: Two sets are disjoint if their intersection is the empty set (A ∩ B = φ).",
+          "Difference (A - B): Set of elements belonging to A but NOT to B."
+        ]
+      },
+      {
+        "section_title": "Complement of a Set",
+        "explanation": "The complement of a set A refers to elements not in A but in the Universal Set.",
+        "key_points": [
+          "Notation: A' or A^c.",
+          "Definition: A' = {x : x ∈ U and x ∉ A}.",
+          "Ideally, A' = U - A."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Set Definition",
+        "definition": "A well-defined collection of objects.",
+        "detailed_explanation": "The key is 'well-defined'. It must be objectively clear whether an object belongs to the set. A collection of 'good books' is not a set because 'good' is subjective.",
+        "real_world_example": "The collection of all rivers in India is a set. The collection of 'best' cricketers is not."
+      },
+      {
+        "concept": "Subset",
+        "definition": "A set A is a subset of B if every element of A is also in B.",
+        "detailed_explanation": "If even one element of A is not in B, then A is not a subset of B. Every set is a subset of itself, and the empty set is a subset of every set.",
+        "real_world_example": "If A = {1, 2} and B = {1, 2, 3}, then A is a subset of B."
+      },
+      {
+        "concept": "De Morgan's Laws",
+        "definition": "Laws relating union, intersection, and complement.",
+        "detailed_explanation": "1. The complement of the union is the intersection of the complements: (A ∪ B)' = A' ∩ B'. 2. The complement of the intersection is the union of the complements: (A ∩ B)' = A' ∪ B'.",
+        "real_world_example": "Verified using Venn diagrams where shading areas show the equality."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Element",
+        "definition": "An object that makes up a set.",
+        "importance": "High. Fundamental building block of sets."
+      },
+      {
+        "term": "Empty Set (φ)",
+        "definition": "A set containing no elements.",
+        "importance": "High. Represents the concept of 'zero' in set theory."
+      },
+      {
+        "term": "Universal Set (U)",
+        "definition": "The set containing all elements relevant to a particular context.",
+        "importance": "Medium. Context-dependent 'parent' set."
+      },
+      {
+        "term": "Cardinality",
+        "definition": "The number of distinct elements in a finite set, denoted by n(A).",
+        "importance": "Medium. Used in problems involving counting elements."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Commutative Laws",
+        "formula_or_principle": "A ∪ B = B ∪ A; A ∩ B = B ∩ A",
+        "explanation": "The order of sets does not matter in union and intersection."
+      },
+      {
+        "name": "Associative Laws",
+        "formula_or_principle": "(A ∪ B) ∪ C = A ∪ (B ∪ C); (A ∩ B) ∩ C = A ∩ (B ∩ C)",
+        "explanation": "Grouping does not matter in union and intersection."
+      },
+      {
+        "name": "Distributive Laws",
+        "formula_or_principle": "A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C); A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)",
+        "explanation": "Intersection distributes over union and vice versa."
+      },
+      {
+        "name": "De Morgan's Laws",
+        "formula_or_principle": "(A ∪ B)' = A' ∩ B'; (A ∩ B)' = A' ∪ B'",
+        "explanation": "Crucial for simplifying complex set operations involving complements."
+      },
+      {
+        "name": "Difference of Sets",
+        "formula_or_principle": "A - B = {x : x ∈ A and x ∉ B}",
+        "explanation": "Elements in A removing any that are also in B."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Proving Set Equalities using Properties",
+        "steps": [
+          "Identify the Left Hand Side (LHS) and Right Hand Side (RHS) of the equation.",
+          "Apply standard laws (Distributive, De Morgan's, etc.) to transform one side.",
+          "Show that the transformed expression matches the other side.",
+          "Alternatively, show A ⊆ B and B ⊆ A to prove A = B."
+        ]
+      },
+      {
+        "process_name": "Drawing a Venn Diagram for (A ∪ B)'",
+        "steps": [
+          "Draw a rectangle for the Universal Set U.",
+          "Draw two overlapping circles for sets A and B.",
+          "Shade the region covered by both A and B circles to represent A ∪ B.",
+          "The final result (A ∪ B)' is the region inside the rectangle but OUTSIDE the shaded A ∪ B region."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Remember that the empty set is a subset of every set.",
+      "Do not confuse element symbol (∈) with subset symbol (⊆). Use ∈ for elements and ⊆ for sets.",
+      "In intervals, square brackets [ ] mean included, round brackets ( ) mean excluded.",
+      "For A - B, only remove elements from A that are in B. Do not add elements from B.",
+      "De Morgan's laws are frequently asked in proofs and verification questions."
+    ],
+    "common_mistakes_students_make": [
+      "Writing {φ} for an empty set. The correct notation is φ or { }. {φ} is a set containing the symbol phi.",
+      "Confusing {0} with the empty set. {0} contains one element (zero).",
+      "Listing repeated elements in Roster form (though not strictly wrong, it's not standard convention).",
+      "Assuming A ∪ B is just adding the number of elements. n(A ∪ B) = n(A) + n(B) - n(A ∩ B).",
+      "Thinking A - B is the same as B - A (It is usually not)."
+    ],
+    "quick_revision_notes": [
+      "Set: Well-defined collection.",
+      "N: Naturals, Z: Integers, Q: Rationals, R: Reals.",
+      "A ⊆ B: Every element of A is in B.",
+      "Union (Or): A ∪ B.",
+      "Intersection (And): A ∩ B.",
+      "Complement (Not): A' = U - A.",
+      "Finite sets have countable elements; Infinite do not.",
+      "Power set P(A) has 2^n elements (if n is number of elements in A)."
+    ],
+    "practice_questions": [
+      {
+        "question": "Write the set A = {x : x is an integer and -3 < x < 7} in roster form.",
+        "answer": "A = {-2, -1, 0, 1, 2, 3, 4, 5, 6}"
+      },
+      {
+        "question": "If A = {1, 2}, write all possible subsets of A.",
+        "answer": "φ, {1}, {2}, {1, 2}"
+      },
+      {
+        "question": "If U = {1, 2, 3, 4, 5, 6}, A = {2, 3}, and B = {3, 4, 5}, find (A ∪ B)'.",
+        "answer": "A ∪ B = {2, 3, 4, 5}. (A ∪ B)' = U - {2, 3, 4, 5} = {1, 6}."
+      },
+      {
+        "question": "True or False: {a} ∈ {a, b, c}",
+        "answer": "False. {a} is a subset (⊆), 'a' is the element (∈). So {a} ⊆ {a, b, c} or a ∈ {a, b, c}."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Relations and Functions",
+    "chapter_overview": "This chapter explores the concepts of relations and functions, which are fundamental to understanding how quantities are linked in mathematics. It starts with Cartesian products of sets, moves to defining relations as subsets of Cartesian products, and then introduces functions as a special type of relation. The chapter also details various standard real functions, their graphs, and algebraic operations on functions.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Cartesian Products of Sets",
+        "explanation": "The Cartesian product of two sets A and B is the set of all possible ordered pairs where the first element is from A and the second is from B.",
+        "key_points": [
+          "Ordered Pair: A pair of elements listed in a specific order, e.g., (a, b). (a, b) ≠ (b, a) unless a = b.",
+          "Definition: P × Q = { (p, q) : p ∈ P, q ∈ Q }.",
+          "If either P or Q is the null set, then P × Q is also an empty set.",
+          "Number of elements: If n(A) = p and n(B) = q, then n(A × B) = pq."
+        ]
+      },
+      {
+        "section_title": "Relations",
+        "explanation": "A relation describes a link or connection between elements of two sets. Mathematically, it is a subset of the Cartesian product.",
+        "key_points": [
+          "Definition: A relation R from a non-empty set A to a non-empty set B is a subset of A × B.",
+          "Domain: The set of all first elements of the ordered pairs in a relation R.",
+          "Range: The set of all second elements of the ordered pairs in a relation R.",
+          "Codomain: The whole set B. Note that Range ⊆ Codomain.",
+          "Total Relations: The total number of relations from A to B is 2^(n(A)×n(B))."
+        ]
+      },
+      {
+        "section_title": "Functions",
+        "explanation": "A function is a specific type of relation where every input has exactly one output.",
+        "key_points": [
+          "Definition: A relation f from A to B is a function if every element of A has one and only one image in B.",
+          "Notation: f: A → B, where f(x) = y. 'y' is the image of 'x', and 'x' is the preimage of 'y'.",
+          "Real Function: A function whose domain and range are subsets of real numbers (R)."
+        ]
+      },
+      {
+        "section_title": "Some Functions and their Graphs",
+        "explanation": "The chapter introduces several standard functions with their definitions and graphical representations.",
+        "key_points": [
+          "Identity Function: f(x) = x. Graph is a straight line passing through origin at 45 degrees.",
+          "Constant Function: f(x) = c. Graph is a line parallel to the x-axis.",
+          "Polynomial Function: f(x) = a_n x^n + ... + a_0. Examples: Parabola for x^2, S-curve for x^3.",
+          "Rational Function: f(x) = p(x)/q(x), where q(x) ≠ 0. Example: f(x) = 1/x (Hyperbola).",
+          "Modulus Function: f(x) = |x|. Returns x if x≥0, -x if x<0. Graph is V-shaped.",
+          "Signum Function: Returns 1 if x>0, 0 if x=0, -1 if x<0.",
+          "Greatest Integer Function: f(x) = [x]. Returns the greatest integer less than or equal to x (Step function)."
+        ]
+      },
+      {
+        "section_title": "Algebra of Real Functions",
+        "explanation": "Operations can be performed on functions similar to numbers.",
+        "key_points": [
+          "Addition: (f + g)(x) = f(x) + g(x)",
+          "Subtraction: (f - g)(x) = f(x) - g(x)",
+          "Multiplication by Scalar: (αf)(x) = αf(x)",
+          "Multiplication: (fg)(x) = f(x)g(x)",
+          "Quotient: (f/g)(x) = f(x)/g(x), provided g(x) ≠ 0"
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Ordered Pair Equality",
+        "definition": "Two ordered pairs (a, b) and (c, d) are equal if and only if a = c and b = d.",
+        "detailed_explanation": "This is fundamental for solving equations involving Cartesian products.",
+        "real_world_example": "Coordinates on a map (latitude, longitude). (10, 20) is a different location from (20, 10)."
+      },
+      {
+        "concept": "Function vs. Relation",
+        "definition": "All functions are relations, but not all relations are functions.",
+        "detailed_explanation": "For a relation to be a function, no single element in the domain can map to more than one element in the codomain (one-to-many is forbidden).",
+        "real_world_example": "Relation: Students to Subject (One student can study Math and Science). Function: Student to Roll Number (Each student has exactly one unique roll number)."
+      },
+      {
+        "concept": "Domain and Range",
+        "definition": "Domain is the set of valid inputs; Range is the set of resulting outputs.",
+        "detailed_explanation": "Finding the domain involves identifying x values for which the function is defined (e.g., denominator ≠ 0, value under even root ≥ 0).",
+        "real_world_example": "For f(x) = 1/x, Domain is R - {0} because you cannot divide by zero."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Cartesian Product",
+        "definition": "The set of all possible ordered pairs from two sets.",
+        "importance": "High. The basis for defining relations and coordinate geometry."
+      },
+      {
+        "term": "Image",
+        "definition": "The output value y corresponding to an input x in a function.",
+        "importance": "Medium. Used to describe mapping."
+      },
+      {
+        "term": "Preimage",
+        "definition": "The input value x corresponding to an output y.",
+        "importance": "Medium. Inverse mapping concept."
+      },
+      {
+        "term": "Real Valued Function",
+        "definition": "A function whose codomain is the set of real numbers or its subset.",
+        "importance": "High. Most calculus deals with real valued functions."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Number of Relations",
+        "formula_or_principle": "If n(A)=p, n(B)=q, total relations = 2^(pq)",
+        "explanation": "Since a relation is a subset of A × B, and A × B has pq elements, the number of subsets is 2^(pq)."
+      },
+      {
+        "name": "Modulus Definition",
+        "formula_or_principle": "|x| = x for x ≥ 0; -x for x < 0",
+        "explanation": "Crucial for solving inequalities and graphing."
+      },
+      {
+        "name": "Algebra of Functions",
+        "formula_or_principle": "(f/g)(x) = f(x)/g(x), g(x) ≠ 0",
+        "explanation": "Standard algebraic operations apply to functions point-wise."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Checking if a Relation is a Function",
+        "steps": [
+          "Check if every element in the domain set has an image.",
+          "Check if any element in the domain has more than one image.",
+          "If every element has exactly one unique image, it is a function.",
+          "If an element maps to two different values (e.g., (1, a) and (1, b)), it is NOT a function."
+        ]
+      },
+      {
+        "process_name": "Finding Domain of a Rational Function p(x)/q(x)",
+        "steps": [
+          "Identify the denominator q(x).",
+          "Set q(x) = 0 and solve for x.",
+          "The domain is the set of all Real numbers (R) excluding the values found in step 2."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "In ordered pairs, order matters. (1, 2) is not the same as (2, 1).",
+      "A relation can be empty, but a function from a non-empty set A to B cannot be empty (unless A is empty).",
+      "Understand the difference between [x] (Greatest Integer), |x| (Modulus), and standard x.",
+      "For finding range, sometimes it helps to express x in terms of y and find valid values for y.",
+      "Remember that the range is always a subset of the codomain."
+    ],
+    "common_mistakes_students_make": [
+      "Assuming f(x) = ±√x represents a function. It does not because one input maps to two outputs.",
+      "Forgetting to exclude points where the denominator is zero when stating the domain.",
+      "Confusing the Greatest Integer Function [2.9] with rounding. [2.9] = 2, not 3. [-2.1] = -3, not -2.",
+      "Thinking that f(x)g(x) is the same as f(g(x)) (Composition vs Product).",
+      "Writing Range = Codomain always (This is only true for 'onto' functions)."
+    ],
+    "quick_revision_notes": [
+      "A × B = {(a, b) : a ∈ A, b ∈ B}",
+      "Relation R ⊆ A × B",
+      "Function: Special relation with unique image for every domain element.",
+      "Domain(R) = {a : (a, b) ∈ R}",
+      "Range(R) = {b : (a, b) ∈ R}",
+      "Identity func: y=x; Constant func: y=c.",
+      "Modulus |x| is always non-negative.",
+      "Greatest Integer [x] moves left on number line."
+    ],
+    "practice_questions": [
+      {
+        "question": "If A = {1, 2} and B = {3, 4}, write A × B.",
+        "answer": "{(1, 3), (1, 4), (2, 3), (2, 4)}"
+      },
+      {
+        "question": "Find the domain of f(x) = (x^2 + 3x + 5) / (x^2 - 5x + 4).",
+        "answer": "x^2 - 5x + 4 = 0 implies (x-4)(x-1)=0. So x=1, 4. Domain = R - {1, 4}."
+      },
+      {
+        "question": "Is R = {(1, 2), (2, 3), (1, 4)} a function?",
+        "answer": "No, because the element 1 has two different images (2 and 4)."
+      },
+      {
+        "question": "Find the range of f(x) = 2 - 3x for x > 0.",
+        "answer": "Since x > 0, -3x < 0, so 2 - 3x < 2. Range is (-∞, 2)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Trigonometric Functions",
+    "chapter_overview": "This chapter expands upon the trigonometric ratios learned in earlier classes by introducing trigonometric functions defined on the unit circle. It covers the measurement of angles in degrees and radians, the relationship between them, and the properties of trigonometric functions including their signs, domains, ranges, and graphs. A significant portion of the chapter is dedicated to deriving and applying trigonometric identities for the sum and difference of angles, as well as multiple angle formulas.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Angles and their Measurement",
+        "explanation": "An angle is a measure of rotation of a given ray about its initial point. There are two main units of measurement: Degrees and Radians.",
+        "key_points": [
+          "Degree Measure: 1 rotation = 360°. 1° = 60' (minutes), 1' = 60'' (seconds).",
+          "Radian Measure: The angle subtended at the center by an arc of length equal to the radius is 1 radian.",
+          "Relation: π radians = 180°. 1 radian ≈ 57° 16'.",
+          "Arc Length Formula: l = rθ, where l is arc length, r is radius, and θ is angle in radians."
+        ]
+      },
+      {
+        "section_title": "Trigonometric Functions (Unit Circle Approach)",
+        "explanation": "Trigonometric functions are defined using a unit circle (radius = 1) centered at the origin. If P(a, b) is a point on the circle corresponding to angle x (in radians), then cos x = a and sin x = b.",
+        "key_points": [
+          "cos x is the x-coordinate and sin x is the y-coordinate of the point on the unit circle.",
+          "Fundamental Identity: cos²x + sin²x = 1 (since a² + b² = 1).",
+          "Periodicity: sin x and cos x repeat every 2π radians. tan x repeats every π radians."
+        ]
+      },
+      {
+        "section_title": "Sign, Domain, and Range of Trigonometric Functions",
+        "explanation": "The sign of a function depends on the quadrant in which the angle lies. The domain is the set of valid input angles, and the range is the set of possible output values.",
+        "key_points": [
+          "Quadrants (ASTC Rule): I (All positive), II (Sin/Cosec positive), III (Tan/Cot positive), IV (Cos/Sec positive).",
+          "Domain of sin/cos: R (All real numbers). Range: [-1, 1].",
+          "Domain of tan: R - {odd multiples of π/2}. Range: R.",
+          "Domain of sec: R - {odd multiples of π/2}. Range: R - (-1, 1)."
+        ]
+      },
+      {
+        "section_title": "Compound Angle Formulas (Sum and Difference)",
+        "explanation": "Identities that express trigonometric functions of (x + y) and (x - y) in terms of functions of x and y.",
+        "key_points": [
+          "cos(x ± y) = cos x cos y ∓ sin x sin y (Sign flips).",
+          "sin(x ± y) = sin x cos y ± cos x sin y (Sign stays).",
+          "tan(x + y) = (tan x + tan y) / (1 - tan x tan y)."
+        ]
+      },
+      {
+        "section_title": "Multiple Angle Formulas",
+        "explanation": "Formulas to express functions of 2x and 3x in terms of x.",
+        "key_points": [
+          "sin 2x = 2sin x cos x = 2tan x / (1 + tan²x).",
+          "cos 2x = cos²x - sin²x = 2cos²x - 1 = 1 - 2sin²x = (1 - tan²x)/(1 + tan²x).",
+          "tan 2x = 2tan x / (1 - tan²x).",
+          "sin 3x = 3sin x - 4sin³x.",
+          "cos 3x = 4cos³x - 3cos x."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Radian Measure",
+        "definition": "The ratio of arc length to radius.",
+        "detailed_explanation": "Radians are 'pure numbers' and are the standard unit in calculus. When we write sin(x) without units, x is assumed to be in radians.",
+        "real_world_example": "In physics, rotational motion formulas like ω = v/r rely on radians."
+      },
+      {
+        "concept": "Unit Circle",
+        "definition": "A circle of radius 1 centered at (0,0).",
+        "detailed_explanation": "It unifies the definitions of trig functions for all real numbers, not just acute angles in right triangles. Points on the circle are (cos θ, sin θ).",
+        "real_world_example": "Used in computer graphics to calculate rotations of objects."
+      },
+      {
+        "concept": "Periodicity",
+        "definition": "The property of a function repeating its values at regular intervals.",
+        "detailed_explanation": "f(x + T) = f(x). For sine and cosine, the period T is 2π. This models wave motion.",
+        "real_world_example": "Sound waves, AC current, and tides are periodic phenomena modeled by trig functions."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Identity",
+        "definition": "An equation that is true for all values of the variable for which the functions are defined.",
+        "importance": "High. Essential for simplifying complex expressions and solving equations."
+      },
+      {
+        "term": "Quadrant",
+        "definition": "One of the four sections of the coordinate plane divided by the axes.",
+        "importance": "Medium. Determines the sign of the function."
+      },
+      {
+        "term": "Principal Solution",
+        "definition": "The solutions of a trigonometric equation lying in the interval [0, 2π).",
+        "importance": "Medium."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Radian-Degree Conversion",
+        "formula_or_principle": "Radians = Degrees × (π/180); Degrees = Radians × (180/π)",
+        "explanation": "Basic conversion tool."
+      },
+      {
+        "name": "Pythagorean Identities",
+        "formula_or_principle": "sin²x + cos²x = 1; 1 + tan²x = sec²x; 1 + cot²x = cosec²x",
+        "explanation": "Fundamental relations between squared functions."
+      },
+      {
+        "name": "Sum to Product Formulas",
+        "formula_or_principle": "sin x + sin y = 2sin((x+y)/2)cos((x-y)/2); cos x + cos y = 2cos((x+y)/2)cos((x-y)/2)",
+        "explanation": "Used to factorize sums of sines or cosines."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the Sign of a Trigonometric Function",
+        "steps": [
+          "Identify the quadrant in which the angle lies.",
+          "Use the ASTC rule: Quadrant I (All +), II (Sin +), III (Tan +), IV (Cos +).",
+          "Assign the correct sign to the function value."
+        ]
+      },
+      {
+        "process_name": "Proving Trigonometric Identities",
+        "steps": [
+          "Start with the more complex side (LHS or RHS).",
+          "Express tan/cot/sec/cosec in terms of sin and cos.",
+          "Apply algebraic manipulation and fundamental identities (like sin²x + cos²x = 1).",
+          "Use compound or multiple angle formulas if arguments differ (e.g., x vs 2x).",
+          "Simplify until it matches the other side."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check if the angle is in degrees or radians before applying formulas.",
+      "Remember that cos(-x) = cos x (even function) but sin(-x) = -sin x (odd function).",
+      "In cos 2x formulas, choose the form (cos only, sin only, or both) that simplifies the specific problem.",
+      "For domain/range questions, remember that -1 ≤ sin x, cos x ≤ 1 and |sec x|, |cosec x| ≥ 1.",
+      "Pay attention to the interval when finding principal solutions [0, 2π)."
+    ],
+    "common_mistakes_students_make": [
+      "Writing sin(A + B) = sin A + sin B (This is Linear, Trig functions are NOT linear).",
+      "Forgetting that 1 radian is NOT 1 degree.",
+      "Confusing the signs in the cos(A ± B) expansion (it's opposite to the operation).",
+      "Canceling terms incorrectly, e.g., sin(2x)/sin(x) is NOT 2.",
+      "Assuming tan(90°) is 0 or 1 (It is undefined)."
+    ],
+    "quick_revision_notes": [
+      "π rad = 180°.",
+      "l = rθ.",
+      "sin² + cos² = 1.",
+      "sin(2x) = 2sin x cos x.",
+      "cos(2x) = cos² - sin².",
+      "ASTC: All, Sin, Tan, Cos.",
+      "sin(x) = 0 ⇒ x = nπ.",
+      "cos(x) = 0 ⇒ x = (2n+1)π/2."
+    ],
+    "practice_questions": [
+      {
+        "question": "Convert 40° 20' into radian measure.",
+        "answer": "40° 20' = 40 1/3 degrees = 121/3 degrees. In radians: (121/3) * (π/180) = 121π/540 radians."
+      },
+      {
+        "question": "Find the value of sin 75°.",
+        "answer": "sin(45° + 30°) = sin 45 cos 30 + cos 45 sin 30 = (1/√2)(√3/2) + (1/√2)(1/2) = (√3 + 1) / 2√2."
+      },
+      {
+        "question": "Prove that (sin 5x - 2sin 3x + sin x) / (cos 5x - cos x) = tan x.",
+        "answer": "Numerator: (sin 5x + sin x) - 2sin 3x = 2sin 3x cos 2x - 2sin 3x = 2sin 3x(cos 2x - 1). Denominator: -2sin 3x sin 2x. Ratio reduces to tan x."
+      },
+      {
+        "question": "Find the sign of cos 200°.",
+        "answer": "200° is in the 3rd quadrant (180° to 270°). In the 3rd quadrant, only tan and cot are positive. So cos 200° is Negative."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Complex Numbers and Quadratic Equations",
+    "chapter_overview": "This chapter introduces the set of complex numbers to address the limitation of real numbers in solving equations like x² + 1 = 0. It defines complex numbers, the imaginary unit 'i', and establishes the algebraic operations (addition, subtraction, multiplication, division) for them. The chapter also covers the concepts of modulus and conjugate, the geometric representation of complex numbers in the Argand plane, and the solution of quadratic equations with real coefficients but non-real roots.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction to Complex Numbers",
+        "explanation": "To solve equations where the square of a number is negative, the real number system is extended.",
+        "key_points": [
+          "Imaginary Unit: The symbol 'i' denotes √-1. Property: i² = -1.",
+          "Definition: A number of the form z = a + ib, where 'a' and 'b' are real numbers, is a complex number.",
+          "Parts: 'a' is the Real part (Re z), and 'b' is the Imaginary part (Im z).",
+          "Equality: Two complex numbers z₁ = a + ib and z₂ = c + id are equal if and only if a = c and b = d."
+        ]
+      },
+      {
+        "section_title": "Algebra of Complex Numbers",
+        "explanation": "Standard arithmetic operations are defined for complex numbers.",
+        "key_points": [
+          "Addition: (a + ib) + (c + id) = (a + c) + i(b + d).",
+          "Multiplication: (a + ib)(c + id) = (ac - bd) + i(ad + bc).",
+          "Powers of i: i¹=i, i²=-1, i³=-i, i⁴=1. The pattern repeats every 4 powers.",
+          "Division: To divide, multiply the numerator and denominator by the conjugate of the denominator."
+        ]
+      },
+      {
+        "section_title": "Modulus and Conjugate",
+        "explanation": "Two important properties related to the magnitude and symmetry of complex numbers.",
+        "key_points": [
+          "Conjugate: The conjugate of z = a + ib is z̅ = a - ib.",
+          "Modulus: The modulus (or absolute value) of z = a + ib is |z| = √(a² + b²). It represents the distance from the origin.",
+          "Important Property: z z̅ = |z|² = a² + b²."
+        ]
+      },
+      {
+        "section_title": "Argand Plane",
+        "explanation": "A geometric representation where a complex number z = x + iy corresponds to the point (x, y) in a 2D plane.",
+        "key_points": [
+          "X-axis is the Real axis.",
+          "Y-axis is the Imaginary axis.",
+          "The modulus |z| is the distance of the point (x, y) from the origin (0, 0)."
+        ]
+      },
+      {
+        "section_title": "Quadratic Equations",
+        "explanation": "Solving quadratic equations ax² + bx + c = 0 where the discriminant D = b² - 4ac < 0.",
+        "key_points": [
+          "If D < 0, the roots are complex conjugates.",
+          "Solution: x = (-b ± i√|D|) / 2a."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "The Imaginary Unit i",
+        "definition": "The principal square root of -1.",
+        "detailed_explanation": "It allows us to work with square roots of negative numbers. It is not a real number and cannot be ordered (i.e., inequalities like i > 0 make no sense).",
+        "real_world_example": "Used extensively in electrical engineering (AC circuits) and quantum mechanics."
+      },
+      {
+        "concept": "Conjugate Pairs",
+        "definition": "Pairs of complex numbers that differ only in the sign of their imaginary part.",
+        "detailed_explanation": "Complex roots of polynomial equations with real coefficients always come in conjugate pairs. If a+ib is a root, a-ib is also a root.",
+        "real_world_example": "In signal processing, conjugates are used to analyze power spectra."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Modulus",
+        "definition": "The non-negative real number √(a² + b²).",
+        "importance": "High. Represents magnitude or distance."
+      },
+      {
+        "term": "Argand Plane",
+        "definition": "The coordinate plane used to represent complex numbers.",
+        "importance": "Medium. Visualizing complex numbers."
+      },
+      {
+        "term": "Multiplicative Inverse",
+        "definition": "For z, it is 1/z. Calculated as z̅ / |z|².",
+        "importance": "High. Necessary for division."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Multiplicative Inverse Formula",
+        "formula_or_principle": "z⁻¹ = z̅ / |z|²",
+        "explanation": "Example: Inverse of 3+4i is (3-4i)/(9+16) = (3-4i)/25."
+      },
+      {
+        "name": "Powers of i",
+        "formula_or_principle": "i⁴ᵏ = 1, i⁴ᵏ⁺¹ = i, i⁴ᵏ⁺² = -1, i⁴ᵏ⁺³ = -i",
+        "explanation": "Any integer power of i reduces to one of these four values."
+      },
+      {
+        "name": "Square Root Identity Error",
+        "formula_or_principle": "√a × √b ≠ √(ab) if both a and b are negative.",
+        "explanation": "√(-1) × √(-1) = i × i = -1, NOT √((-1)(-1)) = √1 = 1."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Converting Complex Number to Standard Form (a + ib)",
+        "steps": [
+          "If it's a fraction, multiply numerator and denominator by the conjugate of the denominator.",
+          "If it's a power, expand using binomial expansion or algebraic identities.",
+          "Group real terms together and imaginary terms together.",
+          "Simplify i² to -1."
+        ]
+      },
+      {
+        "process_name": "Solving Quadratic Equation with D < 0",
+        "steps": [
+          "Calculate the discriminant D = b² - 4ac.",
+          "Identify that D is negative.",
+          "Write √D as i√|D|.",
+          "Apply the quadratic formula: x = (-b ± i√|D|) / 2a."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Remember that division is essentially multiplication by the inverse (rationalization).",
+      "Be careful with signs when calculating the modulus: |3 - 4i| = √(3² + (-4)²) = √25 = 5.",
+      "For equality of complex numbers, equate Real to Real and Imaginary to Imaginary.",
+      "The sum and product of a complex number and its conjugate are always Real numbers.",
+      "i cannot be compared with 0 (i.e., i > 0 or i < 0 is undefined)."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking √(a)√(b) = √(ab) holds for negative numbers.",
+      "Forgetting to square the negative sign in modulus calculation (e.g., calculation (-4)² as -16 instead of 16).",
+      "Writing 1/i as i (Correct is 1/i = -i).",
+      "Mixing up z and |z|.",
+      "Not simplifying powers of i to the simplest form."
+    ],
+    "quick_revision_notes": [
+      "i² = -1.",
+      "z = a + ib.",
+      "|z| = √(a² + b²).",
+      "z̅ = a - ib.",
+      "z z̅ = |z|².",
+      "In Argand plane, x-axis = Real, y-axis = Imaginary.",
+      "Roots of x² + 1 = 0 are ±i."
+    ],
+    "practice_questions": [
+      {
+        "question": "Express (5 - 3i)³ in the form a + ib.",
+        "answer": "Using (a-b)³ = a³ - 3a²b + 3ab² - b³. (5)³ - 3(5)²(3i) + 3(5)(3i)² - (3i)³ = 125 - 225i - 135 + 27i = -10 - 198i."
+      },
+      {
+        "question": "Find the multiplicative inverse of 4 - 3i.",
+        "answer": "z̅ = 4 + 3i. |z|² = 16 + 9 = 25. Inverse = (4 + 3i)/25 = 4/25 + (3/25)i."
+      },
+      {
+        "question": "Evaluate i⁹ + i¹⁹.",
+        "answer": "i⁹ = i^(8+1) = i. i¹⁹ = i^(16+3) = i³ = -i. Sum = i + (-i) = 0."
+      },
+      {
+        "question": "Solve x² + 3 = 0.",
+        "answer": "x² = -3 => x = ±√-3 = ±i√3."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Linear Inequalities",
+    "chapter_overview": "This chapter introduces the concept of inequalities, which are statements involving symbols like <, >, ≤, and ≥. It focuses on the algebraic solution of linear inequalities in one variable and their representation on the number line. The chapter also demonstrates how to translate real-life word problems into inequalities and solve them.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction to Inequalities",
+        "explanation": "Inequalities are mathematical statements that compare two quantities that are not necessarily equal.",
+        "key_points": [
+          "Symbols: < (less than), > (greater than), ≤ (less than or equal to), ≥ (greater than or equal to).",
+          "Numerical Inequalities: Involve only numbers (e.g., 3 < 5).",
+          "Literal Inequalities: Involve variables (e.g., x > 3).",
+          "Linear Inequality: An inequality where the variable(s) have a power of 1 (e.g., ax + b < 0)."
+        ]
+      },
+      {
+        "section_title": "Algebraic Solution of Linear Inequalities in One Variable",
+        "explanation": "Solving an inequality means finding all values of the variable that make the statement true (the solution set).",
+        "key_points": [
+          "Rule 1: Equal numbers may be added to or subtracted from both sides without changing the inequality sign.",
+          "Rule 2: Both sides can be multiplied or divided by the same POSITIVE number without changing the sign.",
+          "Rule 3 (CRITICAL): If both sides are multiplied or divided by a NEGATIVE number, the inequality sign MUST BE REVERSED (e.g., < becomes >)."
+        ]
+      },
+      {
+        "section_title": "Graphical Representation",
+        "explanation": "Solutions can be visualized on a number line.",
+        "key_points": [
+          "Use an open circle (○) for strict inequalities (<, >) to show the endpoint is NOT included.",
+          "Use a closed/filled circle (●) for slack inequalities (≤, ≥) to show the endpoint IS included.",
+          "Shade the line in the direction of the solution (left for less than, right for greater than)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Reversing the Inequality Sign",
+        "definition": "The operation of flipping the direction of the inequality symbol.",
+        "detailed_explanation": "This happens only when multiplying or dividing by a negative number. For example, if -2x < 6, dividing by -2 gives x > -3.",
+        "real_world_example": "If you owe more money than your friend (-$50 < -$20), multiplying debt by -1 (paying it off) implies you had 50 > 20."
+      },
+      {
+        "concept": "Solution Set",
+        "definition": "The set of all possible values for the variable that satisfy the inequality.",
+        "detailed_explanation": "Unlike linear equations which typically have one solution, inequalities often have an infinite number of solutions represented by an interval.",
+        "real_world_example": "If a bridge has a weight limit of 10 tons, the solution set for safe vehicle weight w is 0 < w ≤ 10."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Strict Inequality",
+        "definition": "Inequalities using only < or >.",
+        "importance": "Medium. Endpoints are excluded."
+      },
+      {
+        "term": "Slack Inequality",
+        "definition": "Inequalities using ≤ or ≥.",
+        "importance": "Medium. Endpoints are included."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Interval Notation",
+        "formula_or_principle": "(a, b) vs [a, b]",
+        "explanation": "( ) parentheses mean exclusive. [ ] brackets mean inclusive. Infinity ∞ always uses parentheses."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving a Linear Inequality",
+        "steps": [
+          "Collect variable terms on one side and constant terms on the other.",
+          "Simplify both sides.",
+          "Isolate the variable. If dividing by a negative coefficient, FLIP the inequality sign.",
+          "Write the solution set in interval notation or draw it on a number line."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Pay close attention to 'at least' (≥) and 'at most' (≤) in word problems.",
+      "When x is an integer or natural number, the solution set is a discrete list {1, 2, ...}. When x is Real, it is an interval.",
+      "Never use square brackets [ ] for infinity.",
+      "Verify your solution by picking a test number in the solution region."
+    ],
+    "common_mistakes_students_make": [
+      "Forgetting to reverse the sign when dividing by a negative number (e.g., -x > 5 -> x > -5 is WRONG).",
+      "Confusing strict and slack inequalities when drawing circles on the number line.",
+      "Writing [∞) instead of (∞).",
+      "In word problems, misinterpreting 'not more than' as < (it should be ≤)."
+    ],
+    "quick_revision_notes": [
+      "Add/Sub: Sign stays.",
+      "Mult/Div (+): Sign stays.",
+      "Mult/Div (-): Sign FLIPS.",
+      "Open circle ○ for < >.",
+      "Closed circle ● for ≤ ≥.",
+      "Natural numbers N = {1, 2, ...}."
+    ],
+    "practice_questions": [
+      {
+        "question": "Solve 30x < 200 when x is a natural number.",
+        "answer": "30x < 200 => x < 200/30 => x < 6.66. Since x is natural, Solution = {1, 2, 3, 4, 5, 6}."
+      },
+      {
+        "question": "Solve 5x - 3 < 3x + 1 for real x.",
+        "answer": "2x < 4 => x < 2. Interval: (-∞, 2)."
+      },
+      {
+        "question": "Solve -3x + 12 < 0.",
+        "answer": "-3x < -12. Divide by -3 and FLIP sign: x > 4."
+      },
+      {
+        "question": "Ravi needs an average of at least 60 marks. He got 70 and 75 in first two. What does he need in third (x)?",
+        "answer": "(70 + 75 + x)/3 ≥ 60 => 145 + x ≥ 180 => x ≥ 35."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Permutations and Combinations",
+    "chapter_overview": "This chapter introduces the fundamental principles of counting, which are the basis for determining the number of possible outcomes in various situations without listing them all. It distinguishes between permutations (where order matters) and combinations (where order does not matter). The chapter provides formulas for calculating these arrangements and selections, even in complex scenarios involving repeated objects or specific restrictions.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Fundamental Principle of Counting",
+        "explanation": "A basic rule to find total outcomes of multiple events occurring in succession.",
+        "key_points": [
+          "Multiplication Principle: If an event can occur in 'm' different ways, and following which another event can occur in 'n' different ways, then the total number of occurrences of the events in the given order is m × n.",
+          "Extension: This principle extends to any finite number of events. If there are events occurring in p, q, r... ways, total ways = p × q × r × ..."
+        ]
+      },
+      {
+        "section_title": "Permutations (Order Matters)",
+        "explanation": "A permutation is an arrangement in a definite order of a number of objects taken some or all at a time.",
+        "key_points": [
+          "Formula (Distinct Objects): The number of permutations of n distinct objects taken r at a time is ⁿPᵣ = n! / (n - r)!.",
+          "Factorial Notation: n! = 1 × 2 × 3 × ... × n. By definition, 0! = 1.",
+          "Permutations with Repetition: The number of permutations of n objects, where p objects are of same kind and rest are all different, is n! / p!. If there are p1 objects of one kind, p2 of another, etc., the formula is n! / (p1! p2! ... pk!)."
+        ]
+      },
+      {
+        "section_title": "Combinations (Order Doesn't Matter)",
+        "explanation": "A combination is a selection of items from a larger pool where the order of selection is irrelevant.",
+        "key_points": [
+          "Formula: The number of combinations of n different objects taken r at a time is ⁿCᵣ = n! / [r! (n - r)!].",
+          "Relationship to Permutations: ⁿPᵣ = ⁿCᵣ × r!. This means arrangements = selections × ordering.",
+          "Properties: ⁿCᵣ = ⁿCₙ₋ᵣ (Selecting r is same as rejecting n-r). ⁿC₀ = ⁿCₙ = 1."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Difference between Permutation and Combination",
+        "definition": "Permutation is arrangement; Combination is selection.",
+        "detailed_explanation": "If the order of objects changes the outcome (e.g., a PIN code 123 vs 321), use Permutation. If the order does not change the outcome (e.g., a fruit salad with apple and banana vs banana and apple), use Combination.",
+        "real_world_example": "Lock combination (actually a permutation!) vs Lottery numbers (combination)."
+      },
+      {
+        "concept": "Factorial",
+        "definition": "The product of all positive integers less than or equal to n.",
+        "detailed_explanation": "Symbolized as n!. It grows extremely fast. It represents the number of ways to arrange n distinct objects in a row.",
+        "real_world_example": "5! = 120 is the number of ways 5 people can stand in a queue."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Arrangement",
+        "definition": "Synonym for Permutation.",
+        "importance": "High. Key keyword in problems."
+      },
+      {
+        "term": "Selection",
+        "definition": "Synonym for Combination.",
+        "importance": "High. Key keyword in problems."
+      },
+      {
+        "term": "Restricted Permutation",
+        "definition": "Arrangements where specific items must always be included, excluded, or kept together.",
+        "importance": "Medium. Common in exam questions (e.g., 'vowels always together')."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "nPr Formula",
+        "formula_or_principle": "n! / (n-r)!",
+        "explanation": "Arranging r items from n distinct items."
+      },
+      {
+        "name": "nCr Formula",
+        "formula_or_principle": "n! / (r! (n-r)!)",
+        "explanation": "Selecting r items from n distinct items."
+      },
+      {
+        "name": "Pascal's Identity",
+        "formula_or_principle": "ⁿCᵣ + ⁿCᵣ₋₁ = ⁿ⁺¹Cᵣ",
+        "explanation": "Useful for simplifying sums of combinations."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving 'Together' Problems (String Method)",
+        "steps": [
+          "Treat the items that must be kept together as a SINGLE unit.",
+          "Calculate the number of arrangements of this single unit along with the other individual items.",
+          "Multiply by the number of internal arrangements of the items inside the single unit."
+        ]
+      },
+      {
+        "process_name": "Solving Digit Problems with 0",
+        "steps": [
+          "If filling positions for a number (e.g., 3-digit number), the first position CANNOT be 0.",
+          "Calculate total arrangements without restriction.",
+          "Subtract arrangements where 0 is in the leading position (which makes it a lower-digit number).",
+          "Alternatively, fill the first slot with non-zero options first, then fill the rest."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check if repetition is allowed or not. The formulas change completely.",
+      "0! is 1, not 0.",
+      "For circular permutations (not explicitly detailed in basic formulas but often asked), arrangements of n items is (n-1)!.",
+      "Words like 'committee', 'team', 'group' usually imply Combination.",
+      "Words like 'rank', 'position', 'code', 'word' usually imply Permutation."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing nPr and nCr. Ask: Does order matter?",
+      "Forgetting to multiply by the internal arrangement of a group in 'tied together' problems.",
+      "Thinking 2n! is the same as 2 × n!. (2n)! involves terms up to 2n.",
+      "In word problems with repeated letters (like MISSISSIPPI), forgetting to divide by the factorial of the counts of repeated letters."
+    ],
+    "quick_revision_notes": [
+      "Multiplication Rule: AND = Multiply.",
+      "Addition Rule: OR = Add.",
+      "n! = n(n-1)!",
+      "ⁿPᵣ = ⁿCᵣ × r!",
+      "Arranging n items with p alike: n!/p!."
+    ],
+    "practice_questions": [
+      {
+        "question": "How many 3-digit numbers can be formed from digits 1-9 if no digit is repeated?",
+        "answer": "We need to arrange 3 digits from 9. ⁹P₃ = 9!/6! = 9×8×7 = 504."
+      },
+      {
+        "question": "In how many ways can a team of 3 boys and 3 girls be selected from 5 boys and 4 girls?",
+        "answer": "Select 3 boys from 5 (⁵C₃) AND 3 girls from 4 (⁴C₃). Total = ⁵C₃ × ⁴C₃ = 10 × 4 = 40."
+      },
+      {
+        "question": "Find the number of rearrangements of the word 'APPLE'.",
+        "answer": "Total letters = 5. P is repeated 2 times. Total ways = 5! / 2! = 120 / 2 = 60."
+      },
+      {
+        "question": "If ⁿC₈ = ⁿC₂, find n.",
+        "answer": "Using ⁿCₐ = ⁿC₆ ⇒ a = b or a + b = n. Here 8 ≠ 2, so n = 8 + 2 = 10."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Binomial Theorem",
+    "chapter_overview": "This chapter introduces the Binomial Theorem, which provides a formula for expanding binomials raised to any positive integral power. It explains Pascal's Triangle for finding coefficients, the general term of an expansion, and the middle terms. The theorem is a powerful tool for simplifying algebraic expressions and performing complex calculations involving large powers.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Introduction and Pascal's Triangle",
+        "explanation": "Before the Binomial Theorem, expansions like (a+b)^n were done by repeated multiplication. Pascal's Triangle is a geometric arrangement of coefficients where each number is the sum of the two numbers directly above it.",
+        "key_points": [
+          "Index 0: 1",
+          "Index 1: 1 1",
+          "Index 2: 1 2 1",
+          "Index 3: 1 3 3 1",
+          "Index 4: 1 4 6 4 1",
+          "Limitation: Pascal's Triangle becomes tedious for large indices (e.g., n=12)."
+        ]
+      },
+      {
+        "section_title": "Binomial Theorem for Positive Integral Indices",
+        "explanation": "The theorem generalizes the expansion of (a + b)^n for any positive integer n.",
+        "key_points": [
+          "Formula: (a + b)^n = ⁿC₀ aⁿ + ⁿC₁ aⁿ⁻¹ b + ⁿC₂ aⁿ⁻² b² + ... + ⁿCₙ bⁿ.",
+          "Summation Notation: Σ (from k=0 to n) ⁿCₖ aⁿ⁻ᵏ bᵏ.",
+          "The number of terms in the expansion is always (n + 1).",
+          "The sum of indices of 'a' and 'b' in every term is always 'n'."
+        ]
+      },
+      {
+        "section_title": "General and Middle Terms",
+        "explanation": "Specific formulas allow finding any single term without writing the full expansion.",
+        "key_points": [
+          "General Term (Tᵣ₊₁): Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ᵣ bᵣ. This finds the (r+1)th term.",
+          "Middle Term (n is even): There is one middle term, which is the (n/2 + 1)th term.",
+          "Middle Terms (n is odd): There are two middle terms, the ((n+1)/2)th and ((n+1)/2 + 1)th terms."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Binomial Coefficients",
+        "definition": "The coefficients ⁿC₀, ⁿC₁, ... ⁿCₙ in the expansion.",
+        "detailed_explanation": "These are the same values found in counting combinations. ⁿCᵣ represents the number of ways to choose r items from a set of n.",
+        "real_world_example": "Used in probability to calculate outcomes of coin tosses (e.g., probability of exactly 3 heads in 10 tosses)."
+      },
+      {
+        "concept": "Expansion Logic",
+        "definition": "The pattern of powers in the binomial expansion.",
+        "detailed_explanation": "As the term progresses, the power of the first term (a) decreases from n to 0, and the power of the second term (b) increases from 0 to n.",
+        "real_world_example": "Estimating (1.01)^1000000 by taking just the first two terms of the expansion."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Binomial",
+        "definition": "An algebraic expression containing two terms (e.g., a + b).",
+        "importance": "High. The base object of the theorem."
+      },
+      {
+        "term": "Index",
+        "definition": "The power 'n' to which the binomial is raised.",
+        "importance": "Medium. Determines the number of terms."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Binomial Theorem",
+        "formula_or_principle": "(x + y)ⁿ = Σ ⁿCᵣ xⁿ⁻ᵣ yᵣ",
+        "explanation": "The master formula for expansion."
+      },
+      {
+        "name": "General Term",
+        "formula_or_principle": "Tᵣ₊₁ = ⁿCᵣ xⁿ⁻ᵣ yᵣ",
+        "explanation": "Used to find a specific term (e.g., 5th term) directly."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding the Constant Term (Independent of x)",
+        "steps": [
+          "Write the General Term Tᵣ₊₁ = ⁿCᵣ xⁿ⁻ᵣ yᵣ.",
+          "Simplify the powers of x in the expression.",
+          "Set the resulting power of x equal to 0.",
+          "Solve for r.",
+          "Substitute r back into the coefficient formula to find the value."
+        ]
+      },
+      {
+        "process_name": "Approximating Numbers",
+        "steps": [
+          "Express the number as a binomial (e.g., 98 = 100 - 2).",
+          "Apply the Binomial Theorem.",
+          "Calculate the first few terms which hold the most value.",
+          "Sum these terms for the approximation."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "The expansion of (x - y)ⁿ has alternating signs: + - + - ...",
+      "Total number of terms is n + 1.",
+      "ⁿC₀ = ⁿCₙ = 1.",
+      "For finding middle terms, check if n is even or odd first.",
+      "Often asked: Finding the coefficient of a specific power of x (e.g., coefficient of x⁵)."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking the rth term is Tᵣ. It is actually Tᵣ₋₁? No, usually we find Tᵣ₊₁. So for the 5th term, use r=4.",
+      "Forgetting the negative sign in expansions like (x - 2y)ⁿ. Treat it as (x + (-2y))ⁿ.",
+      "Confusing the number of terms (n+1) with the index (n).",
+      "In middle term calculations, using the wrong formula for odd vs even n."
+    ],
+    "quick_revision_notes": [
+      "(a+b)ⁿ has n+1 terms.",
+      "Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ᵣ bᵣ.",
+      "Coefficients of equidistant terms from beginning and end are equal.",
+      "Sum of binomial coefficients = 2ⁿ."
+    ],
+    "practice_questions": [
+      {
+        "question": "Expand (x² + 3/x)⁴, x ≠ 0.",
+        "answer": "Using formula: ⁴C₀(x²)⁴ + ⁴C₁(x²)³(3/x) + ... Result: x⁸ + 12x⁵ + 54x² + 108/x + 81/x⁴."
+      },
+      {
+        "question": "Find the 4th term in the expansion of (x - 2y)¹².",
+        "answer": "For 4th term, r = 3. T₄ = ¹²C₃ (x)⁹ (-2y)³ = -1760 x⁹ y³."
+      },
+      {
+        "question": "Compute (98)⁵ using Binomial Theorem.",
+        "answer": "(100 - 2)⁵. Expansion gives 10040008000 - 1000800032 = 9039207968."
+      },
+      {
+        "question": "Find the coefficient of x⁵ in (x + 3)⁸.",
+        "answer": "General term Tᵣ₊₁ = ⁸Cᵣ x⁸⁻ᵣ 3ᵣ. We need 8-r = 5 => r=3. Coeff = ⁸C₃ * 3³ = 56 * 27 = 1512."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Sequences and Series",
+    "chapter_overview": "This chapter explores the concepts of sequences, which are ordered lists of numbers, and series, which are the sums of terms in a sequence. It details specific types of sequences such as Arithmetic Progressions (A.P.) and Geometric Progressions (G.P.), providing formulas for their general terms and sums. The relationship between Arithmetic Mean (A.M.) and Geometric Mean (G.M.) is also covered.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Sequences and Series",
+        "explanation": "A sequence is a function whose domain is the set of natural numbers. A series is the expression denoting the sum of the terms of a sequence.",
+        "key_points": [
+          "Sequence: An ordered list of numbers a₁, a₂, a₃, ..., aₙ.",
+          "Finite vs Infinite: Determined by the number of terms.",
+          "Series: Written as Σ aₖ = a₁ + a₂ + ... + aₙ.",
+          "Fibonacci Sequence: Defined by recurrence relation a₁=a₂=1, aₙ = aₙ₋₁ + aₙ₋₂."
+        ]
+      },
+      {
+        "section_title": "Arithmetic Progression (A.P.)",
+        "explanation": "A sequence where the difference between consecutive terms is constant.",
+        "key_points": [
+          "General Term: aₙ = a + (n-1)d, where 'a' is first term, 'd' is common difference.",
+          "Sum of n terms: Sₙ = n/2 [2a + (n-1)d] or Sₙ = n/2 (a + l), where l is the last term.",
+          "Arithmetic Mean (A.M.): Between two numbers a and b, A = (a+b)/2."
+        ]
+      },
+      {
+        "section_title": "Geometric Progression (G.P.)",
+        "explanation": "A sequence where the ratio of consecutive terms is constant.",
+        "key_points": [
+          "General Term: aₙ = arⁿ⁻¹, where 'a' is first term, 'r' is common ratio.",
+          "Sum of n terms: Sₙ = a(1 - rⁿ) / (1 - r) if r < 1, or a(rⁿ - 1) / (r - 1) if r > 1.",
+          "Geometric Mean (G.M.): Between two positive numbers a and b, G = √ab."
+        ]
+      },
+      {
+        "section_title": "Relationship between A.M. and G.M.",
+        "explanation": "For any two positive real numbers a and b, the Arithmetic Mean is always greater than or equal to the Geometric Mean.",
+        "key_points": [
+          "A = (a+b)/2, G = √ab.",
+          "A - G = (√a - √b)² / 2 ≥ 0.",
+          "Therefore, A ≥ G."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Common Ratio (r) vs Common Difference (d)",
+        "definition": "Parameters defining the growth of G.P. and A.P. respectively.",
+        "detailed_explanation": "In A.P., you ADD d to get the next term. In G.P., you MULTIPLY by r to get the next term. If r=1, the G.P. is a constant sequence.",
+        "real_world_example": "A.P.: Taxi fare increasing by fixed amount per km. G.P.: Bacteria population doubling every hour."
+      },
+      {
+        "concept": "Infinite Geometric Series",
+        "definition": "The sum of a G.P. with infinite terms.",
+        "detailed_explanation": "This sum only exists (converges) if |r| < 1. The formula is S = a / (1 - r). If |r| ≥ 1, the sum grows indefinitely.",
+        "real_world_example": "Zeno's Paradox: Summing 1/2 + 1/4 + 1/8 ... = 1."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "General Term",
+        "definition": "A formula aₙ that allows calculating any term in the sequence based on its position n.",
+        "importance": "High. The foundation for all sequence problems."
+      },
+      {
+        "term": "Recurrence Relation",
+        "definition": "Defining a term based on previous terms (e.g., Fibonacci).",
+        "importance": "Medium. Used for sequences without simple algebraic formulas."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Sum of First n Natural Numbers",
+        "formula_or_principle": "Σn = n(n+1)/2",
+        "explanation": "Standard summation formula."
+      },
+      {
+        "name": "Sum of Squares of First n Natural Numbers",
+        "formula_or_principle": "Σn² = n(n+1)(2n+1)/6",
+        "explanation": "Standard summation formula."
+      },
+      {
+        "name": "Sum of Cubes of First n Natural Numbers",
+        "formula_or_principle": "Σn³ = [n(n+1)/2]²",
+        "explanation": "Standard summation formula."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Finding G.M. between two numbers",
+        "steps": [
+          "Identify the two numbers a and b.",
+          "Multiply them: product = a × b.",
+          "Take the square root of the product: G = √product.",
+          "Note: G.M. is usually defined for positive numbers."
+        ]
+      },
+      {
+        "process_name": "Inserting numbers to form a G.P.",
+        "steps": [
+          "Given numbers 'a' and 'b', and we need to insert n numbers.",
+          "Total terms will be n + 2.",
+          "Use formula b = a r^(n+1) to find common ratio r.",
+          "Calculate inserted terms as ar, ar², ..., arⁿ."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Check if r > 1 or r < 1 before using the G.P. sum formula to avoid negative signs confusion.",
+      "A.M. ≥ G.M. is a powerful inequality often used in proofs.",
+      "Remember the special series formulas (Σn, Σn², Σn³).",
+      "In A.P., if three terms are required, assume them as a-d, a, a+d to simplify calculations."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing the n-th term formula with the Sum of n terms formula.",
+      "Forgetting that n (number of terms) must always be a positive integer.",
+      "In G.P., assuming r is always positive. r can be negative (alternating signs sequence).",
+      "Calculating A.M. of n numbers as sum/2 instead of sum/n."
+    ],
+    "quick_revision_notes": [
+      "A.P.: aₙ = a+(n-1)d.",
+      "G.P.: aₙ = arⁿ⁻¹.",
+      "Sum A.P.: n/2(2a+(n-1)d).",
+      "Sum G.P.: a(rⁿ-1)/(r-1).",
+      "A ≥ G."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the 10th term of the G.P. 5, 25, 125...",
+        "answer": "a = 5, r = 5. a₁₀ = 5(5)⁹ = 5¹⁰."
+      },
+      {
+        "question": "Insert 3 numbers between 1 and 256 to form a G.P.",
+        "answer": "Total terms = 5. 256 = 1 * r⁴ => r = 4. Terms: 4, 16, 64."
+      },
+      {
+        "question": "If A.M. and G.M. of two numbers are 10 and 8, find the numbers.",
+        "answer": "(a+b)/2 = 10 => a+b=20. √ab = 8 => ab=64. Solving quadratic x² - 20x + 64 = 0 gives numbers 16 and 4."
+      },
+      {
+        "question": "Find the sum of the series 2 + 6 + 18 + ... + 4374.",
+        "answer": "G.P. with a=2, r=3. 4374 = 2(3)ⁿ⁻¹ => 2187 = 3ⁿ⁻¹ => 3⁷ = 3ⁿ⁻¹ => n=8. Sum = 2(3⁸ - 1)/2 = 6560."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Straight Lines",
+    "chapter_overview": "This chapter deals with the analytical geometry of straight lines. It starts by revisiting basic coordinate geometry concepts like distance and section formulas. It then introduces the slope of a line, conditions for parallelism and perpendicularity, and the angle between two lines. A major part of the chapter covers various forms of the equation of a line (point-slope, two-point, slope-intercept, intercept, and normal forms) and the general equation. Finally, it discusses the distance of a point from a line and the distance between parallel lines.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Slope of a Line",
+        "explanation": "The slope (or gradient) 'm' measures the steepness and direction of a line.",
+        "key_points": [
+          "Definition: m = tan θ, where θ is the inclination angle with the positive x-axis (measured anticlockwise).",
+          "Two-Point Formula: If a line passes through (x₁, y₁) and (x₂, y₂), m = (y₂ - y₁) / (x₂ - x₁).",
+          "Parallel Lines: Two non-vertical lines are parallel if and only if their slopes are equal (m₁ = m₂).",
+          "Perpendicular Lines: Two non-vertical lines are perpendicular if and only if the product of their slopes is -1 (m₁ × m₂ = -1)."
+        ]
+      },
+      {
+        "section_title": "Forms of the Equation of a Line",
+        "explanation": "Different ways to represent a line algebraically based on given information.",
+        "key_points": [
+          "Point-Slope Form: y - y₀ = m(x - x₀). Used when a point and slope are known.",
+          "Two-Point Form: y - y₁ = [(y₂ - y₁) / (x₂ - x₁)] (x - x₁). Used when two points are known.",
+          "Slope-Intercept Form: y = mx + c (c is y-intercept) or y = m(x - d) (d is x-intercept).",
+          "Intercept Form: x/a + y/b = 1, where 'a' is the x-intercept and 'b' is the y-intercept.",
+          "Normal Form: x cos ω + y sin ω = p, where 'p' is the perpendicular distance from origin and 'ω' is the angle of the normal."
+        ]
+      },
+      {
+        "section_title": "General Equation of a Line",
+        "explanation": "Any equation of the form Ax + By + C = 0, where A and B are not both zero, represents a straight line.",
+        "key_points": [
+          "Slope: m = -A/B.",
+          "x-intercept: -C/A.",
+          "y-intercept: -C/B."
+        ]
+      },
+      {
+        "section_title": "Distance Formulas",
+        "explanation": "Calculates the shortest distance from a point to a line or between two lines.",
+        "key_points": [
+          "Distance of a Point (x₁, y₁) from Line Ax + By + C = 0: d = |Ax₁ + By₁ + C| / √(A² + B²).",
+          "Distance between Parallel Lines Ax + By + C₁ = 0 and Ax + By + C₂ = 0: d = |C₁ - C₂| / √(A² + B²)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Inclination vs Slope",
+        "definition": "Inclination is an angle θ; Slope is a ratio m = tan θ.",
+        "detailed_explanation": "Inclination is always between 0° and 180°. Slope can be any real number. Vertical lines have an inclination of 90° but an undefined slope.",
+        "real_world_example": "Inclination is the angle a ramp makes with the ground. Slope is the 'rise over run' used by builders."
+      },
+      {
+        "concept": "Family of Lines",
+        "definition": "A set of lines that share a common property.",
+        "detailed_explanation": "For example, y = mx + c where 'c' varies but 'm' is constant represents a family of parallel lines.",
+        "real_world_example": "Light rays from a distant star are effectively a family of parallel lines."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Collinear Points",
+        "definition": "Three or more points that lie on the same straight line.",
+        "importance": "Medium. Slope of AB = Slope of BC implies A, B, C are collinear."
+      },
+      {
+        "term": "Intercept",
+        "definition": "The distance from the origin to the point where the line cuts an axis.",
+        "importance": "High. x-intercept (a) and y-intercept (b)."
+      },
+      {
+        "term": "Normal",
+        "definition": "A line perpendicular to another line (or surface). In Normal Form, it's the perpendicular from the origin.",
+        "importance": "Medium."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Angle between Two Lines",
+        "formula_or_principle": "tan θ = |(m₂ - m₁) / (1 + m₁m₂)|",
+        "explanation": "Finds the acute angle θ between lines with slopes m₁ and m₂."
+      },
+      {
+        "name": "Shifting of Origin",
+        "formula_or_principle": "New coords (X, Y) related to old (x, y) by x = X + h, y = Y + k.",
+        "explanation": "Used to simplify equations by moving the origin to (h, k)."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Converting General Equation to Normal Form",
+        "steps": [
+          "Start with Ax + By + C = 0. Move C to RHS: Ax + By = -C.",
+          "Ensure RHS is positive (multiply by -1 if needed).",
+          "Divide entire equation by √(A² + B²).",
+          "Identify cos ω and sin ω from the coefficients of x and y.",
+          "Compare with x cos ω + y sin ω = p."
+        ]
+      },
+      {
+        "process_name": "Finding Equation of a Line Perpendicular to Given Line",
+        "steps": [
+          "Given line: Ax + By + C = 0.",
+          "Slope of given line m = -A/B.",
+          "Slope of required line m' = -1/m = B/A.",
+          "Equation of required line: Bx - Ay + K = 0 (Swap coeffs, change sign, new constant K).",
+          "Use given point condition to find K."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Vertical lines (x = a) have undefined slope. Horizontal lines (y = b) have 0 slope.",
+      "When finding the angle between lines, the formula gives tan θ. Remember θ can be acute or obtuse (180-θ). Modulus usually gives acute.",
+      "For distance between parallel lines, make sure the coefficients of x and y are IDENTICAL in both equations before using the formula.",
+      "In Normal Form, 'p' (distance) is always positive."
+    ],
+    "common_mistakes_students_make": [
+      "Confusing (y₂ - y₁) / (x₂ - x₁) with (x₂ - x₁) / (y₂ - y₁). Rise over Run!",
+      "Assuming y = mx + c is the only form. It fails for vertical lines.",
+      "Forgetting the modulus sign in distance and angle formulas.",
+      "In the intercept form x/a + y/b = 1, 'a' and 'b' can be negative. They are directed distances."
+    ],
+    "quick_revision_notes": [
+      "m = tan θ = Δy/Δx.",
+      "Parallel: m₁ = m₂.",
+      "Perp: m₁m₂ = -1.",
+      "y - y₁ = m(x - x₁).",
+      "x/a + y/b = 1.",
+      "Dist = |Ax₁+By₁+C| / √(A²+B²)."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the slope of the line passing through (3, -2) and (-1, 4).",
+        "answer": "m = (4 - (-2)) / (-1 - 3) = 6 / -4 = -3/2."
+      },
+      {
+        "question": "Find the equation of a line with slope 2 and passing through (2, 3).",
+        "answer": "y - 3 = 2(x - 2) => y - 3 = 2x - 4 => 2x - y - 1 = 0."
+      },
+      {
+        "question": "Find the distance of the point (3, -5) from the line 3x - 4y - 26 = 0.",
+        "answer": "|3(3) - 4(-5) - 26| / √(3² + (-4)²) = |9 + 20 - 26| / 5 = |3| / 5 = 3/5."
+      },
+      {
+        "question": "Reduce 3x + y - 8 = 0 to slope-intercept form.",
+        "answer": "y = -3x + 8. Slope m = -3, y-intercept c = 8."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Conic Sections",
+    "chapter_overview": "This chapter explores the curves obtained by intersecting a right circular cone with a plane. These curves are the Circle, Parabola, Ellipse, and Hyperbola. The chapter defines each conic section geometrically and algebraically, derives their standard equations, and discusses their properties such as foci, directrix, eccentricity, and latus rectum.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Sections of a Cone",
+        "explanation": "Conic sections are formed when a plane intersects a double-napped right circular cone.",
+        "key_points": [
+          "Circle: Plane is perpendicular to the axis of the cone (angle β = 90°).",
+          "Ellipse: Plane is slightly tilted but cuts only one nappe (α < β < 90°).",
+          "Parabola: Plane is parallel to a generator line of the cone (β = α).",
+          "Hyperbola: Plane cuts through both nappes of the cone (0 ≤ β < α)."
+        ]
+      },
+      {
+        "section_title": "Circle",
+        "explanation": "A set of points equidistant from a fixed center.",
+        "key_points": [
+          "Equation: (x - h)² + (y - k)² = r², where (h, k) is the center and r is the radius.",
+          "If center is origin (0, 0), equation is x² + y² = r²."
+        ]
+      },
+      {
+        "section_title": "Parabola",
+        "explanation": "A set of points equidistant from a fixed point (focus) and a fixed line (directrix).",
+        "key_points": [
+          "Standard Equation (opens right): y² = 4ax. Focus (a, 0), Directrix x = -a.",
+          "Other forms: y² = -4ax (left), x² = 4ay (up), x² = -4ay (down).",
+          "Latus Rectum: Length of the chord through focus perpendicular to axis = 4a."
+        ]
+      },
+      {
+        "section_title": "Ellipse",
+        "explanation": "A set of points where the sum of distances from two fixed points (foci) is constant.",
+        "key_points": [
+          "Standard Equation: x²/a² + y²/b² = 1 (a > b). Major axis along x-axis.",
+          "Relationship: c² = a² - b², where c is distance from center to focus.",
+          "Eccentricity (e): e = c/a (0 < e < 1).",
+          "Latus Rectum: 2b²/a."
+        ]
+      },
+      {
+        "section_title": "Hyperbola",
+        "explanation": "A set of points where the difference of distances from two fixed points (foci) is constant.",
+        "key_points": [
+          "Standard Equation: x²/a² - y²/b² = 1. Transverse axis along x-axis.",
+          "Relationship: c² = a² + b².",
+          "Eccentricity (e): e = c/a (e > 1).",
+          "Latus Rectum: 2b²/a."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Eccentricity (e)",
+        "definition": "A parameter that determines the shape of the conic section.",
+        "detailed_explanation": "e = c/a. For Circle e=0. For Parabola e=1. For Ellipse 0<e<1. For Hyperbola e>1. It represents how much the curve deviates from being circular.",
+        "real_world_example": "Planetary orbits are ellipses with varying eccentricities (Earth's is near 0, comets can have e near 1)."
+      },
+      {
+        "concept": "Focus and Directrix Property",
+        "definition": "Alternative definition for all conics.",
+        "detailed_explanation": "For any point P on the curve, Distance(P, Focus) / Distance(P, Directrix) = e (constant).",
+        "real_world_example": "Satellite dishes use the parabolic property to reflect signals to the focus."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Latus Rectum",
+        "definition": "A chord passing through the focus and perpendicular to the axis of symmetry.",
+        "importance": "Medium. Useful for sketching the width of the curve at the focus."
+      },
+      {
+        "term": "Major Axis",
+        "definition": "The longer axis of an ellipse, passing through the foci.",
+        "importance": "High. Determines the value of 'a'."
+      },
+      {
+        "term": "Transverse Axis",
+        "definition": "The axis of a hyperbola that passes through the two vertices and foci.",
+        "importance": "High."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Parabola Equations",
+        "formula_or_principle": "y² = 4ax; x² = 4ay",
+        "explanation": "Identify axis of symmetry by the non-squared variable."
+      },
+      {
+        "name": "Ellipse Relation",
+        "formula_or_principle": "a² = b² + c²",
+        "explanation": "Fundamental Pythagorean relation in ellipse."
+      },
+      {
+        "name": "Hyperbola Relation",
+        "formula_or_principle": "c² = a² + b²",
+        "explanation": "Fundamental relation in hyperbola."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Identifying the Conic from Equation",
+        "steps": [
+          "Check squared terms.",
+          "Only one squared term? -> Parabola.",
+          "Two squared terms with same sign coefficients? -> Ellipse (or Circle if coeffs equal).",
+          "Two squared terms with opposite sign coefficients? -> Hyperbola."
+        ]
+      },
+      {
+        "process_name": "Finding Foci of an Ellipse",
+        "steps": [
+          "Write equation in standard form x²/a² + y²/b² = 1.",
+          "Identify a² (larger denominator) and b² (smaller denominator).",
+          "Calculate c = √(a² - b²).",
+          "Foci are at (±c, 0) if a² is under x², or (0, ±c) if a² is under y²."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Confusing a² and b² in Ellipse vs Hyperbola. In Ellipse, a is always the larger number. In Hyperbola, a is the term with the positive sign.",
+      "For Hyperbola x²/a² - y²/b² = 1, vertices are (±a, 0). For y²/a² - x²/b² = 1, vertices are (0, ±a).",
+      "c is always the distance to the focus from the center.",
+      "Circle is a special case of ellipse where a = b."
+    ],
+    "common_mistakes_students_make": [
+      "Using c² = a² - b² for Hyperbola (It should be c² = a² + b²).",
+      "Thinking 'a' is always the denominator of x². 'a' belongs to the major/transverse axis.",
+      "Forgetting the ± sign for coordinates of foci and vertices.",
+      "Misinterpreting 'latus rectum' length as semi-latus rectum."
+    ],
+    "quick_revision_notes": [
+      "Circle: x²+y²=r².",
+      "Parabola: y²=4ax. e=1.",
+      "Ellipse: x²/a²+y²/b²=1. c²=a²-b². e<1.",
+      "Hyperbola: x²/a²-y²/b²=1. c²=a²+b². e>1.",
+      "Latus Rectum (Ellipse/Hyp): 2b²/a."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the focus of the parabola y² = 12x.",
+        "answer": "4a = 12 => a = 3. Focus is (3, 0)."
+      },
+      {
+        "question": "Find the eccentricity of the ellipse x²/25 + y²/9 = 1.",
+        "answer": "a²=25, b²=9. c = √(25-9) = 4. e = c/a = 4/5."
+      },
+      {
+        "question": "Find the equation of the circle with center (-2, 3) and radius 4.",
+        "answer": "(x - (-2))² + (y - 3)² = 4² => (x+2)² + (y-3)² = 16."
+      },
+      {
+        "question": "Find the foci of the hyperbola 9x² - 16y² = 144.",
+        "answer": "Divide by 144: x²/16 - y²/9 = 1. a²=16, b²=9. c² = 16+9=25 => c=5. Foci: (±5, 0)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Introduction to Three Dimensional Geometry",
+    "chapter_overview": "This chapter extends coordinate geometry from the 2D plane to 3D space. It introduces the three coordinate axes (x, y, z), coordinate planes, and the concept of octants. The chapter covers how to find the coordinates of a point in space, the distance between two points using the 3D distance formula, and the section formula for dividing a line segment in a given ratio.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Coordinate Axes and Planes in 3D Space",
+        "explanation": "In 3D geometry, the position of a point is defined by three intersecting mutually perpendicular planes. The lines of intersection of these planes are the coordinate axes.",
+        "key_points": [
+          "Axes: X-axis, Y-axis, and Z-axis. They are mutually perpendicular.",
+          "Origin: The point of intersection of the three axes, denoted by O(0, 0, 0).",
+          "Coordinate Planes: XY-plane (z=0), YZ-plane (x=0), and ZX-plane (y=0).",
+          "Octants: The three planes divide space into 8 parts called octants. The signs of the coordinates (x, y, z) determine the octant."
+        ]
+      },
+      {
+        "section_title": "Coordinates of a Point in Space",
+        "explanation": "A point P in space is represented by an ordered triplet (x, y, z).",
+        "key_points": [
+          "x: Perpendicular distance from the YZ-plane.",
+          "y: Perpendicular distance from the ZX-plane.",
+          "z: Perpendicular distance from the XY-plane.",
+          "Example: Point (2, 3, 5) is 2 units from YZ, 3 units from ZX, and 5 units from XY planes."
+        ]
+      },
+      {
+        "section_title": "Distance between Two Points",
+        "explanation": "The distance between two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) is given by the extension of the 2D distance formula.",
+        "key_points": [
+          "Formula: PQ = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²].",
+          "Distance from Origin: Distance of P(x, y, z) from O(0, 0, 0) is √(x² + y² + z²)."
+        ]
+      },
+      {
+        "section_title": "Section Formula",
+        "explanation": "Finds the coordinates of a point dividing the line segment joining two points in a given ratio m:n.",
+        "key_points": [
+          "Internal Division: P = [ (mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n), (mz₂ + nz₁)/(m+n) ].",
+          "External Division: P = [ (mx₂ - nx₁)/(m-n), (my₂ - ny₁)/(m-n), (mz₂ - nz₁)/(m-n) ].",
+          "Mid-point Formula: Special case where m:n = 1:1. P = [ (x₁+x₂)/2, (y₁+y₂)/2, (z₁+z₂)/2 ]."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Octants",
+        "definition": "The eight divisions of 3D space by the coordinate planes.",
+        "detailed_explanation": "Similar to quadrants in 2D. Octant I has (+,+,+). Octants are named based on the signs. For example, OXYZ is I, OX'YZ is II, etc.",
+        "real_world_example": "A room corner represents the origin and the three edges (floor-wall, floor-wall, wall-wall) are the axes. The room itself is the first octant."
+      },
+      {
+        "concept": "Collinearity in 3D",
+        "definition": "Three points A, B, C are collinear if they lie on the same straight line.",
+        "detailed_explanation": "Can be proven using distance formula (AB + BC = AC) or section formula (one point divides the segment formed by the other two in some ratio k:1).",
+        "real_world_example": "Three beads on a single taut string."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Coordinate Planes",
+        "definition": "The three planes (XY, YZ, ZX) that define the 3D space.",
+        "importance": "High. Fundamental reference for all coordinates."
+      },
+      {
+        "term": "Ordered Triplet",
+        "definition": "A set of three numbers (x, y, z) representing a point.",
+        "importance": "High."
+      },
+      {
+        "term": "Centroid of a Triangle",
+        "definition": "The point of intersection of medians. Coordinates: ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3, (z₁+z₂+z₃)/3).",
+        "importance": "Medium."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Distance Formula",
+        "formula_or_principle": "d = √((x₂-x₁)² + (y₂-y₁)² + (z₂-z₁)²)",
+        "explanation": "Calculates Euclidean distance in 3D."
+      },
+      {
+        "name": "Section Formula (Internal)",
+        "formula_or_principle": "x = (mx₂ + nx₁)/(m+n)",
+        "explanation": "Calculates the dividing point."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Identifying the Octant",
+        "steps": [
+          "Look at the signs of the x, y, and z coordinates.",
+          "Match the pattern: I(+,+,+), II(-,+,+), III(-,-,+), IV(+,-,+), V(+,+,-), VI(-,+,-), VII(-,-,-), VIII(+,-,-).",
+          "Tip: Octants I-IV have z > 0, V-VIII have z < 0."
+        ]
+      },
+      {
+        "process_name": "Checking Collinearity",
+        "steps": [
+          "Calculate distances AB, BC, and AC.",
+          "Check if the sum of the two smaller distances equals the largest distance (e.g., AB + BC = AC).",
+          "Alternative: Assume point B divides AC in ratio k:1. Solve for k using x-coords. Verify if this k works for y and z coords."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "A point on the X-axis has coordinates (x, 0, 0).",
+      "A point in the XZ-plane has coordinates (x, 0, z).",
+      "The distance of P(x, y, z) from the X-axis is √(y² + z²).",
+      "Remember the signs for all 8 octants. It's often a 1-mark question."
+    ],
+    "common_mistakes_students_make": [
+      "Mixing up the order of coordinates (x, z, y instead of x, y, z).",
+      "Using the internal division formula for external division (forgetting the minus sign).",
+      "Thinking 'distance from x-axis' is just 'x'. It is √(y² + z²). 'x' is the distance from the YZ plane.",
+      "Confusing the octant numbering system."
+    ],
+    "quick_revision_notes": [
+      "Origin: (0, 0, 0).",
+      "X-axis: y=0, z=0.",
+      "XY-plane: z=0.",
+      "Dist Formula: √Σ(Δx)².",
+      "Midpoint: Avg of coords."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the distance between P(1, -3, 4) and Q(-4, 1, 2).",
+        "answer": "√((-4-1)² + (1-(-3))² + (2-4)²) = √((-5)² + 4² + (-2)²) = √(25+16+4) = √45 = 3√5."
+      },
+      {
+        "question": "Find the coordinates of the point which divides the line segment joining (-2, 3, 5) and (1, -4, 6) in the ratio 2:3 internally.",
+        "answer": "x = (2(1)+3(-2))/5 = -4/5. y = (2(-4)+3(3))/5 = 1/5. z = (2(6)+3(5))/5 = 27/5. Point: (-4/5, 1/5, 27/5)."
+      },
+      {
+        "question": "Name the octant in which the point (-3, 1, 2) lies.",
+        "answer": "x is negative, y is positive, z is positive. This corresponds to Octant II."
+      },
+      {
+        "question": "Find the centroid of triangle with vertices (3, -5, 7), (-1, 7, -6), (1, 1, 2).",
+        "answer": "Sum coords/3: x=(3-1+1)/3=1. y=(-5+7+1)/3=1. z=(7-6+2)/3=1. Centroid is (1, 1, 1)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Limits and Derivatives",
+    "chapter_overview": "This chapter introduces Calculus, specifically the concepts of limits and derivatives. It begins with an intuitive understanding of derivatives as rates of change, then formalizes the definition of a limit. It covers the algebra of limits, standard limits, and then uses these concepts to define the derivative of a function. The chapter concludes with finding derivatives of algebraic and trigonometric functions using the 'first principle' and standard rules like the product and quotient rules.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Intuitive Idea of Derivatives",
+        "explanation": "The derivative represents the instantaneous rate of change of a quantity. Geometrically, it is the slope of the tangent to the curve at a specific point.",
+        "key_points": [
+          "Average velocity = Total distance / Total time.",
+          "Instantaneous velocity = Limit of average velocity as the time interval approaches zero."
+        ]
+      },
+      {
+        "section_title": "Limits",
+        "explanation": "The limit of a function f(x) at a point 'a' is the value that f(x) gets closer and closer to as x gets closer and closer to 'a'.",
+        "key_points": [
+          "Notation: lim (x→a) f(x) = L.",
+          "Left Hand Limit (LHL): Limit as x approaches 'a' from the left (x < a).",
+          "Right Hand Limit (RHL): Limit as x approaches 'a' from the right (x > a).",
+          "Existence: A limit exists if and only if LHL = RHL.",
+          "Algebra of Limits: Limit of sum/difference/product/quotient is the sum/difference/product/quotient of the limits."
+        ]
+      },
+      {
+        "section_title": "Derivatives",
+        "explanation": "The derivative of a function f at a point 'a' is defined using limits.",
+        "key_points": [
+          "Definition (First Principle): f'(x) = lim (h→0) [f(x+h) - f(x)] / h.",
+          "Notation: f'(x), dy/dx, or d/dx(f(x)).",
+          "Algebra of Derivatives: (u ± v)' = u' ± v'; (uv)' = u'v + uv' (Product Rule); (u/v)' = (u'v - uv')/v² (Quotient Rule)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Indeterminate Forms",
+        "definition": "Expressions like 0/0 that do not have a definite value without further analysis.",
+        "detailed_explanation": "When evaluating a limit by direct substitution results in 0/0, the limit might still exist. We use factorization, rationalization, or standard formulas to evaluate it.",
+        "real_world_example": "Finding the velocity of a car at exactly t=2 seconds involves dividing 0 distance by 0 time visually, but calculus gives a precise value."
+      },
+      {
+        "concept": "Sandwich Theorem",
+        "definition": "A theorem to find the limit of a function trapped between two other functions.",
+        "detailed_explanation": "If f(x) ≤ g(x) ≤ h(x) and lim f(x) = lim h(x) = L, then lim g(x) = L. Essential for proving lim (sin x)/x = 1.",
+        "real_world_example": "If two friends (f and h) go to the same place (L), and you (g) are always between them, you must also go to L."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "First Principle",
+        "definition": "The fundamental definition of a derivative using limits: lim(h->0) [f(x+h)-f(x)]/h.",
+        "importance": "High. Used to derive all standard derivative formulas."
+      },
+      {
+        "term": "Tangent",
+        "definition": "A straight line that touches a curve at exactly one point.",
+        "importance": "Medium. The derivative gives the slope of this line."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Standard Limit 1",
+        "formula_or_principle": "lim (x→a) (xⁿ - aⁿ)/(x - a) = n aⁿ⁻¹",
+        "explanation": "Useful for algebraic limits."
+      },
+      {
+        "name": "Standard Limit 2",
+        "formula_or_principle": "lim (x→0) (sin x)/x = 1",
+        "explanation": "Crucial for trigonometric limits (x must be in radians)."
+      },
+      {
+        "name": "Product Rule (Leibnitz Rule)",
+        "formula_or_principle": "d/dx (uv) = u (dv/dx) + v (du/dx)",
+        "explanation": "Differentiation of a product of two functions."
+      },
+      {
+        "name": "Quotient Rule",
+        "formula_or_principle": "d/dx (u/v) = [v(du/dx) - u(dv/dx)] / v²",
+        "explanation": "Differentiation of a quotient."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Evaluating a Limit of the form 0/0",
+        "steps": [
+          "Substitute x=a. If result is 0/0, proceed.",
+          "Factorize numerator and denominator if possible.",
+          "Cancel common factors (usually x-a).",
+          "Rationalize if square roots are involved.",
+          "Use standard limits if applicable.",
+          "Re-substitute x=a to find the value."
+        ]
+      },
+      {
+        "process_name": "Finding Derivative by First Principle",
+        "steps": [
+          "Write f(x) and f(x+h).",
+          "Substitute into formula: lim (h→0) [f(x+h) - f(x)] / h.",
+          "Simplify the numerator.",
+          "Cancel 'h' from the denominator.",
+          "Apply the limit h→0."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "lim (x→0) (sin x)/x = 1 only applies when x is in Radians. If x is degrees, convert to radians.",
+      "lim (x→0) (1 - cos x)/x = 0 is another frequently used standard limit.",
+      "Derivative of a constant is 0.",
+      "d/dx (xⁿ) = n xⁿ⁻¹.",
+      "Don't forget the negative sign in the quotient rule: (u'v - uv'). Order matters!"
+    ],
+    "common_mistakes_students_make": [
+      "Thinking lim (1/x) as x→0 is 0. It is undefined (infinity).",
+      "Applying L'Hopital's rule (a shortcut) without understanding basic methods (usually not allowed in 11th standard exams).",
+      "Forgetting to write 'lim' at every step until the value is substituted.",
+      "In product rule, writing u'v' instead of u'v + uv'."
+    ],
+    "quick_revision_notes": [
+      "Limit exists if LHL = RHL.",
+      "d/dx (sin x) = cos x.",
+      "d/dx (cos x) = -sin x.",
+      "d/dx (tan x) = sec²x.",
+      "d/dx (x) = 1.",
+      "d/dx (1/x) = -1/x²."
+    ],
+    "practice_questions": [
+      {
+        "question": "Evaluate lim (x→2) (x² - 4)/(x - 2).",
+        "answer": "Form 0/0. Factorize: (x-2)(x+2)/(x-2). Cancel (x-2). Limit is 2+2 = 4."
+      },
+      {
+        "question": "Find the derivative of f(x) = x² using first principle.",
+        "answer": "lim(h→0) [(x+h)² - x²]/h = lim(h→0) [x² + 2xh + h² - x²]/h = lim(h→0) [2xh + h²]/h = lim(h→0) (2x + h) = 2x."
+      },
+      {
+        "question": "Find the derivative of sin x cos x.",
+        "answer": "Product Rule: (sin x)' cos x + sin x (cos x)' = cos x cos x + sin x (-sin x) = cos²x - sin²x = cos 2x."
+      },
+      {
+        "question": "Evaluate lim (x→0) (sin 4x)/sin 2x.",
+        "answer": "Multiply/divide by 4x and 2x. (sin 4x/4x * 4x) / (sin 2x/2x * 2x) = (1 * 4x) / (1 * 2x) = 2."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Statistics",
+    "chapter_overview": "This chapter focuses on 'Measures of Dispersion', which quantify how scattered or spread out data is around a central value (mean or median). While central tendency (Mean, Median, Mode) gives a single representative value, dispersion tells us about the variability. The chapter covers Range, Mean Deviation, Variance, and Standard Deviation for both ungrouped and grouped data.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Measures of Dispersion",
+        "explanation": "Dispersion measures the reliability of the central tendency. If dispersion is low, the mean is a good representative. If high, the data is widely scattered.",
+        "key_points": [
+          "Range: Difference between maximum and minimum values. Simple but sensitive to outliers.",
+          "Mean Deviation: Average of the absolute differences between each value and the central tendency (Mean or Median).",
+          "Variance: Average of the squared differences from the Mean.",
+          "Standard Deviation: Square root of the Variance. It is the most widely used measure."
+        ]
+      },
+      {
+        "section_title": "Mean Deviation",
+        "explanation": "Calculates how far, on average, data points are from the center.",
+        "key_points": [
+          "About Mean: M.D.(x̄) = (Σ |xᵢ - x̄|) / n.",
+          "About Median: M.D.(M) = (Σ |xᵢ - M|) / n.",
+          "For Grouped Data: Include frequency 'f' in the numerator, e.g., (Σ fᵢ|xᵢ - x̄|) / N, where N = Σfᵢ."
+        ]
+      },
+      {
+        "section_title": "Variance and Standard Deviation",
+        "explanation": "These measures use squared differences to handle negative deviations, giving more weight to larger deviations.",
+        "key_points": [
+          "Variance (σ²): σ² = (1/n) Σ (xᵢ - x̄)².",
+          "Standard Deviation (σ): σ = √Variance.",
+          "Standard Deviation is in the same units as the original data, whereas Variance is in squared units.",
+          "Coefficient of Variation (C.V.): (σ / x̄) × 100. Used to compare variability of two distributions with different units or means."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Absolute Deviation vs Squared Deviation",
+        "definition": "Two ways to handle negative differences from the mean.",
+        "detailed_explanation": "Mean Deviation uses absolute values |x-mean|, treating positive and negative deviations equally. Variance uses squares (x-mean)², which eliminates negatives but penalizes outliers more heavily.",
+        "real_world_example": "In manufacturing, standard deviation is used to define tolerance limits (e.g., a bolt must be 10mm ± 0.01mm)."
+      },
+      {
+        "concept": "Shortcut Method for Variance",
+        "definition": "A computational technique to simplify calculations with large numbers.",
+        "detailed_explanation": "Using a change of scale and origin (step-deviation method). Let yᵢ = (xᵢ - A)/h. Then σx² = h² × σy².",
+        "real_world_example": "Used when calculating statistics for large datasets like national census data manually or in efficient algorithms."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Dispersion",
+        "definition": "The extent to which a distribution is stretched or squeezed.",
+        "importance": "High. Central concept of the chapter."
+      },
+      {
+        "term": "Coefficient of Variation (C.V.)",
+        "definition": "A relative measure of dispersion, independent of units.",
+        "importance": "Medium. Used for comparison. Higher C.V. means less consistency."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "Mean Deviation about Mean",
+        "formula_or_principle": "M.D.(x̄) = (Σ fᵢ|xᵢ - x̄|) / N",
+        "explanation": "Average absolute distance from the mean."
+      },
+      {
+        "name": "Standard Deviation Formula (Direct)",
+        "formula_or_principle": "σ = √[ (1/N) Σ fᵢxᵢ² - (x̄)² ]",
+        "explanation": "Often easier to calculate than finding deviations first."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Calculating Standard Deviation (Discrete Frequency)",
+        "steps": [
+          "Make a table with columns: x, f, fx, fx².",
+          "Calculate N = Σf.",
+          "Calculate Σfx and Mean x̄ = Σfx / N.",
+          "Calculate Σfx².",
+          "Use formula: σ = √[ (Σfx² / N) - (x̄)² ]."
+        ]
+      },
+      {
+        "process_name": "Finding Mean Deviation about Median",
+        "steps": [
+          "Arrange data in ascending order.",
+          "Find cumulative frequencies (cf) to locate the Median class/value.",
+          "Calculate the Median (M).",
+          "Find absolute deviations |xᵢ - M|.",
+          "Multiply by fᵢ to get fᵢ|xᵢ - M|.",
+          "Sum and divide by N."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Variance is independent of change of origin but depends on change of scale.",
+      "If each observation is increased by 'k', variance remains same. If multiplied by 'k', variance becomes k² times original.",
+      "Sum of squares of deviations is minimum when taken about the mean.",
+      "For finding Median in continuous data, remember the formula: l + [(N/2 - cf)/f] × h."
+    ],
+    "common_mistakes_students_make": [
+      "Forgetting to take the square root at the end of Variance calculation to get Standard Deviation.",
+      "In Median calculation, taking 'cf' of the current class instead of the *preceding* class.",
+      "Confusing Σ(x²) with (Σx)².",
+      "Neglecting the absolute value sign in Mean Deviation, resulting in a sum of zero."
+    ],
+    "quick_revision_notes": [
+      "Range = Max - Min.",
+      "M.D. uses |x - A|.",
+      "Variance uses (x - x̄)².",
+      "σ = √Variance.",
+      "C.V. = (σ/x̄)*100."
+    ],
+    "practice_questions": [
+      {
+        "question": "Find the range of data: 35, 45, 30, 60, 55.",
+        "answer": "Max = 60, Min = 30. Range = 60 - 30 = 30."
+      },
+      {
+        "question": "If the variance of a data set is 144, what is the standard deviation?",
+        "answer": "σ = √144 = 12."
+      },
+      {
+        "question": "Calculate the mean of 6, 7, 10, 12, 13, 4, 8, 12.",
+        "answer": "Sum = 72. n = 8. Mean = 72/8 = 9."
+      },
+      {
+        "question": "If each observation is multiplied by 2, what happens to the standard deviation?",
+        "answer": "The standard deviation also gets multiplied by 2 (Scale property)."
+      }
+    ]
+  },
+  {
+    "chapter_title": "Probability",
+    "chapter_overview": "This chapter introduces the axiomatic approach to probability, moving beyond the simple 'favorable/total' outcomes learned previously. It defines key concepts such as random experiments, sample spaces, and events. The chapter covers the algebra of events (union, intersection, complement), mutually exclusive and exhaustive events, and provides rules for calculating probabilities using axioms and set theory properties.",
+    "detailed_summary_sections": [
+      {
+        "section_title": "Random Experiments and Sample Space",
+        "explanation": "A random experiment is a process where the result is uncertain. The set of all possible outcomes is the sample space.",
+        "key_points": [
+          "Sample Space (S): The universal set of all outcomes.",
+          "Sample Point: An individual element of the sample space.",
+          "Example: Tossing two coins, S = {HH, HT, TH, TT}."
+        ]
+      },
+      {
+        "section_title": "Events",
+        "explanation": "An event is any subset of the sample space.",
+        "key_points": [
+          "Impossible Event: The empty set φ.",
+          "Sure Event: The entire sample space S.",
+          "Simple Event: An event with only one sample point.",
+          "Compound Event: An event with more than one sample point.",
+          "Algebra of Events: 'Event A or B' is A ∪ B; 'Event A and B' is A ∩ B; 'Not A' is A'."
+        ]
+      },
+      {
+        "section_title": "Mutually Exclusive and Exhaustive Events",
+        "explanation": "These terms describe relationships between multiple events.",
+        "key_points": [
+          "Mutually Exclusive: Two events A and B are mutually exclusive if they cannot happen at the same time (A ∩ B = φ).",
+          "Exhaustive: Events E₁, E₂, ..., Eₙ are exhaustive if their union equals the sample space (E₁ ∪ E₂ ∪ ... ∪ Eₙ = S)."
+        ]
+      },
+      {
+        "section_title": "Axiomatic Approach to Probability",
+        "explanation": "A formal way of assigning probabilities using three fundamental axioms.",
+        "key_points": [
+          "Axiom 1: For any event E, 0 ≤ P(E) ≤ 1.",
+          "Axiom 2: P(S) = 1.",
+          "Axiom 3: If A and B are mutually exclusive, P(A ∪ B) = P(A) + P(B).",
+          "Probability of equally likely outcomes: P(E) = n(E) / n(S)."
+        ]
+      }
+    ],
+    "core_concepts": [
+      {
+        "concept": "Event as a Subset",
+        "definition": "Mathematically, an event is just a subset of the sample space.",
+        "detailed_explanation": "This allows us to use set theory (union, intersection, Venn diagrams) to solve probability problems.",
+        "real_world_example": "If S is the set of all students in a class, 'Selecting a girl' is a subset of S."
+      },
+      {
+        "concept": "Addition Rule of Probability",
+        "definition": "The probability of the union of two events.",
+        "detailed_explanation": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B). We subtract the intersection because it is counted twice when adding P(A) and P(B).",
+        "real_world_example": "Probability of picking a King OR a Red card from a deck. We subtract the Red Kings because they are in both categories."
+      }
+    ],
+    "important_terms": [
+      {
+        "term": "Sample Space",
+        "definition": "The set of all possible outcomes of an experiment.",
+        "importance": "High. The starting point for every probability problem."
+      },
+      {
+        "term": "Complementary Event",
+        "definition": "The event 'not A', denoted by A'.",
+        "importance": "High. P(A') = 1 - P(A)."
+      },
+      {
+        "term": "Equally Likely Outcomes",
+        "definition": "Outcomes that have the same chance of occurring.",
+        "importance": "Medium. Assumed in classical probability."
+      }
+    ],
+    "formulas_or_principles": [
+      {
+        "name": "General Addition Rule",
+        "formula_or_principle": "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+        "explanation": "Valid for any two events."
+      },
+      {
+        "name": "Complement Rule",
+        "formula_or_principle": "P(A') = 1 - P(A)",
+        "explanation": "Easier to calculate 'not happening' in some cases."
+      },
+      {
+        "name": "Probability of Mutually Exclusive Events",
+        "formula_or_principle": "P(A ∪ B) = P(A) + P(B)",
+        "explanation": "Since P(A ∩ B) = 0."
+      }
+    ],
+    "step_by_step_processes": [
+      {
+        "process_name": "Solving a Probability Problem using Set Theory",
+        "steps": [
+          "Define the sample space S and count n(S).",
+          "Define the events A and B mentioned in the problem.",
+          "Identify outcomes in A, B, and A ∩ B.",
+          "Apply the addition rule: P(A ∪ B) = P(A) + P(B) - P(A ∩ B).",
+          "Simplify the resulting fraction."
+        ]
+      },
+      {
+        "process_name": "Checking if an Assignment of Probabilities is Valid",
+        "steps": [
+          "Check if each assigned probability pᵢ is between 0 and 1 (inclusive).",
+          "Sum all assigned probabilities: Σ pᵢ.",
+          "If sum equals exactly 1 and no pᵢ is negative or > 1, the assignment is valid."
+        ]
+      }
+    ],
+    "important_points_for_exams": [
+      "Always check if events are mutually exclusive before using P(A+B) = P(A)+P(B).",
+      "P(φ) = 0 (Probability of an impossible event).",
+      "At least one = 1 - Probability of None.",
+      "A ∩ B' represents 'A but not B'.",
+      "For cards, coins, and dice, ensure you know the standard sample space sizes (52, 2ⁿ, 6ⁿ)."
+    ],
+    "common_mistakes_students_make": [
+      "Thinking P(A ∪ B) is always P(A) + P(B) (forgetting to subtract intersection).",
+      "Writing probabilities greater than 1 or negative numbers.",
+      "Incorrectly counting the sample space (e.g., tossing two dice has 36 outcomes, not 12).",
+      "Confusing 'at least' with 'at most'."
+    ],
+    "quick_revision_notes": [
+      "S = Total Outcomes.",
+      "E ⊆ S.",
+      "P(E) = n(E)/n(S).",
+      "P(A ∪ B) = P(A) + P(B) - P(A ∩ B).",
+      "P(A') = 1 - P(A).",
+      "Mutually Exclusive: A ∩ B = φ."
+    ],
+    "practice_questions": [
+      {
+        "question": "A die is rolled. Find the probability of getting a prime number.",
+        "answer": "S = {1, 2, 3, 4, 5, 6}. Prime = {2, 3, 5}. Prob = 3/6 = 1/2."
+      },
+      {
+        "question": "Two coins are tossed. Find the probability of getting at least one head.",
+        "answer": "S = {HH, HT, TH, TT}. At least one head = {HH, HT, TH}. Prob = 3/4."
+      },
+      {
+        "question": "If P(A) = 0.54, P(B) = 0.69 and P(A ∩ B) = 0.35, find P(A ∪ B).",
+        "answer": "0.54 + 0.69 - 0.35 = 1.23 - 0.35 = 0.88."
+      },
+      {
+        "question": "Are 'Getting an even number' and 'Getting an odd number' on a die roll mutually exclusive?",
+        "answer": "Yes, because no number is both even and odd. Intersection is empty."
+      }
+    ]
+  }
+]
