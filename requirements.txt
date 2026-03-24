@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+flask-cors
+python-dotenv
+PyJWT
+pymupdf
+google-genai
+psycopg2-binary

@@ -2,7 +2,7 @@ import os
 import jwt
 import datetime
 from functools import wraps
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, current_app
 from .models import db, Chapter, User
 from .ai_engine import extract_text_from_large_pdf, generate_professional_summary, generate_engineering_summary
 
@@ -32,6 +32,13 @@ def token_required(f):
         
         return f(current_user, *args, **kwargs)
     return decorated
+
+# --- FRONTEND ROUTES ---
+
+@main_bp.route('/')
+def index():
+    """Serves the frontend login page as the entry point."""
+    return current_app.send_static_file('login.html')
 
 # --- AUTH ROUTES ---
 
